@@ -1,7 +1,7 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--13-blue)
-![Papers](https://img.shields.io/badge/Papers-396-green)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--14-blue)
+![Papers](https://img.shields.io/badge/Papers-395-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
 
@@ -29,7 +29,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 19 |
 | General | 9 |
 | Mapping & Localization | 8 |
-| Perception | 137 |
+| Perception | 136 |
 | Planning | 33 |
 | Prediction | 15 |
 | Safety & Verification | 54 |
@@ -2122,7 +2122,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Graph Attention Network-Based Framework for Reconstructing Missing LiDAR Beams ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Graph Attention Network-Based Framework for Reconstructing Missing LiDAR Beams ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Khalfalla Awedat, Mohamed Abidalrekab, Mohammad El-Yabroudi  
 **Published:** 2025-12-13  
@@ -2679,16 +2679,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2510.14911v1) | [PDF](https://arxiv.org/pdf/2510.14911v1.pdf)  
 
 **Abstract:** Purpose: Autonomous vehicles (AVs) are becoming a promising transportation solution for blind and low-vision (BLV) travelers, offering the potential for greater independent mobility. This paper...
-
----
-
-### Resource-Aware Stealthy Attacks in Vehicle Platoons ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Ali Eslami, Mohammad Pirani  
-**Published:** 2025-10-15  
-**Links:** [arXiv](https://arxiv.org/abs/2510.14119v1) | [PDF](https://arxiv.org/pdf/2510.14119v1.pdf)  
-
-**Abstract:** Connected and Autonomous Vehicles (CAVs) are transforming modern transportation by enabling cooperative applications such as vehicle platooning, where multiple vehicles travel in close formation to...
 
 ---
 
@@ -3720,7 +3710,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Simulation
 
-### RSLCPP - Deterministic Simulations Using ROS 2 ![New](https://img.shields.io/badge/New-red)
+### RSLCPP -- Deterministic Simulations Using ROS 2 ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Simon Sagmeister, Marcel Weinmann, Phillip Pitschi, Markus Lienkamp  
 **Published:** 2026-01-11  
