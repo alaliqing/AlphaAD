@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--17-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--18-blue)
 ![Papers](https://img.shields.io/badge/Papers-394-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
@@ -262,7 +262,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Human-like Working Memory from Artificial Intrinsic Plasticity Neurons ![Recent](https://img.shields.io/badge/Recent-orange)
+### Human-like Working Memory from Artificial Intrinsic Plasticity Neurons ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingli Liu, Huannan Zheng, Bohao Zou, Kezhou Yang  
 **Published:** 2025-12-17  
@@ -272,7 +272,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Gaussian Process Dual MPC using Active Inference: An Autonomous Vehicle Usecase ![Recent](https://img.shields.io/badge/Recent-orange)
+### Gaussian Process Dual MPC using Active Inference: An Autonomous Vehicle Usecase ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mohammad Mahmoudi Filabadi, Guillaume Crevecoeur, Tom Lefebvre  
 **Published:** 2025-12-17  
@@ -644,7 +644,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Dataset & Benchmark
 
-### EvoQRE: Modeling Bounded Rationality in Safety-Critical Traffic Simulation via Evolutionary Quantal Response Equilibrium ![New](https://img.shields.io/badge/New-red)
+### EvoQRE: Modeling Bounded Rationality in Safety-Critical Traffic Simulation via Evolutionary Quantal Response Equilibrium ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Phu-Hoa Pham, Chi-Nguyen Tran, Duy-Minh Dao-Sy, Phu-Quy Nguyen-Lam, Trung-Kiet Huynh  
 **Published:** 2026-01-09  
@@ -654,7 +654,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction ![New](https://img.shields.io/badge/New-red)
+### LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chengen Xie, Bin Sun, Tianyu Li, Junjie Wu, Zhihui Hao, et al.  
 **Published:** 2026-01-09  
@@ -976,7 +976,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Toward Safe and Responsible AI Agents: A Three-Pillar Model for Transparency, Accountability, and Trustworthiness ![New](https://img.shields.io/badge/New-red)
+### Toward Safe and Responsible AI Agents: A Three-Pillar Model for Transparency, Accountability, and Trustworthiness ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Edward C. Cheng, Jeshua Cheng, Alice Siu  
 **Published:** 2026-01-09  
@@ -1280,7 +1280,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### NAP3D: NeRF Assisted 3D-3D Pose Alignment for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### NAP3D: NeRF Assisted 3D-3D Pose Alignment for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gaurav Bansal  
 **Published:** 2025-12-17  
@@ -1472,7 +1472,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras ![New](https://img.shields.io/badge/New-red)
+### GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Weimin Liu, Wenjun Wang, Joshua H. Meng  
 **Published:** 2026-01-09  
@@ -1482,7 +1482,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jingyu Li, Junjie Wu, Dongnan Hu, Xiangkai Huang, Bin Sun, et al.  
 **Published:** 2026-01-09  
@@ -1492,7 +1492,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### An Empirical Study on Knowledge Transfer under Domain and Label Shifts in 3D LiDAR Point Clouds ![New](https://img.shields.io/badge/New-red)
+### An Empirical Study on Knowledge Transfer under Domain and Label Shifts in 3D LiDAR Point Clouds ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Subeen Lee, Siyeong Lee, Namil Kim, Jaesik Choi  
 **Published:** 2026-01-09  
@@ -2092,7 +2092,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Words to Wavelengths: VLMs for Few-Shot Multispectral Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### From Words to Wavelengths: VLMs for Few-Shot Multispectral Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Manuel Nkegoum, Minh-Tan Pham, Élisa Fromont, Bruno Avignon, Sébastien Lefèvre  
 **Published:** 2025-12-17  
@@ -2102,7 +2102,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge Distillation for Bird's-Eye-View Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
+### KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge Distillation for Bird's-Eye-View Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wenke E, Yixin Sun, Jiaxu Liu, Hubert P. H. Shum, Amir Atapour-Abarghouei, et al.  
 **Published:** 2025-12-17  
@@ -2112,7 +2112,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### EPSM: A Novel Metric to Evaluate the Safety of Environmental Perception in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### EPSM: A Novel Metric to Evaluate the Safety of Environmental Perception in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jörg Gamerdinger, Sven Teufel, Stephan Amann, Lukas Marc Listl, Oliver Bringmann  
 **Published:** 2025-12-17  
@@ -2122,7 +2122,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LADY: Linear Attention for Autonomous Driving Efficiency without Transformers ![Recent](https://img.shields.io/badge/Recent-orange)
+### LADY: Linear Attention for Autonomous Driving Efficiency without Transformers ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jihao Huang, Xi Xia, Zhiyuan Li, Tianle Liu, Jingke Wang, et al.  
 **Published:** 2025-12-17  
@@ -3106,7 +3106,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OccSTeP: Benchmarking 4D Occupancy Spatio-Temporal Persistence ![Recent](https://img.shields.io/badge/Recent-orange)
+### OccSTeP: Benchmarking 4D Occupancy Spatio-Temporal Persistence ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yu Zheng, Jie Hu, Kailun Yang, Jiaming Zhang  
 **Published:** 2025-12-17  
@@ -3218,7 +3218,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Modular Autonomy with Conversational Interaction: An LLM-driven Framework for Decision Making in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Modular Autonomy with Conversational Interaction: An LLM-driven Framework for Decision Making in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Marvin Seegert, Korbinian Moller, Johannes Betz  
 **Published:** 2026-01-09  
@@ -3388,7 +3388,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Large Model Enabled Embodied Intelligence for 6G Integrated Perception, Communication, and Computation Network ![Recent](https://img.shields.io/badge/Recent-orange)
+### Large Model Enabled Embodied Intelligence for 6G Integrated Perception, Communication, and Computation Network ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhuoran Li, Zhen Gao, Xinhua Liu, Zheng Wang, Xiaotian Zhou, et al.  
 **Published:** 2025-12-17  
@@ -3730,7 +3730,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Critical Examination of Active Learning Workflows in Materials Science ![New](https://img.shields.io/badge/New-red)
+### A Critical Examination of Active Learning Workflows in Materials Science ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Akhil S. Nair, Lucas Foppa  
 **Published:** 2026-01-09  
@@ -3740,7 +3740,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Drivora: A Unified and Extensible Infrastructure for Search-based Autonomous Driving Testing ![New](https://img.shields.io/badge/New-red)
+### Drivora: A Unified and Extensible Infrastructure for Search-based Autonomous Driving Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mingfei Cheng, Lionel Briand, Yuan Zhou  
 **Published:** 2026-01-09  
@@ -3830,7 +3830,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-stage Bayesian optimisation for dynamic decision-making in self-driving labs ![Recent](https://img.shields.io/badge/Recent-orange)
+### Multi-stage Bayesian optimisation for dynamic decision-making in self-driving labs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca Torresi, Pascal Friederich  
 **Published:** 2025-12-17  
