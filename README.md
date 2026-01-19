@@ -1,7 +1,7 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--18-blue)
-![Papers](https://img.shields.io/badge/Papers-394-green)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--19-blue)
+![Papers](https://img.shields.io/badge/Papers-392-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
 
@@ -26,14 +26,14 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 |----------|-------------|
 | Control | 59 |
 | Dataset & Benchmark | 30 |
-| End-to-End Learning | 21 |
+| End-to-End Learning | 20 |
 | General | 9 |
 | Mapping & Localization | 7 |
 | Perception | 141 |
 | Planning | 32 |
 | Prediction | 14 |
 | Safety & Verification | 51 |
-| Simulation | 30 |
+| Simulation | 29 |
 
 ## Table of Contents
 
@@ -242,7 +242,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats ![Recent](https://img.shields.io/badge/Recent-orange)
+### Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ali Eslami, Jiangbo Yu  
 **Published:** 2025-12-18  
@@ -252,7 +252,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Social Responsibility Stack: A Control-Theoretic Architecture for Governing Socio-Technical AI ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Social Responsibility Stack: A Control-Theoretic Architecture for Governing Socio-Technical AI ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Otman A. Basir  
 **Published:** 2025-12-18  
@@ -754,7 +754,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Bi-objective Electric Autonomous Dial-a-Ride Problem ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Bi-objective Electric Autonomous Dial-a-Ride Problem ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yue Su, Sophie N. Parragh, Nicolas Dupin, Jakob Puchinger  
 **Published:** 2025-12-18  
@@ -1146,16 +1146,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SPACeR: Self-Play Anchoring with Centralized Reference Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Wei-Jer Chang, Akshay Rangesh, Kevin Joseph, Matthew Strong, Masayoshi Tomizuka, et al.  
-**Published:** 2025-10-20  
-**Links:** [arXiv](https://arxiv.org/abs/2510.18060v1) | [PDF](https://arxiv.org/pdf/2510.18060v1.pdf)  
-
-**Abstract:** Developing autonomous vehicles (AVs) requires not only safety and efficiency, but also realistic, human-like behaviors that are socially aware and predictable. Achieving this requires sim agent...
-
----
-
 ## General
 
 ### Model-based Development for Autonomous Driving Software Considering Parallelization ![Recent](https://img.shields.io/badge/Recent-orange)
@@ -1452,7 +1442,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning ![New](https://img.shields.io/badge/New-red)
+### SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chenxu Dang, Jie Wang, Guang Li, Zhiwen Hou, Zihan You, et al.  
 **Published:** 2026-01-10  
@@ -1462,7 +1452,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WHU-PCPR: A cross-platform heterogeneous point cloud dataset for place recognition in complex urban scenes ![New](https://img.shields.io/badge/New-red)
+### WHU-PCPR: A cross-platform heterogeneous point cloud dataset for place recognition in complex urban scenes ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xianghong Zou, Jianping Li, Yandi Yang, Weitong Wu, Yuan Wang, et al.  
 **Published:** 2026-01-10  
@@ -2072,7 +2062,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DVGT: Driving Visual Geometry Transformer ![Recent](https://img.shields.io/badge/Recent-orange)
+### DVGT: Driving Visual Geometry Transformer ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sicheng Zuo, Zixun Xie, Wenzhao Zheng, Shaoqing Xu, Fang Li, et al.  
 **Published:** 2025-12-18  
@@ -2082,7 +2072,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Autoencoder-based Denoising Defense against Adversarial Attacks on Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### Autoencoder-based Denoising Defense against Adversarial Attacks on Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Min Geun Song, Gang Min Kim, Woonmin Kim, Yongsik Kim, Jeonghyun Sim, et al.  
 **Published:** 2025-12-18  
@@ -3368,7 +3358,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future ![Recent](https://img.shields.io/badge/Recent-orange)
+### Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianshuai Hu, Xiaolu Liu, Song Wang, Yiyao Zhu, Ao Liang, et al.  
 **Published:** 2025-12-18  
@@ -3378,7 +3368,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Driving in Corner Case: A Real-World Adversarial Closed-Loop Evaluation Platform for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiaheng Geng, Jiatong Du, Xinyu Zhang, Ye Li, Panqu Wang, et al.  
 **Published:** 2025-12-18  
@@ -3820,7 +3810,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Quantifying and Bridging the Fidelity Gap: A Decisive-Feature Approach to Comparing Synthetic and Real Imagery ![Recent](https://img.shields.io/badge/Recent-orange)
+### Quantifying and Bridging the Fidelity Gap: A Decisive-Feature Approach to Comparing Synthetic and Real Imagery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Danial Safaei, Siddartha Khastgir, Mohsen Alirezaei, Jeroen Ploeg, Son Tong, et al.  
 **Published:** 2025-12-18  
@@ -3997,16 +3987,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2511.01541v1) | [PDF](https://arxiv.org/pdf/2511.01541v1.pdf)  
 
 **Abstract:** Rare and challenging driving scenarios are critical for autonomous vehicle development. Since they are difficult to encounter, simulating or generating them using generative models is a popular...
-
----
-
-### Enhancing 5G V2X Mode 2 for Sporadic Traffic ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Dmitry Bankov, Artem Krasilov, Artem Otmakhov, Aleksei Shashin, Evgeny Khorov  
-**Published:** 2025-10-20  
-**Links:** [arXiv](https://arxiv.org/abs/2510.17395v1) | [PDF](https://arxiv.org/pdf/2510.17395v1.pdf)  
-
-**Abstract:** The emerging road safety and autonomous vehicle applications require timely and reliable data delivery between vehicles and between vehicles and infrastructure. To satisfy this demand, 3GPP develops...
 
 ---
 
