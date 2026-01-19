@@ -286,7 +286,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
             content += f"**Published:** {published_date.strftime('%Y-%m-%d')}  \n"
 
             # Links
-            content += f"**Links:** [arXiv]({paper.get_arxiv_url()}) | [PDF]({paper.get_pdf_url()})  \n\n"
+            content += f"**Links:** [arXiv]({paper.get_arxiv_url()}) | [PDF]({paper.get_pdf_url()}) | [BackToTop](#table-of-contents)  \n\n"
 
             # Abstract
             content += f"**Abstract:** {paper.get_short_abstract()}\n\n"
