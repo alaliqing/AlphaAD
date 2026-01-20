@@ -1,7 +1,7 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--19-blue)
-![Papers](https://img.shields.io/badge/Papers-394-green)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--20-blue)
+![Papers](https://img.shields.io/badge/Papers-393-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
 
@@ -29,7 +29,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 21 |
 | General | 9 |
 | Mapping & Localization | 7 |
-| Perception | 142 |
+| Perception | 141 |
 | Planning | 31 |
 | Prediction | 14 |
 | Safety & Verification | 53 |
@@ -734,7 +734,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TakeAD: Preference-based Post-optimization for End-to-end Autonomous Driving with Expert Takeover Data ![Recent](https://img.shields.io/badge/Recent-orange)
+### TakeAD: Preference-based Post-optimization for End-to-end Autonomous Driving with Expert Takeover Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Deqing Liu, Yinfeng Gao, Deheng Qian, Qichao Zhang, Xiaoqing Ye, et al.  
 **Published:** 2025-12-19  
@@ -1452,7 +1452,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Efficient Visual Question Answering Pipeline for Autonomous Driving via Scene Region Compression ![New](https://img.shields.io/badge/New-red)
+### Efficient Visual Question Answering Pipeline for Autonomous Driving via Scene Region Compression ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuliang Cai, Dongqiangzi Ye, Zitian Chen, Chongruo Wu  
 **Published:** 2026-01-11  
@@ -2042,7 +2042,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Uncertainty-Gated Region-Level Retrieval for Robust Semantic Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Uncertainty-Gated Region-Level Retrieval for Robust Semantic Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shreshth Rajan, Raymond Liu  
 **Published:** 2025-12-19  
@@ -2052,7 +2052,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Embodied4C: Measuring What Matters for Embodied Vision-Language Navigation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Embodied4C: Measuring What Matters for Embodied Vision-Language Navigation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tin Stribor Sohn, Maximilian Dillitzer, Jason J. Corso, Eric Sax  
 **Published:** 2025-12-19  
@@ -2062,7 +2062,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### StereoMV2D: A Sparse Temporal Stereo-Enhanced Framework for Robust Multi-View 3D Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### StereoMV2D: A Sparse Temporal Stereo-Enhanced Framework for Robust Multi-View 3D Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Di Wu, Feng Yang, Wenhui Zhao, Jinwen Yu, Pan Liao, et al.  
 **Published:** 2025-12-19  
@@ -2722,16 +2722,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Kinematic Analysis and Integration of Vision Algorithms for a Mobile Manipulator Employed Inside a Self-Driving Laboratory ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Shifa Sulaiman, Tobias Busk Jensen, Stefan Hein Bengtson, Simon Bøgh  
-**Published:** 2025-10-21  
-**Links:** [arXiv](https://arxiv.org/abs/2510.19081v1) | [PDF](https://arxiv.org/pdf/2510.19081v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Recent advances in robotics and autonomous systems have broadened the use of robots in laboratory settings, including automated synthesis, scalable reaction workflows, and collaborative tasks in...
-
----
-
 ## Planning
 
 ### Data Scaling for Navigation in Unknown Environments ![New](https://img.shields.io/badge/New-red)
@@ -3076,7 +3066,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Conditional Normalizing Flows for Forward and Backward Joint State and Parameter Estimation ![New](https://img.shields.io/badge/New-red)
+### Conditional Normalizing Flows for Forward and Backward Joint State and Parameter Estimation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Luke S. Lagunowich, Guoxiang Grayson Tong, Daniele E. Schiavazzi  
 **Published:** 2026-01-11  
@@ -3218,7 +3208,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PANDA-film: an automated system for electrodeposition of polymer thin films and their wetting analysis ![New](https://img.shields.io/badge/New-red)
+### PANDA-film: an automated system for electrodeposition of polymer thin films and their wetting analysis ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harley Quinn, Gregory A. Robben, Zhaoyi Zheng, Jin Yan, Yuanzhi Li, et al.  
 **Published:** 2026-01-11  
@@ -3368,7 +3358,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning Safe Autonomous Driving Policies Using Predictive Safety Representations ![Recent](https://img.shields.io/badge/Recent-orange)
+### Learning Safe Autonomous Driving Policies Using Predictive Safety Representations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mahesh Keswani, Raunak Bhattacharyya  
 **Published:** 2025-12-19  
@@ -3730,7 +3720,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RSLCPP -- Deterministic Simulations Using ROS 2 ![New](https://img.shields.io/badge/New-red)
+### RSLCPP -- Deterministic Simulations Using ROS 2 ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Simon Sagmeister, Marcel Weinmann, Phillip Pitschi, Markus Lienkamp  
 **Published:** 2026-01-11  
