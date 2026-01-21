@@ -1,7 +1,7 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--20-blue)
-![Papers](https://img.shields.io/badge/Papers-393-green)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--21-blue)
+![Papers](https://img.shields.io/badge/Papers-390-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
 
@@ -25,14 +25,14 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Category | Paper Count |
 |----------|-------------|
 | Control | 58 |
-| Dataset & Benchmark | 30 |
+| Dataset & Benchmark | 29 |
 | End-to-End Learning | 21 |
 | General | 9 |
 | Mapping & Localization | 7 |
-| Perception | 141 |
+| Perception | 140 |
 | Planning | 31 |
 | Prediction | 14 |
-| Safety & Verification | 53 |
+| Safety & Verification | 52 |
 | Simulation | 29 |
 
 ## Table of Contents
@@ -72,7 +72,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DataScribe: An AI-Native, Policy-Aligned Web Platform for Multi-Objective Materials Design and Discovery ![New](https://img.shields.io/badge/New-red)
+### DataScribe: An AI-Native, Policy-Aligned Web Platform for Multi-Objective Materials Design and Discovery ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Divyanshu Singh, Doguhan Sarıtürk, Cameron Lea, Md Shafiqul Islam, Raymundo Arroyave, et al.  
 **Published:** 2026-01-12  
@@ -82,7 +82,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Software-Hardware Co-optimization for Modular E2E AV Paradigm: A Unified Framework of Optimization Approaches, Simulation Environment and Evaluation Metrics ![New](https://img.shields.io/badge/New-red)
+### Software-Hardware Co-optimization for Modular E2E AV Paradigm: A Unified Framework of Optimization Approaches, Simulation Environment and Evaluation Metrics ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chengzhi Ji, Xingfeng Li, Zhaodong Lv, Hao Sun, Pan Liu, et al.  
 **Published:** 2026-01-12  
@@ -232,7 +232,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Prioritized Constraints in Optimization-Based Control ![Recent](https://img.shields.io/badge/Recent-orange)
+### Prioritized Constraints in Optimization-Based Control ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Daniel Arnström, Gianluca Garofalo  
 **Published:** 2025-12-20  
@@ -924,16 +924,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Yuheng Wu, Xiangbo Gao, Quang Tau, Zhengzhong Tu, Dongman Lee  
-**Published:** 2025-10-22  
-**Links:** [arXiv](https://arxiv.org/abs/2510.19250v1) | [PDF](https://arxiv.org/pdf/2510.19250v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Collaborative perception enhances the reliability and spatial coverage of autonomous vehicles by sharing complementary information across vehicles, offering a promising solution to long-tail...
-
----
-
 ## End-to-End Learning
 
 ### Generative Scenario Rollouts for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
@@ -1422,7 +1412,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation ![New](https://img.shields.io/badge/New-red)
+### Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nicolas Sereyjol-Garros, Ellington Kirby, Victor Besnier, Nermin Samet  
 **Published:** 2026-01-12  
@@ -1432,7 +1422,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Farhad G. Zanjani, Hong Cai, Amirhossein Habibian  
 **Published:** 2026-01-12  
@@ -1442,7 +1432,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SC-MII: Infrastructure LiDAR-based 3D Object Detection on Edge Devices for Split Computing with Multiple Intermediate Outputs Integration ![New](https://img.shields.io/badge/New-red)
+### SC-MII: Infrastructure LiDAR-based 3D Object Detection on Edge Devices for Split Computing with Multiple Intermediate Outputs Integration ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Taisuke Noguchi, Takayuki Nishio, Takuya Azumi  
 **Published:** 2026-01-12  
@@ -2022,7 +2012,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniMPR: A Unified Framework for Multimodal Place Recognition with Heterogeneous Sensor Configurations ![Recent](https://img.shields.io/badge/Recent-orange)
+### UniMPR: A Unified Framework for Multimodal Place Recognition with Heterogeneous Sensor Configurations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhangshuo Qi, Jingyi Xu, Luqi Cheng, Shichen Wen, Yiming Ma, et al.  
 **Published:** 2025-12-20  
@@ -2032,7 +2022,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LLaViDA: A Large Language Vision Driving Assistant for Explicit Reasoning and Enhanced Trajectory Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### LLaViDA: A Large Language Vision Driving Assistant for Explicit Reasoning and Enhanced Trajectory Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yudong Liu, Spencer Hallyburton, Jiwoo Kim, Yueqian Lin, Yiming Li, et al.  
 **Published:** 2025-12-20  
@@ -2712,16 +2702,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Can You Trust What You See? Alpha Channel No-Box Attacks on Video Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Ariana Yi, Ce Zhou, Liyang Xiao, Qiben Yan  
-**Published:** 2025-10-22  
-**Links:** [arXiv](https://arxiv.org/abs/2510.19574v1) | [PDF](https://arxiv.org/pdf/2510.19574v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** As object detection models are increasingly deployed in cyber-physical systems such as autonomous vehicles (AVs) and surveillance platforms, ensuring their security against adversarial threats is...
-
----
-
 ## Planning
 
 ### Data Scaling for Navigation in Unknown Environments ![New](https://img.shields.io/badge/New-red)
@@ -3056,7 +3036,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data ![New](https://img.shields.io/badge/New-red)
+### Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Youngmin Oh, Hyung-Il Kim, Jung Uk Kim  
 **Published:** 2026-01-12  
@@ -3698,16 +3678,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dara: Automated multiple-hypothesis phase identification and refinement from powder X-ray diffraction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Yuxing Fei, Matthew J. McDermott, Christopher L. Rom, Shilong Wang, Gerbrand Ceder  
-**Published:** 2025-10-22  
-**Links:** [arXiv](https://arxiv.org/abs/2510.19667v2) | [PDF](https://arxiv.org/pdf/2510.19667v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Powder X-ray diffraction (XRD) is a foundational technique for characterizing crystalline materials. However, the reliable interpretation of XRD patterns, particularly in multiphase systems, remains...
-
----
-
 ## Simulation
 
 ### See Less, Drive Better: Generalizable End-to-End Autonomous Driving via Foundation Models Stochastic Patch Selection ![New](https://img.shields.io/badge/New-red)
@@ -3810,7 +3780,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Systematic Benchmarking of SUMO Against Data-Driven Traffic Simulators ![Recent](https://img.shields.io/badge/Recent-orange)
+### Systematic Benchmarking of SUMO Against Data-Driven Traffic Simulators ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Erdao Liang  
 **Published:** 2025-12-20  
