@@ -101,7 +101,7 @@ class ArXivScraper:
         self.max_results = max_results
         self.papers: List[ArXivPaper] = []
 
-    def fetch_papers(self, keywords: List[str], days_back: int = 90):
+    def fetch_papers(self, keywords: List[str], days_back: int = 180):
         """Fetch papers matching keywords from the last N days."""
         print(f"Fetching papers from the last {days_back} days...")
 
@@ -221,7 +221,7 @@ class ArXivScraper:
 ![Update](https://img.shields.io/badge/Last%20Updated-{datetime.now().strftime('%Y--%m--%d')}-blue)
 ![Papers](https://img.shields.io/badge/Papers-{len(self.papers)}-green)
 
-A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology.
+A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
 
 ## About
 
@@ -357,9 +357,9 @@ def main():
         "autonomous vehicles"
     ]
 
-    # Create scraper and fetch papers from last 90 days
+    # Create scraper and fetch papers from last 180 days
     scraper = ArXivScraper(max_results=200)
-    scraper.fetch_papers(keywords, days_back=90)
+    scraper.fetch_papers(keywords, days_back=180)
 
     # Generate README
     scraper.generate_readme()
