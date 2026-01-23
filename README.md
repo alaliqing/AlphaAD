@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--22-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--23-blue)
 ![Papers](https://img.shields.io/badge/Papers-443-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
@@ -62,7 +62,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xuemei Yao, Xiao Yang, Jianbin Sun, Liuwei Xie, Xuebin Shao, et al.  
 **Published:** 2026-01-14  
@@ -72,7 +72,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ioannis Peridis, Dimitrios Troullinos, Georgios Chalkiadakis, Pantelis Giankoulidis, Ioannis Papamichail, et al.  
 **Published:** 2026-01-14  
@@ -222,7 +222,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Gauss-Newton-Induced Structure-Exploiting Algorithm for Differentiable Optimal Control ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Gauss-Newton-Induced Structure-Exploiting Algorithm for Differentiable Optimal Control ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuankun Chen, Zifei Nie, Xun Gong, Yunfeng Hu, Hong Chen  
 **Published:** 2025-12-22  
@@ -622,7 +622,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Designing Intent Communication for Agent-Human Collaboration ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Designing Intent Communication for Agent-Human Collaboration
 
 **Authors:** Yi Li, Francesco Chiossi, Helena Anna Frijns, Jan Leusmann, Julian Rasch, et al.  
 **Published:** 2025-10-23  
@@ -844,7 +844,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Vehicle-centric Perception via Multimodal Structured Pre-training ![Recent](https://img.shields.io/badge/Recent-orange)
+### Vehicle-centric Perception via Multimodal Structured Pre-training ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wentao Wu, Xiao Wang, Chenglong Li, Jin Tang, Bin Luo  
 **Published:** 2025-12-22  
@@ -854,7 +854,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Are All Data Necessary? Efficient Data Pruning for Large-scale Autonomous Driving Dataset via Trajectory Entropy Maximization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Are All Data Necessary? Efficient Data Pruning for Large-scale Autonomous Driving Dataset via Trajectory Entropy Maximization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhaoyang Liu, Weitao Zhou, Junze Wen, Cheng Jing, Qian Cheng, et al.  
 **Published:** 2025-12-22  
@@ -1430,7 +1430,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AMap: Distilling Future Priors for Ahead-Aware Online HD Map Construction ![Recent](https://img.shields.io/badge/Recent-orange)
+### AMap: Distilling Future Priors for Ahead-Aware Online HD Map Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruikai Li, Xinrun Li, Mengwei Xie, Hao Shan, Shoumeng Qiu, et al.  
 **Published:** 2025-12-22  
@@ -1440,7 +1440,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction ![Recent](https://img.shields.io/badge/Recent-orange)
+### Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tao Li, Zhenbao Yu, Banglei Guan, Jianli Han, Weimin Lv, et al.  
 **Published:** 2025-12-22  
@@ -1652,7 +1652,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OT-Drive: Out-of-Distribution Off-Road Traversable Area Segmentation via Optimal Transport ![New](https://img.shields.io/badge/New-red)
+### OT-Drive: Out-of-Distribution Off-Road Traversable Area Segmentation via Optimal Transport ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhihua Zhao, Guoqiang Li, Chen Min, Kangping Lu  
 **Published:** 2026-01-15  
@@ -1662,7 +1662,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LCF3D: A Robust and Real-Time Late-Cascade Fusion Framework for 3D Object Detection in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### LCF3D: A Robust and Real-Time Late-Cascade Fusion Framework for 3D Object Detection in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Carlo Sgaravatti, Riccardo Pieroni, Matteo Corno, Sergio M. Savaresi, Luca Magri, et al.  
 **Published:** 2026-01-14  
@@ -1672,7 +1672,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MAD: Motion Appearance Decoupling for efficient Driving World Models ![New](https://img.shields.io/badge/New-red)
+### MAD: Motion Appearance Decoupling for efficient Driving World Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ahmad Rahimi, Valentin Gerard, Eloi Zablocki, Matthieu Cord, Alexandre Alahi  
 **Published:** 2026-01-14  
@@ -2292,7 +2292,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pengxuan Yang, Ben Lu, Zhongpu Xia, Chao Han, Yinfeng Gao, et al.  
 **Published:** 2025-12-22  
@@ -3064,7 +3064,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Data Scaling for Navigation in Unknown Environments ![New](https://img.shields.io/badge/New-red)
+### Data Scaling for Navigation in Unknown Environments ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lauri Suomela, Naoki Takahata, Sasanka Kuruppu Arachchige, Harry Edelman, Joni-Kristian Kämäräinen  
 **Published:** 2026-01-14  
@@ -3154,7 +3154,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Results of the 2024 CommonRoad Motion Planning Competition for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Results of the 2024 CommonRoad Motion Planning Competition for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yanliang Huang, Xia Yan, Peiran Yin, Zhenduo Zhang, Zeyan Shao, et al.  
 **Published:** 2025-12-22  
@@ -4088,7 +4088,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Addressing Corner Cases in Autonomous Driving: A World Model-based Approach with Mixture of Experts and LLMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Addressing Corner Cases in Autonomous Driving: A World Model-based Approach with Mixture of Experts and LLMs
 
 **Authors:** Haicheng Liao, Bonan Wang, Junxian Yang, Chengyue Wang, Zhengbin He, et al.  
 **Published:** 2025-10-23  
