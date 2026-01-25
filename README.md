@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--24-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--25-blue)
 ![Papers](https://img.shields.io/badge/Papers-443-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
@@ -212,7 +212,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Early warning signals for loss of control ![Recent](https://img.shields.io/badge/Recent-orange)
+### Early warning signals for loss of control ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jasper J. van Beers, Marten Scheffer, Prashant Solanki, Ingrid A. van de Leemput, Egbert H. van Nes, et al.  
 **Published:** 2025-12-24  
@@ -612,7 +612,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Novel Multi-Timescale Stability-Preserving Hierarchical Reinforcement Learning Controller Framework for Adaptive Control in High-Dimensional Dynamical Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### A Novel Multi-Timescale Stability-Preserving Hierarchical Reinforcement Learning Controller Framework for Adaptive Control in High-Dimensional Dynamical Systems
 
 **Authors:** Mohammad Ali Labbaf Khaniki, Fateme Taroodi, Benyamin Safizadeh  
 **Published:** 2025-10-25  
@@ -622,7 +622,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CGoT: A Novel Inference Mechanism for Embodied Multi-Agent Systems Using Composable Graphs of Thoughts ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### CGoT: A Novel Inference Mechanism for Embodied Multi-Agent Systems Using Composable Graphs of Thoughts
 
 **Authors:** Yixiao Nie, Yang Zhang, Yingjie Jin, Zhepeng Wang, Xiu Li, et al.  
 **Published:** 2025-10-25  
@@ -844,7 +844,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SparScene: Efficient Traffic Scene Representation via Sparse Graph Learning for Large-Scale Trajectory Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### SparScene: Efficient Traffic Scene Representation via Sparse Graph Learning for Large-Scale Trajectory Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyu Mo, Jintian Ge, Zifan Wang, Chen Lv, Karl Henrik Johansson  
 **Published:** 2025-12-24  
@@ -1086,7 +1086,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## End-to-End Learning
 
-### Generative Scenario Rollouts for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Generative Scenario Rollouts for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Rajeev Yasarla, Deepti Hegde, Shizhong Han, Hsin-Pai Cheng, Yunxiao Shi, et al.  
 **Published:** 2026-01-16  
@@ -1582,7 +1582,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Toward Human-Centered Human-AI Interaction: Advances in Theoretical Frameworks and Practice ![New](https://img.shields.io/badge/New-red)
+### Toward Human-Centered Human-AI Interaction: Advances in Theoretical Frameworks and Practice ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zaifeng Gao, Yuanxiu Zhao, Hanxi Pan, Wei Xu  
 **Published:** 2026-01-16  
@@ -1592,7 +1592,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Risk-Aware Human-in-the-Loop Framework with Adaptive Intrusion Response for Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Risk-Aware Human-in-the-Loop Framework with Adaptive Intrusion Response for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Dawood Wasif, Terrence J. Moore, Seunghyun Yoon, Hyuk Lim, Dan Dongseong Kim, et al.  
 **Published:** 2026-01-16  
@@ -1602,7 +1602,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-Domain Object Detection Using Unsupervised Image Translation ![New](https://img.shields.io/badge/New-red)
+### Cross-Domain Object Detection Using Unsupervised Image Translation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Vinicius F. Arruda, Rodrigo F. Berriel, Thiago M. Paixão, Claudine Badue, Alberto F. De Souza, et al.  
 **Published:** 2026-01-16  
@@ -1612,7 +1612,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SUG-Occ: An Explicit Semantics and Uncertainty Guided Sparse Learning Framework for Real-Time 3D Occupancy Prediction ![New](https://img.shields.io/badge/New-red)
+### SUG-Occ: An Explicit Semantics and Uncertainty Guided Sparse Learning Framework for Real-Time 3D Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hanlin Wu, Pengfei Lin, Ehsan Javanmardi, Naren Bao, Bo Qian, et al.  
 **Published:** 2026-01-16  
@@ -2242,7 +2242,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Neutralization of IMU-Based GPS Spoofing Detection using external IMU sensor and feedback methodology ![Recent](https://img.shields.io/badge/Recent-orange)
+### Neutralization of IMU-Based GPS Spoofing Detection using external IMU sensor and feedback methodology ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ji Hyuk Jung, Ji Won Yoon  
 **Published:** 2025-12-24  
@@ -2872,7 +2872,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### BLIP-FusePPO: A Vision-Language Deep Reinforcement Learning Framework for Lane Keeping in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### BLIP-FusePPO: A Vision-Language Deep Reinforcement Learning Framework for Lane Keeping in Autonomous Vehicles
 
 **Authors:** Seyed Ahmad Hosseini Miangoleh, Amin Jalal Aghdasian, Farzaneh Abdollahi  
 **Published:** 2025-10-25  
@@ -2882,7 +2882,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Real-Time Semantic Segmentation on FPGA for Autonomous Vehicles Using LMIINet with the CGRA4ML Framework ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Real-Time Semantic Segmentation on FPGA for Autonomous Vehicles Using LMIINet with the CGRA4ML Framework
 
 **Authors:** Amir Mohammad Khadem Hosseini, Sattar Mirzakuchaki  
 **Published:** 2025-10-25  
@@ -3578,7 +3578,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Distributed Control Barrier Functions for Safe Multi-Vehicle Navigation in Heterogeneous USV Fleets ![New](https://img.shields.io/badge/New-red)
+### Distributed Control Barrier Functions for Safe Multi-Vehicle Navigation in Heterogeneous USV Fleets ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tyler Paine, Brendan Long, Jeremy Wenger, Michael DeFilippo, James Usevitch, et al.  
 **Published:** 2026-01-16  
@@ -4078,7 +4078,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Taming Silent Failures: A Framework for Verifiable AI Reliability ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Taming Silent Failures: A Framework for Verifiable AI Reliability
 
 **Authors:** Guan-Yan Yang, Farn Wang  
 **Published:** 2025-10-25  
