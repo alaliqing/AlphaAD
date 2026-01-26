@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--25-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--26-blue)
 ![Papers](https://img.shields.io/badge/Papers-443-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
@@ -62,7 +62,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Neural Process-Based Reactive Controller for Autonomous Racing ![New](https://img.shields.io/badge/New-red)
+### Neural Process-Based Reactive Controller for Autonomous Racing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Devin Hunter, Chinwendu Enyioha  
 **Published:** 2026-01-17  
@@ -602,7 +602,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Uncertainty-Aware Autonomous Vehicles: Predicting the Road Ahead ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Uncertainty-Aware Autonomous Vehicles: Predicting the Road Ahead
 
 **Authors:** Shireen Kudukkil Manchingal, Armand Amaritei, Mihir Gohad, Maryam Sultana, Julian F. P. Kooij, et al.  
 **Published:** 2025-10-26  
@@ -1572,7 +1572,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Listen, Look, Drive: Coupling Audio Instructions for User-aware VLA-based Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Listen, Look, Drive: Coupling Audio Instructions for User-aware VLA-based Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ziang Guo, Feng Yang, Xuefeng Zhang, Jiaqi Guo, Kun Zhao, et al.  
 **Published:** 2026-01-17  
@@ -2232,7 +2232,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Comparative Analysis of Deep Learning Models for Perception in Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Comparative Analysis of Deep Learning Models for Perception in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jalal Khan  
 **Published:** 2025-12-25  
@@ -3558,7 +3558,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Kernel-Based Learning of Safety Barriers ![New](https://img.shields.io/badge/New-red)
+### Kernel-Based Learning of Safety Barriers ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Oliver Schön, Zhengang Zhong, Sadegh Soudjani  
 **Published:** 2026-01-17  
@@ -3568,7 +3568,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Beyond Target-Level: ISAC-Enabled Event-Level Sensing for Behavioral Intention Prediction ![New](https://img.shields.io/badge/New-red)
+### Beyond Target-Level: ISAC-Enabled Event-Level Sensing for Behavioral Intention Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Haotian Liu, Zhiqing Wei, Yucong Du, Jiachen Wei, Xingwang Li, et al.  
 **Published:** 2026-01-17  
@@ -4240,7 +4240,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration ![Recent](https://img.shields.io/badge/Recent-orange)
+### SymDrive: Realistic and Controllable Driving Simulator via Symmetric Auto-regressive Online Restoration ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiyuan Liu, Daocheng Fu, Pinlong Cai, Lening Wang, Ying Liu, et al.  
 **Published:** 2025-12-25  
