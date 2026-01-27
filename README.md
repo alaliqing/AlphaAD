@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--26-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--01--27-blue)
 ![Papers](https://img.shields.io/badge/Papers-443-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
@@ -24,16 +24,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 70 |
+| Control | 71 |
 | Dataset & Benchmark | 33 |
 | End-to-End Learning | 21 |
 | General | 12 |
 | Mapping & Localization | 7 |
-| Perception | 153 |
+| Perception | 154 |
 | Planning | 32 |
-| Prediction | 15 |
+| Prediction | 14 |
 | Safety & Verification | 66 |
-| Simulation | 34 |
+| Simulation | 33 |
 
 ## Table of Contents
 
@@ -51,6 +51,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Control
+
+### DMAVA: Distributed Multi-Autonomous Vehicle Architecture Using Autoware ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Zubair Islam, Mohamed El-Darieby  
+**Published:** 2026-01-22  
+**Links:** [arXiv](https://arxiv.org/abs/2601.16336v1) | [PDF](https://arxiv.org/pdf/2601.16336v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Simulating and validating coordination among multiple autonomous vehicles (AVs) is a challenging task as most existing simulation architectures are limited to single-vehicle operation or rely on...
+
+---
 
 ### DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
@@ -192,7 +202,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### School Transport Electrification -- Adoption, Strategies, Methods and Policy: A Comprehensive Review ![Recent](https://img.shields.io/badge/Recent-orange)
+### School Transport Electrification -- Adoption, Strategies, Methods and Policy: A Comprehensive Review ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Megh Bahadur KC, Ziqi Song  
 **Published:** 2025-12-26  
@@ -202,7 +212,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TimeBill: Time-Budgeted Inference for Large Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### TimeBill: Time-Budgeted Inference for Large Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qi Fan, An Zou, Yehan Ma  
 **Published:** 2025-12-26  
@@ -592,7 +602,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### NeuroDOB: A Deep Neural Observer-Based Controller for Vehicle Lateral Dynamics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### NeuroDOB: A Deep Neural Observer-Based Controller for Vehicle Lateral Dynamics
 
 **Authors:** Sangmin Kim, Taehun Kim, Guntae Kim, Chang Mook Kang  
 **Published:** 2025-10-27  
@@ -1146,7 +1156,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Comprehensive Study of Deep Learning Model Fixing Approaches ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Comprehensive Study of Deep Learning Model Fixing Approaches ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hanmo You, Zan Wang, Zishuo Dong, Luanqi Mo, Jianjun Zhao, et al.  
 **Published:** 2025-12-26  
@@ -1492,6 +1502,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Perception
 
+### PocketDVDNet: Realtime Video Denoising for Real Camera Noise ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Crispian Morris, Imogen Dexter, Fan Zhang, David R. Bull, Nantheera Anantrasirichai  
+**Published:** 2026-01-23  
+**Links:** [arXiv](https://arxiv.org/abs/2601.16780v1) | [PDF](https://arxiv.org/pdf/2601.16780v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Live video denoising under realistic, multi-component sensor noise remains challenging for applications such as autofocus, autonomous driving, and surveillance. We propose PocketDVDNet, a lightweight...
+
+---
+
 ### SplatBus: A Gaussian Splatting Viewer Framework via GPU Interprocess Communication ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Yinghan Xu, Théo Morales, John Dingliana  
@@ -1542,7 +1562,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SGCP: A Self-Organized Game-Theoretic Framework For Collaborative Perception ![New](https://img.shields.io/badge/New-red)
+### SGCP: A Self-Organized Game-Theoretic Framework For Collaborative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zechuan Gong, Hui Zhang, Yuquan Yang, Wenyu Lu  
 **Published:** 2026-01-18  
@@ -1552,7 +1572,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### HOT-POT: Optimal Transport for Sparse Stereo Matching ![New](https://img.shields.io/badge/New-red)
+### HOT-POT: Optimal Transport for Sparse Stereo Matching ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Antonin Clerc, Michael Quellmalz, Moritz Piening, Philipp Flotho, Gregor Kornhardt, et al.  
 **Published:** 2026-01-18  
@@ -1562,7 +1582,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CD-TWINSAFE: A ROS-enabled Digital Twin for Scene Understanding and Safety Emerging V2I Technology ![New](https://img.shields.io/badge/New-red)
+### CD-TWINSAFE: A ROS-enabled Digital Twin for Scene Understanding and Safety Emerging V2I Technology ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Amro Khaled, Farah Khaled, Omar Riad, Catherine M. Elias  
 **Published:** 2026-01-18  
@@ -2202,7 +2222,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Backdoor Attacks on Prompt-Driven Video Segmentation Foundation Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Backdoor Attacks on Prompt-Driven Video Segmentation Foundation Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zongmin Zhang, Zhen Sun, Yifan Liao, Wenhan Dong, Xinlei He, et al.  
 **Published:** 2025-12-26  
@@ -2212,7 +2232,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RT-Focuser: A Real-Time Lightweight Model for Edge-side Image Deblurring ![Recent](https://img.shields.io/badge/Recent-orange)
+### RT-Focuser: A Real-Time Lightweight Model for Edge-side Image Deblurring ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhuoyu Wu, Wenhui Ou, Qiawei Zheng, Jiayan Yang, Quanjun Wang, et al.  
 **Published:** 2025-12-26  
@@ -2222,7 +2242,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### End-to-End 3D Spatiotemporal Perception with Multimodal Fusion and V2X Collaboration ![Recent](https://img.shields.io/badge/Recent-orange)
+### End-to-End 3D Spatiotemporal Perception with Multimodal Fusion and V2X Collaboration ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhenwei Yang, Yibo Ai, Weidong Zhang  
 **Published:** 2025-12-26  
@@ -2852,7 +2872,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GRAD: Real-Time Gated Recurrent Anomaly Detection in Autonomous Vehicle Sensors Using Reinforced EMA and Multi-Stage Sliding Window Techniques ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### GRAD: Real-Time Gated Recurrent Anomaly Detection in Autonomous Vehicle Sensors Using Reinforced EMA and Multi-Stage Sliding Window Techniques
 
 **Authors:** Mohammad Hossein Jafari Naeimi, Ali Norouzi, Athena Abdi  
 **Published:** 2025-10-27  
@@ -2862,7 +2882,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Network Intrusion Detection: Evolution from Conventional Approaches to LLM Collaboration and Emerging Risks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Network Intrusion Detection: Evolution from Conventional Approaches to LLM Collaboration and Emerging Risks
 
 **Authors:** Yaokai Feng, Kouichi Sakurai  
 **Published:** 2025-10-27  
@@ -3044,7 +3064,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-reality Location Privacy Protection in 6G-enabled Vehicular Metaverses: An LLM-enhanced Hybrid Generative Diffusion Model-based Approach ![New](https://img.shields.io/badge/New-red)
+### Cross-reality Location Privacy Protection in 6G-enabled Vehicular Metaverses: An LLM-enhanced Hybrid Generative Diffusion Model-based Approach ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaofeng Luo, Jiayi He, Jiawen Kang, Ruichen Zhang, Zhaoshui He, et al.  
 **Published:** 2026-01-18  
@@ -3324,7 +3344,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Planning Oriented Integrated Sensing and Communication ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Planning Oriented Integrated Sensing and Communication
 
 **Authors:** Xibin Jin, Guoliang Li, Shuai Wang, Fan Liu, Miaowen Wen, et al.  
 **Published:** 2025-10-27  
@@ -3436,16 +3456,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Towards Reliable Test-Time Adaptation: Style Invariance as a Correctness Likelihood ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Gilhyun Nam, Taewon Kim, Joonhyun Jeong, Eunho Yang  
-**Published:** 2025-12-08  
-**Links:** [arXiv](https://arxiv.org/abs/2512.07390v1) | [PDF](https://arxiv.org/pdf/2512.07390v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Test-time adaptation (TTA) enables efficient adaptation of deployed models, yet it often leads to poorly calibrated predictive uncertainty - a critical issue in high-stakes domains such as autonomous...
-
----
-
 ### AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Stephen G. Dale, Nikita Kazeev, Alastair J. A. Price, Victor Posligua, Stephan Roche, et al.  
@@ -3538,7 +3548,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Resilient Interval Observer-Based Control for Cooperative Adaptive Cruise Control under FDI Attack ![New](https://img.shields.io/badge/New-red)
+### Resilient Interval Observer-Based Control for Cooperative Adaptive Cruise Control under FDI Attack ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Parisa Ansari Bonab, Elisabeth Andarge Gedefaw, Mohammad Khajenejad  
 **Published:** 2026-01-18  
@@ -3548,7 +3558,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### How Safe Is Your Data in Connected and Autonomous Cars: A Consumer Advantage or a Privacy Nightmare ? ![New](https://img.shields.io/badge/New-red)
+### How Safe Is Your Data in Connected and Autonomous Cars: A Consumer Advantage or a Privacy Nightmare ? ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Amit Chougule, Vinay Chamola, Norbert Herencsar, Fei Richard Yu  
 **Published:** 2026-01-18  
@@ -3632,7 +3642,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 **Authors:** Yuxin Wang, Yuankai He, Boyang Tian, Lichen Xian, Weisong Shi  
 **Published:** 2026-01-08  
-**Links:** [arXiv](https://arxiv.org/abs/2601.05072v2) | [PDF](https://arxiv.org/pdf/2601.05072v2.pdf) | [BackToTop](#table-of-contents)  
+**Links:** [arXiv](https://arxiv.org/abs/2601.05072v3) | [PDF](https://arxiv.org/pdf/2601.05072v3.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Vehicle computing represents a fundamental shift in how autonomous vehicles are designed and deployed, transforming them from isolated transportation systems into mobile computing platforms that...
 
@@ -3858,11 +3868,11 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UACER: An Uncertainty-Aware Critic Ensemble Framework for Robust Adversarial Reinforcement Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### UACER: An Uncertainty-Adaptive Critic Ensemble Framework for Robust Adversarial Reinforcement Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiaxi Wu, Tiantian Zhang, Yuxing Wang, Yongzhe Chang, Xueqian Wang  
 **Published:** 2025-12-11  
-**Links:** [arXiv](https://arxiv.org/abs/2512.10492v1) | [PDF](https://arxiv.org/pdf/2512.10492v1.pdf) | [BackToTop](#table-of-contents)  
+**Links:** [arXiv](https://arxiv.org/abs/2512.10492v2) | [PDF](https://arxiv.org/pdf/2512.10492v2.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Robust adversarial reinforcement learning has emerged as an effective paradigm for training agents to handle uncertain disturbance in real environments, with critical applications in sequential...
 
@@ -4160,7 +4170,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Simulation
 
-### From Prompts to Pavement: LMMs-based Agentic Behavior-Tree Generation Framework for Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### From Prompts to Pavement: LMMs-based Agentic Behavior-Tree Generation Framework for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Omar Y. Goba, Ahmed Y. Gado, Catherine M. Elias, Ahmed Hussein  
 **Published:** 2026-01-18  
@@ -4457,16 +4467,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2510.17395v1) | [PDF](https://arxiv.org/pdf/2510.17395v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** The emerging road safety and autonomous vehicle applications require timely and reliable data delivery between vehicles and between vehicles and infrastructure. To satisfy this demand, 3GPP develops...
-
----
-
-### Architecture, Simulation and Software Stack to Support Post-CMOS Accelerators: The ARCHYTAS Project
-
-**Authors:** Giovanni Agosta, Stefano Cherubin, Derek Christ, Francesco Conti, Asbjørn Djupdal, et al.  
-**Published:** 2025-10-18  
-**Links:** [arXiv](https://arxiv.org/abs/2510.16487v1) | [PDF](https://arxiv.org/pdf/2510.16487v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** ARCHYTAS aims to design and evaluate non-conventional hardware accelerators, in particular, optoelectronic, volatile and non-volatile processing-in-memory, and neuromorphic, to tackle the power,...
 
 ---
 
