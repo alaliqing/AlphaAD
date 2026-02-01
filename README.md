@@ -1,6 +1,6 @@
 # Autonomous Driving Research Papers
 
-![Update](https://img.shields.io/badge/Last%20Updated-2026--01--31-blue)
+![Update](https://img.shields.io/badge/Last%20Updated-2026--02--01-blue)
 ![Papers](https://img.shields.io/badge/Papers-446-green)
 
 A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
@@ -602,7 +602,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### COHERE -- Congestion-aware Offloading and Handover via Empirical RAT Evaluation for Multi-RAT Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### COHERE -- Congestion-aware Offloading and Handover via Empirical RAT Evaluation for Multi-RAT Networks
 
 **Authors:** Pavan K. Mangipudi, Sharon Boamah, Lorenz Carvajal, Janise Mcnair  
 **Published:** 2025-11-01  
@@ -1136,7 +1136,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dichotomous Diffusion Policy Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Dichotomous Diffusion Policy Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruiming Liang, Yinan Zheng, Kexin Zheng, Tianyi Tan, Jianxiong Li, et al.  
 **Published:** 2025-12-31  
@@ -1562,7 +1562,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PocketDVDNet: Realtime Video Denoising for Real Camera Noise ![New](https://img.shields.io/badge/New-red)
+### PocketDVDNet: Realtime Video Denoising for Real Camera Noise ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Crispian Morris, Imogen Dexter, Fan Zhang, David R. Bull, Nantheera Anantrasirichai  
 **Published:** 2026-01-23  
@@ -2042,7 +2042,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Compressed Map Priors for 3D Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### Compressed Map Priors for 3D Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Brady Zhou, Philipp Krähenbühl  
 **Published:** 2025-12-31  
@@ -2052,7 +2052,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Semi-Supervised Diversity-Aware Domain Adaptation for 3D Object detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### Semi-Supervised Diversity-Aware Domain Adaptation for 3D Object detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bartłomiej Olber, Jakub Winter, Paweł Wawrzyński, Andrii Gamalii, Daniel Górniak, et al.  
 **Published:** 2025-12-31  
@@ -2062,7 +2062,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Semi-Automated Data Annotation in Multisensor Datasets for Autonomous Vehicle Testing ![Recent](https://img.shields.io/badge/Recent-orange)
+### Semi-Automated Data Annotation in Multisensor Datasets for Autonomous Vehicle Testing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Andrii Gamalii, Daniel Górniak, Robert Nowak, Bartłomiej Olber, Krystian Radlak, et al.  
 **Published:** 2025-12-31  
@@ -2072,7 +2072,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qian Cheng, Weitao Zhou, Cheng Jing, Nanshan Deng, Junze Wen, et al.  
 **Published:** 2025-12-31  
@@ -2082,7 +2082,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Decentralized No-Regret Frequency-Time Scheduling for FMCW Radar Interference Avoidance ![Recent](https://img.shields.io/badge/Recent-orange)
+### Decentralized No-Regret Frequency-Time Scheduling for FMCW Radar Interference Avoidance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yunian Pan, Jun Li, Lifan Xu, Shunqiao Sun, Quanyan Zhu  
 **Published:** 2025-12-31  
@@ -2842,7 +2842,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Been There, Scanned That: Nostalgia-Driven LiDAR Compression for Self-Driving Cars ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Been There, Scanned That: Nostalgia-Driven LiDAR Compression for Self-Driving Cars
 
 **Authors:** Ali Khalid, Jaiaid Mobin, Sumanth Rao Appala, Avinash Maurya, Stephany Berrio Perez, et al.  
 **Published:** 2025-11-01  
@@ -2852,7 +2852,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust Registration for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust Registration for Autonomous Vehicles
 
 **Authors:** Hyungtae Lim, Daebeom Kim, Hyun Myung  
 **Published:** 2025-11-01  
@@ -4138,7 +4138,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Unveiling Uniform Shifted Power Law in Stochastic Human and Autonomous Driving Behavior ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Unveiling Uniform Shifted Power Law in Stochastic Human and Autonomous Driving Behavior
 
 **Authors:** Wang Chen, Heye Huang, Ke Ma, Hangyu Li, Shixiao Liang, et al.  
 **Published:** 2025-11-01  
