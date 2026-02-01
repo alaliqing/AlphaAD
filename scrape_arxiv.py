@@ -216,16 +216,20 @@ class ArXivScraper:
 
     def _build_readme_header(self) -> str:
         """Build the README header."""
-        return f"""# 🚗 Autonomous Driving Research Papers
+        return f"""<div align="center">
+
+# 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Last Update](https://img.shields.io/badge/Last%20Updated-{datetime.now().strftime('%Y--%m--%d')}-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-{len(self.papers)}-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
-[![GitHub Stars](https://img.shields.io/github/stars/qinjing/AlphaAD?style=social)](https://github.com/qinjing/AlphaAD/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/qinjing/AlphaAD)](https://github.com/qinjing/AlphaAD/issues)
 
-> A curated collection of the latest research papers on autonomous driving from arXiv. This repository is automatically updated daily to bring you the most recent advances in self-driving technology (papers from the last 6 months).
+> A curated collection of the latest research papers on autonomous driving from arXiv
+> This repository is automatically updated daily to bring you the most recent advances
+> in self-driving technology (papers from the last 6 months)
+
+</div>
 
 ## About
 
