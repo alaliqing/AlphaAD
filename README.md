@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--01-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--02-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-446-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -609,7 +609,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Autonomous Vehicle front steering control computation saving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Autonomous Vehicle front steering control computation saving
 
 **Authors:** Julián Salt Llobregat, Julián Salt Ducajú  
 **Published:** 2025-11-02  
@@ -881,7 +881,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Battery-time-space fragment-based formulation for the Electric Autonomous Dial-a-Ride Problem ![Recent](https://img.shields.io/badge/Recent-orange)
+### Battery-time-space fragment-based formulation for the Electric Autonomous Dial-a-Ride Problem ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Boshuai Zhao, Adam Abdin, Jakob Puchinger  
 **Published:** 2026-01-01  
@@ -1569,7 +1569,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Correct-by-Construction Vision-based Pose Estimation using Geometric Generative Models ![New](https://img.shields.io/badge/New-red)
+### Correct-by-Construction Vision-based Pose Estimation using Geometric Generative Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ulices Santa Cruz, Mahmoud Elfar, Yasser Shoukry  
 **Published:** 2026-01-24  
@@ -3171,7 +3171,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Breaking Task Impasses Quickly: Adaptive Neuro-Symbolic Learning for Open-World Robotics ![Recent](https://img.shields.io/badge/Recent-orange)
+### Breaking Task Impasses Quickly: Adaptive Neuro-Symbolic Learning for Open-World Robotics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pierrick Lorang  
 **Published:** 2026-01-01  
