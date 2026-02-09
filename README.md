@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--08-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--09-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-445-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -239,7 +239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Formal Safety Guarantees for Autonomous Vehicles using Barrier Certificates ![Recent](https://img.shields.io/badge/Recent-orange)
+### Formal Safety Guarantees for Autonomous Vehicles using Barrier Certificates ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Oumaima Barhoumi, Mohamed H Zaki, Sofiène Tahar  
 **Published:** 2026-01-08  
@@ -249,7 +249,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ThinkDrive: Chain-of-Thought Guided Progressive Reinforcement Learning Fine-Tuning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### ThinkDrive: Chain-of-Thought Guided Progressive Reinforcement Learning Fine-Tuning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chang Zhao, Zheming Yang, Yunqing Hu, Qi Guo, Zijian Wang, et al.  
 **Published:** 2026-01-08  
@@ -259,7 +259,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The UnScripted Trip: Fostering Policy Discussion on Future Human-Vehicle Collaboration in Autonomous Driving Through Design-Oriented Methods ![Recent](https://img.shields.io/badge/Recent-orange)
+### The UnScripted Trip: Fostering Policy Discussion on Future Human-Vehicle Collaboration in Autonomous Driving Through Design-Oriented Methods ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xinyan Yu, Julie Stephany Berrio Perez, Marius Hoggenmüller, Martin Tomitsch, Tram Thi Minh Tran, et al.  
 **Published:** 2026-01-08  
@@ -881,7 +881,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SparseLaneSTP: Leveraging Spatio-Temporal Priors with Sparse Transformers for 3D Lane Detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### SparseLaneSTP: Leveraging Spatio-Temporal Priors with Sparse Transformers for 3D Lane Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Maximilian Pittner, Joel Janai, Mario Faigle, Alexandru Paul Condurache  
 **Published:** 2026-01-08  
@@ -1629,7 +1629,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VVLoc: Prior-free 3-DoF Vehicle Visual Localization ![New](https://img.shields.io/badge/New-red)
+### VVLoc: Prior-free 3-DoF Vehicle Visual Localization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ze Huang, Zhongyang Xiao, Mingliang Song, Longan Yang, Hongyuan Yuan, et al.  
 **Published:** 2026-01-31  
@@ -2129,7 +2129,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniLiPs: Unified LiDAR Pseudo-Labeling with Geometry-Grounded Dynamic Scene Decomposition ![Recent](https://img.shields.io/badge/Recent-orange)
+### UniLiPs: Unified LiDAR Pseudo-Labeling with Geometry-Grounded Dynamic Scene Decomposition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Filippo Ghilotti, Samuel Brucker, Nahku Saidy, Matteo Matteucci, Mario Bijelic, et al.  
 **Published:** 2026-01-08  
@@ -2139,7 +2139,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Driving on Registers ![Recent](https://img.shields.io/badge/Recent-orange)
+### Driving on Registers ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ellington Kirby, Alexandre Boulch, Yihong Xu, Yuan Yin, Gilles Puy, et al.  
 **Published:** 2026-01-08  
@@ -2149,7 +2149,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Detection of Deployment Operational Deviations for Safety and Security of AI-Enabled Human-Centric Cyber Physical Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Detection of Deployment Operational Deviations for Safety and Security of AI-Enabled Human-Centric Cyber Physical Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bernard Ngabonziza, Ayan Banerjee, Sandeep K. S. Gupta  
 **Published:** 2026-01-08  
@@ -3101,7 +3101,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Physics-informed Diffusion Mamba Transformer for Real-world Driving ![New](https://img.shields.io/badge/New-red)
+### Physics-informed Diffusion Mamba Transformer for Real-world Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hang Zhou, Qiang Zhang, Peiran Liu, Yihao Qin, Zhaoxu Yan, et al.  
 **Published:** 2026-01-31  
@@ -3403,7 +3403,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniMotion: A Unified Motion Framework for Simulation, Prediction and Planning ![New](https://img.shields.io/badge/New-red)
+### UniMotion: A Unified Motion Framework for Simulation, Prediction and Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nan Song, Junzhe Jiang, Jingyu Li, Xiatian Zhu, Li Zhang  
 **Published:** 2026-01-31  
@@ -3825,7 +3825,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DAVOS: An Autonomous Vehicle Operating System in the Vehicle Computing Era ![Recent](https://img.shields.io/badge/Recent-orange)
+### DAVOS: An Autonomous Vehicle Operating System in the Vehicle Computing Era ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuxin Wang, Yuankai He, Boyang Tian, Lichen Xian, Weisong Shi  
 **Published:** 2026-01-08  
@@ -3835,7 +3835,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Personalized Model-Based Design of Human Centric AI enabled CPS for Long term usage ![Recent](https://img.shields.io/badge/Recent-orange)
+### Personalized Model-Based Design of Human Centric AI enabled CPS for Long term usage ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bernard Ngabonziza, Ayan Banerjee, Sandeep K. S. Gupta  
 **Published:** 2026-01-08  
@@ -4125,7 +4125,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ROAR: Robust Accident Recognition and Anticipation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### ROAR: Robust Accident Recognition and Anticipation for Autonomous Driving
 
 **Authors:** Xingcheng Liu, Yanchen Guan, Haicheng Liao, Zhengbing He, Zhenning Li  
 **Published:** 2025-11-09  
@@ -4237,7 +4237,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Graph-based Framework for Coverage Analysis in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### A Graph-based Framework for Coverage Analysis in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Thomas Muehlenstädt, Marius Bause  
 **Published:** 2026-01-31  
@@ -4297,7 +4297,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PRISM: Protocol Refinement through Intelligent Simulation Modeling ![Recent](https://img.shields.io/badge/Recent-orange)
+### PRISM: Protocol Refinement through Intelligent Simulation Modeling ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Brian Hsu, Priyanka V Setty, Rory M Butler, Ryan Lewis, Casey Stone, et al.  
 **Published:** 2026-01-08  
@@ -4307,7 +4307,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Timeliness-Oriented Scheduling and Resource Allocation in Multi-Region Collaborative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### Timeliness-Oriented Scheduling and Resource Allocation in Multi-Region Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mengmeng Zhu, Yuxuan Sun, Yukuan Jia, Wei Chen, Bo Ai, et al.  
 **Published:** 2026-01-08  
