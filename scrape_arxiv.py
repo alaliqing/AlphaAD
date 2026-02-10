@@ -11,6 +11,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 import time
 import re
+import random
 
 
 class ArXivPaper:
@@ -109,7 +110,8 @@ class ArXivScraper:
             print(f"Searching for: {keyword}")
             papers = self._query_arxiv(keyword, days_back)
             self.papers.extend(papers)
-            time.sleep(3)  # Be nice to arXiv API
+            # Random delay between 5-10 seconds to avoid rate limiting
+            time.sleep(random.uniform(5, 10))
 
         # Remove duplicates based on arxiv_id
         seen = set()
@@ -123,7 +125,7 @@ class ArXivScraper:
         print(f"Found {len(self.papers)} unique papers")
 
     def _query_arxiv(self, keyword: str, days_back: int) -> List[ArXivPaper]:
-        """Query arXiv API for a specific keyword."""
+        """Query arXiv API for a specific keyword with retry logic."""
         # Calculate date range
         end_date = datetime.now()
         start_date = end_date - timedelta(days=days_back)
@@ -140,41 +142,68 @@ class ArXivScraper:
 
         url = self.BASE_URL + urllib.parse.urlencode(params)
 
-        try:
-            with urllib.request.urlopen(url) as response:
-                data = response.read()
+        # Retry logic with exponential backoff
+        max_retries = 5
+        base_delay = 5
 
-            # Parse XML
-            root = ET.fromstring(data)
-            ns = {'atom': 'http://www.w3.org/2005/Atom'}
+        for attempt in range(max_retries):
+            try:
+                # Add jitter to avoid thundering herd
+                if attempt > 0:
+                    delay = base_delay * (2 ** attempt) + random.uniform(0, 2)
+                    print(f"Retry attempt {attempt + 1}/{max_retries} after {delay:.1f}s delay...")
+                    time.sleep(delay)
 
-            papers = []
-            for entry in root.findall('atom:entry', ns):
-                # Extract data
-                title = entry.find('atom:title', ns).text.replace('\n', ' ')
+                with urllib.request.urlopen(url) as response:
+                    data = response.read()
 
-                authors = [author.find('atom:name', ns).text
-                          for author in entry.findall('atom:author', ns)]
+                # Parse XML
+                root = ET.fromstring(data)
+                ns = {'atom': 'http://www.w3.org/2005/Atom'}
 
-                abstract = entry.find('atom:summary', ns).text.replace('\n', ' ')
+                papers = []
+                for entry in root.findall('atom:entry', ns):
+                    # Extract data
+                    title = entry.find('atom:title', ns).text.replace('\n', ' ')
 
-                arxiv_id = entry.find('atom:id', ns).text.split('/abs/')[-1]
+                    authors = [author.find('atom:name', ns).text
+                              for author in entry.findall('atom:author', ns)]
 
-                published = entry.find('atom:published', ns).text
-                updated = entry.find('atom:updated', ns).text
+                    abstract = entry.find('atom:summary', ns).text.replace('\n', ' ')
 
-                # Filter by date
-                published_date = datetime.strptime(published, "%Y-%m-%dT%H:%M:%SZ")
-                if published_date >= start_date:
-                    paper = ArXivPaper(title, authors, abstract, arxiv_id,
-                                      published, updated)
-                    papers.append(paper)
+                    arxiv_id = entry.find('atom:id', ns).text.split('/abs/')[-1]
 
-            return papers
+                    published = entry.find('atom:published', ns).text
+                    updated = entry.find('atom:updated', ns).text
 
-        except Exception as e:
-            print(f"Error querying arXiv for '{keyword}': {e}")
-            return []
+                    # Filter by date
+                    published_date = datetime.strptime(published, "%Y-%m-%dT%H:%M:%SZ")
+                    if published_date >= start_date:
+                        paper = ArXivPaper(title, authors, abstract, arxiv_id,
+                                          published, updated)
+                        papers.append(paper)
+
+                return papers
+
+            except urllib.error.HTTPError as e:
+                if e.code == 429:  # Too Many Requests
+                    if attempt < max_retries - 1:
+                        delay = base_delay * (2 ** attempt) + random.uniform(0, 2)
+                        print(f"Rate limited (429), waiting {delay:.1f}s before retry...")
+                        time.sleep(delay)
+                        continue
+                    else:
+                        print(f"Error querying arXiv for '{keyword}': Max retries reached due to rate limiting")
+                        return []
+                else:
+                    print(f"Error querying arXiv for '{keyword}': HTTP {e.code} - {e.reason}")
+                    return []
+
+            except Exception as e:
+                print(f"Error querying arXiv for '{keyword}': {e}")
+                return []
+
+        return []
 
     def categorize_papers(self) -> Dict[str, List[ArXivPaper]]:
         """Group papers by category."""
