@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--10-blue)
-![Total Papers](https://img.shields.io/badge/Papers-451-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--11-blue)
+![Total Papers](https://img.shields.io/badge/Papers-450-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,7 +41,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 73 |
+| Control | 72 |
 | Dataset & Benchmark | 29 |
 | End-to-End Learning | 17 |
 | General | 13 |
@@ -169,7 +169,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AROLA: A Modular Layered Architecture for Scaled Autonomous Racing ![New](https://img.shields.io/badge/New-red)
+### AROLA: A Modular Layered Architecture for Scaled Autonomous Racing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Fam Shihata, Mohammed Abdelazim, Ahmed Hussein  
 **Published:** 2026-02-02  
@@ -179,7 +179,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Online Fine-Tuning of Pretrained Controllers for Autonomous Driving via Real-Time Recurrent RL ![New](https://img.shields.io/badge/New-red)
+### Online Fine-Tuning of Pretrained Controllers for Autonomous Driving via Real-Time Recurrent RL ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Julian Lemmel, Felix Resch, Mónika Farsang, Ramin Hasani, Daniela Rus, et al.  
 **Published:** 2026-02-02  
@@ -786,16 +786,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.12207v1) | [PDF](https://arxiv.org/pdf/2509.12207v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** The rapid advancements in autonomous driving have introduced increasingly complex, real-time GPU-bound tasks critical for reliable vehicle operation. However, the proprietary nature of these...
-
----
-
-### Developing and Validating a High-Throughput Robotic System for the Accelerated Development of Porous Membranes
-
-**Authors:** Hongchen Wang, Sima Zeinali Danalou, Jiahao Zhu, Kenneth Sulimro, Chaewon Lim, et al.  
-**Published:** 2025-08-14  
-**Links:** [arXiv](https://arxiv.org/abs/2508.10973v1) | [PDF](https://arxiv.org/pdf/2508.10973v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The development of porous polymeric membranes remains a labor-intensive process, often requiring extensive trial and error to identify optimal fabrication parameters. In this study, we present a...
 
 ---
 
@@ -1729,7 +1719,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Accelerating Structured Chain-of-Thought in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Accelerating Structured Chain-of-Thought in Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yi Gu, Yan Wang, Yuxiao Chen, Yurong You, Wenjie Luo, et al.  
 **Published:** 2026-02-02  
@@ -1739,7 +1729,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LiFlow: Flow Matching for 3D LiDAR Scene Completion ![New](https://img.shields.io/badge/New-red)
+### LiFlow: Flow Matching for 3D LiDAR Scene Completion ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Andrea Matteazzi, Dietmar Tutsch  
 **Published:** 2026-02-02  
@@ -4235,7 +4225,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dataset Safety in Autonomous Driving: Requirements, Risks, and Assurance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Dataset Safety in Autonomous Driving: Requirements, Risks, and Assurance
 
 **Authors:** Alireza Abbaspour, Tejaskumar Balgonda Patil, B Ravi Kiran, Russel Mohr, Senthil Yogamani  
 **Published:** 2025-11-11  
