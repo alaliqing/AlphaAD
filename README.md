@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--14-blue)
-![Total Papers](https://img.shields.io/badge/Papers-447-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--15-blue)
+![Total Papers](https://img.shields.io/badge/Papers-446-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,7 +46,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 17 |
 | General | 12 |
 | Mapping & Localization | 8 |
-| Perception | 164 |
+| Perception | 163 |
 | Planning | 37 |
 | Prediction | 17 |
 | Safety & Verification | 68 |
@@ -159,7 +159,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Beyond Crash: Hijacking Your Autonomous Vehicle for Fun and Profit ![New](https://img.shields.io/badge/New-red)
+### Beyond Crash: Hijacking Your Autonomous Vehicle for Fun and Profit ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qi Sun, Ahmed Abdo, Luis Burbano, Ziyang Li, Yaxing Yao, et al.  
 **Published:** 2026-02-06  
@@ -309,7 +309,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### ReflexDiffusion: Reflection-Enhanced Trajectory Planning for High-lateral-acceleration Scenarios in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuemei Yao, Xiao Yang, Jianbin Sun, Liuwei Xie, Xuebin Shao, et al.  
 **Published:** 2026-01-14  
@@ -319,7 +319,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ioannis Peridis, Dimitrios Troullinos, Georgios Chalkiadakis, Pantelis Giankoulidis, Ioannis Papamichail, et al.  
 **Published:** 2026-01-14  
@@ -1669,7 +1669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Temperature Scaling Attack Disrupting Model Confidence in Federated Learning ![New](https://img.shields.io/badge/New-red)
+### Temperature Scaling Attack Disrupting Model Confidence in Federated Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kichang Lee, Jaeho Jin, JaeYeon Park, Songkuk Kim, JeongGil Ko  
 **Published:** 2026-02-06  
@@ -1679,7 +1679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Feiyang jia, Lin Liu, Ziying Song, Caiyan Jia, Hangjun Ye, et al.  
 **Published:** 2026-02-06  
@@ -1689,7 +1689,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Rebenchmarking Unsupervised Monocular 3D Occupancy Prediction ![New](https://img.shields.io/badge/New-red)
+### Rebenchmarking Unsupervised Monocular 3D Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zizhan Guo, Yi Feng, Mengtan Zhang, Haoran Zhang, Wei Ye, et al.  
 **Published:** 2026-02-06  
@@ -1699,7 +1699,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TFusionOcc: Student's t-Distribution Based Object-Centric Multi-Sensor Fusion Framework for 3D Occupancy Prediction ![New](https://img.shields.io/badge/New-red)
+### TFusionOcc: Student's t-Distribution Based Object-Centric Multi-Sensor Fusion Framework for 3D Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhenxing Ming, Julie Stephany Berrio, Mao Shan, Stewart Worrall  
 **Published:** 2026-02-06  
@@ -2219,7 +2219,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OT-Drive: Out-of-Distribution Off-Road Traversable Area Segmentation via Optimal Transport ![Recent](https://img.shields.io/badge/Recent-orange)
+### OT-Drive: Out-of-Distribution Off-Road Traversable Area Segmentation via Optimal Transport ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhihua Zhao, Guoqiang Li, Chen Min, Kangping Lu  
 **Published:** 2026-01-15  
@@ -2229,7 +2229,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LCF3D: A Robust and Real-Time Late-Cascade Fusion Framework for 3D Object Detection in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### LCF3D: A Robust and Real-Time Late-Cascade Fusion Framework for 3D Object Detection in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Carlo Sgaravatti, Riccardo Pieroni, Matteo Corno, Sergio M. Savaresi, Luca Magri, et al.  
 **Published:** 2026-01-14  
@@ -2239,7 +2239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MAD: Motion Appearance Decoupling for efficient Driving World Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### MAD: Motion Appearance Decoupling for efficient Driving World Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmad Rahimi, Valentin Gerard, Eloi Zablocki, Matthieu Cord, Alexandre Alahi  
 **Published:** 2026-01-14  
@@ -3079,16 +3079,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving
-
-**Authors:** Ali K. AlShami, Ryan Rabinowitz, Maged Shoman, Jianwu Fang, Lukas Picek, et al.  
-**Published:** 2025-08-18  
-**Links:** [arXiv](https://arxiv.org/abs/2508.21080v1) | [PDF](https://arxiv.org/pdf/2508.21080v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** As the computer vision community advances autonomous driving algorithms, integrating vision-based insights with sensor data remains essential for improving perception, decision making, planning,...
-
----
-
 ## Planning
 
 ### Calibration and Evaluation of Car-Following Models for Autonomous Shuttles Using a Novel Multi-Criteria Framework ![New](https://img.shields.io/badge/New-red)
@@ -3301,7 +3291,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Data Scaling for Navigation in Unknown Environments ![Recent](https://img.shields.io/badge/Recent-orange)
+### Data Scaling for Navigation in Unknown Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lauri Suomela, Naoki Takahata, Sasanka Kuruppu Arachchige, Harry Edelman, Joni-Kristian Kämäräinen  
 **Published:** 2026-01-14  
@@ -3715,7 +3705,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Rethinking External Communication of Autonomous Vehicles: Is the Field Converging, Diverging, or Stalling? ![New](https://img.shields.io/badge/New-red)
+### Rethinking External Communication of Autonomous Vehicles: Is the Field Converging, Diverging, or Stalling? ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tram Thi Minh Tran, Debargha Dey, Martin Tomitsch  
 **Published:** 2026-02-06  
