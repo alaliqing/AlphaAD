@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--15-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--16-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-446-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -139,7 +139,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RAPiD: Real-time Deterministic Trajectory Planning via Diffusion Behavior Priors for Safe and Efficient Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### RAPiD: Real-time Deterministic Trajectory Planning via Diffusion Behavior Priors for Safe and Efficient Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ruturaj Reddy, Hrishav Bakul Barua, Junn Yong Loo, Thanh Thi Nguyen, Ganesh Krishnasamy  
 **Published:** 2026-02-07  
@@ -149,7 +149,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Navigating Algorithmic Opacity: Folk Theories and User Agency in Semi-Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Navigating Algorithmic Opacity: Folk Theories and User Agency in Semi-Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yehuda Perry, Tawfiq Ammari  
 **Published:** 2026-02-07  
@@ -669,7 +669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Are LLMs The Way Forward? A Case Study on LLM-Guided Reinforcement Learning for Decentralized Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Are LLMs The Way Forward? A Case Study on LLM-Guided Reinforcement Learning for Decentralized Autonomous Driving
 
 **Authors:** Timur Anvar, Jeffrey Chen, Yuyan Wang, Rohan Chandra  
 **Published:** 2025-11-16  
@@ -1133,7 +1133,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Advanced Manufacturing with Renewable and Bio-based Materials: AI/ML workflows and Process Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Advanced Manufacturing with Renewable and Bio-based Materials: AI/ML workflows and Process Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rigoberto Advincula, Jihua Chen  
 **Published:** 2026-01-15  
@@ -1639,7 +1639,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### All-Optical Segmentation via Diffractive Neural Networks for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### All-Optical Segmentation via Diffractive Neural Networks for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yingjie Li, Daniel Robinson, Cunxi Yu  
 **Published:** 2026-02-07  
@@ -1649,7 +1649,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Vision and language: Novel Representations and Artificial intelligence for Driving Scene Safety Assessment and Autonomous Vehicle Planning ![New](https://img.shields.io/badge/New-red)
+### Vision and language: Novel Representations and Artificial intelligence for Driving Scene Safety Assessment and Autonomous Vehicle Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ross Greer, Maitrayee Keskar, Angel Martinez-Sanchez, Parthib Roy, Shashank Shriram, et al.  
 **Published:** 2026-02-07  
@@ -1659,7 +1659,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Seeing Roads Through Words: A Language-Guided Framework for RGB-T Driving Scene Segmentation ![New](https://img.shields.io/badge/New-red)
+### Seeing Roads Through Words: A Language-Guided Framework for RGB-T Driving Scene Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ruturaj Reddy, Hrishav Bakul Barua, Junn Yong Loo, Thanh Thi Nguyen, Ganesh Krishnasamy  
 **Published:** 2026-02-07  
@@ -2179,7 +2179,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LTV-YOLO: A Lightweight Thermal Object Detector for Young Pedestrians in Adverse Conditions ![Recent](https://img.shields.io/badge/Recent-orange)
+### LTV-YOLO: A Lightweight Thermal Object Detector for Young Pedestrians in Adverse Conditions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abdullah Jirjees, Ryan Myers, Muhammad Haris Ikram, Mohamed H. Zaki  
 **Published:** 2026-01-15  
@@ -2189,7 +2189,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Unified 3D Object Perception Framework for Real-Time Outside-In Multi-Camera Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Unified 3D Object Perception Framework for Real-Time Outside-In Multi-Camera Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yizhou Wang, Sameer Pusegaonkar, Yuxing Wang, Anqi Li, Vishal Kumar, et al.  
 **Published:** 2026-01-15  
@@ -2199,7 +2199,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition ![Recent](https://img.shields.io/badge/Recent-orange)
+### BikeActions: An Open Platform and Benchmark for Cyclist-Centric VRU Action Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Max A. Buettner, Kanak Mazumder, Luca Koecher, Mario Finkbeiner, Sebastian Niebler, et al.  
 **Published:** 2026-01-15  
@@ -2209,7 +2209,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SatMap: Revisiting Satellite Maps as Prior for Online HD Map Construction ![Recent](https://img.shields.io/badge/Recent-orange)
+### SatMap: Revisiting Satellite Maps as Prior for Online HD Map Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kanak Mazumder, Fabian B. Flohr  
 **Published:** 2026-01-15  
@@ -3513,7 +3513,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DeepUrban: Interaction-Aware Trajectory Prediction and Planning for Automated Driving by Aerial Imagery ![Recent](https://img.shields.io/badge/Recent-orange)
+### DeepUrban: Interaction-Aware Trajectory Prediction and Planning for Automated Driving by Aerial Imagery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Constantin Selzer, Fabian B. Flohr  
 **Published:** 2026-01-15  
@@ -3945,7 +3945,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SecMLOps: A Comprehensive Framework for Integrating Security Throughout the MLOps Lifecycle ![Recent](https://img.shields.io/badge/Recent-orange)
+### SecMLOps: A Comprehensive Framework for Integrating Security Throughout the MLOps Lifecycle ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xinrui Zhang, Pincan Zhao, Jason Jaskolka, Heng Li, Rongxing Lu  
 **Published:** 2026-01-15  
@@ -4347,7 +4347,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### See Less, Drive Better: Generalizable End-to-End Autonomous Driving via Foundation Models Stochastic Patch Selection ![Recent](https://img.shields.io/badge/Recent-orange)
+### See Less, Drive Better: Generalizable End-to-End Autonomous Driving via Foundation Models Stochastic Patch Selection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amir Mallak, Erfan Aasi, Shiva Sreeram, Tsun-Hsuan Wang, Daniela Rus, et al.  
 **Published:** 2026-01-15  
