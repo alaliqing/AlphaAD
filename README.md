@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--18-blue)
-![Total Papers](https://img.shields.io/badge/Papers-450-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--19-blue)
+![Total Papers](https://img.shields.io/badge/Papers-452-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,7 +41,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 74 |
+| Control | 75 |
 | Dataset & Benchmark | 30 |
 | End-to-End Learning | 19 |
 | General | 12 |
@@ -49,7 +49,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Perception | 159 |
 | Planning | 36 |
 | Prediction | 19 |
-| Safety & Verification | 67 |
+| Safety & Verification | 68 |
 | Simulation | 26 |
 
 ## Table of Contents
@@ -109,6 +109,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
+### Safe-SDL:Establishing Safety Boundaries and Control Mechanisms for AI-Driven Self-Driving Laboratories ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Zihan Zhang, Haohui Que, Junhan Chang, Xin Zhang, Hao Wei, et al.  
+**Published:** 2026-02-13  
+**Links:** [arXiv](https://arxiv.org/abs/2602.15061v1) | [PDF](https://arxiv.org/pdf/2602.15061v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** The emergence of Self-Driving Laboratories (SDLs) transforms scientific discovery methodology by integrating AI with robotic automation to create closed-loop experimental systems capable of...
+
+---
+
 ### When Environments Shift: Safe Planning with Generative Priors and Robust Conformal Prediction ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Kaizer Rahaman, Jyotirmoy V. Deshmukh, Ashish R. Hota, Lars Lindemann  
@@ -139,7 +149,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Collaborative Safety Shield for Safe and Efficient CAV Lane Changes in Congested On-Ramp Merging ![New](https://img.shields.io/badge/New-red)
+### A Collaborative Safety Shield for Safe and Efficient CAV Lane Changes in Congested On-Ramp Merging ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Bharathkumar Hegde, Melanie Bouroche  
 **Published:** 2026-02-10  
@@ -149,7 +159,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dieu khien he da tac tu ![New](https://img.shields.io/badge/New-red)
+### Dieu khien he da tac tu ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Minh Hoang Trinh, Hieu Minh Nguyen  
 **Published:** 2026-02-10  
@@ -273,7 +283,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 **Authors:** Julian Lemmel, Felix Resch, Mónika Farsang, Ramin Hasani, Daniela Rus, et al.  
 **Published:** 2026-02-02  
-**Links:** [arXiv](https://arxiv.org/abs/2602.02236v2) | [PDF](https://arxiv.org/pdf/2602.02236v2.pdf) | [BackToTop](#table-of-contents)  
+**Links:** [arXiv](https://arxiv.org/abs/2602.02236v3) | [PDF](https://arxiv.org/pdf/2602.02236v3.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Deploying pretrained policies in real-world applications presents substantial challenges that fundamentally limit the practical applicability of learning-based control systems. When autonomous...
 
@@ -349,7 +359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Autonomous Manipulation of Hazardous Chemicals and Delicate Objects in a Self-Driving Laboratory: A Sliding Mode Approach ![Recent](https://img.shields.io/badge/Recent-orange)
+### Autonomous Manipulation of Hazardous Chemicals and Delicate Objects in a Self-Driving Laboratory: A Sliding Mode Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shifa Sulaiman, Francesco Schetter, Tobias Jensen, Simon Bøgh, Fanny Ficuciello  
 **Published:** 2026-01-18  
@@ -1061,7 +1071,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AVS: A Computational and Hierarchical Storage System for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### AVS: A Computational and Hierarchical Storage System for Autonomous Vehicles
 
 **Authors:** Yuxin Wang, Yuankai He, Weisong Shi  
 **Published:** 2025-11-19  
@@ -1071,7 +1081,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WarNav: An Autonomous Driving Benchmark for Segmentation of Navigable Zones in War Scenes ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### WarNav: An Autonomous Driving Benchmark for Segmentation of Navigable Zones in War Scenes
 
 **Authors:** Marc-Emmanuel Coupvent des Graviers, Hejer Ammar, Christophe Guettier, Yann Dumortier, Romaric Audigier  
 **Published:** 2025-11-19  
@@ -1120,6 +1130,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2602.14577v1) | [PDF](https://arxiv.org/pdf/2602.14577v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Vision-Language-Action (VLA) models for autonomous driving increasingly adopt generative planners trained with imitation learning followed by reinforcement learning. Diffusion-based planners suffer...
+
+---
+
+### Near-Optimal Sample Complexity for Online Constrained MDPs ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Chang Liu, Yunfan Li, Lin F. Yang  
+**Published:** 2026-02-16  
+**Links:** [arXiv](https://arxiv.org/abs/2602.15076v1) | [PDF](https://arxiv.org/pdf/2602.15076v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Safety is a fundamental challenge in reinforcement learning (RL), particularly in real-world applications such as autonomous driving, robotics, and healthcare. To address this, Constrained Markov...
 
 ---
 
@@ -1230,16 +1250,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2601.06223v1) | [PDF](https://arxiv.org/pdf/2601.06223v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** This paper presents a conceptual and operational framework for developing and operating safe and trustworthy AI agents based on a Three-Pillar Model grounded in transparency, accountability, and...
-
----
-
-### Dichotomous Diffusion Policy Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Ruiming Liang, Yinan Zheng, Kexin Zheng, Tianyi Tan, Jianxiong Li, et al.  
-**Published:** 2025-12-31  
-**Links:** [arXiv](https://arxiv.org/abs/2601.00898v2) | [PDF](https://arxiv.org/pdf/2601.00898v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Diffusion-based policies have gained growing popularity in solving a wide range of decision-making tasks due to their superior expressiveness and controllable generation during inference. However,...
 
 ---
 
@@ -1509,6 +1519,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Perception
 
+### RPT-SR: Regional Prior attention Transformer for infrared image Super-Resolution ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Youngwan Jin, Incheol Park, Yagiz Nalcakan, Hyeongjin Ju, Sanghyeop Yeo, et al.  
+**Published:** 2026-02-17  
+**Links:** [arXiv](https://arxiv.org/abs/2602.15490v1) | [PDF](https://arxiv.org/pdf/2602.15490v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** General-purpose super-resolution models, particularly Vision Transformers, have achieved remarkable success but exhibit fundamental inefficiencies in common infrared imaging scenarios like...
+
+---
+
 ### DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** En Yu, Haoran Lv, Jianjian Sun, Kangheng Lin, Ruitao Zhang, et al.  
@@ -1629,7 +1649,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs ![New](https://img.shields.io/badge/New-red)
+### Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Luoyang Sun, Jiwen Jiang, Yifeng Ding, Fengfa Li, Yan Song, et al.  
 **Published:** 2026-02-10  
@@ -1639,7 +1659,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Online Monitoring Framework for Automotive Time Series Data using JEPA Embeddings ![New](https://img.shields.io/badge/New-red)
+### Online Monitoring Framework for Automotive Time Series Data using JEPA Embeddings ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Alexander Fertig, Karthikeyan Chandra Sekaran, Lakshman Balasubramanian, Michael Botsch  
 **Published:** 2026-02-10  
@@ -1649,7 +1669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Robust Vision Systems for Connected and Autonomous Vehicles: Security Challenges and Attack Vectors ![New](https://img.shields.io/badge/New-red)
+### Robust Vision Systems for Connected and Autonomous Vehicles: Security Challenges and Attack Vectors ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sandeep Gupta, Roberto Passerone  
 **Published:** 2026-02-10  
@@ -1659,7 +1679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Finite-time Stable Pose Estimation on TSE(3) using Point Cloud and Velocity Sensors ![New](https://img.shields.io/badge/New-red)
+### Finite-time Stable Pose Estimation on TSE(3) using Point Cloud and Velocity Sensors ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nazanin S. Hashkavaei, Abhijit Dongare, Neon Srinivasu, Amit K. Sanyal  
 **Published:** 2026-02-10  
@@ -2219,7 +2239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SGCP: A Self-Organized Game-Theoretic Framework For Collaborative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### SGCP: A Self-Organized Game-Theoretic Framework For Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zechuan Gong, Hui Zhang, Yuquan Yang, Wenyu Lu  
 **Published:** 2026-01-18  
@@ -2229,7 +2249,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### HOT-POT: Optimal Transport for Sparse Stereo Matching ![Recent](https://img.shields.io/badge/Recent-orange)
+### HOT-POT: Optimal Transport for Sparse Stereo Matching ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Antonin Clerc, Michael Quellmalz, Moritz Piening, Philipp Flotho, Gregor Kornhardt, et al.  
 **Published:** 2026-01-18  
@@ -2239,7 +2259,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CD-TWINSAFE: A ROS-enabled Digital Twin for Scene Understanding and Safety Emerging V2I Technology ![Recent](https://img.shields.io/badge/Recent-orange)
+### CD-TWINSAFE: A ROS-enabled Digital Twin for Scene Understanding and Safety Emerging V2I Technology ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amro Khaled, Farah Khaled, Omar Riad, Catherine M. Elias  
 **Published:** 2026-01-18  
@@ -2666,16 +2686,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2512.24896v1) | [PDF](https://arxiv.org/pdf/2512.24896v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** This report presents the design and implementation of a semi-automated data annotation pipeline developed within the DARTS project, whose goal is to create a large-scale, multimodal dataset of...
-
----
-
-### LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Qian Cheng, Weitao Zhou, Cheng Jing, Nanshan Deng, Junze Wen, et al.  
-**Published:** 2025-12-31  
-**Links:** [arXiv](https://arxiv.org/abs/2512.24712v2) | [PDF](https://arxiv.org/pdf/2512.24712v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Real-world autonomous driving must adhere to complex human social rules that extend beyond legally codified traffic regulations. Many of these semantic constraints, such as yielding to emergency...
 
 ---
 
@@ -3131,7 +3141,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Adaptive Time Step Flow Matching for Autonomous Driving Motion Planning ![New](https://img.shields.io/badge/New-red)
+### Adaptive Time Step Flow Matching for Autonomous Driving Motion Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ananya Trivedi, Anjian Li, Mohamed Elnoor, Yusuf Umut Ciftci, Avinash Singh, et al.  
 **Published:** 2026-02-10  
@@ -3311,7 +3321,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-reality Location Privacy Protection in 6G-enabled Vehicular Metaverses: An LLM-enhanced Hybrid Generative Diffusion Model-based Approach ![Recent](https://img.shields.io/badge/Recent-orange)
+### Cross-reality Location Privacy Protection in 6G-enabled Vehicular Metaverses: An LLM-enhanced Hybrid Generative Diffusion Model-based Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaofeng Luo, Jiayi He, Jiawen Kang, Ruichen Zhang, Zhaoshui He, et al.  
 **Published:** 2026-01-18  
@@ -3441,7 +3451,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Real-Time Optimal Control via Transformer Networks and Bernstein Polynomials ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Real-Time Optimal Control via Transformer Networks and Bernstein Polynomials
 
 **Authors:** Gage MacLin, Venanzio Cichella, Andrew Patterson, Irene Gregory  
 **Published:** 2025-11-19  
@@ -3675,7 +3685,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Bayesian network approach to building an affective module for a driver behavioural model ![New](https://img.shields.io/badge/New-red)
+### Bayesian network approach to building an affective module for a driver behavioural model ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Dorota Młynarczyk, Gabriel Calvo, Francisco Palmi-Perales, Carmen Armero, Virgilio Gómez-Rubio, et al.  
 **Published:** 2026-02-10  
@@ -3685,7 +3695,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AD$^2$: Analysis and Detection of Adversarial Threats in Visual Perception for End-to-End Autonomous Driving Systems ![New](https://img.shields.io/badge/New-red)
+### AD$^2$: Analysis and Detection of Adversarial Threats in Visual Perception for End-to-End Autonomous Driving Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ishan Sahu, Somnath Hazra, Somak Aditya, Soumyajit Dey  
 **Published:** 2026-02-10  
@@ -3772,6 +3782,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2602.05142v2) | [PDF](https://arxiv.org/pdf/2602.05142v2.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Understanding how pedestrians adjust their movement when interacting with autonomous vehicles (AVs) is essential for improving safety in mixed traffic. This study examines micro-level pedestrian...
+
+---
+
+### A Quantum-inspired Hybrid Swarm Intelligence and Decision-Making for Multi-Criteria ADAS Calibration ![Recent](https://img.shields.io/badge/Recent-orange)
+
+**Authors:** Sanjai Pathak, Ashish Mani, Amlan Chatterjee  
+**Published:** 2026-02-04  
+**Links:** [arXiv](https://arxiv.org/abs/2602.15043v1) | [PDF](https://arxiv.org/pdf/2602.15043v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** The tuning of Advanced Driver Assistance Systems (ADAS) involves resolving trade-offs among several competing objectives, including operational safety, system responsiveness, energy usage, and...
 
 ---
 
@@ -3935,7 +3955,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Resilient Interval Observer-Based Control for Cooperative Adaptive Cruise Control under FDI Attack ![Recent](https://img.shields.io/badge/Recent-orange)
+### Resilient Interval Observer-Based Control for Cooperative Adaptive Cruise Control under FDI Attack ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Parisa Ansari Bonab, Elisabeth Andarge Gedefaw, Mohammad Khajenejad  
 **Published:** 2026-01-18  
@@ -3945,7 +3965,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### How Safe Is Your Data in Connected and Autonomous Cars: A Consumer Advantage or a Privacy Nightmare ? ![Recent](https://img.shields.io/badge/Recent-orange)
+### How Safe Is Your Data in Connected and Autonomous Cars: A Consumer Advantage or a Privacy Nightmare ? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amit Chougule, Vinay Chamola, Norbert Herencsar, Fei Richard Yu  
 **Published:** 2026-01-18  
@@ -4215,7 +4235,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cyber-Resilient Data-Driven Event-Triggered Secure Control for Autonomous Vehicles Under False Data Injection Attacks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Cyber-Resilient Data-Driven Event-Triggered Secure Control for Autonomous Vehicles Under False Data Injection Attacks
 
 **Authors:** Yashar Mousavi, Mahsa Tavasoli, Ibrahim Beklan Kucukdemiral, Umit Cali, Abdolhossein Sarrafzadeh, et al.  
 **Published:** 2025-11-19  
@@ -4377,7 +4397,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Prompts to Pavement: LMMs-based Agentic Behavior-Tree Generation Framework for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### From Prompts to Pavement: LMMs-based Agentic Behavior-Tree Generation Framework for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Omar Y. Goba, Ahmed Y. Gado, Catherine M. Elias, Ahmed Hussein  
 **Published:** 2026-01-18  
