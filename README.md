@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--21-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--22-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-449-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -139,7 +139,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Stochastic Optimal Control Formulation for Mine Counter Measure Simulations with Multiple Autonomous Survey Vehicles ![New](https://img.shields.io/badge/New-red)
+### A Stochastic Optimal Control Formulation for Mine Counter Measure Simulations with Multiple Autonomous Survey Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Philippe Blondeel, Filip Van Utterbeeck, Ben Lauwens  
 **Published:** 2026-02-13  
@@ -149,7 +149,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Safe-SDL:Establishing Safety Boundaries and Control Mechanisms for AI-Driven Self-Driving Laboratories ![New](https://img.shields.io/badge/New-red)
+### Safe-SDL:Establishing Safety Boundaries and Control Mechanisms for AI-Driven Self-Driving Laboratories ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihan Zhang, Haohui Que, Junhan Chang, Xin Zhang, Hao Wei, et al.  
 **Published:** 2026-02-13  
@@ -159,7 +159,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### When Environments Shift: Safe Planning with Generative Priors and Robust Conformal Prediction ![New](https://img.shields.io/badge/New-red)
+### When Environments Shift: Safe Planning with Generative Priors and Robust Conformal Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kaizer Rahaman, Jyotirmoy V. Deshmukh, Ashish R. Hota, Lars Lindemann  
 **Published:** 2026-02-13  
@@ -169,7 +169,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Constant Eye: Benchmarking and Bridging Appearance Robustness in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### The Constant Eye: Benchmarking and Bridging Appearance Robustness in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiabao Wang, Hongyu Zhou, Yuanbo Yang, Jiahao Shao, Yiyi Liao  
 **Published:** 2026-02-13  
@@ -861,7 +861,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RoadscapesQA: A Multitask, Multimodal Dataset for Visual Question Answering on Indian Roads ![New](https://img.shields.io/badge/New-red)
+### RoadscapesQA: A Multitask, Multimodal Dataset for Visual Question Answering on Indian Roads ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Vijayasri Iyer, Maahin Rathinagiriswaran, Jyothikamalesh S  
 **Published:** 2026-02-13  
@@ -961,7 +961,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AutoDriDM: An Explainable Benchmark for Decision-Making of Vision-Language Models in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### AutoDriDM: An Explainable Benchmark for Decision-Making of Vision-Language Models in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zecong Tang, Zixu Wang, Yifei Wang, Weitong Lian, Tianjian Gao, et al.  
 **Published:** 2026-01-21  
@@ -1123,7 +1123,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DPUConfig: Optimizing ML Inference in FPGAs Using Reinforcement Learning ![New](https://img.shields.io/badge/New-red)
+### DPUConfig: Optimizing ML Inference in FPGAs Using Reinforcement Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Alexandros Patras, Spyros Lalis, Christos D. Antonopoulos, Nikolaos Bellas  
 **Published:** 2026-02-13  
@@ -1599,7 +1599,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Robustness of Object Detection of Autonomous Vehicles in Adverse Weather Conditions ![New](https://img.shields.io/badge/New-red)
+### Robustness of Object Detection of Autonomous Vehicles in Adverse Weather Conditions ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Fox Pettersen, Hong Zhu  
 **Published:** 2026-02-13  
@@ -2239,7 +2239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SplatBus: A Gaussian Splatting Viewer Framework via GPU Interprocess Communication ![Recent](https://img.shields.io/badge/Recent-orange)
+### SplatBus: A Gaussian Splatting Viewer Framework via GPU Interprocess Communication ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yinghan Xu, Théo Morales, John Dingliana  
 **Published:** 2026-01-21  
@@ -3513,7 +3513,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MASAR: Motion-Appearance Synergy Refinement for Joint Detection and Trajectory Forecasting ![New](https://img.shields.io/badge/New-red)
+### MASAR: Motion-Appearance Synergy Refinement for Joint Detection and Trajectory Forecasting ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mohammed Amine Bencheikh Lehocine, Julian Schmidt, Frank Moosmann, Dikshant Gupta, Fabian Flohr  
 **Published:** 2026-02-13  
@@ -3523,7 +3523,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Self-Supervised JEPA-based World Models for LiDAR Occupancy Completion and Forecasting ![New](https://img.shields.io/badge/New-red)
+### Self-Supervised JEPA-based World Models for LiDAR Occupancy Completion and Forecasting ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Haoran Zhu, Anna Choromanska  
 **Published:** 2026-02-13  
@@ -3705,7 +3705,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios ![New](https://img.shields.io/badge/New-red)
+### TCRL: Temporal-Coupled Adversarial Training for Robust Constrained Reinforcement Learning in Worst-Case Scenarios ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Wentao Xu, Zhongming Yao, Weihao Li, Zhenghang Song, Yumeng Song, et al.  
 **Published:** 2026-02-13  
@@ -3955,7 +3955,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration ![Recent](https://img.shields.io/badge/Recent-orange)
+### DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dominik Rößle, Xujun Xie, Adithya Mohan, Venkatesh Thirugnana Sambandham, Daniel Cremers, et al.  
 **Published:** 2026-01-21  
@@ -3965,7 +3965,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Contingency Planning for Safety-Critical Autonomous Vehicles: A Review and Perspectives ![Recent](https://img.shields.io/badge/Recent-orange)
+### Contingency Planning for Safety-Critical Autonomous Vehicles: A Review and Perspectives ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lei Zheng, Luyao Zhang, Peiqi Yu, Yifan Sun, Sergio Grammatico, et al.  
 **Published:** 2026-01-21  
