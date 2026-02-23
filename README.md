@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--22-blue)
-![Total Papers](https://img.shields.io/badge/Papers-449-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--23-blue)
+![Total Papers](https://img.shields.io/badge/Papers-448-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,7 +41,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 77 |
+| Control | 76 |
 | Dataset & Benchmark | 26 |
 | End-to-End Learning | 18 |
 | General | 12 |
@@ -119,7 +119,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Assessing Cybersecurity Risks and Traffic Impact in Connected Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Assessing Cybersecurity Risks and Traffic Impact in Connected Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Saurav Silwal, Lu Gao, Ph. D. Yunpeng Zhang, Ph. D. Ahmed Senouci, Ph. D. Yi-Lung Mo, et al.  
 **Published:** 2026-02-14  
@@ -129,7 +129,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SPLIT: Sparse Incremental Learning of Error Dynamics for Control-Oriented Modeling in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### SPLIT: Sparse Incremental Learning of Error Dynamics for Control-Oriented Modeling in Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yaoyu Li, Chaosheng Huang, Jun Li  
 **Published:** 2026-02-14  
@@ -379,7 +379,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DMAVA: Distributed Multi-Autonomous Vehicle Architecture Using Autoware ![Recent](https://img.shields.io/badge/Recent-orange)
+### DMAVA: Distributed Multi-Autonomous Vehicle Architecture Using Autoware ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zubair Islam, Mohamed El-Darieby  
 **Published:** 2026-01-22  
@@ -389,7 +389,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma  
 **Published:** 2026-01-22  
@@ -826,16 +826,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.00098v1) | [PDF](https://arxiv.org/pdf/2509.00098v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Advanced scientific user facilities, such as next generation X-ray light sources and self-driving laboratories, are revolutionizing scientific discovery by automating routine tasks and enabling rapid...
-
----
-
-### UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving
-
-**Authors:** Hanqi Zhu, Wuyang Zhang, Xinran Zhang, Ziyang Tao, Xinrui Lin, et al.  
-**Published:** 2025-08-26  
-**Links:** [arXiv](https://arxiv.org/abs/2509.12207v1) | [PDF](https://arxiv.org/pdf/2509.12207v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The rapid advancements in autonomous driving have introduced increasingly complex, real-time GPU-bound tasks critical for reliable vehicle operation. However, the proprietary nature of these...
 
 ---
 
@@ -1589,7 +1579,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Privacy-Concealing Cooperative Perception for BEV Scene Segmentation ![New](https://img.shields.io/badge/New-red)
+### Privacy-Concealing Cooperative Perception for BEV Scene Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Song Wang, Lingling Li, Marcus Santos, Guanghui Wang  
 **Published:** 2026-02-14  
@@ -2229,7 +2219,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DMV-AVP: Distributed Multi-Vehicle Autonomous Valet Parking Using Autoware ![Recent](https://img.shields.io/badge/Recent-orange)
+### DMV-AVP: Distributed Multi-Vehicle Autonomous Valet Parking Using Autoware ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zubair Islam, Mohamed El-Darieby  
 **Published:** 2026-01-22  
@@ -2989,7 +2979,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Evaluation for Usability Methods of Unmanned Surface Vehicles: Are Current Usability Methods Viable for Unmanned Surface Vehicles? Insights from a Multiple Case Study Approach to Human-Robot Interaction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### The Evaluation for Usability Methods of Unmanned Surface Vehicles: Are Current Usability Methods Viable for Unmanned Surface Vehicles? Insights from a Multiple Case Study Approach to Human-Robot Interaction
 
 **Authors:** Zitian Peng, Shiyao Zhang, Shanliang Yao, Xiaohui Zhu, Mengjie Huang, et al.  
 **Published:** 2025-11-23  
@@ -2999,7 +2989,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniFlow: Towards Zero-Shot LiDAR Scene Flow for Autonomous Vehicles via Cross-Domain Generalization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### UniFlow: Towards Zero-Shot LiDAR Scene Flow for Autonomous Vehicles via Cross-Domain Generalization
 
 **Authors:** Siyi Li, Qingwen Zhang, Ishan Khatri, Kyle Vedder, Deva Ramanan, et al.  
 **Published:** 2025-11-23  
@@ -3503,7 +3493,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Generalizable Physics-guided Causal Model for Trajectory Prediction in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### A Generalizable Physics-guided Causal Model for Trajectory Prediction in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhenyu Zong, Yuchen Wang, Haohong Lin, Lu Gan, Huajie Shao  
 **Published:** 2026-02-15  
@@ -3573,7 +3563,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis ![Recent](https://img.shields.io/badge/Recent-orange)
+### EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sheng Miao, Sijin Li, Pan Wang, Dongfeng Bai, Bingbing Liu, et al.  
 **Published:** 2026-01-22  
@@ -3583,7 +3573,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SuperOcc: Toward Cohesive Temporal Modeling for Superquadric-based Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### SuperOcc: Toward Cohesive Temporal Modeling for Superquadric-based Occupancy Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zichen Yu, Quanli Liu, Wei Wang, Liyong Zhang, Xiaoguang Zhao  
 **Published:** 2026-01-22  
@@ -4357,7 +4347,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting ![New](https://img.shields.io/badge/New-red)
+### Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tae-Kyeong Kim, Xingxin Chen, Guile Wu, Chengjie Huang, Dongfeng Bai, et al.  
 **Published:** 2026-02-14  
