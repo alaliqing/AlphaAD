@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--23-blue)
-![Total Papers](https://img.shields.io/badge/Papers-448-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--24-blue)
+![Total Papers](https://img.shields.io/badge/Papers-449-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,12 +41,12 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 76 |
+| Control | 74 |
 | Dataset & Benchmark | 26 |
 | End-to-End Learning | 18 |
 | General | 12 |
-| Mapping & Localization | 8 |
-| Perception | 163 |
+| Mapping & Localization | 9 |
+| Perception | 165 |
 | Planning | 37 |
 | Prediction | 20 |
 | Safety & Verification | 65 |
@@ -109,7 +109,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Real-Time Approach to Autonomous CAN Bus Reverse Engineering ![New](https://img.shields.io/badge/New-red)
+### A Real-Time Approach to Autonomous CAN Bus Reverse Engineering ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kevin Setterstrom, Jeremy Straub  
 **Published:** 2026-02-15  
@@ -699,7 +699,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Development of a Testbed for Autonomous Vehicles: Integrating MPC Control with Monocular Camera Lane Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Development of a Testbed for Autonomous Vehicles: Integrating MPC Control with Monocular Camera Lane Detection
 
 **Authors:** Shantanu Rahman, Nayeb Hasin, Mainul Islam, Golam Sarowar  
 **Published:** 2025-11-24  
@@ -716,16 +716,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2511.16425v1) | [PDF](https://arxiv.org/pdf/2511.16425v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** This paper presents a computationally efficient approach for robust Model Predictive Control of nonlinear systems by combining Random Fourier Features with tube-based MPC. Tube-based Model Predictive...
-
----
-
-### MARL-CC: A Mathematical Framework forMulti-Agent Reinforcement Learning in ConnectedAutonomous Vehicles: Addressing Nonlinearity,Partial Observability, and Credit Assignment forOptimal Control
-
-**Authors:** Mazyar Taghavi, Javad Vahidi  
-**Published:** 2025-11-20  
-**Links:** [arXiv](https://arxiv.org/abs/2511.17653v1) | [PDF](https://arxiv.org/pdf/2511.17653v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Multi-Agent Reinforcement Learning (MARL) has emerged as a powerfulparadigm for cooperative decision-making in connected autonomous vehicles(CAVs); however, existing approaches often fail to...
 
 ---
 
@@ -816,16 +806,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.21330v2) | [PDF](https://arxiv.org/pdf/2509.21330v2.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** To accelerate materials discovery using self-driving labs (SDLs), we present a machine learning pipeline that predicts the electrical conductivity of doped conjugated polymers using rapid,...
-
----
-
-### Operating advanced scientific instruments with AI agents that learn on the job
-
-**Authors:** Aikaterini Vriza, Michael H. Prince, Tao Zhou, Henry Chan, Mathew J. Cherukara  
-**Published:** 2025-08-27  
-**Links:** [arXiv](https://arxiv.org/abs/2509.00098v1) | [PDF](https://arxiv.org/pdf/2509.00098v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Advanced scientific user facilities, such as next generation X-ray light sources and self-driving laboratories, are revolutionizing scientific discovery by automating routine tasks and enabling rapid...
 
 ---
 
@@ -1397,6 +1377,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Mapping & Localization
 
+### Operational Agency: A Permeable Legal Fiction for Tracing Culpability in AI Systems ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Anirban Mukherjee, Hannah Hanwen Chang  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.17932v1) | [PDF](https://arxiv.org/pdf/2602.17932v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Modern artificial intelligence (AI) systems act with a high degree of independence yet lack legal personhood-a paradox that fractures doctrines grounded in human-centric notions of mens rea and actus...
+
+---
+
 ### Multi-session Localization and Mapping Exploiting Topological Information ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Lorenzo Montano-Olivan, Julio A. Placed, Luis Montano, Maria T. Lazaro  
@@ -1478,6 +1468,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Perception
+
+### Faster Training, Fewer Labels: Self-Supervised Pretraining for Fine-Grained BEV Segmentation ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Daniel Busch, Christian Bohn, Thomas Kurbiel, Klaus Friedrichs, Richard Meyes, et al.  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.18066v1) | [PDF](https://arxiv.org/pdf/2602.18066v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Dense Bird's Eye View (BEV) semantic maps are central to autonomous driving, yet current multi-camera methods depend on costly, inconsistently annotated BEV ground truth. We address this limitation...
+
+---
+
+### Quasi-Periodic Gaussian Process Predictive Iterative Learning Control ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Unnati Nigam, Radhendushka Srivastava, Faezeh Marzbanrad, Michael Burke  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.18014v1) | [PDF](https://arxiv.org/pdf/2602.18014v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Repetitive motion tasks are common in robotics, but performance can degrade over time due to environmental changes and robot wear and tear. Iterative learning control (ILC) improves performance by...
+
+---
 
 ### Toward a Fully Autonomous, AI-Native Particle Accelerator ![New](https://img.shields.io/badge/New-red)
 
@@ -1569,7 +1579,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** June Moh Goo, Zichao Zeng, Jan Boehm  
 **Published:** 2026-02-15  
@@ -2149,6 +2159,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
+### Reducing Text Bias in Synthetically Generated MCQAs for VLMs in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+
+**Authors:** Sutej Kulgod, Sean Ye, Sanchit Tanwar, Christoffer Heckman  
+**Published:** 2026-01-28  
+**Links:** [arXiv](https://arxiv.org/abs/2602.17677v1) | [PDF](https://arxiv.org/pdf/2602.17677v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Multiple Choice Question Answering (MCQA) benchmarks are an established standard for measuring Vision Language Model (VLM) performance in driving tasks. However, we observe the known phenomenon that...
+
+---
+
 ### Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Matej Halinkovic, Nina Masarykova, Alexey Vinel, Marek Galinski  
@@ -2209,7 +2229,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PocketDVDNet: Realtime Video Denoising for Real Camera Noise ![Recent](https://img.shields.io/badge/Recent-orange)
+### PocketDVDNet: Realtime Video Denoising for Real Camera Noise ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Crispian Morris, Imogen Dexter, Fan Zhang, David R. Bull, Nantheera Anantrasirichai  
 **Published:** 2026-01-23  
@@ -2619,16 +2639,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### FROST-Drive: Scalable and Efficient End-to-End Driving with a Frozen Vision Encoder ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Zeyu Dong, Yimin Zhu, Yu Wu, Yu Sun  
-**Published:** 2026-01-06  
-**Links:** [arXiv](https://arxiv.org/abs/2601.03460v1) | [PDF](https://arxiv.org/pdf/2601.03460v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** End-to-end (E2E) models in autonomous driving aim to directly map sensor inputs to control commands, but their ability to generalize to novel and complex scenarios remains a key challenge. The common...
-
----
-
 ### Are eHMIs always helpful? Investigating how eHMIs interfere with pedestrian behavior on multi-lane streets: An eye-tracking virtual reality experiment ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yun Ye, Zexuan Li, Panagiotis Angeloudis, S. C. Wong, Jian Sun, et al.  
@@ -2969,7 +2979,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### End-to-end Autonomous Vehicle Following System using Monocular Fisheye Camera ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### End-to-end Autonomous Vehicle Following System using Monocular Fisheye Camera
 
 **Authors:** Jiale Zhang, Yeqiang Qian, Tong Qin, Mingyang Jiang, Siyuan Chen, et al.  
 **Published:** 2025-11-24  
@@ -3110,6 +3120,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Planning
+
+### Interacting safely with cyclists using Hamilton-Jacobi reachability and reinforcement learning ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Aarati Andrea Noronha, Jean Oh  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.18097v1) | [PDF](https://arxiv.org/pdf/2602.18097v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** In this paper, we present a framework for enabling autonomous vehicles to interact with cyclists in a manner that balances safety and optimality. The approach integrates Hamilton-Jacobi reachability...
+
+---
 
 ### Hybrid System Planning using a Mixed-Integer ADMM Heuristic and Hybrid Zonotopes ![New](https://img.shields.io/badge/New-red)
 
@@ -3461,16 +3481,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Real-Time Optimal Control via Transformer Networks and Bernstein Polynomials
-
-**Authors:** Gage MacLin, Venanzio Cichella, Andrew Patterson, Irene Gregory  
-**Published:** 2025-11-19  
-**Links:** [arXiv](https://arxiv.org/abs/2511.15588v1) | [PDF](https://arxiv.org/pdf/2511.15588v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** In this paper, we propose a Transformer-based framework for approximating solutions to infinite-dimensional optimization problems: calculus of variations problems and optimal control problems. Our...
-
----
-
 ### HyPlan: Hybrid Learning-Assisted Planning Under Uncertainty for Safe Autonomous Driving
 
 **Authors:** Donald Pfaffmann, Matthias Klusch, Marcel Steinmetz  
@@ -3685,6 +3695,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Safety & Verification
 
+### OODBench: Out-of-Distribution Benchmark for Large Vision-Language Models ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ling Lin, Yang Bai, Heng Su, Congcong Zhu, Yaoxing Wang, et al.  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.18094v1) | [PDF](https://arxiv.org/pdf/2602.18094v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Existing Visual-Language Models (VLMs) have achieved significant progress by being trained on massive-scale datasets, typically under the assumption that data are independent and identically...
+
+---
+
+### Dynamic Deception: When Pedestrians Team Up to Fool Autonomous Cars ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Masoud Jamshidiyan Tehrani, Marco Gabriel, Jinhan Kim, Paolo Tonella  
+**Published:** 2026-02-20  
+**Links:** [arXiv](https://arxiv.org/abs/2602.18079v1) | [PDF](https://arxiv.org/pdf/2602.18079v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Many adversarial attacks on autonomous-driving perception models fail to cause system-level failures once deployed in a full driving stack. The main reason for such ineffectiveness is that once...
+
+---
+
 ### Conditional Flow Matching for Continuous Anomaly Detection in Autonomous Driving on a Manifold-Aware Spectral Space ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Antonio Guillen-Perez  
@@ -3749,7 +3779,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 **Authors:** Thanh Le, Hai Duong, ThanhVu Nguyen, Takeshi Matsumura  
 **Published:** 2026-02-09  
-**Links:** [arXiv](https://arxiv.org/abs/2602.08801v2) | [PDF](https://arxiv.org/pdf/2602.08801v2.pdf) | [BackToTop](#table-of-contents)  
+**Links:** [arXiv](https://arxiv.org/abs/2602.08801v3) | [PDF](https://arxiv.org/pdf/2602.08801v3.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Safety-critical applications like autonomous vehicles and industrial IoT are adopting semantic communication (SemCom) systems using deep neural networks to reduce bandwidth and increase transmission...
 
@@ -4115,16 +4145,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### On the Robustness of Fairness Practices: A Causal Framework for Systematic Evaluation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Verya Monjezi, Ashish Kumar, Ashutosh Trivedi, Gang Tan, Saeid Tizpaz-Niari  
-**Published:** 2026-01-07  
-**Links:** [arXiv](https://arxiv.org/abs/2601.03621v1) | [PDF](https://arxiv.org/pdf/2601.03621v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Machine learning (ML) algorithms are increasingly deployed to make critical decisions in socioeconomic applications such as finance, criminal justice, and autonomous driving. However, due to their...
-
----
-
 ### Dual-quaternion learning control for autonomous vehicle trajectory tracking with safety guarantees ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Omayra Yago Nieto, Alexandre Anahory Simoes, Juan I. Giribet, Leonardo Colombo  
@@ -4255,16 +4275,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cyber-Resilient Data-Driven Event-Triggered Secure Control for Autonomous Vehicles Under False Data Injection Attacks
-
-**Authors:** Yashar Mousavi, Mahsa Tavasoli, Ibrahim Beklan Kucukdemiral, Umit Cali, Abdolhossein Sarrafzadeh, et al.  
-**Published:** 2025-11-19  
-**Links:** [arXiv](https://arxiv.org/abs/2511.15925v2) | [PDF](https://arxiv.org/pdf/2511.15925v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** This paper proposes a cyber-resilient secure control framework for autonomous vehicles (AVs) subject to false data injection (FDI) threats as actuator attacks. The framework integrates data-driven...
-
----
-
 ### A Comparative Evaluation of Prominent Methods in Autonomous Vehicle Certification
 
 **Authors:** Mustafa Erdem Kırmızıgül, Hasan Feyzi Doğruyol, Haluk Bayram  
@@ -4337,7 +4347,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Simulation
 
-### Polymer Brushes and Grafted Polymers: AI/ML-Driven Synthesis, Simulation, and Characterization towards autonomous SDL ![New](https://img.shields.io/badge/New-red)
+### Polymer Brushes and Grafted Polymers: AI/ML-Driven Synthesis, Simulation, and Characterization towards autonomous SDL ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Rigoberto C. Advincula, Jihua Chen  
 **Published:** 2026-02-16  
