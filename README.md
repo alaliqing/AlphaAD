@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--02--28-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--01-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-460-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -369,7 +369,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Impact of Shared Autonomous Vehicles in Microtransit Systems: A Case Study in Atlanta ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Impact of Shared Autonomous Vehicles in Microtransit Systems: A Case Study in Atlanta ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jason Lu, Tejas Santanam, Hongzhao Guan, Connor Riley, Meen-Sung Kim, et al.  
 **Published:** 2026-01-28  
@@ -669,7 +669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Data-Driven Modeling and Correction of Vehicle Dynamics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Data-Driven Modeling and Correction of Vehicle Dynamics
 
 **Authors:** Nguyen Ly, Caroline Tatsuoka, Jai Nagaraj, Jacob Levy, Fernando Palafox, et al.  
 **Published:** 2025-11-29  
@@ -1407,7 +1407,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Mapping & Localization
 
-### Operational Agency: A Permeable Legal Fiction for Tracing Culpability in AI Systems ![New](https://img.shields.io/badge/New-red)
+### Operational Agency: A Permeable Legal Fiction for Tracing Culpability in AI Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Anirban Mukherjee, Hannah Hanwen Chang  
 **Published:** 2026-02-20  
@@ -1639,7 +1639,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Faster Training, Fewer Labels: Self-Supervised Pretraining for Fine-Grained BEV Segmentation ![New](https://img.shields.io/badge/New-red)
+### Faster Training, Fewer Labels: Self-Supervised Pretraining for Fine-Grained BEV Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Daniel Busch, Christian Bohn, Thomas Kurbiel, Klaus Friedrichs, Richard Meyes, et al.  
 **Published:** 2026-02-20  
@@ -1649,7 +1649,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Quasi-Periodic Gaussian Process Predictive Iterative Learning Control ![New](https://img.shields.io/badge/New-red)
+### Quasi-Periodic Gaussian Process Predictive Iterative Learning Control ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Unnati Nigam, Radhendushka Srivastava, Faezeh Marzbanrad, Michael Burke  
 **Published:** 2026-02-20  
@@ -2339,7 +2339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Reducing Text Bias in Synthetically Generated MCQAs for VLMs in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Reducing Text Bias in Synthetically Generated MCQAs for VLMs in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sutej Kulgod, Sean Ye, Sanchit Tanwar, Christoffer Heckman  
 **Published:** 2026-01-28  
@@ -2349,7 +2349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Matej Halinkovic, Nina Masarykova, Alexey Vinel, Marek Galinski  
 **Published:** 2026-01-28  
@@ -2359,7 +2359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Vehicular Wireless Positioning -- A Survey ![Recent](https://img.shields.io/badge/Recent-orange)
+### Vehicular Wireless Positioning -- A Survey ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sharief Saleh, Satyam Dwivedi, Russ Whiton, Peter Hammarberg, Musa Furkan Keskin, et al.  
 **Published:** 2026-01-28  
@@ -3181,7 +3181,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AI/ML-Driven Surface Plasmon Resonance (SPR) and Spectroscopy: Materials Interfaces and Autonomous Experiments ![New](https://img.shields.io/badge/New-red)
+### AI/ML-Driven Surface Plasmon Resonance (SPR) and Spectroscopy: Materials Interfaces and Autonomous Experiments ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Rigoberto Advincula, Jihua Chen  
 **Published:** 2026-02-20  
@@ -3191,7 +3191,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Interacting safely with cyclists using Hamilton-Jacobi reachability and reinforcement learning ![New](https://img.shields.io/badge/New-red)
+### Interacting safely with cyclists using Hamilton-Jacobi reachability and reinforcement learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aarati Andrea Noronha, Jean Oh  
 **Published:** 2026-02-20  
@@ -3633,7 +3633,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Unsupervised Anomaly Detection in Multi-Agent Trajectory Prediction via Transformer-Based Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Unsupervised Anomaly Detection in Multi-Agent Trajectory Prediction via Transformer-Based Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qing Lyu, Zhe Fu, Alexandre Bayen  
 **Published:** 2026-01-28  
@@ -3795,7 +3795,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OODBench: Out-of-Distribution Benchmark for Large Vision-Language Models ![New](https://img.shields.io/badge/New-red)
+### OODBench: Out-of-Distribution Benchmark for Large Vision-Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ling Lin, Yang Bai, Heng Su, Congcong Zhu, Yaoxing Wang, et al.  
 **Published:** 2026-02-20  
@@ -3805,7 +3805,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dynamic Deception: When Pedestrians Team Up to Fool Autonomous Cars ![New](https://img.shields.io/badge/New-red)
+### Dynamic Deception: When Pedestrians Team Up to Fool Autonomous Cars ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Masoud Jamshidiyan Tehrani, Marco Gabriel, Jinhan Kim, Paolo Tonella  
 **Published:** 2026-02-20  
@@ -4035,7 +4035,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning Contextual Runtime Monitors for Safe AI-Based Autonomy ![Recent](https://img.shields.io/badge/Recent-orange)
+### Learning Contextual Runtime Monitors for Safe AI-Based Autonomy ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alejandro Luque-Cerpa, Mengyuan Wang, Emil Carlsson, Sanjit A. Seshia, Devdatt Dubhashi, et al.  
 **Published:** 2026-01-28  
