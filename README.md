@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--01-blue)
-![Total Papers](https://img.shields.io/badge/Papers-460-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--02-blue)
+![Total Papers](https://img.shields.io/badge/Papers-458-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -44,9 +44,9 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Control | 73 |
 | Dataset & Benchmark | 29 |
 | End-to-End Learning | 18 |
-| General | 13 |
+| General | 12 |
 | Mapping & Localization | 9 |
-| Perception | 166 |
+| Perception | 165 |
 | Planning | 39 |
 | Prediction | 18 |
 | Safety & Verification | 69 |
@@ -851,7 +851,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Driving with A Thousand Faces: A Benchmark for Closed-Loop Personalized End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Driving with A Thousand Faces: A Benchmark for Closed-Loop Personalized End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaoru Dong, Ruiqin Li, Xiao Han, Zhenxuan Wu, Jiamin Wang, et al.  
 **Published:** 2026-02-21  
@@ -1173,7 +1173,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Aligning Microscopic Vehicle and Macroscopic Traffic Statistics: Reconstructing Driving Behavior from Partial Data ![Recent](https://img.shields.io/badge/Recent-orange)
+### Aligning Microscopic Vehicle and Macroscopic Traffic Statistics: Reconstructing Driving Behavior from Partial Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhihao Zhang, Keith Redmill, Chengyang Peng, Bowen Weng  
 **Published:** 2026-01-29  
@@ -1275,7 +1275,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## General
 
-### See What I See: An Attention-Guiding eHMI Approach for Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### See What I See: An Attention-Guiding eHMI Approach for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jialong Li, Zhenyu Mao, Zhiyao Wang, Yijun Lu, Shogo Morita, et al.  
 **Published:** 2026-02-21  
@@ -1392,16 +1392,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.21556v1) | [PDF](https://arxiv.org/pdf/2509.21556v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Global food systems must deliver nutritious and sustainable foods while sharply reducing environmental impact. Yet, food innovation remains slow, empirical, and fragmented. Artificial intelligence...
-
----
-
-### Self-Driving Laboratory Optimizes the Lower Critical Solution Temperature of Thermoresponsive Polymers
-
-**Authors:** Guoyue Xu, Renzheng Zhang, Tengfei Luo  
-**Published:** 2025-09-02  
-**Links:** [arXiv](https://arxiv.org/abs/2509.05351v1) | [PDF](https://arxiv.org/pdf/2509.05351v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** To overcome the inherent inefficiencies of traditional trial-and-error materials discovery, the scientific community is increasingly developing autonomous laboratories that integrate data-driven...
 
 ---
 
@@ -1629,7 +1619,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Open-Vocabulary Domain Generalization in Urban-Scene Segmentation ![New](https://img.shields.io/badge/New-red)
+### Open-Vocabulary Domain Generalization in Urban-Scene Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Dong Zhao, Qi Zang, Nan Pu, Wenjing Li, Nicu Sebe, et al.  
 **Published:** 2026-02-21  
@@ -2289,7 +2279,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### FlexMap: Generalized HD Map Construction from Flexible Camera Configurations ![Recent](https://img.shields.io/badge/Recent-orange)
+### FlexMap: Generalized HD Map Construction from Flexible Camera Configurations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Run Wang, Chaoyi Zhou, Amir Salarpour, Xi Liu, Zhi-Qi Cheng, et al.  
 **Published:** 2026-01-29  
@@ -2299,7 +2289,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Advanced techniques and applications of LiDAR Place Recognition in Agricultural Environments: A Comprehensive Survey ![Recent](https://img.shields.io/badge/Recent-orange)
+### Advanced techniques and applications of LiDAR Place Recognition in Agricultural Environments: A Comprehensive Survey ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Judith Vilella-Cantos, Mónica Ballesta, David Valiente, María Flores, Luis Payá  
 **Published:** 2026-01-29  
@@ -2309,7 +2299,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Admittance-Based Motion Planning with Vision-Guided Initialization for Robotic Manipulators in Self-Driving Laboratories ![Recent](https://img.shields.io/badge/Recent-orange)
+### Admittance-Based Motion Planning with Vision-Guided Initialization for Robotic Manipulators in Self-Driving Laboratories ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shifa Sulaiman, Tobias Jensen, Francesco Schetter, Simon Bøgh  
 **Published:** 2026-01-29  
@@ -2319,7 +2309,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Don't double it: Efficient Agent Prediction in Occlusions ![Recent](https://img.shields.io/badge/Recent-orange)
+### Don't double it: Efficient Agent Prediction in Occlusions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Anna Rothenhäusler, Markus Mazzola, Andreas Look, Raghu Rajan, Joschka Bödecker  
 **Published:** 2026-01-29  
@@ -2329,7 +2319,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 4D-CAAL: 4D Radar-Camera Calibration and Auto-Labeling for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### 4D-CAAL: 4D Radar-Camera Calibration and Auto-Labeling for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shanliang Yao, Zhuoxiao Li, Runwei Guan, Kebin Cao, Meng Xia, et al.  
 **Published:** 2026-01-29  
@@ -3019,7 +3009,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Approximating Analytically-Intractable Likelihood Densities with Deterministic Arithmetic for Optimal Particle Filtering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Approximating Analytically-Intractable Likelihood Densities with Deterministic Arithmetic for Optimal Particle Filtering
 
 **Authors:** Orestis Kaparounakis, Yunqi Zhang, Phillip Stanley-Marbell  
 **Published:** 2025-11-30  
@@ -3146,16 +3136,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.04735v1) | [PDF](https://arxiv.org/pdf/2509.04735v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Recent advances in vision foundation models, such as the Segment Anything Model (SAM) and its successor SAM2, have achieved state-of-the-art performance on general image segmentation benchmarks....
-
----
-
-### ADVMEM: Adversarial Memory Initialization for Realistic Test-Time Adaptation via Tracklet-Based Benchmarking
-
-**Authors:** Shyma Alhuwaider, Motasem Alfarra, Juan C. Perez, Merey Ramazanova, Bernard Ghanem  
-**Published:** 2025-09-02  
-**Links:** [arXiv](https://arxiv.org/abs/2509.02182v1) | [PDF](https://arxiv.org/pdf/2509.02182v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** We introduce a novel tracklet-based dataset for benchmarking test-time adaptation (TTA) methods. The aim of this dataset is to mimic the intricate challenges encountered in real-world environments...
 
 ---
 
@@ -3381,7 +3361,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Linhan Wang, Zichong Yang, Chen Bai, Guoxiang Zhang, Xiaotong Liu, et al.  
 **Published:** 2026-01-29  
@@ -3391,7 +3371,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LLM-Driven Scenario-Aware Planning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### LLM-Driven Scenario-Aware Planning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** He Li, Zhaowei Chen, Rui Gao, Guoliang Li, Qi Hao, et al.  
 **Published:** 2026-01-29  
@@ -4005,7 +3985,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PoSafeNet: Safe Learning with Poset-Structured Neural Nets ![Recent](https://img.shields.io/badge/Recent-orange)
+### PoSafeNet: Safe Learning with Poset-Structured Neural Nets ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kiwan Wong, Wei Xiao, Daniela Rus  
 **Published:** 2026-01-29  
@@ -4015,7 +3995,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### BAP-SRL: Bayesian Adaptive Priority Safe Reinforcement Learning for Vehicle Motion Planning at Mixed Traffic Intersections ![Recent](https://img.shields.io/badge/Recent-orange)
+### BAP-SRL: Bayesian Adaptive Priority Safe Reinforcement Learning for Vehicle Motion Planning at Mixed Traffic Intersections ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuansheng Lian, Ke Zhang, Yaming Guo, Shen Li, Meng Li  
 **Published:** 2026-01-29  
@@ -4025,7 +4005,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Drive-KD: Multi-Teacher Distillation for VLMs in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Drive-KD: Multi-Teacher Distillation for VLMs in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Weitong Lian, Zecong Tang, Haoran Li, Tianjian Gao, Yifei Wang, et al.  
 **Published:** 2026-01-29  
@@ -4637,7 +4617,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### World Model Robustness via Surprise Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### World Model Robustness via Surprise Recognition
 
 **Authors:** Geigh Zollicoffer, Tanush Chopra, Mingkuan Yan, Xiaoxu Ma, Kenneth Eaton, et al.  
 **Published:** 2025-11-30  
