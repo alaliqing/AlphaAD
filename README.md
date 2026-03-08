@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--07-blue)
-![Total Papers](https://img.shields.io/badge/Papers-461-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--08-blue)
+![Total Papers](https://img.shields.io/badge/Papers-460-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -42,7 +42,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Category | Paper Count |
 |----------|-------------|
 | Control | 69 |
-| Dataset & Benchmark | 30 |
+| Dataset & Benchmark | 29 |
 | End-to-End Learning | 16 |
 | General | 12 |
 | Mapping & Localization | 12 |
@@ -99,7 +99,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TSC: Topology-Conditioned Stackelberg Coordination for Multi-Agent Reinforcement Learning in Interactive Driving ![New](https://img.shields.io/badge/New-red)
+### TSC: Topology-Conditioned Stackelberg Coordination for Multi-Agent Reinforcement Learning in Interactive Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaotong Zhang, Gang Xiong, Yuanjing Wang, Siyu Teng, Alois Knoll, et al.  
 **Published:** 2026-02-27  
@@ -349,7 +349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dynamic Constraint Tightening for Nonlinear MPC for Autonomous Racing via Contraction Analysis ![Recent](https://img.shields.io/badge/Recent-orange)
+### Dynamic Constraint Tightening for Nonlinear MPC for Autonomous Racing via Contraction Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Joscha F. Bongard, Valentin L. Krieger, Boris Lohmann  
 **Published:** 2026-02-04  
@@ -359,7 +359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Scalable Explainability-as-a-Service (XaaS) for Edge AI Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Scalable Explainability-as-a-Service (XaaS) for Edge AI Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Samaresh Kumar Singh, Joyjit Roy  
 **Published:** 2026-02-04  
@@ -791,7 +791,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### FPPS: An FPGA-Based Point Cloud Processing System ![New](https://img.shields.io/badge/New-red)
+### FPPS: An FPGA-Based Point Cloud Processing System ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaofeng Zhou, Linfeng Du, Hanwei Fan, Wei Zhang  
 **Published:** 2026-02-27  
@@ -1048,16 +1048,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2509.22754v1) | [PDF](https://arxiv.org/pdf/2509.22754v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Autonomous driving remains a highly active research domain that seeks to enable vehicles to perceive dynamic environments, predict the future trajectories of traffic agents such as vehicles,...
-
----
-
-### Spatial Reasoning with Vision-Language Models in Ego-Centric Multi-View Scenes
-
-**Authors:** Mohsen Gholami, Ahmad Rezaei, Zhou Weimin, Sitong Mao, Shunbo Zhou, et al.  
-**Published:** 2025-09-08  
-**Links:** [arXiv](https://arxiv.org/abs/2509.06266v2) | [PDF](https://arxiv.org/pdf/2509.06266v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Understanding 3D spatial relationships remains a major limitation of current Vision-Language Models (VLMs). Prior work has addressed this issue by creating spatial question-answering (QA) datasets...
 
 ---
 
@@ -1669,7 +1659,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Physical Evaluation of Naturalistic Adversarial Patches for Camera-Based Traffic-Sign Detection ![New](https://img.shields.io/badge/New-red)
+### Physical Evaluation of Naturalistic Adversarial Patches for Camera-Based Traffic-Sign Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Brianna D'Urso, Tahmid Hasan Sakib, Syed Rafay Hasan, Terry N. Guo  
 **Published:** 2026-02-27  
@@ -1679,7 +1669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SelfOccFlow: Towards end-to-end self-supervised 3D Occupancy Flow prediction ![New](https://img.shields.io/badge/New-red)
+### SelfOccFlow: Towards end-to-end self-supervised 3D Occupancy Flow prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xavier Timoneda, Markus Herb, Fabian Duerr, Daniel Goehring  
 **Published:** 2026-02-27  
@@ -1689,7 +1679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Bandwidth-adaptive Cloud-Assisted 360-Degree 3D Perception for Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Bandwidth-adaptive Cloud-Assisted 360-Degree 3D Perception for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Faisal Hawladera, Rui Meireles, Gamal Elghazaly, Ana Aguiar, Raphaël Frank  
 **Published:** 2026-02-27  
@@ -1699,7 +1689,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation ![New](https://img.shields.io/badge/New-red)
+### CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency for Bird's-Eye-View Semantic Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jeongbin Hong, Dooseop Choi, Taeg-Hyun An, Kyounghwan An, Kyoung-Wook Min  
 **Published:** 2026-02-27  
@@ -2329,7 +2319,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Reinforcement Learning Enhancement Using Vector Semantic Representation and Symbolic Reasoning for Human-Centered Autonomous Emergency Braking ![Recent](https://img.shields.io/badge/Recent-orange)
+### Reinforcement Learning Enhancement Using Vector Semantic Representation and Symbolic Reasoning for Human-Centered Autonomous Emergency Braking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Vinal Asodia, Iman Sharifi, Saber Fallah  
 **Published:** 2026-02-04  
@@ -2339,7 +2329,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty ![Recent](https://img.shields.io/badge/Recent-orange)
+### Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rui Liu, Pratap Tokekar, Ming Lin  
 **Published:** 2026-02-04  
@@ -2349,7 +2339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DRMOT: A Dataset and Framework for RGBD Referring Multi-Object Tracking ![Recent](https://img.shields.io/badge/Recent-orange)
+### DRMOT: A Dataset and Framework for RGBD Referring Multi-Object Tracking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sijia Chen, Lijuan Ma, Yanqiu Yu, En Yu, Liman Liu, et al.  
 **Published:** 2026-02-04  
@@ -2359,7 +2349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AppleVLM: End-to-end Autonomous Driving with Advanced Perception and Planning-Enhanced Vision-Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### AppleVLM: End-to-end Autonomous Driving with Advanced Perception and Planning-Enhanced Vision-Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuxuan Han, Kunyuan Wu, Qianyi Shao, Renxiang Xiao, Zilu Wang, et al.  
 **Published:** 2026-02-04  
@@ -2369,7 +2359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SPOT-Occ: Sparse Prototype-guided Transformer for Camera-based 3D Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### SPOT-Occ: Sparse Prototype-guided Transformer for Camera-based 3D Occupancy Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Suzeyu Chen, Leheng Li, Ying-Cong Chen  
 **Published:** 2026-02-04  
@@ -2379,7 +2369,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Beyond Ground: Map-Free LiDAR Relocalization for UAVs ![Recent](https://img.shields.io/badge/Recent-orange)
+### Beyond Ground: Map-Free LiDAR Relocalization for UAVs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hengyu Mu, Jianshi Wu, Yuxin Guo, XianLian Lin, Qingyong Hu, et al.  
 **Published:** 2026-02-04  
@@ -2389,7 +2379,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Natural Language Instructions for Scene-Responsive Human-in-the-Loop Motion Planning in Autonomous Driving using Vision-Language-Action Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Natural Language Instructions for Scene-Responsive Human-in-the-Loop Motion Planning in Autonomous Driving using Vision-Language-Action Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Angel Martinez-Sanchez, Parthib Roy, Ross Greer  
 **Published:** 2026-02-04  
@@ -2399,7 +2389,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Dynamics of Attention across Automated and Manual Driving Modes: A Driving Simulation Study ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Dynamics of Attention across Automated and Manual Driving Modes: A Driving Simulation Study ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuan Cai, Mustafa Demir, Farzan Sasangohar, Mohsen Zare  
 **Published:** 2026-02-04  
@@ -3341,7 +3331,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model ![Recent](https://img.shields.io/badge/Recent-orange)
+### Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuo Pei, Yong Wang, Yuanchen Zhu, Chen Sun, Qin Li, et al.  
 **Published:** 2026-02-04  
@@ -3521,7 +3511,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hankel-FNO: Fast Underwater Acoustic Charting Via Physics-Encoded Fourier Neural Operator ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Hankel-FNO: Fast Underwater Acoustic Charting Via Physics-Encoded Fourier Neural Operator
 
 **Authors:** Yifan Sun, Lei Cheng, Jianlong Li, Peter Gerstoft  
 **Published:** 2025-12-06  
@@ -4035,7 +4025,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Modelling Pedestrian Behaviour in Autonomous Vehicle Encounters Using Naturalistic Dataset ![Recent](https://img.shields.io/badge/Recent-orange)
+### Modelling Pedestrian Behaviour in Autonomous Vehicle Encounters Using Naturalistic Dataset ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rulla Al-Haideri, Bilal Farooq  
 **Published:** 2026-02-04  
@@ -4045,7 +4035,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Quantum-inspired Hybrid Swarm Intelligence and Decision-Making for Multi-Criteria ADAS Calibration ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Quantum-inspired Hybrid Swarm Intelligence and Decision-Making for Multi-Criteria ADAS Calibration ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sanjai Pathak, Ashish Mani, Amlan Chatterjee  
 **Published:** 2026-02-04  
@@ -4447,7 +4437,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DiffusionHarmonizer: Bridging Neural Reconstruction and Photorealistic Simulation with Online Diffusion Enhancer ![New](https://img.shields.io/badge/New-red)
+### DiffusionHarmonizer: Bridging Neural Reconstruction and Photorealistic Simulation with Online Diffusion Enhancer ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuxuan Zhang, Katarína Tóthová, Zian Wang, Kangxue Yin, Haithem Turki, et al.  
 **Published:** 2026-02-27  
