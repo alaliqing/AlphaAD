@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--08-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--09-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-460-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -89,7 +89,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DRIV-EX: Counterfactual Explanations for Driving LLMs ![New](https://img.shields.io/badge/New-red)
+### DRIV-EX: Counterfactual Explanations for Driving LLMs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Amaia Cardiel, Eloi Zablocki, Elias Ramzi, Eric Gaussier  
 **Published:** 2026-02-28  
@@ -339,7 +339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Imagine a City: CityGenAgent for Procedural 3D City Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Imagine a City: CityGenAgent for Procedural 3D City Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zishan Liu, Zecong Tang, RuoCheng Wu, Xinzhe Zheng, Jingyu Hu, et al.  
 **Published:** 2026-02-05  
@@ -781,7 +781,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ReMoT: Reinforcement Learning with Motion Contrast Triplets ![New](https://img.shields.io/badge/New-red)
+### ReMoT: Reinforcement Learning with Motion Contrast Triplets ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Cong Wan, Zeyu Guo, Jiangyang Li, SongLin Dong, Yifan Bai, et al.  
 **Published:** 2026-02-28  
@@ -921,7 +921,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Visual Implicit Geometry Transformer for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Visual Implicit Geometry Transformer for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Arsenii Shirokov, Mikhail Kuznetsov, Danila Stepochkin, Egor Evdokimov, Daniil Glazkov, et al.  
 **Published:** 2026-02-05  
@@ -1235,7 +1235,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Advanced Quantum Communication and Quantum Networks -- From basic research to future applications ![Recent](https://img.shields.io/badge/Recent-orange)
+### Advanced Quantum Communication and Quantum Networks -- From basic research to future applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Björn Kubala, Alexander Sauer, Alessandro Tarantola, David Fabian, Anke Ginter, et al.  
 **Published:** 2026-02-05  
@@ -1649,7 +1649,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models ![New](https://img.shields.io/badge/New-red)
+### PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuanhao Su, Shaofeng Zhang, Xiaosong Jia, Qi Fan  
 **Published:** 2026-02-28  
@@ -2279,7 +2279,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Driving with DINO: Vision Foundation Features as a Unified Bridge for Sim-to-Real Generation in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Driving with DINO: Vision Foundation Features as a Unified Bridge for Sim-to-Real Generation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuyang Chen, Conglang Zhang, Chuanheng Fu, Zihao Yang, Kaixuan Zhou, et al.  
 **Published:** 2026-02-05  
@@ -2289,7 +2289,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LSA: Localized Semantic Alignment for Enhancing Temporal Consistency in Traffic Video Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### LSA: Localized Semantic Alignment for Enhancing Temporal Consistency in Traffic Video Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mirlan Karimov, Teodora Spasojevic, Markus Braun, Julian Wiederer, Vasileios Belagiannis, et al.  
 **Published:** 2026-02-05  
@@ -2299,7 +2299,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Unified Sensor Simulation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Unified Sensor Simulation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nikolay Patakin, Arsenii Shirokov, Anton Konushin, Dmitry Senushkin  
 **Published:** 2026-02-05  
@@ -2309,7 +2309,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Comparative Study of 3D Person Detection: Sensor Modalities and Robustness in Diverse Indoor and Outdoor Environments ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Comparative Study of 3D Person Detection: Sensor Modalities and Robustness in Diverse Indoor and Outdoor Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Malaz Tamim, Andrea Matic-Flierl, Karsten Roscher  
 **Published:** 2026-02-05  
@@ -3321,7 +3321,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Addressing the Waypoint-Action Gap in End-to-End Autonomous Driving via Vehicle Motion Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Addressing the Waypoint-Action Gap in End-to-End Autonomous Driving via Vehicle Motion Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jorge Daniel Rodríguez-Vidal, Gabriel Villalonga, Diego Porres, Antonio M. López Peña  
 **Published:** 2026-02-05  
@@ -3815,7 +3815,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient Large Language Model ![New](https://img.shields.io/badge/New-red)
+### Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient Large Language Model ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihang Wang, Xu Li, Benwu Wang, Wenkai Zhu, Xieyuanli Chen, et al.  
 **Published:** 2026-02-28  
@@ -4015,7 +4015,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Thinking with Geometry: Active Geometry Integration for Spatial Reasoning ![Recent](https://img.shields.io/badge/Recent-orange)
+### Thinking with Geometry: Active Geometry Integration for Spatial Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haoyuan Li, Qihang Cao, Tao Tang, Kun Xiang, Zihan Guo, et al.  
 **Published:** 2026-02-05  
@@ -4517,7 +4517,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Driving System Testing ![Recent](https://img.shields.io/badge/Recent-orange)
+### ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Driving System Testing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jianlei Chi, Yuzhen Wu, Jiaxuan Hou, Xiaodong Zhang, Ming Fan, et al.  
 **Published:** 2026-02-05  
