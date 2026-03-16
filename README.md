@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--15-blue)
-![Total Papers](https://img.shields.io/badge/Papers-464-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--03--16-blue)
+![Total Papers](https://img.shields.io/badge/Papers-463-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,7 +46,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 15 |
 | General | 12 |
 | Mapping & Localization | 12 |
-| Perception | 176 |
+| Perception | 175 |
 | Planning | 36 |
 | Prediction | 19 |
 | Safety & Verification | 67 |
@@ -289,7 +289,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition ![Recent](https://img.shields.io/badge/Recent-orange)
+### DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ji Li, Zhiwei Li, Shihao Li, Zhenjiang Yu, Boyang Wang, et al.  
 **Published:** 2026-02-12  
@@ -629,7 +629,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MPC-Guided Safe Reinforcement Learning and Lipschitz-Based Filtering for Structured Nonlinear Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### MPC-Guided Safe Reinforcement Learning and Lipschitz-Based Filtering for Structured Nonlinear Systems
 
 **Authors:** Patrick Kostelac, Xuerui Wang, Anahita Jamshidnejad  
 **Published:** 2025-12-14  
@@ -639,7 +639,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Designing The Drive: Enhancing User Experience through Adaptive Interfaces in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Designing The Drive: Enhancing User Experience through Adaptive Interfaces in Autonomous Vehicles
 
 **Authors:** Reeteesha Roy  
 **Published:** 2025-12-14  
@@ -801,7 +801,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Perception-Aware Multimodal Spatial Reasoning from Monocular Images ![New](https://img.shields.io/badge/New-red)
+### Perception-Aware Multimodal Spatial Reasoning from Monocular Images ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yanchun Cheng, Rundong Wang, Xulei Yang, Alok Prakash, Daniela Rus, et al.  
 **Published:** 2026-03-07  
@@ -1093,7 +1093,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingdi Chen, Hanqing Yang, Zongjun Liu, Carlee Joe-Wong  
 **Published:** 2026-02-12  
@@ -1659,7 +1659,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Faster-HEAL: An Efficient and Privacy-Preserving Collaborative Perception Framework for Heterogeneous Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Faster-HEAL: An Efficient and Privacy-Preserving Collaborative Perception Framework for Heterogeneous Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Armin Maleki, Hayder Radha  
 **Published:** 2026-03-07  
@@ -1669,7 +1669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Kinematics-Aware Latent World Models for Data-Efficient Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Kinematics-Aware Latent World Models for Data-Efficient Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiazhuo Li, Linjiang Cao, Qi Liu, Xi Xiong  
 **Published:** 2026-03-07  
@@ -2279,7 +2279,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SToRM: Supervised Token Reduction for Multi-modal LLMs toward efficient end-to-end autonomous driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### SToRM: Supervised Token Reduction for Multi-modal LLMs toward efficient end-to-end autonomous driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Seo Hyun Kim, Jin Bok Park, Do Yeon Koo, Hogun Park, Il Yong Chun  
 **Published:** 2026-02-12  
@@ -3189,16 +3189,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DisorientLiDAR: Physical Attacks on LiDAR-based Localization
-
-**Authors:** Yizhen Lao, Yu Zhang, Ziting Wang, Chengbo Wang, Yifei Xue, et al.  
-**Published:** 2025-09-16  
-**Links:** [arXiv](https://arxiv.org/abs/2509.12595v1) | [PDF](https://arxiv.org/pdf/2509.12595v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Deep learning models have been shown to be susceptible to adversarial attacks with visually imperceptible perturbations. Even this poses a serious security challenge for the localization of...
-
----
-
 ## Planning
 
 ### Zero-Shot Cross-City Generalization in End-to-End Autonomous Driving: Self-Supervised versus Supervised Representations ![New](https://img.shields.io/badge/New-red)
@@ -3361,7 +3351,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Calibration and Evaluation of Car-Following Models for Autonomous Shuttles Using a Novel Multi-Criteria Framework ![Recent](https://img.shields.io/badge/Recent-orange)
+### Calibration and Evaluation of Car-Following Models for Autonomous Shuttles Using a Novel Multi-Criteria Framework ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Renan Favero, Lily Elefteriadou  
 **Published:** 2026-02-12  
@@ -4055,7 +4045,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Future Mining: Learning for Safety and Security ![Recent](https://img.shields.io/badge/Recent-orange)
+### Future Mining: Learning for Safety and Security ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Md Sazedur Rahman, Mizanur Rahman Jewel, Sanjay Madria  
 **Published:** 2026-02-12  
@@ -4427,7 +4417,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Simulation
 
-### Neural Control and Learning of Simulated Hand Movements With an EMG-Based Closed-Loop Interface ![New](https://img.shields.io/badge/New-red)
+### Neural Control and Learning of Simulated Hand Movements With an EMG-Based Closed-Loop Interface ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Balint K. Hodossy, Dario Farina  
 **Published:** 2026-03-07  
@@ -4557,7 +4547,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Talk2DM: Enabling Natural Language Querying and Commonsense Reasoning for Vehicle-Road-Cloud Integrated Dynamic Maps with Large Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Talk2DM: Enabling Natural Language Querying and Commonsense Reasoning for Vehicle-Road-Cloud Integrated Dynamic Maps with Large Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lu Tao, Jinxuan Luo, Yousuke Watanabe, Zhengshu Zhou, Yuhuan Lu, et al.  
 **Published:** 2026-02-12  
