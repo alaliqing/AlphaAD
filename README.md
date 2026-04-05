@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--04-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--05-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-467-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -139,7 +139,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing ![New](https://img.shields.io/badge/New-red)
+### AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tianyu Liu, Weitao Xiong, Kunming Luo, Manyuan Zhang, Peng Li, et al.  
 **Published:** 2026-03-27  
@@ -1749,7 +1749,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GeoReFormer: Geometry-Aware Refinement for Lane Segment Detection and Topology Reasoning ![New](https://img.shields.io/badge/New-red)
+### GeoReFormer: Geometry-Aware Refinement for Lane Segment Detection and Topology Reasoning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Danny Abraham, Nikhil Kamalkumar Advani, Arun Das, Nikil Dutt  
 **Published:** 2026-03-27  
@@ -2599,7 +2599,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GSeg3D: A High-Precision Grid-Based Algorithm for Safety-Critical Ground Segmentation in LiDAR Point Clouds ![Recent](https://img.shields.io/badge/Recent-orange)
+### GSeg3D: A High-Precision Grid-Based Algorithm for Safety-Critical Ground Segmentation in LiDAR Point Clouds ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Muhammad Haider Khan Lodhi, Christoph Hertzberg  
 **Published:** 2026-03-04  
@@ -3401,7 +3401,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking ![Recent](https://img.shields.io/badge/Recent-orange)
+### Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Long Kiu Chung, David Isele, Faizan M. Tariq, Sangjae Bae, Shreyas Kousik, et al.  
 **Published:** 2026-03-05  
@@ -3885,7 +3885,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction ![New](https://img.shields.io/badge/New-red)
+### DTP-Attack: A decision-based black-box adversarial attack on trajectory prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiaxiang Li, Jun Yan, Daniel Watzenig, Huilin Yin  
 **Published:** 2026-03-27  
@@ -3895,7 +3895,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hermes Seal: Zero-Knowledge Assurance for Autonomous Vehicle Communications ![New](https://img.shields.io/badge/New-red)
+### Hermes Seal: Zero-Knowledge Assurance for Autonomous Vehicle Communications ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Munawar Hasan, Apostol Vassilev, Edward Griffor, Thoshitha Gamage  
 **Published:** 2026-03-27  
@@ -4095,7 +4095,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Map-Agnostic And Interactive Safety-Critical Scenario Generation via Multi-Objective Tree Search ![Recent](https://img.shields.io/badge/Recent-orange)
+### Map-Agnostic And Interactive Safety-Critical Scenario Generation via Multi-Objective Tree Search ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wenyun Li, Zejian Deng, Chen Sun  
 **Published:** 2026-03-04  
@@ -4507,7 +4507,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### R-PGA: Robust Physical Adversarial Camouflage Generation via Relightable 3D Gaussian Splatting ![New](https://img.shields.io/badge/New-red)
+### R-PGA: Robust Physical Adversarial Camouflage Generation via Relightable 3D Gaussian Splatting ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tianrui Lou, Siyuan Liang, Jiawei Liang, Yuze Gao, Xiaochun Cao  
 **Published:** 2026-03-27  
