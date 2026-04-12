@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--11-blue)
-![Total Papers](https://img.shields.io/badge/Papers-468-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--12-blue)
+![Total Papers](https://img.shields.io/badge/Papers-467-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -43,7 +43,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 |----------|-------------|
 | Control | 63 |
 | Dataset & Benchmark | 28 |
-| End-to-End Learning | 23 |
+| End-to-End Learning | 22 |
 | General | 13 |
 | Mapping & Localization | 12 |
 | Perception | 177 |
@@ -89,7 +89,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SpectralSplat: Appearance-Disentangled Feed-Forward Gaussian Splatting for Driving Scenes ![New](https://img.shields.io/badge/New-red)
+### SpectralSplat: Appearance-Disentangled Feed-Forward Gaussian Splatting for Driving Scenes ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Quentin Herau, Tianshuo Xu, Depu Meng, Jiezhi Yang, Chensheng Peng, et al.  
 **Published:** 2026-04-03  
@@ -99,7 +99,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ARES OS 2.0: An Orchestration Software Suite for Autonomous Experimentation Systems and Self-Driving Labs ![New](https://img.shields.io/badge/New-red)
+### ARES OS 2.0: An Orchestration Software Suite for Autonomous Experimentation Systems and Self-Driving Labs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Arthur W. N. Sloan, Robert W. Waelder, Morgen L. Smith, Nicholas Kleiner, Arnas Babeckis, et al.  
 **Published:** 2026-04-03  
@@ -731,7 +731,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views ![New](https://img.shields.io/badge/New-red)
+### V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Junwei You, Pei Li, Zhuoyu Jiang, Weizhe Tang, Zilin Huang, et al.  
 **Published:** 2026-04-03  
@@ -891,7 +891,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DriveXQA: Cross-modal Visual Question Answering for Adverse Driving Scene Understanding ![Recent](https://img.shields.io/badge/Recent-orange)
+### DriveXQA: Cross-modal Visual Question Answering for Adverse Driving Scene Understanding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mingzhe Tao, Ruiping Liu, Junwei Zheng, Yufan Chen, Kedi Ying, et al.  
 **Published:** 2026-03-11  
@@ -901,7 +901,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction ![Recent](https://img.shields.io/badge/Recent-orange)
+### MapGCLR: Geospatial Contrastive Learning of Representations for Online Vectorized HD Map Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jonas Merkert, Alexander Blumberg, Jan-Hendrik Pauls, Christoph Stiller  
 **Published:** 2026-03-11  
@@ -1013,7 +1013,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren  
 **Published:** 2026-04-03  
@@ -1200,16 +1200,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2510.26231v1) | [PDF](https://arxiv.org/pdf/2510.26231v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Automatic structure elucidation is essential for self-driving laboratories as it enables the system to achieve truly autonomous. This capability closes the experimental feedback loop, ensuring that...
-
----
-
-### A Flexible Multi-Agent Deep Reinforcement Learning Framework for Dynamic Routing and Scheduling of Latency-Critical Services
-
-**Authors:** Vincenzo Norman Vitale, Antonia Maria Tulino, Andreas F. Molisch, Jaime Llorca  
-**Published:** 2025-10-13  
-**Links:** [arXiv](https://arxiv.org/abs/2510.11535v1) | [PDF](https://arxiv.org/pdf/2510.11535v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Timely delivery of delay-sensitive information over dynamic, heterogeneous networks is increasingly essential for a range of interactive applications, such as industrial automation, self-driving...
 
 ---
 
@@ -1619,7 +1609,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### YOLOv11 Demystified: A Practical Guide to High-Performance Object Detection ![New](https://img.shields.io/badge/New-red)
+### YOLOv11 Demystified: A Practical Guide to High-Performance Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nikhileswara Rao Sulake  
 **Published:** 2026-04-03  
@@ -1629,7 +1619,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### BEVPredFormer: Spatio-temporal Attention for BEV Instance Prediction in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### BEVPredFormer: Spatio-temporal Attention for BEV Instance Prediction in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, et al.  
 **Published:** 2026-04-03  
@@ -1639,7 +1629,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles ![New](https://img.shields.io/badge/New-red)
+### Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Weimin Liu, Jiyuan Qiu, Wenjun Wang, Joshua H. Meng  
 **Published:** 2026-04-03  
@@ -1649,7 +1639,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals ![New](https://img.shields.io/badge/New-red)
+### Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kunzhe Song, Geo Jie Zhou, Xiaoming Liu, Huacheng Zeng  
 **Published:** 2026-04-03  
@@ -2519,7 +2509,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Radiometric fingerprinting of object surfaces using mobile laser scanning and semantic 3D road space models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Radiometric fingerprinting of object surfaces using mobile laser scanning and semantic 3D road space models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Benedikt Schwab, Thomas H. Kolbe  
 **Published:** 2026-03-11  
@@ -3753,7 +3743,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DynVLA: Learning World Dynamics for Action Reasoning in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### DynVLA: Learning World Dynamics for Action Reasoning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuyao Shang, Bing Zhan, Yunfei Yan, Yuqi Wang, Yingyan Li, et al.  
 **Published:** 2026-03-11  
@@ -4457,7 +4447,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zilin Huang, Zhengyang Wan, Zihao Sheng, Boyue Wang, Junwei You, et al.  
 **Published:** 2026-04-03  
