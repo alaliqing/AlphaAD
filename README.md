@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--12-blue)
-![Total Papers](https://img.shields.io/badge/Papers-467-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--13-blue)
+![Total Papers](https://img.shields.io/badge/Papers-466-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,7 +46,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 22 |
 | General | 13 |
 | Mapping & Localization | 12 |
-| Perception | 177 |
+| Perception | 176 |
 | Planning | 34 |
 | Prediction | 23 |
 | Safety & Verification | 62 |
@@ -359,7 +359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Quantum computing for transport research: an introduction, systematic review, and perspective ![Recent](https://img.shields.io/badge/Recent-orange)
+### Quantum computing for transport research: an introduction, systematic review, and perspective ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lachlan Oberg, Paul Corry, Moji Ghadimi, Ashish Bhaskar  
 **Published:** 2026-03-12  
@@ -881,7 +881,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories ![Recent](https://img.shields.io/badge/Recent-orange)
+### LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qianpu Sun, Xiaowei Chi, Yuhan Rui, Ying Li, Kuangzhi Ge, et al.  
 **Published:** 2026-03-12  
@@ -1003,7 +1003,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving ![New](https://img.shields.io/badge/New-red)
+### HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Wenhao Yao, Xinglong Sun, Zhenxin Li, Shiyi Lan, Zi Wang, et al.  
 **Published:** 2026-04-04  
@@ -1205,7 +1205,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## General
 
-### Confidence Intervals for Rate Estimation with Importance Sampling in Autonomous Vehicle Evaluation ![New](https://img.shields.io/badge/New-red)
+### Confidence Intervals for Rate Estimation with Importance Sampling in Autonomous Vehicle Evaluation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aiyou Chen, Ruixuan Rachel Zhou, Joseph J. Lee, Nicholas Chamandy, Henning Hohnhold  
 **Published:** 2026-04-04  
@@ -1599,7 +1599,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### InCaRPose: In-Cabin Relative Camera Pose Estimation Model and Dataset ![New](https://img.shields.io/badge/New-red)
+### InCaRPose: In-Cabin Relative Camera Pose Estimation Model and Dataset ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Felix Stillger, Lukas Hahn, Frederik Hasecke, Tobias Meisen  
 **Published:** 2026-04-04  
@@ -2479,7 +2479,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Single Pixel Image Classification using an Ultrafast Digital Light Projector ![Recent](https://img.shields.io/badge/Recent-orange)
+### Single Pixel Image Classification using an Ultrafast Digital Light Projector ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Aisha Kanwal, Graeme E. Johnstone, Fahimeh Dehkhoda, Johannes H. Herrnsdorf, Robert K. Henderson, et al.  
 **Published:** 2026-03-12  
@@ -2489,7 +2489,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
+### R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhongyu Xia, Yousen Tang, Yongtao Wang, Zhifeng Wang, Weijun Qin  
 **Published:** 2026-03-12  
@@ -2499,7 +2499,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Risk-Controllable Multi-View Diffusion for Driving Scenario Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Risk-Controllable Multi-View Diffusion for Driving Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongyi Lin, Wenxiu Shi, Heye Huang, Dingyi Zhuang, Song Zhang, et al.  
 **Published:** 2026-03-12  
@@ -3219,16 +3219,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SimULi: Real-Time LiDAR and Camera Simulation with Unscented Transforms
-
-**Authors:** Haithem Turki, Qi Wu, Xin Kang, Janick Martinez Esturo, Shengyu Huang, et al.  
-**Published:** 2025-10-14  
-**Links:** [arXiv](https://arxiv.org/abs/2510.12901v3) | [PDF](https://arxiv.org/pdf/2510.12901v3.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Rigorous testing of autonomous robots, such as self-driving vehicles, is essential to ensure their safety in real-world deployments. This requires building high-fidelity simulators to test scenarios...
-
----
-
 ## Planning
 
 ### On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning ![New](https://img.shields.io/badge/New-red)
@@ -3391,7 +3381,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Zero-Shot Cross-City Generalization in End-to-End Autonomous Driving: Self-Supervised versus Supervised Representations ![Recent](https://img.shields.io/badge/Recent-orange)
+### Zero-Shot Cross-City Generalization in End-to-End Autonomous Driving: Self-Supervised versus Supervised Representations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fatemeh Naeinian, Ali Hamza, Haoran Zhu, Anna Choromanska  
 **Published:** 2026-03-12  
@@ -3541,7 +3531,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Data-driven active learning approaches for accelerating materials discovery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Data-driven active learning approaches for accelerating materials discovery
 
 **Authors:** Jiaxin Chen, Tianjiao Wan, Hui Geng, Liang Xiong, Guohong Wang, et al.  
 **Published:** 2026-01-11  
@@ -3733,7 +3723,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongyan Wei, Wael AbdAlmageed  
 **Published:** 2026-03-12  
@@ -4075,7 +4065,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### QUARE: Multi-Agent Negotiation for Balancing Quality Attributes in Requirements Engineering ![Recent](https://img.shields.io/badge/Recent-orange)
+### QUARE: Multi-Agent Negotiation for Balancing Quality Attributes in Requirements Engineering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haowei Cheng, Milhan Kim, Foutse Khomh, Teeradaj Racharak, Nobukazu Yoshioka, et al.  
 **Published:** 2026-03-12  
@@ -4365,7 +4355,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PANDA-film: an automated system for electrodeposition of polymer thin films and their wetting analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### PANDA-film: an automated system for electrodeposition of polymer thin films and their wetting analysis
 
 **Authors:** Harley Quinn, Gregory A. Robben, Zhaoyi Zheng, Jin Yan, Yuanzhi Li, et al.  
 **Published:** 2026-01-11  
@@ -4687,7 +4677,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RSLCPP -- Deterministic Simulations Using ROS 2 ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### RSLCPP -- Deterministic Simulations Using ROS 2
 
 **Authors:** Simon Sagmeister, Marcel Weinmann, Phillip Pitschi, Markus Lienkamp  
 **Published:** 2026-01-11  
