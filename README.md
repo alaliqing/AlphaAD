@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--15-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--16-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-468-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -41,16 +41,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 62 |
+| Control | 64 |
 | Dataset & Benchmark | 30 |
-| End-to-End Learning | 23 |
-| General | 13 |
-| Mapping & Localization | 12 |
-| Perception | 174 |
-| Planning | 34 |
-| Prediction | 24 |
-| Safety & Verification | 62 |
-| Simulation | 34 |
+| End-to-End Learning | 21 |
+| General | 14 |
+| Mapping & Localization | 11 |
+| Perception | 177 |
+| Planning | 36 |
+| Prediction | 22 |
+| Safety & Verification | 60 |
+| Simulation | 33 |
 
 ## Table of Contents
 
@@ -68,6 +68,36 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Control
+
+### Artificial Intelligence for Modeling and Simulation of Mixed Automated and Human Traffic ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Saeed Rahmani, Shiva Rasouli, Daphne Cornelisse, Eugene Vinitsky, Bart van Arem, et al.  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12857v1) | [PDF](https://arxiv.org/pdf/2604.12857v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Autonomous vehicles (AVs) are now operating on public roads, which makes their testing and validation more critical than ever. Simulation offers a safe and controlled environment for evaluating AV...
+
+---
+
+### Situation-Aware Feedback-Predictive Control Framework for Lane-Less Dense Traffic ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Parthib Khound, Debraj Chakraborty  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12590v1) | [PDF](https://arxiv.org/pdf/2604.12590v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Navigating dense, lane-less traffic remains one of the most challenging scenarios for autonomous vehicles, especially in emerging regions where road structure and driver behavior are highly...
+
+---
+
+### MVAdapt: Zero-Shot Multi-Vehicle Adaptation for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Haesung Oh, Jaeheung Park  
+**Published:** 2026-04-13  
+**Links:** [arXiv](https://arxiv.org/abs/2604.11854v1) | [PDF](https://arxiv.org/pdf/2604.11854v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** End-to-End (E2E) autonomous driving models are usually trained and evaluated with a fixed ego-vehicle, even though their driving policy is implicitly tied to vehicle dynamics. When such a model is...
+
+---
 
 ### On Switched Event-triggered Full State-constrained Formation Control for Multi-vehicle Systems ![New](https://img.shields.io/badge/New-red)
 
@@ -89,7 +119,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Evolution of Video Generative Foundations ![New](https://img.shields.io/badge/New-red)
+### Evolution of Video Generative Foundations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Teng Hu, Jiangning Zhang, Hongrui Huang, Ran Yi, Zihan Su, et al.  
 **Published:** 2026-04-07  
@@ -319,23 +349,13 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Functional Safety Analysis for Infrastructure-Enabled Depot Autonomy System ![Recent](https://img.shields.io/badge/Recent-orange)
+### Functional Safety Analysis for Infrastructure-Enabled Depot Autonomy System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gaurav Pandey, Gregory Stevens, Henry Liu  
 **Published:** 2026-03-15  
 **Links:** [arXiv](https://arxiv.org/abs/2603.14616v1) | [PDF](https://arxiv.org/pdf/2603.14616v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** This paper presents the functional safety analysis for an Infrastructure-Enabled Depot Autonomy (IX-DA) system. The IX-DA system automates the marshalling of delivery vehicles within a controlled...
-
----
-
-### DRCC-LPVMPC: Robust Data-Driven Control for Autonomous Driving and Obstacle Avoidance ![Recent](https://img.shields.io/badge/Recent-orange)
-
-**Authors:** Shiming Fang, Xilin Li, Changzhi Wu, Kaiyan Yu  
-**Published:** 2026-03-15  
-**Links:** [arXiv](https://arxiv.org/abs/2603.14408v1) | [PDF](https://arxiv.org/pdf/2603.14408v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Safety in obstacle avoidance is critical for autonomous driving. While model predictive control (MPC) is widely used, simplified prediction models such as linearized or single-track vehicle models...
 
 ---
 
@@ -721,7 +741,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Sparsity-Aware Voxel Attention and Foreground Modulation for 3D Semantic Scene Completion ![New](https://img.shields.io/badge/New-red)
+### Sparsity-Aware Voxel Attention and Foreground Modulation for 3D Semantic Scene Completion ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yu Xue, Longjun Gao, Yuanqi Su, HaoAng Lu, Xiaoning Zhang  
 **Published:** 2026-04-07  
@@ -1133,26 +1153,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning to Order: Task Sequencing as In-Context Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
-
-**Authors:** Jan Kobiolka, Christian Frey, Arlind Kadra, Gresa Shala, Josif Grabocka  
-**Published:** 2026-03-15  
-**Links:** [arXiv](https://arxiv.org/abs/2603.14550v1) | [PDF](https://arxiv.org/pdf/2603.14550v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Task sequencing (TS) is one of the core open problems in Deep Learning, arising in a plethora of real-world domains, from robotic assembly lines to autonomous driving. Unfortunately, prior work has...
-
----
-
-### Fine-tuning is Not Enough: A Parallel Framework for Collaborative Imitation and Reinforcement Learning in End-to-end Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Zhexi Lian, Haoran Wang, Xuerun Yan, Weimeng Lin, Xianhong Zhang, et al.  
-**Published:** 2026-03-14  
-**Links:** [arXiv](https://arxiv.org/abs/2603.13842v3) | [PDF](https://arxiv.org/pdf/2603.13842v3.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** End-to-end autonomous driving is typically built upon imitation learning (IL), yet its performance is constrained by the quality of human demonstrations. To overcome this limitation, recent methods...
-
----
-
 ### The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingdi Chen, Hanqing Yang, Zongjun Liu, Carlee Joe-Wong  
@@ -1224,6 +1224,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## General
+
+### Agentic LLM Reasoning in a Self-Driving Laboratory for Air-Sensitive Lithium Halide Spinel Conductors ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Yuxing Fei, Bernardus Rendy, Xiaochen Yang, Junhee Woo, Xu Huang, et al.  
+**Published:** 2026-04-13  
+**Links:** [arXiv](https://arxiv.org/abs/2604.11957v1) | [PDF](https://arxiv.org/pdf/2604.11957v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Self-driving laboratories promise to accelerate materials discovery. Yet current automated solid-state synthesis platforms are limited to ambient conditions, thereby precluding their use for...
+
+---
 
 ### Confidence Intervals for Rate Estimation with Importance Sampling in Autonomous Vehicle Evaluation ![Recent](https://img.shields.io/badge/Recent-orange)
 
@@ -1397,16 +1407,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Dennis Haitz, Athradi Shritish Shetty, Michael Weinmann, Markus Ulrich  
-**Published:** 2026-03-14  
-**Links:** [arXiv](https://arxiv.org/abs/2603.13917v1) | [PDF](https://arxiv.org/pdf/2603.13917v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Visual Place Recognition (VPR) is a core component in computer vision, typically formulated as an image retrieval task for localization, mapping, and navigation. In this work, we instead study VPR as...
-
----
-
 ### Impact of Localization Errors on Label Quality for Online HD Map Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alexander Blumberg, Jonas Merkert, Richard Fehler, Fabian Immel, Frank Bieder, et al.  
@@ -1461,7 +1461,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 **Authors:** Dominik Neudert-Schulz, Thomas Dallmann  
 **Published:** 2026-01-26  
-**Links:** [arXiv](https://arxiv.org/abs/2601.18643v1) | [PDF](https://arxiv.org/pdf/2601.18643v1.pdf) | [BackToTop](#table-of-contents)  
+**Links:** [arXiv](https://arxiv.org/abs/2601.18643v2) | [PDF](https://arxiv.org/pdf/2601.18643v2.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** To enable Integrated Communications and Sensing (ICAS) in a peer-to-peer vehicular network, precise synchronization in frequency and phase among the communicating entities is required. In addition,...
 
@@ -1478,6 +1478,56 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Perception
+
+### Radar-Camera BEV Multi-Task Learning with Cross-Task Attention Bridge for Joint 3D Detection and Segmentation ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ahmet İnanç, Özgür Erkent  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12918v1) | [PDF](https://arxiv.org/pdf/2604.12918v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Bird's-eye-view (BEV) representations are the dominant paradigm for 3D perception in autonomous driving, providing a unified spatial canvas where detection and segmentation features are geometrically...
+
+---
+
+### RACF: A Resilient Autonomous Car Framework with Object Distance Correction ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Chieh Tsai, Hossein Rastgoftar, Salim Hariri  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12418v1) | [PDF](https://arxiv.org/pdf/2604.12418v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Autonomous vehicles are increasingly deployed in safety-critical applications, where sensing failures or cyberphysical attacks can lead to unsafe operations resulting in human loss and/or severe...
+
+---
+
+### Security and Resilience in Autonomous Vehicles: A Proactive Design Approach ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Chieh Tsai, Murad Mehrab Abrar, Salim Hariri  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12408v1) | [PDF](https://arxiv.org/pdf/2604.12408v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Autonomous vehicles (AVs) promise efficient, clean and cost-effective transportation systems, but their reliance on sensors, wireless communications, and decision-making systems makes them vulnerable...
+
+---
+
+### HyperLiDAR: Adaptive Post-Deployment LiDAR Segmentation via Hyperdimensional Computing ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ivannia Gomez Moreno, Yi Yao, Ye Tian, Xiaofan Yu, Flavio Ponzina, et al.  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12331v1) | [PDF](https://arxiv.org/pdf/2604.12331v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** LiDAR semantic segmentation plays a pivotal role in 3D scene understanding for edge applications such as autonomous driving. However, significant challenges remain for real-world deployments,...
+
+---
+
+### Physics-Grounded Monocular Vehicle Distance Estimation Using Standardized License Plate Typography ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Manognya Lokesh Reddy, Zheng Liu  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12239v1) | [PDF](https://arxiv.org/pdf/2604.12239v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Accurate inter-vehicle distance estimation is a cornerstone of Advanced Driver Assistance Systems (ADAS) and autonomous driving. While LiDAR and radar provide high precision, their high cost...
+
+---
 
 ### OpenDT: Exploring Datacenter Performance and Sustainability with a Self-Calibrating Digital Twin ![New](https://img.shields.io/badge/New-red)
 
@@ -1629,7 +1679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Telescope: Learnable Hyperbolic Foveation for Ultra-Long-Range Object Detection ![New](https://img.shields.io/badge/New-red)
+### Telescope: Learnable Hyperbolic Foveation for Ultra-Long-Range Object Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Parker Ewen, Dmitriy Rivkin, Mario Bijelic, Felix Heide  
 **Published:** 2026-04-07  
@@ -3059,26 +3109,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Risk-Aware Human-in-the-Loop Framework with Adaptive Intrusion Response for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Dawood Wasif, Terrence J. Moore, Seunghyun Yoon, Hyuk Lim, Dan Dongseong Kim, et al.  
-**Published:** 2026-01-16  
-**Links:** [arXiv](https://arxiv.org/abs/2601.11781v1) | [PDF](https://arxiv.org/pdf/2601.11781v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Autonomous vehicles must remain safe and effective when encountering rare long-tailed scenarios or cyber-physical intrusions during driving. We present RAIL, a risk-aware human-in-the-loop framework...
-
----
-
-### LTV-YOLO: A Lightweight Thermal Object Detector for Young Pedestrians in Adverse Conditions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Abdullah Jirjees, Ryan Myers, Muhammad Haris Ikram, Mohamed H. Zaki  
-**Published:** 2026-01-15  
-**Links:** [arXiv](https://arxiv.org/abs/2601.11662v1) | [PDF](https://arxiv.org/pdf/2601.11662v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Detecting vulnerable road users (VRUs), particularly children and adolescents, in low light and adverse weather conditions remains a critical challenge in computer vision, surveillance, and...
-
----
-
 ### Towards a Self-Driving Trigger at the LHC: Adaptive Response in Real Time
 
 **Authors:** Shaghayegh Emami, Cecilia Tosciri, Giovanna Salvi, Zixin Ding, Yuxin Chen, et al.  
@@ -3221,6 +3251,36 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Planning
 
+### FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Baoyun Wang, Zhuoren Li, Ming Liu, Xinrui Zhang, Bo Leng, et al.  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12656v1) | [PDF](https://arxiv.org/pdf/2604.12656v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** End-to-end diffusion planning has shown strong potential for autonomous driving, but the physical feasibility of generated trajectories remains insufficiently addressed. In particular, generated...
+
+---
+
+### A Comparison of Reinforcement Learning and Optimal Control Methods for Path Planning ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Qiang Le, Yaguang Yang, Isaac E. Weintraub  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12628v1) | [PDF](https://arxiv.org/pdf/2604.12628v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Path-planning for autonomous vehicles in threat-laden environments is a fundamental challenge. While traditional optimal control methods can find ideal paths, the computational time is often too slow...
+
+---
+
+### Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Zhihua Hua, Junli Wang, Pengfei LI, Qihao Jin, Bo Zhang, et al.  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12208v1) | [PDF](https://arxiv.org/pdf/2604.12208v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Global navigation information and local scene understanding are two crucial components of autonomous driving systems. However, our experimental results indicate that many end-to-end autonomous...
+
+---
+
 ### Decentralized Opinion-Integrated Decision making at Unsignalized Intersections via Signed Networks ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Bhaskar Varma, Ying Shuai Quan, Karl D. von Ellenrieder, Paolo Falcone  
@@ -3251,7 +3311,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Uncertainty Estimation for Deep Reconstruction in Actuatic Disaster Scenarios with Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Uncertainty Estimation for Deep Reconstruction in Actuatic Disaster Scenarios with Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Samuel Yanes Luis, Alejandro Casado Pérez, Alejandro Mendoza Barrionuevo, Dame Seck Diop, Sergio Toral Marín, et al.  
 **Published:** 2026-04-07  
@@ -3261,7 +3321,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning ![New](https://img.shields.io/badge/New-red)
+### Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kang Ding, Hongsong Wang, Jie Gui, Lei He  
 **Published:** 2026-04-07  
@@ -3521,16 +3581,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-reality Location Privacy Protection in 6G-enabled Vehicular Metaverses: An LLM-enhanced Hybrid Generative Diffusion Model-based Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Xiaofeng Luo, Jiayi He, Jiawen Kang, Ruichen Zhang, Zhaoshui He, et al.  
-**Published:** 2026-01-18  
-**Links:** [arXiv](https://arxiv.org/abs/2601.12311v1) | [PDF](https://arxiv.org/pdf/2601.12311v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The emergence of 6G-enabled vehicular metaverses enables Autonomous Vehicles (AVs) to operate across physical and virtual spaces through space-air-ground-sea integrated networks. The AVs can deploy...
-
----
-
 ### Data-driven active learning approaches for accelerating materials discovery
 
 **Authors:** Jiaxin Chen, Tianjiao Wan, Hui Geng, Liang Xiong, Guohong Wang, et al.  
@@ -3733,26 +3783,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TrajMamba: An Ego-Motion-Guided Mamba Model for Pedestrian Trajectory Prediction from an Egocentric Perspective ![Recent](https://img.shields.io/badge/Recent-orange)
-
-**Authors:** Yusheng Peng, Gaofeng Zhang, Liping Zheng  
-**Published:** 2026-03-16  
-**Links:** [arXiv](https://arxiv.org/abs/2603.14739v1) | [PDF](https://arxiv.org/pdf/2603.14739v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Future trajectory prediction of a tracked pedestrian from an egocentric perspective is a key task in areas such as autonomous driving and robot navigation. The challenge of this task lies in the...
-
----
-
-### WorldVLM: Combining World Model Forecasting and Vision-Language Reasoning ![Recent](https://img.shields.io/badge/Recent-orange)
-
-**Authors:** Stefan Englmeier, Katharina Winter, Fabian B. Flohr  
-**Published:** 2026-03-15  
-**Links:** [arXiv](https://arxiv.org/abs/2603.14497v2) | [PDF](https://arxiv.org/pdf/2603.14497v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Autonomous driving systems depend on on models that can reason about high-level scene contexts and accurately predict the dynamics of their surrounding environment. Vision- Language Models (VLMs)...
-
----
-
 ### Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alexander Prutsch, David Schinagl, Horst Possegger  
@@ -3804,6 +3834,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Safety & Verification
+
+### Defining and Evaluation Method for External Human-Machine Interfaces ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Jose Gonzalez-Belmonte, Jaerock Kwon  
+**Published:** 2026-04-14  
+**Links:** [arXiv](https://arxiv.org/abs/2604.12293v1) | [PDF](https://arxiv.org/pdf/2604.12293v1.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** As the number of fatalities involving Autonomous Vehicles increase, the need for a universal method of communicating between vehicles and other agents on the road has also increased. Over the past...
+
+---
 
 ### SignReasoner: Compositional Reasoning for Complex Traffic Sign Understanding via Functional Structure Units ![New](https://img.shields.io/badge/New-red)
 
@@ -4335,36 +4375,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### How Safe Is Your Data in Connected and Autonomous Cars: A Consumer Advantage or a Privacy Nightmare ? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Amit Chougule, Vinay Chamola, Norbert Herencsar, Fei Richard Yu  
-**Published:** 2026-01-18  
-**Links:** [arXiv](https://arxiv.org/abs/2601.12284v1) | [PDF](https://arxiv.org/pdf/2601.12284v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The rapid evolution of the automobile sector, driven by advancements in connected and autonomous vehicles (CAVs), has transformed how vehicles communicate, operate, and interact with their...
-
----
-
-### Distributed Control Barrier Functions for Safe Multi-Vehicle Navigation in Heterogeneous USV Fleets ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Tyler Paine, Brendan Long, Jeremy Wenger, Michael DeFilippo, James Usevitch, et al.  
-**Published:** 2026-01-16  
-**Links:** [arXiv](https://arxiv.org/abs/2601.11335v1) | [PDF](https://arxiv.org/pdf/2601.11335v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Collision avoidance in heterogeneous fleets of uncrewed vessels is challenging because the decision-making processes and controllers often differ between platforms, and it is further complicated by...
-
----
-
-### SecMLOps: A Comprehensive Framework for Integrating Security Throughout the MLOps Lifecycle ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Xinrui Zhang, Pincan Zhao, Jason Jaskolka, Heng Li, Rongxing Lu  
-**Published:** 2026-01-15  
-**Links:** [arXiv](https://arxiv.org/abs/2601.10848v1) | [PDF](https://arxiv.org/pdf/2601.10848v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Machine Learning (ML) has emerged as a pivotal technology in the operation of large and complex systems, driving advancements in fields such as autonomous vehicles, healthcare diagnostics, and...
-
----
-
 ### Coverage-Guided Road Selection and Prioritization for Efficient Testing in Autonomous Driving Systems
 
 **Authors:** Qurban Ali, Andrea Stocco, Leonardo Mariani, Oliviero Riganelli  
@@ -4447,7 +4457,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Appearance Decomposition Gaussian Splatting for Multi-Traversal Reconstruction ![New](https://img.shields.io/badge/New-red)
+### Appearance Decomposition Gaussian Splatting for Multi-Traversal Reconstruction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yangyi Xiao, Siting Zhu, Baoquan Yang, Tianchen Deng, Yongbo Chen, et al.  
 **Published:** 2026-04-07  
@@ -4457,7 +4467,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ICR-Drive: Instruction Counterfactual Robustness for End-to-End Language-Driven Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### ICR-Drive: Instruction Counterfactual Robustness for End-to-End Language-Driven Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kaiser Hamid, Can Cui, Nade Liang  
 **Published:** 2026-04-07  
@@ -4634,16 +4644,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2603.17714v2) | [PDF](https://arxiv.org/pdf/2603.17714v2.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Autonomous driving technologies have achieved significant advances in recent years, yet their real-world deployment remains constrained by data scarcity, safety requirements, and the need for...
-
----
-
-### Deconfounded Lifelong Learning for Autonomous Driving via Dynamic Knowledge Spaces ![Recent](https://img.shields.io/badge/Recent-orange)
-
-**Authors:** Jiayuan Du, Yuebing Song, Yiming Zhao, Xianghui Pan, Jiawei Lian, et al.  
-**Published:** 2026-03-15  
-**Links:** [arXiv](https://arxiv.org/abs/2603.14354v2) | [PDF](https://arxiv.org/pdf/2603.14354v2.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** End-to-End autonomous driving (E2E-AD) systems face challenges in lifelong learning, including catastrophic forgetting, difficulty in knowledge transfer across diverse scenarios, and spurious...
 
 ---
 
