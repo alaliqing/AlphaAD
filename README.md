@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--18-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--19-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-468-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -109,7 +109,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### C$^2$T: Captioning-Structure and LLM-Aligned Common-Sense Reward Learning for Traffic--Vehicle Coordination ![New](https://img.shields.io/badge/New-red)
+### C$^2$T: Captioning-Structure and LLM-Aligned Common-Sense Reward Learning for Traffic--Vehicle Coordination ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuyang Chen, Kaiyan Zhao, Yiming Wang, Ming Yang, Bin Rao, et al.  
 **Published:** 2026-04-10  
@@ -299,7 +299,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zilin Huang, Zihao Sheng, Zhengyang Wan, Yansong Qu, Junwei You, et al.  
 **Published:** 2026-03-18  
@@ -309,7 +309,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### An HMDP-MPC Decision-making Framework with Adaptive Safety Margins and Hysteresis for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### An HMDP-MPC Decision-making Framework with Adaptive Safety Margins and Hysteresis for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Siyuan Li, Chengyuan Liu, Wen-Hua Chen  
 **Published:** 2026-03-18  
@@ -319,7 +319,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-Source Human-in-the-Loop Digital Twin Testbed for Connected and Autonomous Vehicles in Mixed Traffic Flow ![Recent](https://img.shields.io/badge/Recent-orange)
+### Multi-Source Human-in-the-Loop Digital Twin Testbed for Connected and Autonomous Vehicles in Mixed Traffic Flow ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jianghong Dong, Jiawei Wang, Chunying Yang, Mengchi Cai, Chaoyi Chen, et al.  
 **Published:** 2026-03-18  
@@ -329,7 +329,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hierarchical Decision-Making under Uncertainty: A Hybrid MDP and Chance-Constrained MPC Approach ![Recent](https://img.shields.io/badge/Recent-orange)
+### Hierarchical Decision-Making under Uncertainty: A Hybrid MDP and Chance-Constrained MPC Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Siyuan Li, Chengyuan Liu, Wen-Hua Chen  
 **Published:** 2026-03-18  
@@ -339,7 +339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Physics-informed Deep Mixture-of-Koopmans Vehicle Dynamics Model with Dual-branch Encoder for Distributed Electric-drive Trucks ![Recent](https://img.shields.io/badge/Recent-orange)
+### Physics-informed Deep Mixture-of-Koopmans Vehicle Dynamics Model with Dual-branch Encoder for Distributed Electric-drive Trucks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinyu Miao, Pu Zhang, Rujun Yan, Yifei He, Bowei Zhang, et al.  
 **Published:** 2026-03-18  
@@ -731,7 +731,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VAGNet: Vision-based Accident Anticipation with Global Features ![New](https://img.shields.io/badge/New-red)
+### VAGNet: Vision-based Accident Anticipation with Global Features ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Vipooshan Vipulananthan, Charith D. Chitraranjan  
 **Published:** 2026-04-10  
@@ -1033,7 +1033,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning Vision-Language-Action World Models for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Learning Vision-Language-Action World Models for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Guoqing Wang, Pin Tang, Xiangxuan Ren, Guodongfang Zhao, Bailan Feng, et al.  
 **Published:** 2026-04-10  
@@ -1579,7 +1579,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Neural Distribution Prior for LiDAR Out-of-Distribution Detection ![New](https://img.shields.io/badge/New-red)
+### Neural Distribution Prior for LiDAR Out-of-Distribution Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zizhao Li, Zhengkang Xiang, Jiayang Ao, Feng Liu, Joseph West, et al.  
 **Published:** 2026-04-10  
@@ -2399,7 +2399,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VLM-AutoDrive: Post-Training Vision-Language Models for Safety-Critical Autonomous Driving Events ![Recent](https://img.shields.io/badge/Recent-orange)
+### VLM-AutoDrive: Post-Training Vision-Language Models for Safety-Critical Autonomous Driving Events ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mohammad Qazim Bhat, Yufan Huang, Niket Agarwal, Hao Wang, Michael Woods, et al.  
 **Published:** 2026-03-18  
@@ -2409,7 +2409,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinho Park, Se Young Chun, Mingoo Seok  
 **Published:** 2026-03-18  
@@ -2419,7 +2419,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs ![Recent](https://img.shields.io/badge/Recent-orange)
+### VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chaokang Jiang, Desen Zhou, Jiuming Liu, Kevin Li Sun  
 **Published:** 2026-03-18  
@@ -2429,7 +2429,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VisionNVS: Self-Supervised Inpainting for Novel View Synthesis under the Virtual-Shift Paradigm ![Recent](https://img.shields.io/badge/Recent-orange)
+### VisionNVS: Self-Supervised Inpainting for Novel View Synthesis under the Virtual-Shift Paradigm ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongbo Lu, Liang Yao, Chenghao He, Fan Liu, Wenlong Liao, et al.  
 **Published:** 2026-03-18  
@@ -2439,7 +2439,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving in the Dark Environment ![Recent](https://img.shields.io/badge/Recent-orange)
+### DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving in the Dark Environment ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wuqi Wang, Haochen Yang, Baolu Li, Jiaqi Sun, Xiangmo Zhao, et al.  
 **Published:** 2026-03-18  
@@ -3281,7 +3281,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Decentralized Opinion-Integrated Decision making at Unsignalized Intersections via Signed Networks ![New](https://img.shields.io/badge/New-red)
+### Decentralized Opinion-Integrated Decision making at Unsignalized Intersections via Signed Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Bhaskar Varma, Ying Shuai Quan, Karl D. von Ellenrieder, Paolo Falcone  
 **Published:** 2026-04-10  
@@ -3421,7 +3421,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Neural Radiance Maps for Extraterrestrial Navigation and Path Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### Neural Radiance Maps for Extraterrestrial Navigation and Path Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Adam Dai, Shubh Gupta, Grace Gao  
 **Published:** 2026-03-18  
@@ -3845,7 +3845,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Long-SCOPE: Fully Sparse Long-Range Cooperative 3D Perception ![New](https://img.shields.io/badge/New-red)
+### Long-SCOPE: Fully Sparse Long-Range Cooperative 3D Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiahao Wang, Zikun Xu, Yuner Zhang, Zhongwei Jiang, Chenyang Lu, et al.  
 **Published:** 2026-04-10  
@@ -4095,7 +4095,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse ![Recent](https://img.shields.io/badge/Recent-orange)
+### AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Aayam Bansal, Ishaan Gangwani  
 **Published:** 2026-03-18  
@@ -4637,7 +4637,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Computationally Efficient Learning of Artificial Intelligence System Reliability Considering Error Propagation ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Computationally Efficient Learning of Artificial Intelligence System Reliability Considering Error Propagation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fenglian Pan, Yinwei Zhang, Yili Hong, Larry Head, Jian Liu  
 **Published:** 2026-03-18  
@@ -4647,7 +4647,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Virtual Environments to Real-World Trials: Emerging Trends in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### From Virtual Environments to Real-World Trials: Emerging Trends in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** A. Humnabadkar, A. Sikdar, B. Cave, H. Zhang, N. Bessis, et al.  
 **Published:** 2026-03-18  
