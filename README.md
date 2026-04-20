@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--19-blue)
-![Total Papers](https://img.shields.io/badge/Papers-468-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--04--20-blue)
+![Total Papers](https://img.shields.io/badge/Papers-466-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,12 +41,12 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 64 |
+| Control | 63 |
 | Dataset & Benchmark | 31 |
 | End-to-End Learning | 21 |
 | General | 14 |
 | Mapping & Localization | 11 |
-| Perception | 174 |
+| Perception | 173 |
 | Planning | 37 |
 | Prediction | 22 |
 | Safety & Verification | 60 |
@@ -279,7 +279,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Bridging Network Fragmentation: A Semantic-Augmented DRL Framework for UAV-aided VANETs ![Recent](https://img.shields.io/badge/Recent-orange)
+### Bridging Network Fragmentation: A Semantic-Augmented DRL Framework for UAV-aided VANETs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gaoxiang Cao, Wenke Yuan, Huasen He, Yunpeng Hou, Xiaofeng Jiang, et al.  
 **Published:** 2026-03-19  
@@ -289,7 +289,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Student views in AI Ethics and Social Impact ![Recent](https://img.shields.io/badge/Recent-orange)
+### Student views in AI Ethics and Social Impact ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tudor-Dan Mihoc, Manuela-Andreea Petrescu, Emilia-Loredana Pop  
 **Published:** 2026-03-19  
@@ -619,7 +619,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Autonomous Manipulation of Hazardous Chemicals and Delicate Objects in a Self-Driving Laboratory: A Sliding Mode Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Autonomous Manipulation of Hazardous Chemicals and Delicate Objects in a Self-Driving Laboratory: A Sliding Mode Approach
 
 **Authors:** Shifa Sulaiman, Francesco Schetter, Tobias Jensen, Simon Bøgh, Fanny Ficuciello  
 **Published:** 2026-01-18  
@@ -696,16 +696,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2510.20409v1) | [PDF](https://arxiv.org/pdf/2510.20409v1.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** As autonomous agents, from self-driving cars to virtual assistants, become increasingly present in everyday life, safe and effective collaboration depends on human understanding of agents'...
-
----
-
-### Prospects for Using Artificial Intelligence to Understand Intrinsic Kinetics of Heterogeneous Catalytic Reactions
-
-**Authors:** Andrew J. Medford, Todd N. Whittaker, Bjarne Kreitz, David W. Flaherty, John R. Kitchin  
-**Published:** 2025-10-21  
-**Links:** [arXiv](https://arxiv.org/abs/2510.18911v1) | [PDF](https://arxiv.org/pdf/2510.18911v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Artificial intelligence (AI) is influencing heterogeneous catalysis research by accelerating simulations and materials discovery. A key frontier is integrating AI with multiscale models and...
 
 ---
 
@@ -1113,7 +1103,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Markov Potential Game and Multi-Agent Reinforcement Learning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Markov Potential Game and Multi-Agent Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Huiwen Yan, Mushuang Liu  
 **Published:** 2026-03-19  
@@ -1305,7 +1295,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RUBICONe: Wireless RAFT-Unified Behaviors for Intervehicular Cooperative Operations and Negotiations ![Recent](https://img.shields.io/badge/Recent-orange)
+### RUBICONe: Wireless RAFT-Unified Behaviors for Intervehicular Cooperative Operations and Negotiations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhenghua Hu, Tairan Dan, Zeyu Tao, Jiacheng Qian, Amedeo Morat, et al.  
 **Published:** 2026-03-19  
@@ -2349,7 +2339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding ![Recent](https://img.shields.io/badge/Recent-orange)
+### DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dong Zhuo, Wenzhao Zheng, Sicheng Zuo, Siming Yan, Lu Hou, et al.  
 **Published:** 2026-03-19  
@@ -2359,7 +2349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hardware Utilization and Inference Performance of Edge Object Detection Under Fault Injection ![Recent](https://img.shields.io/badge/Recent-orange)
+### Hardware Utilization and Inference Performance of Edge Object Detection Under Fault Injection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Faezeh Pasandideh, Mehdi Azarafza, Achim Rettberg  
 **Published:** 2026-03-19  
@@ -2369,7 +2359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting ![Recent](https://img.shields.io/badge/Recent-orange)
+### Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yiren Lu, Xin Ye, Burhaneddin Yaman, Jingru Luo, Zhexiao Xiong, et al.  
 **Published:** 2026-03-19  
@@ -2379,7 +2369,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking ![Recent](https://img.shields.io/badge/Recent-orange)
+### Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yingqing Chen, Christos G. Cassandras, Wei Xiao, Anni Li  
 **Published:** 2026-03-19  
@@ -2389,7 +2379,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions ![Recent](https://img.shields.io/badge/Recent-orange)
+### Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Eunseon Choi, Junwoo Hong, Daehan Lee, Sanghyun Park, Hyunyoung Jo, et al.  
 **Published:** 2026-03-19  
@@ -3219,16 +3209,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Kinematic Analysis and Integration of Vision Algorithms for a Mobile Manipulator Employed Inside a Self-Driving Laboratory
-
-**Authors:** Shifa Sulaiman, Tobias Busk Jensen, Stefan Hein Bengtson, Simon Bøgh  
-**Published:** 2025-10-21  
-**Links:** [arXiv](https://arxiv.org/abs/2510.19081v1) | [PDF](https://arxiv.org/pdf/2510.19081v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Recent advances in robotics and autonomous systems have broadened the use of robots in laboratory settings, including automated synthesis, scalable reaction workflows, and collaborative tasks in...
-
----
-
 ## Planning
 
 ### CooperDrive: Enhancing Driving Decisions Through Cooperative Perception ![New](https://img.shields.io/badge/New-red)
@@ -3613,7 +3593,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning ![New](https://img.shields.io/badge/New-red)
+### MAVEN-T: Multi-Agent enVironment-aware Enhanced Neural Trajectory predictor with Reinforcement Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Wenchang Duan  
 **Published:** 2026-04-11  
@@ -3743,7 +3723,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion ![Recent](https://img.shields.io/badge/Recent-orange)
+### Pedestrian Crossing Intent Prediction via Psychological Features and Transformer Fusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sima Ashayer, Hoang H. Nguyen, Yu Liang, Mina Sartipi  
 **Published:** 2026-03-20  
@@ -4085,7 +4065,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention ![Recent](https://img.shields.io/badge/Recent-orange)
+### CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiacheng Tang, Zhiyuan Zhou, Zhuolin He, Jia Zhang, Kai Zhang, et al.  
 **Published:** 2026-03-19  
