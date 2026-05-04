@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--03-blue)
-![Total Papers](https://img.shields.io/badge/Papers-460-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--04-blue)
+![Total Papers](https://img.shields.io/badge/Papers-459-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,7 +46,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 15 |
 | General | 16 |
 | Mapping & Localization | 10 |
-| Perception | 153 |
+| Perception | 152 |
 | Planning | 36 |
 | Prediction | 20 |
 | Safety & Verification | 75 |
@@ -279,7 +279,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Set-Theoretic Receding Horizon Control for Obstacle Avoidance and Overtaking in Autonomous Highway Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Set-Theoretic Receding Horizon Control for Obstacle Avoidance and Overtaking in Autonomous Highway Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gianni Cario, Valentino Carriuolo, Alessandro Casavola, Gianfranco Gagliardi, Marco Lupia, et al.  
 **Published:** 2026-04-02  
@@ -1185,7 +1185,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### An Interactive Graphical Tool to Check the Coarray Continuity of Two-Fold Redundant Sparse Arrays (TFRSAs) Under Single Sensor Failures ![New](https://img.shields.io/badge/New-red)
+### An Interactive Graphical Tool to Check the Coarray Continuity of Two-Fold Redundant Sparse Arrays (TFRSAs) Under Single Sensor Failures ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Namya Malik, Ashish Patwari, Sangeetha N  
 **Published:** 2026-04-25  
@@ -1245,7 +1245,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Self Driving Portfolio: Agentic Architecture for Institutional Asset Management ![Recent](https://img.shields.io/badge/Recent-orange)
+### The Self Driving Portfolio: Agentic Architecture for Institutional Asset Management ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Andrew Ang, Nazym Azimbayev, Andrey Kim  
 **Published:** 2026-04-02  
@@ -2009,7 +2009,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals ![Recent](https://img.shields.io/badge/Recent-orange)
+### Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kunzhe Song, Geo Jie Zhou, Xiaoming Liu, Huacheng Zeng  
 **Published:** 2026-04-03  
@@ -2019,7 +2019,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Safety-Aligned 3D Object Detection: Single-Vehicle, Cooperative, and End-to-End Perspectives ![Recent](https://img.shields.io/badge/Recent-orange)
+### Safety-Aligned 3D Object Detection: Single-Vehicle, Cooperative, and End-to-End Perspectives ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Brian Hsuan-Cheng Liao, Chih-Hong Cheng, Hasan Esen, Alois Knoll  
 **Published:** 2026-04-02  
@@ -2029,7 +2029,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Adaptive Learned State Estimation based on KalmanNet ![Recent](https://img.shields.io/badge/Recent-orange)
+### Adaptive Learned State Estimation based on KalmanNet ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Arian Mehrfard, Bharanidhar Duraisamy, Stefan Haag, Florian Geiss, Mirko Mählisch  
 **Published:** 2026-04-02  
@@ -2039,7 +2039,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Deep Neural Network Based Roadwork Detection for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Deep Neural Network Based Roadwork Detection for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sebastian Wullrich, Nicolai Steinke, Daniel Goehring  
 **Published:** 2026-04-02  
@@ -2049,7 +2049,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yongkang Li, Lijun Zhou, Sixu Yan, Bencheng Liao, Tianyi Yan, et al.  
 **Published:** 2026-04-02  
@@ -2059,7 +2059,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency ![Recent](https://img.shields.io/badge/Recent-orange)
+### PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Leezy Han, Seunggyu Kim, Dongseok Shim, Hyeonbeom Lee  
 **Published:** 2026-04-02  
@@ -2069,7 +2069,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hi-LOAM: Hierarchical Implicit Neural Fields for LiDAR Odometry and Mapping ![Recent](https://img.shields.io/badge/Recent-orange)
+### Hi-LOAM: Hierarchical Implicit Neural Fields for LiDAR Odometry and Mapping ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiliu Yang, Jianyuan Zhang, Lianhui Zhao, Jinyu Dai, Zhu Yang  
 **Published:** 2026-04-02  
@@ -2079,7 +2079,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Graph Neural Network Approach for Solving the Ranked Assignment Problem in Multi-Object Tracking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Robin Dehler, Martin Herrmann, Jan Strohbeck, Michael Buchholz  
 **Published:** 2026-04-02  
@@ -2089,7 +2089,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Riemannian and Symplectic Geometry for Hierarchical Text-Driven Place Recognition ![Recent](https://img.shields.io/badge/Recent-orange)
+### Riemannian and Symplectic Geometry for Hierarchical Text-Driven Place Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Shang, Zhenyu Li  
 **Published:** 2026-04-02  
@@ -2959,16 +2959,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Self-Supervised Moving Object Segmentation of Sparse and Noisy Radar Point Clouds
-
-**Authors:** Leon Schwarzer, Matthias Zeller, Daniel Casado Herraez, Simon Dierl, Michael Heidingsfeld, et al.  
-**Published:** 2025-11-04  
-**Links:** [arXiv](https://arxiv.org/abs/2511.02395v1) | [PDF](https://arxiv.org/pdf/2511.02395v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Moving object segmentation is a crucial task for safe and reliable autonomous mobile systems like self-driving cars, improving the reliability and robustness of subsequent tasks like SLAM or path...
-
----
-
 ## Planning
 
 ### ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution ![New](https://img.shields.io/badge/New-red)
@@ -3605,7 +3595,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems ![New](https://img.shields.io/badge/New-red)
+### UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jingyu Zhang, Jacky Wai Keung, Yan Xiao, Yihan Liao, Yishu Li, et al.  
 **Published:** 2026-04-25  
@@ -3615,7 +3605,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Empirical Insights of Test Selection Metrics under Multiple Testing Objectives and Distribution Shifts ![New](https://img.shields.io/badge/New-red)
+### Empirical Insights of Test Selection Metrics under Multiple Testing Objectives and Distribution Shifts ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jingyu Zhang, Fan Wang, Jacky Keung, Yihan Liao, Yan Xiao, et al.  
 **Published:** 2026-04-25  
@@ -3625,7 +3615,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Transferable Physical-World Adversarial Patches Against Object Detection in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Transferable Physical-World Adversarial Patches Against Object Detection in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihui Zhu, Ziqi Zhou, Yichen Wang, Lulu Xue, Minghui Li, et al.  
 **Published:** 2026-04-25  
@@ -3895,7 +3885,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LEO: Graph Attention Network based Hybrid Multi Sensor Extended Object Fusion and Tracking for Autonomous Driving Applications ![Recent](https://img.shields.io/badge/Recent-orange)
+### LEO: Graph Attention Network based Hybrid Multi Sensor Extended Object Fusion and Tracking for Autonomous Driving Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mayank Mayank, Bharanidhar Duraisamy, Florian Geiss  
 **Published:** 2026-04-02  
@@ -3905,7 +3895,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yun Li, Yidu Zhang, Simon Thompson, Ehsan Javanmardi, Manabu Tsukada  
 **Published:** 2026-04-02  
@@ -4437,7 +4427,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dynamic Risk Generation for Autonomous Driving: Naturalistic Reconstruction of Vehicle-E-Scooter Interactions ![Recent](https://img.shields.io/badge/Recent-orange)
+### Dynamic Risk Generation for Autonomous Driving: Naturalistic Reconstruction of Vehicle-E-Scooter Interactions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abin Mathew, Zhitong He, Lingxi Li, Yaobin Chen  
 **Published:** 2026-04-02  
@@ -4447,7 +4437,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SEAL: An Open, Auditable, and Fair Data Generation Framework for AI-Native 6G Networks ![Recent](https://img.shields.io/badge/Recent-orange)
+### SEAL: An Open, Auditable, and Fair Data Generation Framework for AI-Native 6G Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sunder Ali Khowaja, Kapal Dev, Engin Zeydan, Madhusanka Liyanage  
 **Published:** 2026-04-02  
