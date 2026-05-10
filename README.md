@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--09-blue)
-![Total Papers](https://img.shields.io/badge/Papers-461-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--10-blue)
+![Total Papers](https://img.shields.io/badge/Papers-460-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -43,7 +43,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 |----------|-------------|
 | Control | 64 |
 | Dataset & Benchmark | 34 |
-| End-to-End Learning | 16 |
+| End-to-End Learning | 15 |
 | General | 16 |
 | Mapping & Localization | 8 |
 | Perception | 150 |
@@ -129,7 +129,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Map2World: Segment Map Conditioned Text to 3D World Generation ![New](https://img.shields.io/badge/New-red)
+### Map2World: Segment Map Conditioned Text to 3D World Generation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jaeyoung Chung, Suyoung Lee, Jianfeng Xiang, Jiaolong Yang, Kyoung Mu Lee  
 **Published:** 2026-05-01  
@@ -139,7 +139,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Research to Practice: An Interactive Rapid Review of Autonomous Driving System Testing in Industry ![New](https://img.shields.io/badge/New-red)
+### From Research to Practice: An Interactive Rapid Review of Autonomous Driving System Testing in Industry ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qunying Song, Ali Nouri, Håkan Sivencrona, Federica Sarro  
 **Published:** 2026-05-01  
@@ -1113,7 +1113,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VDPP: Video Depth Post-Processing for Speed and Scalability ![Recent](https://img.shields.io/badge/Recent-orange)
+### VDPP: Video Depth Post-Processing for Speed and Scalability ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Daewon Yoon, Injun Baek, Sangyu Han, Yearim Kim, Nojun Kwak  
 **Published:** 2026-04-08  
@@ -1203,16 +1203,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Saarthi: An End-to-End Intelligent Platform for Optimising Distributed Serverless Workloads
-
-**Authors:** Siddharth Agarwal, Maria A. Rodriguez, Rajkumar Buyya  
-**Published:** 2025-11-10  
-**Links:** [arXiv](https://arxiv.org/abs/2511.06599v1) | [PDF](https://arxiv.org/pdf/2511.06599v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** FaaS offers significant advantages with its infrastructure abstraction, on-demand execution, and attractive no idle resource pricing for modern cloud applications. Despite these benefits, challenges...
-
----
-
 ## General
 
 ### Ground4D: Spatially-Grounded Feedforward 4D Reconstruction for Unstructured Off-Road Scenes ![New](https://img.shields.io/badge/New-red)
@@ -1225,7 +1215,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Beyond Structure: Revolutionising Materials Discovery via AI-Driven Synthesis Protocol-Property Relationships ![New](https://img.shields.io/badge/New-red)
+### Beyond Structure: Revolutionising Materials Discovery via AI-Driven Synthesis Protocol-Property Relationships ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Guillaume Lambard  
 **Published:** 2026-05-01  
@@ -1639,7 +1629,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking ![New](https://img.shields.io/badge/New-red)
+### Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nhat-Tan Do, Le-Huy Tu, Nhi Ngoc-Yen Nguyen, Dieu-Phuong Nguyen, Trong-Hop Do  
 **Published:** 2026-05-01  
@@ -2109,7 +2099,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Geo-EVS: Geometry-Conditioned Extrapolative View Synthesis for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Geo-EVS: Geometry-Conditioned Extrapolative View Synthesis for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yatong Lan, Rongkui Tang, Lei He  
 **Published:** 2026-04-08  
@@ -2119,7 +2109,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM ![Recent](https://img.shields.io/badge/Recent-orange)
+### Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chengyue Wu, Shiyi Lan, Yonggan Fu, Sensen Gao, Jin Wang, et al.  
 **Published:** 2026-04-08  
@@ -2129,7 +2119,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### How Well Do Vision-Language Models Understand Sequential Driving Scenes? A Sensitivity Study ![Recent](https://img.shields.io/badge/Recent-orange)
+### How Well Do Vision-Language Models Understand Sequential Driving Scenes? A Sensitivity Study ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Roberto Brusnicki, Mattia Piccinini, Johannes Betz  
 **Published:** 2026-04-08  
@@ -2991,7 +2981,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling ![New](https://img.shields.io/badge/New-red)
+### Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sen Cui, Jingheng Ma  
 **Published:** 2026-05-01  
@@ -3131,7 +3121,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency ![Recent](https://img.shields.io/badge/Recent-orange)
+### CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Timothy K Johnsen, Marco Levorato  
 **Published:** 2026-04-08  
@@ -3393,7 +3383,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### Self-Discovered Intention-aware Transformer for Multi-modal Vehicle Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Diyi Liu, Zihan Niu, Tu Xu, Lishan Sun  
 **Published:** 2026-04-08  
@@ -3845,7 +3835,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yicheng Guo, Jiaqi Liu, Chengkai Xu, Peng Hang, Jian Sun  
 **Published:** 2026-04-08  
@@ -4327,7 +4317,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WILD SAM: A Simulated-and-Real Data Augmentation for Autonomous Driving Perception under Challenging Weather ![New](https://img.shields.io/badge/New-red)
+### WILD SAM: A Simulated-and-Real Data Augmentation for Autonomous Driving Perception under Challenging Weather ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hamed Khatounabadi, Xiaohu Lu, Hayder Radha  
 **Published:** 2026-05-01  
