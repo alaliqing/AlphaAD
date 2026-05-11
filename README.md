@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--10-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--11-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-460-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -329,7 +329,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Open-Ended Instruction Realization with LLM-Enabled Multi-Planner Scheduling in Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Open-Ended Instruction Realization with LLM-Enabled Multi-Planner Scheduling in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiawei Liu, Xun Gong, Fen Fang, Muli Yang, Bohao Qu, et al.  
 **Published:** 2026-04-09  
@@ -861,7 +861,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Felix Embacher, Jonas Uhrig, Marius Cordts, Markus Enzweiler  
 **Published:** 2026-04-09  
@@ -1041,7 +1041,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Sequential versus Manifold Bayesian Optimization under Realistic Experimental Time Constraints ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Sequential versus Manifold Bayesian Optimization under Realistic Experimental Time Constraints
 
 **Authors:** Boris Slautin, Sergei Kalinin  
 **Published:** 2026-02-08  
@@ -1103,7 +1103,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tolga Dimlioglu, Nadine Chang, Maying Shen, Rafid Mahmood, Jose M. Alvarez  
 **Published:** 2026-04-09  
@@ -1609,7 +1609,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LIE: LiDAR-only HD Map Construction with Intensity Enhancement via Online Knowledge Distillation ![New](https://img.shields.io/badge/New-red)
+### LIE: LiDAR-only HD Map Construction with Intensity Enhancement via Online Knowledge Distillation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kanak Mazumder, Fabian B. Flohr  
 **Published:** 2026-05-02  
@@ -1619,7 +1619,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Stealthy Data Fabrication to Unsafe Driving: Realistic Scenario Attacks on Collaborative Perception ![New](https://img.shields.io/badge/New-red)
+### From Stealthy Data Fabrication to Unsafe Driving: Realistic Scenario Attacks on Collaborative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qingzhao Zhang, Runting Zhang, Z. Morley Mao  
 **Published:** 2026-05-02  
@@ -2019,7 +2019,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hao Shao, Letian Wang, Yang Zhou, Yuxuan Hu, Zhuofan Zong, et al.  
 **Published:** 2026-04-09  
@@ -2029,7 +2029,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Fail2Drive: Benchmarking Closed-Loop Driving Generalization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Fail2Drive: Benchmarking Closed-Loop Driving Generalization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Simon Gerstenecker, Andreas Geiger, Katrin Renz  
 **Published:** 2026-04-09  
@@ -2039,7 +2039,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning ![Recent](https://img.shields.io/badge/Recent-orange)
+### CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rui Gan, Junyi Ma, Pei Li, Xingyou Yang, Kai Chen, et al.  
 **Published:** 2026-04-09  
@@ -2049,7 +2049,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jing Gu, Niccolò Cavagnero, Gijs Dubbelman  
 **Published:** 2026-04-09  
@@ -2059,7 +2059,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DinoRADE: Full Spectral Radar-Camera Fusion with Vision Foundation Model Features for Multi-class Object Detection in Adverse Weather ![Recent](https://img.shields.io/badge/Recent-orange)
+### DinoRADE: Full Spectral Radar-Camera Fusion with Vision Foundation Model Features for Multi-class Object Detection in Adverse Weather ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Christof Leitgeb, Thomas Puchleitner, Max Peter Ronecker, Daniel Watzenig  
 **Published:** 2026-04-09  
@@ -2069,7 +2069,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zile Guo, Zhan Chen, Enze Zhu, Kan Wei, Yongkang Zou, et al.  
 **Published:** 2026-04-09  
@@ -2079,7 +2079,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching ![Recent](https://img.shields.io/badge/Recent-orange)
+### Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qihao Huang  
 **Published:** 2026-04-09  
@@ -2089,7 +2089,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ParkSense: Where Should a Delivery Driver Park? Leveraging Idle AV Compute and Vision-Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### ParkSense: Where Should a Delivery Driver Park? Leveraging Idle AV Compute and Vision-Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Die Hu, Henan Li  
 **Published:** 2026-04-09  
@@ -3111,7 +3111,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### On-Policy Distillation of Language Models for Autonomous Vehicle Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amirhossein Afsharrad, Amirhesam Abedsoltan, Ahmadreza Moradipari, Sanjay Lall  
 **Published:** 2026-04-09  
@@ -3825,7 +3825,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Quantum Patches: Enhancing Robustness of Quantum Machine Learning Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Quantum Patches: Enhancing Robustness of Quantum Machine Learning Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ban Q. Tran, Chuong K. Luong, Viet Q. Nguyen, Duong M. Chu, Susan Mengel  
 **Published:** 2026-04-09  
@@ -4297,7 +4297,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dynamics Distillation for Efficient and Transferable Control Learning ![New](https://img.shields.io/badge/New-red)
+### Dynamics Distillation for Efficient and Transferable Control Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xunjiang Gu, Kashyap Chitta, Mahsa Golchoubian, Vladimir Suplin, Igor Gilitschenski  
 **Published:** 2026-05-02  
@@ -4307,7 +4307,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cut-In Gap Acceptance Toward Autonomous vs. Human-Driven Vehicles: Evidence from the Waymo Open Motion Dataset ![New](https://img.shields.io/badge/New-red)
+### Cut-In Gap Acceptance Toward Autonomous vs. Human-Driven Vehicles: Evidence from the Waymo Open Motion Dataset ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Abdulaziz Alhuraish, Yuhang Wang, Hao Zhou  
 **Published:** 2026-05-02  
