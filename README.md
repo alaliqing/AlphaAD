@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--16-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--17-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-461-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -639,7 +639,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Assessing Cybersecurity Risks and Traffic Impact in Connected Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Assessing Cybersecurity Risks and Traffic Impact in Connected Autonomous Vehicles
 
 **Authors:** Saurav Silwal, Lu Gao, Ph. D. Yunpeng Zhang, Ph. D. Ahmed Senouci, Ph. D. Yi-Lung Mo, et al.  
 **Published:** 2026-02-14  
@@ -649,7 +649,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SPLIT: Sparse Incremental Learning of Error Dynamics for Control-Oriented Modeling in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### SPLIT: Sparse Incremental Learning of Error Dynamics for Control-Oriented Modeling in Autonomous Vehicles
 
 **Authors:** Yaoyu Li, Chaosheng Huang, Jun Li  
 **Published:** 2026-02-14  
@@ -1679,7 +1679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 123D: Unifying Multi-Modal Autonomous Driving Data at Scale ![New](https://img.shields.io/badge/New-red)
+### 123D: Unifying Multi-Modal Autonomous Driving Data at Scale ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Daniel Dauner, Valentin Charraut, Bastian Berle, Tianyu Li, Long Nguyen, et al.  
 **Published:** 2026-05-08  
@@ -1689,7 +1689,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene Graph for 4D Cooperative Driving Reconstruction ![New](https://img.shields.io/badge/New-red)
+### One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene Graph for 4D Cooperative Driving Reconstruction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yulong Chen, Xiaoyun Dong, Haoyu Zhang, Zongxian Yang, Lewei Xie, et al.  
 **Published:** 2026-05-08  
@@ -1699,7 +1699,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Probabilistic Object Detection with Conformal Prediction ![New](https://img.shields.io/badge/New-red)
+### Probabilistic Object Detection with Conformal Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Christopher Ries, Moussa Kassem Sbeyti, Nicolas Bianco, Nadja Klein  
 **Published:** 2026-05-08  
@@ -1709,7 +1709,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Distill, Diffuse, and Semanticize (DDS): Annotation-Free 3D Scene Understanding Based on Multi-Granularity Distillation and Graph-Diffusion-Based Segmentation ![New](https://img.shields.io/badge/New-red)
+### Distill, Diffuse, and Semanticize (DDS): Annotation-Free 3D Scene Understanding Based on Multi-Granularity Distillation and Graph-Diffusion-Based Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yijing Wang, Ruonan Li, Qilin Wang, Rongqiang Zhao, Jie Liu  
 **Published:** 2026-05-08  
@@ -1719,7 +1719,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation ![New](https://img.shields.io/badge/New-red)
+### MORPH-U: Multi-Objective Resilient Motion Planning for V2X-Enabled Autonomous Driving in High-Uncertainty Environments via Simulation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Shih-Yu Lai  
 **Published:** 2026-05-08  
@@ -1729,7 +1729,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Share-Private Multimodal Decomposition ![New](https://img.shields.io/badge/New-red)
+### UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Share-Private Multimodal Decomposition ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Shuai Zhang, Zhecheng Shi, Zhuxiao Li, Jing Ou, Tengxi Wang, et al.  
 **Published:** 2026-05-08  
@@ -1739,7 +1739,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GEM: Generating LiDAR World Model via Deformable Mamba ![New](https://img.shields.io/badge/New-red)
+### GEM: Generating LiDAR World Model via Deformable Mamba ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yang Wu, Zhaojiang Liu, Qiang Meng, Youquan Liu, Renliang Weng, et al.  
 **Published:** 2026-05-08  
@@ -3121,7 +3121,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CooperDrive: Enhancing Driving Decisions Through Cooperative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### CooperDrive: Enhancing Driving Decisions Through Cooperative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Deyuan Qu, Qi Chen, Takayuki Shimizu, Onur Altintas  
 **Published:** 2026-04-15  
@@ -3131,7 +3131,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Mosaic: An Extensible Framework for Composing Rule-Based and Learned Motion Planners ![Recent](https://img.shields.io/badge/Recent-orange)
+### Mosaic: An Extensible Framework for Composing Rule-Based and Learned Motion Planners ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nick Le Large, Marlon Steiner, Lingguang Wang, Willi Poh, Jan-Hendrik Pauls, et al.  
 **Published:** 2026-04-15  
@@ -3433,7 +3433,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Enhancing Consistency Models for Multi-Agent Trajectory Prediction ![New](https://img.shields.io/badge/New-red)
+### Enhancing Consistency Models for Multi-Agent Trajectory Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Alen Mrdovic,  Qingze,  Liu, Danrui Li, Mathew Schwartz, et al.  
 **Published:** 2026-05-09  
@@ -3443,7 +3443,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### See Tomorrow, Act Today: Foresight-Driven Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### See Tomorrow, Act Today: Foresight-Driven Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Bozhou Zhang, Nan Song, Yuang Wang, Jiankang Deng, Xiatian Zhu, et al.  
 **Published:** 2026-05-08  
@@ -4337,7 +4337,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SceneFactory: GPU-Accelerated Multi-Agent Driving Simulation with Physics-Based Vehicle Dynamics ![New](https://img.shields.io/badge/New-red)
+### SceneFactory: GPU-Accelerated Multi-Agent Driving Simulation with Physics-Based Vehicle Dynamics ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yicheng Zhu, Yang Chen, Tao Li, Zilin Bian  
 **Published:** 2026-05-08  
@@ -4477,7 +4477,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Towards Autonomous Driving with Short-Packet Rate Splitting: Age of Information Analysis and Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Towards Autonomous Driving with Short-Packet Rate Splitting: Age of Information Analysis and Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zirui Zheng, Yingyang Chen, Xinyue Pei, Xingwei Wang, Zhiquan Liu, et al.  
 **Published:** 2026-04-15  
@@ -4487,7 +4487,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hybrid Architecture Gets Fluid: A New Paradigm for Direction-of-arrival Estimation in 6G Networks ![Recent](https://img.shields.io/badge/Recent-orange)
+### Hybrid Architecture Gets Fluid: A New Paradigm for Direction-of-arrival Estimation in 6G Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ye Tian, Jiaji Ren, Tuo Wu, Wei Liu, Maged Elkashlan, et al.  
 **Published:** 2026-04-15  
