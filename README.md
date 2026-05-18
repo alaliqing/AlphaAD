@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--17-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--18-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-461-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -629,7 +629,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Real-Time Approach to Autonomous CAN Bus Reverse Engineering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### A Real-Time Approach to Autonomous CAN Bus Reverse Engineering
 
 **Authors:** Kevin Setterstrom, Jeremy Straub  
 **Published:** 2026-02-15  
@@ -781,7 +781,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning ![New](https://img.shields.io/badge/New-red)
+### Cross-Sample Relational Fusion: Unifying Domain Generalization and Class-Incremental Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhen-Hao Xie, Yan Wang, Hao Sun, Han-Jia Ye, De-Chuan Zhan, et al.  
 **Published:** 2026-05-09  
@@ -1123,7 +1123,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework ![Recent](https://img.shields.io/badge/Recent-orange)
+### RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hao Gao, Shaoyu Chen, Yifan Zhu, Yuehao Song, Wenyu Liu, et al.  
 **Published:** 2026-04-16  
@@ -1215,7 +1215,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Large Language Models over Networks: Collaborative Intelligence under Resource Constraints ![New](https://img.shields.io/badge/New-red)
+### Large Language Models over Networks: Collaborative Intelligence under Resource Constraints ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Liangqi Yuan, Wenzhi Fang, Shiqiang Wang, H. Vincent Poor, Christopher G. Brinton  
 **Published:** 2026-05-09  
@@ -1669,7 +1669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Unified Modeling of Lane and Lane Topology for Driving Scene Reasoning ![New](https://img.shields.io/badge/New-red)
+### Unified Modeling of Lane and Lane Topology for Driving Scene Reasoning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Han Li, Yulu Gao, Si Liu, Yuhang Wang, Bo Liu, et al.  
 **Published:** 2026-05-09  
@@ -2239,7 +2239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fabrizio Genilotti, Arianna Stropeni, Gionata Grotto, Francesco Borsatti, Manuel Barusco, et al.  
 **Published:** 2026-04-16  
@@ -3001,7 +3001,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Rui Zhao, Jianlin Yu, Zhenhai Gao, Jiaqiao Liu, Fei Gao  
 **Published:** 2026-05-09  
@@ -3423,7 +3423,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Latency Analysis and Optimization of Alpamayo 1 via Efficient Trajectory Generation ![New](https://img.shields.io/badge/New-red)
+### Latency Analysis and Optimization of Alpamayo 1 via Efficient Trajectory Generation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yunseong Jeon, Namcheol Lee, Yoonsu Lee, Jangwoon Park, Sol Ahn, et al.  
 **Published:** 2026-05-09  
@@ -4637,7 +4637,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Polymer Brushes and Grafted Polymers: AI/ML-Driven Synthesis, Simulation, and Characterization towards autonomous SDL ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Polymer Brushes and Grafted Polymers: AI/ML-Driven Synthesis, Simulation, and Characterization towards autonomous SDL
 
 **Authors:** Rigoberto C. Advincula, Jihua Chen  
 **Published:** 2026-02-16  
