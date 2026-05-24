@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--23-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--24-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-470-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -339,7 +339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Enabling Mixed criticality applications for the Versal AI-Engines ![Recent](https://img.shields.io/badge/Recent-orange)
+### Enabling Mixed criticality applications for the Versal AI-Engines ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Vincent Sprave, Martin Wilhelm, Daniele Passaretti, Alberto Garcia-Ortiz, Thilo Pionteck  
 **Published:** 2026-04-22  
@@ -349,7 +349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OVPD: A Virtual-Physical Fusion Testing Dataset of OnSite Auton-omous Driving Challenge ![Recent](https://img.shields.io/badge/Recent-orange)
+### OVPD: A Virtual-Physical Fusion Testing Dataset of OnSite Auton-omous Driving Challenge ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuhang Zhang, Jiarui Zhang, Bowen Jian, Xin Zhou, Zhichao Lv, et al.  
 **Published:** 2026-04-22  
@@ -359,7 +359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference ![Recent](https://img.shields.io/badge/Recent-orange)
+### X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yixiao Zeng, Jianlei Zheng, Chaoda Zheng, Shijia Chen, Mingdian Liu, et al.  
 **Published:** 2026-04-22  
@@ -911,7 +911,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Scene to Object: Text-Guided Dual-Gaze Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### From Scene to Object: Text-Guided Dual-Gaze Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zehong Ke, Yanbo Jiang, Jinhao Li, Zhiyuan Liu, Yiqian Tu, et al.  
 **Published:** 2026-04-22  
@@ -1355,7 +1355,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### See What I See: An Attention-Guiding eHMI Approach for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### See What I See: An Attention-Guiding eHMI Approach for Autonomous Vehicles
 
 **Authors:** Jialong Li, Zhenyu Mao, Zhiyao Wang, Yijun Lu, Shogo Morita, et al.  
 **Published:** 2026-02-21  
@@ -2339,7 +2339,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SoK: The Next Frontier in AV Security: Systematizing Perception Attacks and the Emerging Threat of Multi-Sensor Fusion ![Recent](https://img.shields.io/badge/Recent-orange)
+### SoK: The Next Frontier in AV Security: Systematizing Perception Attacks and the Emerging Threat of Multi-Sensor Fusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shahriar Rahman Khan, Tariqul Islam, Raiful Hasan  
 **Published:** 2026-04-22  
@@ -2349,7 +2349,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Attention-Augmented YOLOv8 with Ghost Convolution for Real-Time Vehicle Detection in Intelligent Transportation Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Attention-Augmented YOLOv8 with Ghost Convolution for Real-Time Vehicle Detection in Intelligent Transportation Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Syed Sajid Ullah, Muhammad Zunair Zamir, Ahsan Ishfaq, Salman Khan  
 **Published:** 2026-04-22  
@@ -2359,7 +2359,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Finn Rasmus Schäfer, Yuan Gao, Dingrui Wang, Thomas Stauner, Stephan Günnemann, et al.  
 **Published:** 2026-04-22  
@@ -3201,7 +3201,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lexicographic Minimum-Violation Motion Planning using Signal Temporal Logic ![Recent](https://img.shields.io/badge/Recent-orange)
+### Lexicographic Minimum-Violation Motion Planning using Signal Temporal Logic ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Patrick Halder, Lothar Kiltz, Hannes Homburger, Johannes Reuter, Matthias Althoff  
 **Published:** 2026-04-22  
@@ -3413,7 +3413,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning Context-conditioned Gaussian Overbounds for Convolution-Based Uncertainty Propagation ![New](https://img.shields.io/badge/New-red)
+### Learning Context-conditioned Gaussian Overbounds for Convolution-Based Uncertainty Propagation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ruirui Liu, Xuejie Hou, Yiping Jiang, Hui Ren  
 **Published:** 2026-05-15  
@@ -3745,7 +3745,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment ![New](https://img.shields.io/badge/New-red)
+### Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Till Beemelmanns, Shayan Sharifi, Manas Mehrotra, Ayushman Choudhuri, Lutz Eckstein  
 **Published:** 2026-05-15  
@@ -3755,7 +3755,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment ![New](https://img.shields.io/badge/New-red)
+### PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chuancheng Zhang, Zhenhao Wang, Kaizheng Li, Yaran Lin, Qiang Guo, et al.  
 **Published:** 2026-05-15  
@@ -4015,7 +4015,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SwarmDrive: Semantic V2V Coordination for Latency-Constrained Cooperative Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### SwarmDrive: Semantic V2V Coordination for Latency-Constrained Cooperative Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Anjie Qiu, Donglin Wang, Zexin Fang, Sanket Partani, Hans D. Schotten  
 **Published:** 2026-04-22  
@@ -4025,7 +4025,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Toward Cooperative Driving in Mixed Traffic: An Adaptive Potential Game-Based Approach with Field Test Verification ![Recent](https://img.shields.io/badge/Recent-orange)
+### Toward Cooperative Driving in Mixed Traffic: An Adaptive Potential Game-Based Approach with Field Test Verification ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shiyu Fang, Xiaocong Zhao, Xuekai Liu, Peng Hang, Jianqiang Wang, et al.  
 **Published:** 2026-04-22  
@@ -4557,7 +4557,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lightweight Low-SNR-Robust Semantic Communication System for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Lightweight Low-SNR-Robust Semantic Communication System for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruixing Ren, Minjie Wei, Junhui Zhao  
 **Published:** 2026-04-22  
