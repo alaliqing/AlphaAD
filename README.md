@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--30-blue)
-![Total Papers](https://img.shields.io/badge/Papers-470-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--05--31-blue)
+![Total Papers](https://img.shields.io/badge/Papers-469-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,7 +46,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 14 |
 | General | 17 |
 | Mapping & Localization | 8 |
-| Perception | 159 |
+| Perception | 158 |
 | Planning | 35 |
 | Prediction | 27 |
 | Safety & Verification | 80 |
@@ -89,7 +89,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SDNator is Not Another SDN Controller: Enabling Extensible Data-Driven Control in Cyber-Physical Systems ![New](https://img.shields.io/badge/New-red)
+### SDNator is Not Another SDN Controller: Enabling Extensible Data-Driven Control in Cyber-Physical Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Y. Lin, R. Zhang, E. Balta, X. Zhu, J. Zhang, et al.  
 **Published:** 2026-05-22  
@@ -99,7 +99,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems ![New](https://img.shields.io/badge/New-red)
+### To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xingzhen Chen, Shixin Ji, Zheng Dong, Peipei Zhou  
 **Published:** 2026-05-22  
@@ -881,7 +881,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning from the Unseen: Generative Data Augmentation for Geometric-Semantic Accident Anticipation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Learning from the Unseen: Generative Data Augmentation for Geometric-Semantic Accident Anticipation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yanchen Guan, Haicheng Liao, Chengyue Wang, Xingcheng Liu, Jiaxun Zhang, et al.  
 **Published:** 2026-04-29  
@@ -1185,7 +1185,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Routing Equilibrium in Mixed-Autonomy Traffic Networks with Altruistic Autonomous Agents ![New](https://img.shields.io/badge/New-red)
+### Routing Equilibrium in Mixed-Autonomy Traffic Networks with Altruistic Autonomous Agents ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lihui Yi, Ermin Wei  
 **Published:** 2026-05-22  
@@ -1519,7 +1519,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kevin Richard, Alphin Varghese, Colin Pham, David Oh, Srijan Das  
 **Published:** 2026-05-22  
@@ -1529,7 +1529,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RS2AD-LiDAR: End-to-End Autonomous Driving LiDAR Data Generation from Roadside Sensor Observations ![New](https://img.shields.io/badge/New-red)
+### RS2AD-LiDAR: End-to-End Autonomous Driving LiDAR Data Generation from Roadside Sensor Observations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Runyi Huang, Ni Ding, Ruidan Xing, Yuheng Shi, Lei He, et al.  
 **Published:** 2026-05-22  
@@ -1539,7 +1539,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GFSR: Geometric Fidelity and Spatial Refinement for Reliable Lane Detection ![New](https://img.shields.io/badge/New-red)
+### GFSR: Geometric Fidelity and Spatial Refinement for Reliable Lane Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tiancheng Wang, Zhaolu Ding, Richeng Xu, Tianhui Zheng, Hui Liu, et al.  
 **Published:** 2026-05-22  
@@ -1549,7 +1549,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DRIVESPATIAL: A Benchmark for Spatiotemporal Intelligence in VLMs for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### DRIVESPATIAL: A Benchmark for Spatiotemporal Intelligence in VLMs for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hao Vo, Khoa Vo, Phu Loc Nguyen, Sieu Tran, Duc Minh Nguyen, et al.  
 **Published:** 2026-05-22  
@@ -1559,7 +1559,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kewei Zhang, Jin Wang, Sensen Gao, Chengyue Wu, Yulong Cao, et al.  
 **Published:** 2026-05-22  
@@ -3009,16 +3009,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Data-Centric Visual Development for Self-Driving Labs
-
-**Authors:** Anbang Liu, Guanzhong Hu, Jiayi Wang, Ping Guo, Han Liu  
-**Published:** 2025-12-01  
-**Links:** [arXiv](https://arxiv.org/abs/2512.02018v1) | [PDF](https://arxiv.org/pdf/2512.02018v1.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Self-driving laboratories offer a promising path toward reducing the labor-intensive, time-consuming, and often irreproducible workflows in the biological sciences. Yet their stringent precision...
-
----
-
 ## Planning
 
 ### Scaling up Energy-Aware Multi-Agent Reinforcement Learning for Mission-Oriented Drone Networks with Individual Reward ![New](https://img.shields.io/badge/New-red)
@@ -3755,7 +3745,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ChainFlow-VLA: Causal Flow Planning with Vision-Language Models ![New](https://img.shields.io/badge/New-red)
+### ChainFlow-VLA: Causal Flow Planning with Vision-Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiyang Wang, Xinlin Wang, Tingguang Zhou, Gong Chen, Xingtai Gui, et al.  
 **Published:** 2026-05-22  
@@ -3765,7 +3755,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lipschitz Optimization for Formal Verification of Homographies ![New](https://img.shields.io/badge/New-red)
+### Lipschitz Optimization for Formal Verification of Homographies ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jean-Guillaume Durand, Panagiotis Kouvaros, Maxime Gariel, Alessio Lomuscio  
 **Published:** 2026-05-22  
@@ -4045,7 +4035,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Recipes for Calibration Checks in Safety-Critical Applications ![Recent](https://img.shields.io/badge/Recent-orange)
+### Recipes for Calibration Checks in Safety-Critical Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Romeo Valentin  
 **Published:** 2026-04-29  
@@ -4055,7 +4045,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TRIP-Evaluate: An Open Multimodal Benchmark for Evaluating Large Models in Transportation ![Recent](https://img.shields.io/badge/Recent-orange)
+### TRIP-Evaluate: An Open Multimodal Benchmark for Evaluating Large Models in Transportation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Han Gong, Zhen Zhou, Yunyang Shi, Yan Tan, Jinbiao Huo, et al.  
 **Published:** 2026-04-29  
@@ -4557,7 +4547,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AutoREC: A software platform for developing reinforcement learning agents for equivalent circuit model generation from electrochemical impedance spectroscopy data ![Recent](https://img.shields.io/badge/Recent-orange)
+### AutoREC: A software platform for developing reinforcement learning agents for equivalent circuit model generation from electrochemical impedance spectroscopy data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ali Jaberi, Yonatan Kurniawan, Robert Black, Shayan Mousavi M., Kabir Verma, et al.  
 **Published:** 2026-04-29  
@@ -4567,7 +4557,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PALCAS: A Priority-Aware Intelligent Lane Change Advisory System for Autonomous Vehicles using Federated Reinforcement Learning ![Recent](https://img.shields.io/badge/Recent-orange)
+### PALCAS: A Priority-Aware Intelligent Lane Change Advisory System for Autonomous Vehicles using Federated Reinforcement Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yassine Ibork, Nhat Ha Nguyen, Myounggyu Won, Lokesh Das  
 **Published:** 2026-04-29  
@@ -4577,7 +4567,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning physically grounded traffic accident reconstruction from public accident reports ![Recent](https://img.shields.io/badge/Recent-orange)
+### Learning physically grounded traffic accident reconstruction from public accident reports ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yanchen Guan, Haicheng Liao, Chengyue Wang, Zhenning Li  
 **Published:** 2026-04-29  
