@@ -13,9 +13,22 @@ from typing import List, Dict
 import time
 import re
 import random
+import html as html_module
 
 
-USER_AGENT = "AlphaAD-arxiv-scraper/1.0 (+https://github.com/qinjing/AlphaAD)"
+# A real-looking UA helps avoid silent blocking on the HTML endpoint.
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36"
+)
+
+# arxiv.org/search/ uses fixed page size of 50.
+HTML_PAGE_SIZE = 50
+
+# Cap pagination per keyword. 10 pages * 50 = 500 papers, well above the
+# previous API max_results=200 and enough to cover any 180-day window.
+HTML_MAX_PAGES = 10
 
 
 class ArXivPaper:
@@ -107,17 +120,29 @@ class ArXivScraper:
         self.papers: List[ArXivPaper] = []
 
     def fetch_papers(self, keywords: List[str], days_back: int = 180):
-        """Fetch papers matching keywords from the last N days."""
+        """Fetch papers matching keywords from the last N days.
+
+        Strategy: HTML search (arxiv.org/search/) is the primary path because
+        the /api/query endpoint is frequently rate-limited at the IP level,
+        especially from cloud / CI runner ranges. The API is kept as a
+        per-keyword fallback for when HTML parsing produces no results.
+        """
         print(f"Fetching papers from the last {days_back} days...")
 
         for idx, keyword in enumerate(keywords):
             print(f"Searching for: {keyword}")
-            papers = self._query_arxiv(keyword, days_back)
+
+            papers = self._query_arxiv_html(keyword, days_back)
+            if not papers:
+                print(f"  HTML returned 0 papers for '{keyword}', "
+                      f"falling back to API...")
+                papers = self._query_arxiv(keyword, days_back)
+
+            print(f"  Got {len(papers)} papers for '{keyword}'")
             self.papers.extend(papers)
-            # Be conservative between keywords to avoid rate limiting.
-            # arXiv recommends >=3s; we use 20-30s for batch jobs.
+
             if idx < len(keywords) - 1:
-                delay = random.uniform(20, 30)
+                delay = random.uniform(5, 10)
                 print(f"Sleeping {delay:.1f}s before next keyword...")
                 time.sleep(delay)
 
@@ -131,6 +156,201 @@ class ArXivScraper:
 
         self.papers = unique_papers
         print(f"Found {len(self.papers)} unique papers")
+
+    def _query_arxiv_html(self, keyword: str, days_back: int) -> List[ArXivPaper]:
+        """Query arxiv.org/search/ HTML endpoint, paginating until results
+        fall outside the date window or the page cap is reached.
+
+        Returns paper objects within the last `days_back` days. Stops early
+        when a page's oldest result is older than the cutoff (results are
+        sorted by submittedDate descending by default).
+        """
+        cutoff = datetime.now() - timedelta(days=days_back)
+        all_papers: List[ArXivPaper] = []
+
+        for page in range(HTML_MAX_PAGES):
+            start = page * HTML_PAGE_SIZE
+            params = {
+                "searchtype": "all",
+                "query": f'"{keyword}"',  # phrase search, matches all:"..." API behaviour
+                "start": start,
+            }
+            url = "https://arxiv.org/search/?" + urllib.parse.urlencode(params)
+
+            html_text = self._fetch_with_retry(url, label=f"HTML '{keyword}' p{page + 1}")
+            if html_text is None:
+                # Fail this page; if first page, caller will fall back to API.
+                break
+
+            page_papers, oldest_date = self._parse_search_html(html_text, cutoff)
+            all_papers.extend(page_papers)
+
+            # Early break: page is non-empty but its oldest paper is already
+            # past the cutoff -> all remaining pages will be older.
+            if oldest_date is not None and oldest_date < cutoff:
+                break
+
+            # If page yielded fewer than a full page of *parsed* results, end.
+            # (Trailing pages of search results often have <50 items.)
+            if not page_papers:
+                break
+
+            # Be polite between pages even though no rate limit observed.
+            time.sleep(random.uniform(1.5, 3.0))
+
+        return all_papers
+
+    def _fetch_with_retry(self, url: str, label: str) -> str:
+        """GET url with retry/backoff. Returns body text or None on failure."""
+        max_retries = 4
+        base_delay = 8
+
+        for attempt in range(max_retries):
+            try:
+                req = urllib.request.Request(url, headers={
+                    "User-Agent": USER_AGENT,
+                    "Accept": "text/html,application/xml;q=0.9,*/*;q=0.8",
+                })
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    return resp.read().decode("utf-8", errors="replace")
+            except urllib.error.HTTPError as e:
+                if (e.code == 429 or 500 <= e.code < 600) and attempt < max_retries - 1:
+                    delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
+                    print(f"  {label}: HTTP {e.code}, sleeping {delay:.1f}s "
+                          f"(retry {attempt + 2}/{max_retries})...")
+                    time.sleep(delay)
+                    continue
+                print(f"  {label}: HTTP {e.code} - {e.reason}")
+                return None
+            except (urllib.error.URLError, TimeoutError) as e:
+                if attempt < max_retries - 1:
+                    delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
+                    print(f"  {label}: network error ({e}), sleeping {delay:.1f}s "
+                          f"(retry {attempt + 2}/{max_retries})...")
+                    time.sleep(delay)
+                    continue
+                print(f"  {label}: network error - {e}")
+                return None
+            except Exception as e:
+                print(f"  {label}: unexpected error - {e}")
+                return None
+        return None
+
+    @staticmethod
+    def _strip_tags(s: str) -> str:
+        """Remove HTML tags and decode entities, collapse whitespace."""
+        s = re.sub(r"<[^>]+>", "", s)
+        s = html_module.unescape(s)
+        return re.sub(r"\s+", " ", s).strip()
+
+    def _parse_search_html(self, html: str, cutoff: datetime):
+        """Parse one search results page into ArXivPaper objects within cutoff.
+
+        Returns (papers_in_window, oldest_seen_date). oldest_seen_date is the
+        oldest paper date observed on this page regardless of window — used
+        by the caller to decide whether to stop pagination.
+        """
+        # Each result is a <li class="arxiv-result"> ... </li> block.
+        blocks = re.findall(
+            r'<li class="arxiv-result">(.*?)</li>\s*(?=<li class="arxiv-result">|</ol>)',
+            html,
+            re.DOTALL,
+        )
+        papers: List[ArXivPaper] = []
+        oldest_seen: datetime = None
+
+        for block in blocks:
+            # arXiv ID
+            m = re.search(r'/abs/(\d{4}\.\d{4,5})', block)
+            if not m:
+                continue
+            arxiv_id = m.group(1)
+
+            # Title
+            m = re.search(
+                r'<p class="title is-5 mathjax">(.*?)</p>', block, re.DOTALL
+            )
+            if not m:
+                continue
+            title = self._strip_tags(m.group(1))
+
+            # Authors
+            m = re.search(r'<p class="authors">(.*?)</p>', block, re.DOTALL)
+            authors: List[str] = []
+            if m:
+                authors = [
+                    self._strip_tags(a)
+                    for a in re.findall(
+                        r'<a [^>]*>(.*?)</a>', m.group(1), re.DOTALL
+                    )
+                ]
+
+            # Abstract: prefer abstract-full, fall back to abstract-short
+            abstract = ""
+            m = re.search(
+                r'<span class="abstract-full[^"]*"[^>]*>(.*?)</span>',
+                block,
+                re.DOTALL,
+            )
+            if m:
+                # Strip the trailing "△ Less" link before stripping all tags.
+                abs_html = re.sub(r'<a [^>]*>.*?</a>', '', m.group(1), flags=re.DOTALL)
+                abstract = self._strip_tags(abs_html)
+            else:
+                m = re.search(
+                    r'<span class="abstract-short[^"]*"[^>]*>(.*?)</span>',
+                    block,
+                    re.DOTALL,
+                )
+                if m:
+                    abs_html = re.sub(r'<a [^>]*>.*?</a>', '', m.group(1), flags=re.DOTALL)
+                    abstract = self._strip_tags(abs_html).rstrip("…").rstrip()
+
+            # Submission date. Date paragraph contains:
+            #   "Submitted 4 June, 2026; ... originally announced June 2026."
+            # For revised papers there can be multiple "Submitted" lines; the
+            # LAST one is the v1/original submission, which matches the API's
+            # <published> field.
+            date_para = re.search(
+                r'<p class="is-size-7">(.*?)</p>', block, re.DOTALL
+            )
+            if not date_para:
+                continue
+            date_text = self._strip_tags(date_para.group(1))
+            date_matches = re.findall(
+                r'(\d{1,2})\s+(January|February|March|April|May|June|July|'
+                r'August|September|October|November|December),?\s+(\d{4})',
+                date_text,
+            )
+            if not date_matches:
+                continue
+            day, month_name, year = date_matches[-1]  # original (v1) submission
+            try:
+                published_dt = datetime.strptime(
+                    f"{day} {month_name} {year}", "%d %B %Y"
+                )
+            except ValueError:
+                continue
+
+            if oldest_seen is None or published_dt < oldest_seen:
+                oldest_seen = published_dt
+
+            if published_dt < cutoff:
+                continue
+
+            published_iso = published_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            papers.append(
+                ArXivPaper(
+                    title=title,
+                    authors=authors,
+                    abstract=abstract,
+                    arxiv_id=arxiv_id,
+                    published=published_iso,
+                    updated=published_iso,
+                )
+            )
+
+        return papers, oldest_seen
 
     def _query_arxiv(self, keyword: str, days_back: int) -> List[ArXivPaper]:
         """Query arXiv API for a specific keyword with retry logic."""
