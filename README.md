@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--04-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--05-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-0-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
