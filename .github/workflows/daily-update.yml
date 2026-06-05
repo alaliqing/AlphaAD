@@ -24,9 +24,25 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run scraper
+      - name: Run scraper (with retry)
         run: |
-          python scrape_arxiv.py
+          set +e
+          for attempt in 1 2 3; do
+            echo "=== Scraper attempt $attempt/3 ==="
+            python scrape_arxiv.py
+            status=$?
+            if [ "$status" -eq 0 ]; then
+              echo "Scraper succeeded on attempt $attempt"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep_seconds=$((300 * attempt))
+              echo "Attempt $attempt failed (exit $status). Sleeping ${sleep_seconds}s before retry..."
+              sleep "$sleep_seconds"
+            fi
+          done
+          echo "All scraper attempts failed."
+          exit 1
 
       - name: Check for changes
         id: check_changes

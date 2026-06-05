@@ -4,6 +4,7 @@ ArXiv Autonomous Driving Papers Scraper
 Fetches and categorizes recent autonomous driving research papers from arXiv.
 """
 
+import sys
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -12,6 +13,9 @@ from typing import List, Dict
 import time
 import re
 import random
+
+
+USER_AGENT = "AlphaAD-arxiv-scraper/1.0 (+https://github.com/qinjing/AlphaAD)"
 
 
 class ArXivPaper:
@@ -96,7 +100,7 @@ class ArXivPaper:
 class ArXivScraper:
     """Scrapes papers from arXiv API."""
 
-    BASE_URL = "http://export.arxiv.org/api/query?"
+    BASE_URL = "https://export.arxiv.org/api/query?"
 
     def __init__(self, max_results: int = 200):
         self.max_results = max_results
@@ -106,12 +110,16 @@ class ArXivScraper:
         """Fetch papers matching keywords from the last N days."""
         print(f"Fetching papers from the last {days_back} days...")
 
-        for keyword in keywords:
+        for idx, keyword in enumerate(keywords):
             print(f"Searching for: {keyword}")
             papers = self._query_arxiv(keyword, days_back)
             self.papers.extend(papers)
-            # Random delay between 5-10 seconds to avoid rate limiting
-            time.sleep(random.uniform(5, 10))
+            # Be conservative between keywords to avoid rate limiting.
+            # arXiv recommends >=3s; we use 20-30s for batch jobs.
+            if idx < len(keywords) - 1:
+                delay = random.uniform(20, 30)
+                print(f"Sleeping {delay:.1f}s before next keyword...")
+                time.sleep(delay)
 
         # Remove duplicates based on arxiv_id
         seen = set()
@@ -142,19 +150,15 @@ class ArXivScraper:
 
         url = self.BASE_URL + urllib.parse.urlencode(params)
 
-        # Retry logic with exponential backoff
+        # Retry logic with exponential backoff. Start at 15s because arXiv's
+        # rate limiter often holds for ~10s after a 429.
         max_retries = 5
-        base_delay = 5
+        base_delay = 15
 
         for attempt in range(max_retries):
             try:
-                # Add jitter to avoid thundering herd
-                if attempt > 0:
-                    delay = base_delay * (2 ** attempt) + random.uniform(0, 2)
-                    print(f"Retry attempt {attempt + 1}/{max_retries} after {delay:.1f}s delay...")
-                    time.sleep(delay)
-
-                with urllib.request.urlopen(url) as response:
+                request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+                with urllib.request.urlopen(request, timeout=60) as response:
                     data = response.read()
 
                 # Parse XML
@@ -186,18 +190,31 @@ class ArXivScraper:
                 return papers
 
             except urllib.error.HTTPError as e:
-                if e.code == 429:  # Too Many Requests
+                # Retry on rate limiting (429) and transient server errors (5xx).
+                if e.code == 429 or 500 <= e.code < 600:
                     if attempt < max_retries - 1:
-                        delay = base_delay * (2 ** attempt) + random.uniform(0, 2)
-                        print(f"Rate limited (429), waiting {delay:.1f}s before retry...")
+                        delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
+                        print(f"HTTP {e.code}, waiting {delay:.1f}s before retry "
+                              f"(attempt {attempt + 2}/{max_retries})...")
                         time.sleep(delay)
                         continue
                     else:
-                        print(f"Error querying arXiv for '{keyword}': Max retries reached due to rate limiting")
+                        print(f"Error querying arXiv for '{keyword}': "
+                              f"HTTP {e.code} after {max_retries} attempts")
                         return []
                 else:
                     print(f"Error querying arXiv for '{keyword}': HTTP {e.code} - {e.reason}")
                     return []
+
+            except (urllib.error.URLError, TimeoutError) as e:
+                if attempt < max_retries - 1:
+                    delay = base_delay * (2 ** attempt) + random.uniform(0, 5)
+                    print(f"Network error ({e}), waiting {delay:.1f}s before retry "
+                          f"(attempt {attempt + 2}/{max_retries})...")
+                    time.sleep(delay)
+                    continue
+                print(f"Error querying arXiv for '{keyword}': {e}")
+                return []
 
             except Exception as e:
                 print(f"Error querying arXiv for '{keyword}': {e}")
@@ -434,6 +451,14 @@ def main():
     # Create scraper and fetch papers from last 180 days
     scraper = ArXivScraper(max_results=200)
     scraper.fetch_papers(keywords, days_back=180)
+
+    # Safeguard: never overwrite README with an empty result set.
+    # Exiting non-zero makes the GitHub Action fail loudly and keeps
+    # the existing README intact.
+    if not scraper.papers:
+        print("ERROR: No papers fetched. Aborting to preserve existing README.",
+              file=sys.stderr)
+        sys.exit(1)
 
     # Generate README
     scraper.generate_readme()
