@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--27-blue)
-![Total Papers](https://img.shields.io/badge/Papers-660-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--28-blue)
+![Total Papers](https://img.shields.io/badge/Papers-659-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,7 +41,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 60 |
+| Control | 59 |
 | Dataset & Benchmark | 29 |
 | End-to-End Learning | 59 |
 | General | 145 |
@@ -239,7 +239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications ![Recent](https://img.shields.io/badge/Recent-orange)
+### World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Arif Hassan Zidan, Yi Pan, Hanqi Jiang, Ruiyu Yan, Wei Ruan, et al.  
 **Published:** 2026-05-28  
@@ -579,7 +579,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Safety Guardrails in the Sky: Realizing Control Barrier Functions on the VISTA F-16 Jet ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Safety Guardrails in the Sky: Realizing Control Barrier Functions on the VISTA F-16 Jet
 
 **Authors:** Andrew W. Singletary, Max H. Cohen, Tamas G. Molnar, Aaron D. Ames  
 **Published:** 2026-03-29  
@@ -656,16 +656,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2601.04545) | [PDF](https://arxiv.org/pdf/2601.04545.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Human centric critical systems are increasingly involving artificial intelligence to enable knowledge extraction from sensor collected data. Examples include medical monitoring and control systems,...
-
----
-
-### Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems
-
-**Authors:** Song Wang, Lingdong Kong, Xiaolu Liu, Hao Shi, Wentong Li, et al.  
-**Published:** 2025-12-30  
-**Links:** [arXiv](https://arxiv.org/abs/2512.24385) | [PDF](https://arxiv.org/pdf/2512.24385.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The rapid advancement of autonomous systems, including self
 
 ---
 
@@ -1203,7 +1193,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmed Abouelazm, Felix Klingebiel, Philip Schörner, J. Marius Zöllner  
 **Published:** 2026-05-28  
@@ -1635,7 +1625,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Driving Videos to Simulatable Scenarios ![New](https://img.shields.io/badge/New-red)
+### From Driving Videos to Simulatable Scenarios ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Alexandre Levy, Ernest Valveny Llobet, Antonio Manuel López  
 **Published:** 2026-06-20  
@@ -2115,7 +2105,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zezhong Qian, Zhao Yang, Lu Tan, Zhihao Yan, Weiyi Hong, et al.  
 **Published:** 2026-05-28  
@@ -2125,7 +2115,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode ![Recent](https://img.shields.io/badge/Recent-orange)
+### Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Josef Chen  
 **Published:** 2026-05-28  
@@ -2135,7 +2125,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions ![Recent](https://img.shields.io/badge/Recent-orange)
+### Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rudolf Krecht, Tamas Budai, Erno Horvath, Akos Kovacs, Nobert Marko, et al.  
 **Published:** 2026-05-28  
@@ -5905,7 +5895,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Supercharging Thermal Gaussian Splatting with Depth Estimation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Supercharging Thermal Gaussian Splatting with Depth Estimation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Manoj Biswanath, Chenxin Cai, Hannah Schieber, Daniel Roth, Benjamin Busam  
 **Published:** 2026-05-28  
