@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--28-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--06--29-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-659-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -569,7 +569,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Quality-Controlled Active Learning via Gaussian Processes for Robust Structure-Property Learning in Autonomous Microscopy ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Quality-Controlled Active Learning via Gaussian Processes for Robust Structure-Property Learning in Autonomous Microscopy
 
 **Authors:** Jawad Chowdhury, Ganesh Narasimha, Jan-Chi Yang, Yongtao Liu, Rama Vasudevan  
 **Published:** 2026-03-30  
@@ -731,7 +731,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiyu Huang, Johnson Liu, Rui Song, Zewei Zhou, Ruining Yang, et al.  
 **Published:** 2026-05-29  
@@ -1173,7 +1173,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Safe2Drive: Evaluating Safe Driving Behaviors of E2E Autonomous Driving Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### Safe2Drive: Evaluating Safe Driving Behaviors of E2E Autonomous Driving Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nishad Sahu, Kalpana Panda, Congyuan Yu, Changzhong Qian, Shounak Sural, et al.  
 **Published:** 2026-05-29  
@@ -1183,7 +1183,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiahui Li, Jiawei Sun, Zixiang Ren, Ming Liu, Jiamin Shi, et al.  
 **Published:** 2026-05-29  
@@ -1615,7 +1615,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs ![New](https://img.shields.io/badge/New-red)
+### OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hao Vo, Phu Loc Nguyen, Khoa Vo, Sieu Tran, Duc Minh Nguyen, et al.  
 **Published:** 2026-06-21  
@@ -2095,7 +2095,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Can BEV Perception Gracefully Degrade under Sensor Failures? ![Recent](https://img.shields.io/badge/Recent-orange)
+### Can BEV Perception Gracefully Degrade under Sensor Failures? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haifa Zhang, Yijing Wang, Haoyu Wang, Zheng Li, Zhiqiang Zuo  
 **Published:** 2026-05-29  
@@ -2845,7 +2845,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DeepEye: A Steerable Self-driving Data Agent System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### DeepEye: A Steerable Self-driving Data Agent System
 
 **Authors:** Boyan Li, Yiran Peng, Yupeng Xie, Sirong Lu, Yizhang Zhu, et al.  
 **Published:** 2026-03-30  
@@ -3669,7 +3669,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather ![Recent](https://img.shields.io/badge/Recent-orange)
+### 4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Melih Yazgan, Iramm Hamdard, Qiyuan Wu, J. Marius Zoellner  
 **Published:** 2026-05-29  
@@ -3679,7 +3679,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement ![Recent](https://img.shields.io/badge/Recent-orange)
+### StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junwon Seo, Sushant Veer, Ran Tian, Wenhao Ding, Apoorva Sharma, et al.  
 **Published:** 2026-05-29  
@@ -3689,7 +3689,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Before Parc Fermé: RL-Time Pruning for Efficient Embodied LLMs in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Before Parc Fermé: RL-Time Pruning for Efficient Embodied LLMs in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca Benfenati, Ali Azimi, Matteo Risso, Fabio Carapellese, Daniele Jahier Pagliari, et al.  
 **Published:** 2026-05-29  
@@ -3699,7 +3699,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior? ![Recent](https://img.shields.io/badge/Recent-orange)
+### Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng  
 **Published:** 2026-05-29  
@@ -3709,7 +3709,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### IAF-Net: Illumination-Adaptive Fusion for Low-Light Urban Road Segmentation ![Recent](https://img.shields.io/badge/Recent-orange)
+### IAF-Net: Illumination-Adaptive Fusion for Low-Light Urban Road Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bingtao Wang, Daojie Peng, Fulong Ma, Jun Ma, Liang Zhang  
 **Published:** 2026-05-29  
@@ -5363,7 +5363,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Active Inference as the Test-Time Scaling Law for Physical AI Agents ![New](https://img.shields.io/badge/New-red)
+### Active Inference as the Test-Time Scaling Law for Physical AI Agents ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston, et al.  
 **Published:** 2026-06-21  
@@ -5483,7 +5483,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting ![Recent](https://img.shields.io/badge/Recent-orange)
+### MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, et al.  
 **Published:** 2026-05-29  
@@ -5493,7 +5493,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chenghao Zhang, Timin Li, Dongmei Li  
 **Published:** 2026-05-29  
