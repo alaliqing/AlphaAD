@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--17-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--18-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-918-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -109,7 +109,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Federated Cybersecurity Testbed as a Service (FCTaaS): A framework to federate cybersecurity testbeds ![New](https://img.shields.io/badge/New-red)
+### Federated Cybersecurity Testbed as a Service (FCTaaS): A framework to federate cybersecurity testbeds ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Josh Dean, Yu-Zheng Lin, John Paul Martin Encinas, Ibrahim Almazyad, Qinxuan Shi, et al.  
 **Published:** 2026-07-10  
@@ -1021,7 +1021,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### The Precursor Genome: A Pairwise Reaction Dataset for Solid-State Synthesis ![New](https://img.shields.io/badge/New-red)
+### The Precursor Genome: A Pairwise Reaction Dataset for Solid-State Synthesis ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lauren N. Walters, Matthew J. McDermott, Bernardus Rendy, Yuxing Fei, Kristin A. Persson, et al.  
 **Published:** 2026-07-10  
@@ -1443,7 +1443,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### BeyondSight: Object Permanence for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### BeyondSight: Object Permanence for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sandro Papais, Letian Wang, Mudit Jain, Behnaz Rezaei, Steven L. Waslander  
 **Published:** 2026-07-10  
@@ -1613,7 +1613,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Scaling Self-Play for End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Scaling Self-Play for End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luke Rowe, Roger Girgis, Rodrigue de Schaetzen, Daphne Cornelisse, Alaap Grandhi, et al.  
 **Published:** 2026-06-17  
@@ -2235,7 +2235,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multimodal Scenario Similarity Search for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Multimodal Scenario Similarity Search for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tamás Matuszka, András Tamásy, Balázs Szolár  
 **Published:** 2026-07-10  
@@ -2665,7 +2665,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Mixed-Reality Testbed for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Mixed-Reality Testbed for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** H. M. Sabbir Ahmad, Ehsan Sabouni, Emrullah Celik, Zean Wan, Damola Ajeyemi, et al.  
 **Published:** 2026-06-17  
@@ -4579,7 +4579,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness ![New](https://img.shields.io/badge/New-red)
+### FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Shunsuke Yokokawa, Hironori Kasahara  
 **Published:** 2026-07-10  
@@ -4589,7 +4589,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### OpenLongTail: Generative Scaling of Long-Tail Driving Data ![New](https://img.shields.io/badge/New-red)
+### OpenLongTail: Generative Scaling of Long-Tail Driving Data ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lulin Liu, Nuo Chen, Yan Wang, Bangya Liu, Wenyan Cong, et al.  
 **Published:** 2026-07-10  
@@ -4599,7 +4599,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception ![New](https://img.shields.io/badge/New-red)
+### 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaokai Bai, Lianqing Zheng, Runwei Guan, Songkai Wang, Siyuan Cao, et al.  
 **Published:** 2026-07-10  
@@ -4609,7 +4609,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Equivariant Filter for High Performance Image Tracking using an Event Camera ![New](https://img.shields.io/badge/New-red)
+### Equivariant Filter for High Performance Image Tracking using an Event Camera ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Angus Apps, Yixiao Ge, Timothy L. Molloy, Robert Mahony  
 **Published:** 2026-07-10  
@@ -7001,7 +7001,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning ![Recent](https://img.shields.io/badge/Recent-orange)
+### Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yukai Ma, Joe Lin, Liu Liu, Honglin He, Lulu Ricketts, et al.  
 **Published:** 2026-06-17  
@@ -8165,7 +8165,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmad Farooq, Kamran Iqbal  
 **Published:** 2026-06-17  
@@ -8947,7 +8947,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiewen Liu, Rui Liu, Matthew Lee, Ming C. Lin, Xiaorui Liu, et al.  
 **Published:** 2026-07-10  
