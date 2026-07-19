@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--18-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--19-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-918-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -1091,7 +1091,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City ![Recent](https://img.shields.io/badge/Recent-orange)
+### Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Adrian Cespedes, Marcelo Chincha, Dunant Cusipuma, Victor Flores-Benites, David Ortega, et al.  
 **Published:** 2026-06-18  
@@ -1101,7 +1101,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### World Engine: Towards the Era of Post-Training for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### World Engine: Towards the Era of Post-Training for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyu Li, Li Chen, Caojun Wang, Haochen Liu, Kashyap Chitta, et al.  
 **Published:** 2026-06-18  
@@ -1433,7 +1433,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, et al.  
 **Published:** 2026-07-11  
@@ -1593,7 +1593,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CRAX: Fast Safe Reinforcement Learning Benchmarking ![Recent](https://img.shields.io/badge/Recent-orange)
+### CRAX: Fast Safe Reinforcement Learning Benchmarking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tristan Tomilin, Mourad Boustani, Mickey Beurskens, Thiago D. Simão  
 **Published:** 2026-06-18  
@@ -1603,7 +1603,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shihao Ji, HongXi Li, Zihui Song, Mingyu Li  
 **Published:** 2026-06-18  
@@ -2225,7 +2225,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yi Wang, Yingyang Chen, Feng Bai, Li Wang, Gang Feng  
 **Published:** 2026-07-11  
@@ -2655,7 +2655,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### One Image is All You Need: Agentic One-Shot Image Generation via Text-Based World Models for Long-Tail Spatial Perception ![Recent](https://img.shields.io/badge/Recent-orange)
+### One Image is All You Need: Agentic One-Shot Image Generation via Text-Based World Models for Long-Tail Spatial Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Keqin Zeng, Shuting Su, Shihao Lin, Ziyue Li, Rui Zhao  
 **Published:** 2026-06-18  
@@ -4307,7 +4307,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Boris Radovanovic, Sasa Talosi, Srdjan Sobot, Dejan Vukobratovic  
 **Published:** 2026-07-11  
@@ -5079,7 +5079,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Mind the Privileged-to-Camera Gap: Actor-Centric Sidecar Supervision for Camera-First Open-Loop Waypoint Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### Mind the Privileged-to-Camera Gap: Actor-Centric Sidecar Supervision for Camera-First Open-Loop Waypoint Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Feeza Khan Khanzada, Jaerock Kwon  
 **Published:** 2026-06-18  
@@ -5089,7 +5089,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training ![Recent](https://img.shields.io/badge/Recent-orange)
+### HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Maciej Wozniak, Jesper Ericsson, Hariprasath Govindarajan, Truls Nyberg, Thomas Gustafsson, et al.  
 **Published:** 2026-06-18  
@@ -6881,7 +6881,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Shihao Zhang, Jing Yang, Ziyu Song, Zheng Lin, Sunil Prajapat, et al.  
 **Published:** 2026-07-11  
@@ -6991,7 +6991,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amit Jain, Richard Linares  
 **Published:** 2026-06-18  
@@ -7613,7 +7613,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty ![Recent](https://img.shields.io/badge/Recent-orange)
+### Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert  
 **Published:** 2026-06-18  
@@ -8155,7 +8155,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform ![Recent](https://img.shields.io/badge/Recent-orange)
+### Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hyeonna Choi, Jung Yup Kim, Hyuneui Lim, Seunggyu Jeon  
 **Published:** 2026-06-18  
@@ -9037,7 +9037,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model ![Recent](https://img.shields.io/badge/Recent-orange)
+### FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuhwan Jeong, Hyeonseong Kim, Daehyun We, Seonkyu Song, Jinnyeong Yang, et al.  
 **Published:** 2026-06-18  
