@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--24-blue)
-![Total Papers](https://img.shields.io/badge/Papers-919-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--25-blue)
+![Total Papers](https://img.shields.io/badge/Papers-918-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -45,7 +45,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Dataset & Benchmark | 37 |
 | End-to-End Learning | 74 |
 | General | 216 |
-| Mapping & Localization | 20 |
+| Mapping & Localization | 19 |
 | Perception | 236 |
 | Planning | 63 |
 | Prediction | 43 |
@@ -239,7 +239,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Revisiting Action Factorization for Complex Action Spaces ![Recent](https://img.shields.io/badge/Recent-orange)
+### Revisiting Action Factorization for Complex Action Spaces ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Timothy Flavin, Sandip Sen  
 **Published:** 2026-06-24  
@@ -1513,7 +1513,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bo Zhao, Xinting Zhao, Naifan Li, Erkang Cheng, Haibin Ling  
 **Published:** 2026-06-24  
@@ -2145,7 +2145,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### From Modalities to Propositions: A Language-Centric Framework for Multimodal Intelligence ![New](https://img.shields.io/badge/New-red)
+### From Modalities to Propositions: A Language-Centric Framework for Multimodal Intelligence ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nadine Chang, Maying Shen, Shizhe Diao, Jialiang Wang, Jingde Chen, et al.  
 **Published:** 2026-07-17  
@@ -2155,7 +2155,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Red Light, Grey Zone: A Multi-Perspective Interactive Narrative for Autonomous Driving Ethics ![New](https://img.shields.io/badge/New-red)
+### Red Light, Grey Zone: A Multi-Perspective Interactive Narrative for Autonomous Driving Ethics ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mengyi Wei, Nianhua Liu, Chenyu Zuo, Liqiu Meng  
 **Published:** 2026-07-17  
@@ -2165,7 +2165,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models ![New](https://img.shields.io/badge/New-red)
+### SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jinwen Xin, Xixiang Lv  
 **Published:** 2026-07-17  
@@ -2175,7 +2175,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities ![New](https://img.shields.io/badge/New-red)
+### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury, Md Rayhanur Rahman  
 **Published:** 2026-07-17  
@@ -2575,7 +2575,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance ![Recent](https://img.shields.io/badge/Recent-orange)
+### G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hang Yu, Ye Jin, Alessandro Canevaro, Julian Schmidt, Julian Jordan, et al.  
 **Published:** 2026-06-24  
@@ -2585,7 +2585,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sining Ang, Yuan Chen, Liu Haiyan, Xuanyao Mao, Jason Bao, et al.  
 **Published:** 2026-06-24  
@@ -2595,7 +2595,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Distributed SDN-Based Communication Architecture for the Pods4Rail System ![Recent](https://img.shields.io/badge/Recent-orange)
+### Distributed SDN-Based Communication Architecture for the Pods4Rail System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dingyang Liu, Dereje Mechal Molla, Léo Mendiboure, Marion Berbineau  
 **Published:** 2026-06-24  
@@ -3605,7 +3605,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Large Language Model based Interactive Decision-Making for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Large Language Model based Interactive Decision-Making for Autonomous Driving
 
 **Authors:** Xinwei Dong, Jiyang Li, Jiabin Xie, Yang Yi, Tianshang Jia, et al.  
 **Published:** 2026-04-25  
@@ -4247,7 +4247,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization ![New](https://img.shields.io/badge/New-red)
+### Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yong Chu, Xun Zhou, Zenglin Xu, Hui Wang, Yue Yu  
 **Published:** 2026-07-17  
@@ -4427,16 +4427,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Synchronization and Localization in Ad-Hoc ICAS Networks Using a Two-Stage Kuramoto Method
-
-**Authors:** Dominik Neudert-Schulz, Thomas Dallmann  
-**Published:** 2026-01-26  
-**Links:** [arXiv](https://arxiv.org/abs/2601.18643) | [PDF](https://arxiv.org/pdf/2601.18643.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** To enable Integrated Communications and Sensing (ICAS) in a peer-to-peer vehicular network, precise synchronization in frequency and phase among the communicating entities is required. In addition,...
-
----
-
 ## Perception
 
 ### HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
@@ -4539,7 +4529,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Vision-Language Assistant for Emotional Reactions to Risky Driving ![New](https://img.shields.io/badge/New-red)
+### Vision-Language Assistant for Emotional Reactions to Risky Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harine Choi, Eun Hak Lee, Zhengzhong Tu  
 **Published:** 2026-07-17  
@@ -5069,7 +5059,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild ![Recent](https://img.shields.io/badge/Recent-orange)
+### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmad Kourani, Ghina Daoud, Daniel Asmar, Imad Elhajj  
 **Published:** 2026-06-24  
@@ -5079,7 +5069,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Auto-Labelling-Based Domain Transfer for 3D Object Detection on a Bicycle-Mounted LiDAR Platform ![Recent](https://img.shields.io/badge/Recent-orange)
+### Auto-Labelling-Based Domain Transfer for 3D Object Detection on a Bicycle-Mounted LiDAR Platform ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mario Finkbeiner, Max A. Buettner, Kanak Mazumder, Fabian B. Flohr  
 **Published:** 2026-06-24  
@@ -6921,7 +6911,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Rethinking Training & Inference for Forecasting: Linking Winner-Take-All back to GMMs ![Recent](https://img.shields.io/badge/Recent-orange)
+### Rethinking Training & Inference for Forecasting: Linking Winner-Take-All back to GMMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiyuan Wu, Katie Z Luo, Bharath Hariharan, Wei-Lun Chao, Mark Campbell  
 **Published:** 2026-06-24  
@@ -6931,7 +6921,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Julius Monsen, Jakob Suchan, Mehul Bhatt, Lars Karlsson  
 **Published:** 2026-06-24  
@@ -7945,7 +7935,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing ![New](https://img.shields.io/badge/New-red)
+### In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qunying Song, Yuan Gao, Johannes Betz, Dietmar Pfahl, Mohammad Reza Mousavi, et al.  
 **Published:** 2026-07-17  
@@ -7955,7 +7945,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots ![New](https://img.shields.io/badge/New-red)
+### AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Priyanka V. Setty, Arvind Ramanathan, Ian Foster, Rick Stevens  
 **Published:** 2026-07-17  
@@ -8145,7 +8135,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Towards Safety-Aware Mutation Testing for Autonomous Driving Systems ![Recent](https://img.shields.io/badge/Recent-orange)
+### Towards Safety-Aware Mutation Testing for Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Donghwan Shin  
 **Published:** 2026-06-24  
