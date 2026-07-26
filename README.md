@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--25-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--07--26-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-918-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -229,7 +229,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shubham Vaijanath Phoolari, Aleyna Kara, Christoph Lauer, Steven Peters  
 **Published:** 2026-06-25  
@@ -2135,7 +2135,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Hybrid Machine Learning for Articulation Angle Estimation of Truck-Semitrailer Combinations ![New](https://img.shields.io/badge/New-red)
+### Hybrid Machine Learning for Articulation Angle Estimation of Truck-Semitrailer Combinations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qixuan Zhang, Jonas Boettcher, Simon F. G. Ehlers, Marvin Stuede  
 **Published:** 2026-07-18  
@@ -2545,7 +2545,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CascadeOcc: Rethinking 3D Occupancy World Models with Cascaded VQ Representations ![Recent](https://img.shields.io/badge/Recent-orange)
+### CascadeOcc: Rethinking 3D Occupancy World Models with Cascaded VQ Representations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kyumin Hwang, Wonhyeok Choi, Jaeyeul Kim, Jihun Park, Daehee Park, et al.  
 **Published:** 2026-06-25  
@@ -2555,7 +2555,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ReWorld: Learning Better Representations for World Action Models ![Recent](https://img.shields.io/badge/Recent-orange)
+### ReWorld: Learning Better Representations for World Action Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianze Xia, Lijun Zhou, Kaixin Xiong, Jingfeng Yao, Yu Zhu, et al.  
 **Published:** 2026-06-25  
@@ -2565,7 +2565,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Characterizing Driver Interactions with Autonomous Vehicles via Response Maps ![Recent](https://img.shields.io/badge/Recent-orange)
+### Characterizing Driver Interactions with Autonomous Vehicles via Response Maps ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dave Broaddus, Rachel DiPirro, Chishang, Yang, Dan Calderone, et al.  
 **Published:** 2026-06-25  
@@ -3595,7 +3595,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Reading in the Dark: Low-light Scene Text Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Reading in the Dark: Low-light Scene Text Recognition
 
 **Authors:** Xuanshuo Fu, Lei Kang, Ernest Valveny, Dimosthenis Karatzas, Javier Vazquez-Corral  
 **Published:** 2026-04-26  
@@ -4519,7 +4519,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning ![New](https://img.shields.io/badge/New-red)
+### What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kalpana Panda, Wesley Maia, Vinti Agarwal, Ross Greer  
 **Published:** 2026-07-18  
@@ -5039,7 +5039,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MVPruner: Dynamic Token Pruning for Accelerating Multi-view Vision-Language Models in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### MVPruner: Dynamic Token Pruning for Accelerating Multi-view Vision-Language Models in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nan Yang, Zhanwen Liu, Linfeng Zhang, Shangyu Xie, Yang Wang, et al.  
 **Published:** 2026-06-25  
@@ -5049,7 +5049,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Understanding Cross-Rig Generalization in Automotive Perception: a Multi-Rig Benchmark and Rig Variation Metrics ![Recent](https://img.shields.io/badge/Recent-orange)
+### Understanding Cross-Rig Generalization in Automotive Perception: a Multi-Rig Benchmark and Rig Variation Metrics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tim Alexander Bader, Tim Dieter Eberhardt, Maximilian Dillitzer, Wilhelm Stork  
 **Published:** 2026-06-25  
@@ -6901,7 +6901,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts ![Recent](https://img.shields.io/badge/Recent-orange)
+### PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Joonhee Lim, Yongjae Lee, Jangho Shin, Dongsuk Kum  
 **Published:** 2026-06-25  
@@ -7493,7 +7493,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
+### LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sangjin Han, Hoseong Jung, Jeongtae Her, Changhyun Choi, H. Jin Kim  
 **Published:** 2026-06-25  
@@ -7915,7 +7915,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections ![New](https://img.shields.io/badge/New-red)
+### SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yunwei Li, Shengjie Fu, Chunrong Chen, Chengxiang Zhao, Yuchen Fan, et al.  
 **Published:** 2026-07-18  
@@ -7925,7 +7925,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing ![New](https://img.shields.io/badge/New-red)
+### Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Taorui Huang, Namita Gaidhani, Ritvik Bansal, S M Jubaer, Regina Lim, et al.  
 **Published:** 2026-07-18  
