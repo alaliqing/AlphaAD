@@ -3,7 +3,7 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--04-blue)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--05-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-923-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
@@ -41,15 +41,15 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 93 |
-| Dataset & Benchmark | 38 |
-| End-to-End Learning | 72 |
-| General | 220 |
+| Control | 92 |
+| Dataset & Benchmark | 37 |
+| End-to-End Learning | 71 |
+| General | 219 |
 | Mapping & Localization | 19 |
 | Perception | 229 |
 | Planning | 67 |
-| Prediction | 38 |
-| Safety & Verification | 110 |
+| Prediction | 40 |
+| Safety & Verification | 112 |
 | Simulation | 37 |
 
 ## Table of Contents
@@ -219,7 +219,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Integrated Graph Search and Model Predictive Control for Smooth and Efficient Path Planning in Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Integrated Graph Search and Model Predictive Control for Smooth and Efficient Path Planning in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Duc-Tien Bui, Ngoc Thinh Nguyen, Hung Duy Nguyen, Dong Bi, Tomislav Mihalj, et al.  
 **Published:** 2026-07-05  
@@ -989,19 +989,9 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Toward Self-Driving Universities: Can Universities Drive Themselves with Agentic AI?
-
-**Authors:** Anis Koubaa  
-**Published:** 2026-02-06  
-**Links:** [arXiv](https://arxiv.org/abs/2602.18461) | [PDF](https://arxiv.org/pdf/2602.18461.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The rapid evolution of Agentic AI and large language models (LLMs) presents transformative opportunities for higher education institutions. This chapter introduces the concept of self
-
----
-
 ## Dataset & Benchmark
 
-### The LAIA Dataset: Labelled Attention for Intelligent Automobiles ![New](https://img.shields.io/badge/New-red)
+### The LAIA Dataset: Labelled Attention for Intelligent Automobiles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** A. Contreras, D. Porres, R. Abad, P. Cano, A. Levy, et al.  
 **Published:** 2026-07-28  
@@ -1111,7 +1101,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RoboVista: Evaluating Vision Language Models for Diverse Robot Applications ![Recent](https://img.shields.io/badge/Recent-orange)
+### RoboVista: Evaluating Vision Language Models for Diverse Robot Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuangyu Xie, Kaiyuan Chen, Ziyang Chen, Simeon Adebola, Yixuan Huang, et al.  
 **Published:** 2026-07-05  
@@ -1278,16 +1268,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2605.20390) | [PDF](https://arxiv.org/pdf/2605.20390.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Model scaling has demonstrated remarkable success through large-scale training on diverse datasets. It remains an open question whether the same paradigm would apply to autonomous
-
----
-
-### GTA: Advancing Image-to-3D World Generation via Geometry Then Appearance Video Diffusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Hanxin Zhu, Cong Wang, Peiyan Tu, Jiayi Luo, Tianyu He, et al.  
-**Published:** 2026-05-12  
-**Links:** [arXiv](https://arxiv.org/abs/2605.12957) | [PDF](https://arxiv.org/pdf/2605.12957.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Recent developments in generative models and large-scale datasets have substantially advanced 3D world generation, facilitating a broad range of domains including spatial intelligence, embodied...
 
 ---
 
@@ -1553,7 +1533,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhaohong Liu, Hao Ye, Xianlin Zhang, Mengshi Qi  
 **Published:** 2026-07-05  
@@ -1715,7 +1695,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ### CADET: Physics-Grounded Causal Auditing and Training-Free Deconfounding of End-to-End Driving Planners ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
-**Authors:** Zikun Guo  
+**Authors:** Zikun Guo, Yuanyuan Li, Rongjin Zou  
 **Published:** 2026-06-12  
 **Links:** [arXiv](https://arxiv.org/abs/2606.14438) | [PDF](https://arxiv.org/pdf/2606.14438.pdf) | [BackToTop](#table-of-contents)  
 
@@ -2003,16 +1983,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Seokha Moon, Minseung Lee, Joon Seo, Jinkyu Kim, Jungbeom Lee  
-**Published:** 2026-05-13  
-**Links:** [arXiv](https://arxiv.org/abs/2605.13646) | [PDF](https://arxiv.org/pdf/2605.13646.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** End-to-end autonomous
-
----
-
 ### An End-to-End Decision-Aware Multi-Scale Attention-Based Model for Explainable Autonomous Driving
 
 **Authors:** Maryam Sadat Hosseini Azad, Shahriar Baradaran Shokouhi, Amir Abbas Hamidi Imani, Shahin Atakishiyev, Randy Goebel  
@@ -2105,6 +2075,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## General
 
+### The Evolutionary Origin of Values: implications for AI alignment, sentience and existential risk ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Francis Heylighen  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03361) | [PDF](https://arxiv.org/pdf/2608.03361.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** AI systems based on Large Language Models (LLMs) have prompted fears that they may harbor hidden goals, seek to dominate or eliminate humanity, or even suffer as sentient beings. We address these...
+
+---
+
+### RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Yuwei Ning, Liangzhi Wang, Yi Xiao, Zhenhua Wu, Yun Pang, et al.  
+**Published:** 2026-08-03  
+**Links:** [arXiv](https://arxiv.org/abs/2608.02953) | [PDF](https://arxiv.org/pdf/2608.02953.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Realistic weather translation is valuable for developing and evaluating autonomous
+
+---
+
 ### DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Fuzhen Jiang, Changyue Shi, Chuxiao Yang, Xinyuan Hu, Wenjie Ye, et al.  
@@ -2162,6 +2152,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2608.00524) | [PDF](https://arxiv.org/pdf/2608.00524.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Cooperative platooning can reduce the energy use of Connected and Autonomous
+
+---
+
+### Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Beena  
+**Published:** 2026-07-31  
+**Links:** [arXiv](https://arxiv.org/abs/2608.02638) | [PDF](https://arxiv.org/pdf/2608.02638.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Artificial Intelligence (AI) components are increasingly pervasive in several software systems, including Cyber-Physical Systems (CPSs). AI-CPS are used in several domains, including autonomous
 
 ---
 
@@ -2575,7 +2575,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Toward the Right Analytical Model and System Software for Autonomous Driving Systems: Open Problems and Research Directions ![Recent](https://img.shields.io/badge/Recent-orange)
+### Toward the Right Analytical Model and System Software for Autonomous Driving Systems: Open Problems and Research Directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Atsushi Yano, Takuya Azumi  
 **Published:** 2026-07-05  
@@ -3575,26 +3575,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Kaicong Huang, Talha Azfar, Weisong Shi, Ruimin Ke  
-**Published:** 2026-05-13  
-**Links:** [arXiv](https://arxiv.org/abs/2605.13591) | [PDF](https://arxiv.org/pdf/2605.13591.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Reliable autonomous
-
----
-
-### Volumetric Optical Scattering Neural Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Xuhao Luo, Qiang Song, Weiwei Cai, Lei Chen, Enbo Yang, et al.  
-**Published:** 2026-05-13  
-**Links:** [arXiv](https://arxiv.org/abs/2605.13177) | [PDF](https://arxiv.org/pdf/2605.13177.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Optical neural networks offer a route to low-latency and energy-efficient inference by encoding computation in light propagation. However, most existing implementations rely on planar photonic...
-
----
-
 ### Day-to-Day Traffic Network Modeling under Route-Guidance Misinformation: Endogenous Trust and Resilience in CAV Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Eunhan Ka, Satish V. Ukkusuri  
@@ -4285,26 +4265,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Navigating Algorithmic Opacity: Folk Theories and User Agency in Semi-Autonomous Vehicles
-
-**Authors:** Yehuda Perry, Tawfiq Ammari  
-**Published:** 2026-02-06  
-**Links:** [arXiv](https://arxiv.org/abs/2602.07312) | [PDF](https://arxiv.org/pdf/2602.07312.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** As semi-autonomous
-
----
-
-### Beyond Crash: Hijacking Your Autonomous Vehicle for Fun and Profit
-
-**Authors:** Qi Sun, Ahmed Abdo, Luis Burbano, Ziyang Li, Yaxing Yao, et al.  
-**Published:** 2026-02-06  
-**Links:** [arXiv](https://arxiv.org/abs/2602.07249) | [PDF](https://arxiv.org/pdf/2602.07249.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Autonomous
-
----
-
 ## Mapping & Localization
 
 ### RoadVGGT: Road-Structure-Aware Feed-Forward Road Surface Reconstruction ![Recent](https://img.shields.io/badge/Recent-orange)
@@ -4499,6 +4459,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Perception
 
+### Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Quoc Cuong Ninh, Huy Xuan Pham, Anh Tung Nguyen, Dinh Hoan Trinh  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03490) | [PDF](https://arxiv.org/pdf/2608.03490.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** 3D object detection using light detection and ranging (LiDAR) sensors requires a balance between accuracy and computational efficiency for onboard perception in autonomous
+
+---
+
+### MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ambarish Govindarajulu Kaliamurthi, Kaikai Liu  
+**Published:** 2026-08-03  
+**Links:** [arXiv](https://arxiv.org/abs/2608.02449) | [PDF](https://arxiv.org/pdf/2608.02449.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Deploying vision-language models (VLMs) for safety-critical spatial reasoning on resource-constrained autonomous
+
+---
+
 ### TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Mengmeng Zhu, Yuxuan Sun, Wei Chen, Bo Ai  
@@ -4579,7 +4559,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DVPSFormer: Efficient Online Depth-aware Video Panoptic Segmentation for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### DVPSFormer: Efficient Online Depth-aware Video Panoptic Segmentation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yung-Hsu Yang, Luigi Piccinelli, Siyuan Li, Mattia Segu, Lei Ke, et al.  
 **Published:** 2026-07-28  
@@ -4589,7 +4569,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks ![New](https://img.shields.io/badge/New-red)
+### Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Md. Kamrul Hossain, Walid Aljoby  
 **Published:** 2026-07-28  
@@ -5029,7 +5009,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, et al.  
 **Published:** 2026-07-05  
@@ -5039,7 +5019,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining ![Recent](https://img.shields.io/badge/Recent-orange)
+### CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingyu Song, Yi Liu, Katherine A. Skinner  
 **Published:** 2026-07-05  
@@ -5049,7 +5029,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Framework and Multi-modal Dataset for Roadwork Zone Detection and Geo-localization ![Recent](https://img.shields.io/badge/Recent-orange)
+### Framework and Multi-modal Dataset for Roadwork Zone Detection and Geo-localization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiran Yan, Yutong Xin, S Shyam Shenoi, Rui Song, Gordon Elger  
 **Published:** 2026-07-05  
@@ -5059,7 +5039,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Road-Aware Anomaly Segmentation with Query-Guided Polygons and CLIP in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Road-Aware Anomaly Segmentation with Query-Guided Polygons and CLIP in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiran Yan, Gordon Elger  
 **Published:** 2026-07-05  
@@ -6289,23 +6269,13 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lifelong Learning in Vision-Language Models: Enhanced EWC with Cross-Modal Knowledge Retention ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Hamza Ahmed Durrani, Rafay Suleman Durrani  
-**Published:** 2026-05-12  
-**Links:** [arXiv](https://arxiv.org/abs/2605.12789) | [PDF](https://arxiv.org/pdf/2605.12789.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Large language-vision models (LVLMs) such as CLIP, Flamingo, and BLIP have revolutionized AI by enabling understanding across textual and visual modalities. These models excel at tasks like image...
-
----
-
 ### Still Camouflage, Moving Illusion: View-Induced Trajectory Manipulation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuo Ju, Qingzhao Zhang, Huashan Chen, Xuheng Wang, Haotang Li, et al.  
 **Published:** 2026-05-12  
 **Links:** [arXiv](https://arxiv.org/abs/2605.12743) | [PDF](https://arxiv.org/pdf/2605.12743.pdf) | [BackToTop](#table-of-contents)  
 
-**Abstract:** Existing physical adversarial attacks on vision-based autonomous
+**Abstract:** Existing physical adversarial attacks on vision-based autonomous driving induce time-evolving perception errors, including biased object tracking or trajectory prediction, through (i) sophisticated...
 
 ---
 
@@ -6779,16 +6749,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### TFusionOcc: T-Primitive Based Object-Centric Multi-Sensor Fusion Framework for 3D Occupancy Prediction
-
-**Authors:** Zhenxing Ming, Yaoqi Huang, Julie Stephany Berrio, Mao Shan, Stewart Worrall  
-**Published:** 2026-02-06  
-**Links:** [arXiv](https://arxiv.org/abs/2602.06400) | [PDF](https://arxiv.org/pdf/2602.06400.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The prediction of 3D semantic occupancy enables autonomous
-
----
-
 ## Planning
 
 ### SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction ![New](https://img.shields.io/badge/New-red)
@@ -7241,7 +7201,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Learning the Channel Gain from Anywhere to Anywhere via Cross-environment Transformer Estimators ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Learning the Channel Gain from Anywhere to Anywhere via Cross-environment Transformer Estimators
 
 **Authors:** Prasenjit Dhara, Daniel Romero  
 **Published:** 2026-05-06  
@@ -7251,7 +7211,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Kinematic Discriminants of Deceleration Behavior Modes in Car-Following: Evidence from NGSIM Trajectory Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Kinematic Discriminants of Deceleration Behavior Modes in Car-Following: Evidence from NGSIM Trajectory Data
 
 **Authors:** Eni Solomon Laughter  
 **Published:** 2026-05-06  
@@ -7462,6 +7422,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 ---
 
 ## Prediction
+
+### Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Xiucong Zhao, Jindong Tian, Hao Miao  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03521) | [PDF](https://arxiv.org/pdf/2608.03521.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Forecasting precise future motion of surrounding agents is essential for reliable autonomous vehicles. However, as the demand for longer prediction horizons increases, existing endpoint-completion or...
+
+---
+
+### Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Yue Yao  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03330) | [PDF](https://arxiv.org/pdf/2608.03330.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** This thesis addresses fundamental challenges in traffic scene prediction for autonomous
+
+---
 
 ### Dynamics-matched Physical Reservoir Computing for Undersensed Traffic Prediction ![New](https://img.shields.io/badge/New-red)
 
@@ -7845,6 +7825,26 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Safety & Verification
 
+### Secure Long-Range Autonomous Valet Parking: A Reservation Scheme With Three-Factor Authentication and Key Agreement ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Di Wang, Yue Cao, Fei Yan, Yining Liu, Daxin Tian, et al.  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03590) | [PDF](https://arxiv.org/pdf/2608.03590.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Long-range autonomous valet parking (LAVP) is increasingly adopted to alleviate traffic congestion and parking difficulties. For large-scale parking demand, reservation can improve parking...
+
+---
+
+### Reusing Operational Evidence After Context Changes: A Conservative Bayesian Framework for Autonomous Vehicle Safety ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Robab Aghazadeh Chakherlou, Siddartha Khastgir, Xingyu Zhao  
+**Published:** 2026-08-04  
+**Links:** [arXiv](https://arxiv.org/abs/2608.03384) | [PDF](https://arxiv.org/pdf/2608.03384.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Operational evidence, i.e., evidence of operation without failure is an important component of confidence in the safety or reliability of a system in service, but it is costly to collect. When the...
+
+---
+
 ### RSC-GestureNet: Reliability-Aware Selective Causal Recognition of Chinese Traffic Police Gestures ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Cheng Li, Renjun Gao, Boyi Fu  
@@ -7855,7 +7855,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels ![New](https://img.shields.io/badge/New-red)
+### Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xinyu Yang, Tianxing Chen, Honghao Su, Minxuan Wang, Chenze Yu, et al.  
 **Published:** 2026-07-28  
@@ -8135,7 +8135,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery ![Recent](https://img.shields.io/badge/Recent-orange)
+### Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kyunghoon Hur, Chihun Lee  
 **Published:** 2026-07-05  
@@ -8145,7 +8145,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation ![Recent](https://img.shields.io/badge/Recent-orange)
+### CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ke Li, Kaidi Liang, Yuxin Ding, Debojyoti Biswas, Xianbiao Hu, et al.  
 **Published:** 2026-07-05  
@@ -8967,7 +8967,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-Sensor Alignment for Weather Simulations ![New](https://img.shields.io/badge/New-red)
+### Multi-Sensor Alignment for Weather Simulations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Samsad Alam, Devyani Lambhate, Aditya Mohan, Vishal Kumar, Vaibhav Katewa  
 **Published:** 2026-07-28  
@@ -9067,7 +9067,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Agent-driven Long-tail Simulation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Agent-driven Long-tail Simulation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junru Gu, Lijin Yang, Jianing Huang, Shu Liu, Zhongzhan Huang, et al.  
 **Published:** 2026-07-05  
