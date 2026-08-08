@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--07-blue)
-![Total Papers](https://img.shields.io/badge/Papers-920-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--08-blue)
+![Total Papers](https://img.shields.io/badge/Papers-916-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -46,10 +46,10 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | End-to-End Learning | 69 |
 | General | 216 |
 | Mapping & Localization | 19 |
-| Perception | 233 |
+| Perception | 231 |
 | Planning | 66 |
 | Prediction | 42 |
-| Safety & Verification | 112 |
+| Safety & Verification | 110 |
 | Simulation | 36 |
 
 ## Table of Contents
@@ -89,7 +89,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### STAGE: STyle-controllable Action GEneration for personalized autonomous driving ![New](https://img.shields.io/badge/New-red)
+### STAGE: STyle-controllable Action GEneration for personalized autonomous driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihao Liu, Xing Liu, Yizhai Zhang, Panfeng Huang  
 **Published:** 2026-07-31  
@@ -99,7 +99,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Track-Guided Hierarchical Reinforcement Learning for Autonomous Vehicle Drifting with Minimum-Lap-Time Planning ![New](https://img.shields.io/badge/New-red)
+### Track-Guided Hierarchical Reinforcement Learning for Autonomous Vehicle Drifting with Minimum-Lap-Time Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sheng Zhao, Bolin Zhao, Xiaodong Wu, Chen Lv  
 **Published:** 2026-07-31  
@@ -1091,7 +1091,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Heye Huang, Jingguang Li, Zhiyuan Zhou, Paul Liang, Mingyu Wu, et al.  
 **Published:** 2026-07-08  
@@ -1363,7 +1363,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zeyu Dong, Yimin Zhu, Yu Wu, Yu Sun  
 **Published:** 2026-07-31  
@@ -1373,7 +1373,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiwei Yang, Zhengxian Chen, Chaosheng Huang, Jun Li  
 **Published:** 2026-07-31  
@@ -1493,7 +1493,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Post-Training in End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Post-Training in End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruining Yang, Muxing Wang, Yixiao Chen, Tongfei Guo, Yi Xu, et al.  
 **Published:** 2026-07-08  
@@ -2135,7 +2135,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems ![New](https://img.shields.io/badge/New-red)
+### Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Beena  
 **Published:** 2026-07-31  
@@ -3565,7 +3565,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Unified Modeling of Lane and Lane Topology for Driving Scene Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Unified Modeling of Lane and Lane Topology for Driving Scene Reasoning
 
 **Authors:** Han Li, Yulu Gao, Si Liu, Yuhang Wang, Bo Liu, et al.  
 **Published:** 2026-05-09  
@@ -4509,7 +4509,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Meibo Hu, Jiamian Wang, Pichao Wang, Zhiqiang Tao  
 **Published:** 2026-07-31  
@@ -4899,7 +4899,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Adversarially Guided Diffusion for LiDAR Range Image Synthesis ![Recent](https://img.shields.io/badge/Recent-orange)
+### Adversarially Guided Diffusion for LiDAR Range Image Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Stavros Bouras, Antonios Makris, Alexandros Gkillas, Aris S. Lalos, Konstantinos Tserpes  
 **Published:** 2026-07-08  
@@ -6699,26 +6699,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Risk-Aware Obstacle Avoidance Algorithm for Real-Time Applications
-
-**Authors:** Ozan Kaya, Emir Cem Gezer, Roger Skjetne, Ingrid Bouwer Utne  
-**Published:** 2026-02-09  
-**Links:** [arXiv](https://arxiv.org/abs/2602.09204) | [PDF](https://arxiv.org/pdf/2602.09204.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Robust navigation in changing marine environments requires autonomous systems capable of perceiving, reasoning, and acting under uncertainty. This study introduces a hybrid risk-aware navigation...
-
----
-
-### GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion
-
-**Authors:** Santiago Montiel-Marín, Miguel Antunes-García, Fabio Sánchez-García, Angel Llamazares, Holger Caesar, et al.  
-**Published:** 2026-02-09  
-**Links:** [arXiv](https://arxiv.org/abs/2602.08784) | [PDF](https://arxiv.org/pdf/2602.08784.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Robust and accurate perception of dynamic objects and map elements is crucial for autonomous
-
----
-
 ## Planning
 
 ### SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction ![New](https://img.shields.io/badge/New-red)
@@ -8045,7 +8025,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alessandro Canevaro, Hang Yu, Julian Schmidt, Peizheng Li, Silvan Lindner, et al.  
 **Published:** 2026-07-08  
@@ -8055,7 +8035,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators ![Recent](https://img.shields.io/badge/Recent-orange)
+### Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Christian Oefinger, Finn Rasmus Schäfer, Korbinian Moller, Mattia Piccinini, Johannes Betz  
 **Published:** 2026-07-08  
@@ -8905,26 +8885,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-Staged Framework for Safety Analysis of Offloaded Services in Distributed Intelligent Transportation Systems
-
-**Authors:** Robin Dehler, Oliver Schumann, Jona Ruof, Michael Buchholz  
-**Published:** 2026-02-09  
-**Links:** [arXiv](https://arxiv.org/abs/2602.08821) | [PDF](https://arxiv.org/pdf/2602.08821.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** The integration of service-oriented architectures (SOA) with function offloading for distributed, intelligent transportation systems (ITS) offers the opportunity for connected autonomous
-
----
-
-### Verifying DNN-based Semantic Communication Against Generative Adversarial Noise
-
-**Authors:** Thanh Le, Hai Duong, ThanhVu Nguyen, Takeshi Matsumura  
-**Published:** 2026-02-09  
-**Links:** [arXiv](https://arxiv.org/abs/2602.08801) | [PDF](https://arxiv.org/pdf/2602.08801.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Safety-critical applications like autonomous
-
----
-
 ## Simulation
 
 ### GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes ![New](https://img.shields.io/badge/New-red)
@@ -8937,7 +8897,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation ![New](https://img.shields.io/badge/New-red)
+### WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jianxun Cui, Ping Wu, Stanisa Peric, Marko Milojkovic, Vladan Devedzic  
 **Published:** 2026-07-31  
@@ -9007,7 +8967,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis ![Recent](https://img.shields.io/badge/Recent-orange)
+### CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kaicong Huang, Meng Ma, Ruimin Ke  
 **Published:** 2026-07-08  
