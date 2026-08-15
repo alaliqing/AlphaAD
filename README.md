@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--14-blue)
-![Total Papers](https://img.shields.io/badge/Papers-904-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--15-blue)
+![Total Papers](https://img.shields.io/badge/Papers-903-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -41,12 +41,12 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 | Category | Paper Count |
 |----------|-------------|
-| Control | 86 |
+| Control | 87 |
 | Dataset & Benchmark | 34 |
 | End-to-End Learning | 70 |
-| General | 210 |
+| General | 209 |
 | Mapping & Localization | 21 |
-| Perception | 231 |
+| Perception | 230 |
 | Planning | 63 |
 | Prediction | 44 |
 | Safety & Verification | 110 |
@@ -69,6 +69,16 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Control
 
+### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman  
+**Published:** 2026-08-13  
+**Links:** [arXiv](https://arxiv.org/abs/2608.13450) | [PDF](https://arxiv.org/pdf/2608.13450.pdf) | [BackToTop](#table-of-contents)  
+
+**Abstract:** Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. Static analysis can...
+
+---
+
 ### Beyond the Plane: Coupling Planar Vehicle Dynamics with Three-Dimensional Road Geometry ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Simon Sagmeister, Phillip Pitschi, Nico Haja, Markus Lienkamp  
@@ -89,7 +99,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Enhancing Autonomous Vehicle Navigation with a Clothoid-Based Lateral Controller ![New](https://img.shields.io/badge/New-red)
+### Enhancing Autonomous Vehicle Navigation with a Clothoid-Based Lateral Controller ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aashish Shaju, Steve Southward, Mehdi Ahmadian  
 **Published:** 2026-08-07  
@@ -219,7 +229,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Design and Implementation of a Microservice-Architecture Master Control System for AIMS ![Recent](https://img.shields.io/badge/Recent-orange)
+### Design and Implementation of a Microservice-Architecture Master Control System for AIMS ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Li-Yue Tong, Jia-Ben Lin, Jun-Feng Hou, Yuan-Yong Deng, Dong-Guang Wang, et al.  
 **Published:** 2026-07-15  
@@ -1001,7 +1011,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### nuTruck: Benchmarking Autonomous Driving Planning for Distributed Electric-drive Trucks ![Recent](https://img.shields.io/badge/Recent-orange)
+### nuTruck: Benchmarking Autonomous Driving Planning for Distributed Electric-drive Trucks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinyu Miao, Pu Zhang, Yifei He, Chengyao Zhang, Kun Jiang, et al.  
 **Published:** 2026-07-15  
@@ -1313,7 +1323,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### SimWAM: A Simple World Action Model for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### SimWAM: A Simple World Action Model for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, et al.  
 **Published:** 2026-08-07  
@@ -1403,7 +1413,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A VAE-Driven Multi-Task Satellite-Aided Semantic Communication Framework for 6G-Enabled Connected Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### A VAE-Driven Multi-Task Satellite-Aided Semantic Communication Framework for 6G-Enabled Connected Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** S. M. Abtahiul Alam, Niloy Das, Apurba Adhikary, Yu Qiao, Zhu Han, et al.  
 **Published:** 2026-07-15  
@@ -1985,16 +1995,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
-
-**Authors:** Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman  
-**Published:** 2026-08-13  
-**Links:** [arXiv](https://arxiv.org/abs/2608.13450) | [PDF](https://arxiv.org/pdf/2608.13450.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Autonomous
-
----
-
 ### 4D-WAM: 4D Consistent World Modeling for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Jiacheng Fu, Yibo Yuan, Meng Tian, Yue Li, Jiangtong Zhu, et al.  
@@ -2395,7 +2395,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuan Gao, Wenting Miao, Mattia Piccinini, Haoyu Wang, Qunying Song, et al.  
 **Published:** 2026-07-15  
@@ -2405,7 +2405,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming ![Recent](https://img.shields.io/badge/Recent-orange)
+### M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ke Cheng, Hanqiao Ye, Lei Shi, Yahui Liu, Yunhan Shen, et al.  
 **Published:** 2026-07-15  
@@ -2415,7 +2415,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data ![Recent](https://img.shields.io/badge/Recent-orange)
+### Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Thang-Anh-Quan Nguyen, Moussab Bennehar, Luis Guillermo Roldao Jimenez, Nathan Piasco, Dzmitry Tsishkou, et al.  
 **Published:** 2026-07-15  
@@ -2425,7 +2425,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Global drivers and barriers to the public acceptance of autonomous vehicles: Evidence from 17 countries ![Recent](https://img.shields.io/badge/Recent-orange)
+### Global drivers and barriers to the public acceptance of autonomous vehicles: Evidence from 17 countries ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Antonios Saravanos  
 **Published:** 2026-07-15  
@@ -3475,7 +3475,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles
 
 **Authors:** Aidana Baimbetova, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi  
 **Published:** 2026-05-16  
@@ -4419,7 +4419,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Multi-Task Consistency-based Detection of Adversarial Attacks ![New](https://img.shields.io/badge/New-red)
+### Multi-Task Consistency-based Detection of Adversarial Attacks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Cong Chen, Jean-Philippe Monteuuis, Jonathan Petit  
 **Published:** 2026-08-07  
@@ -4429,7 +4429,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models ![New](https://img.shields.io/badge/New-red)
+### CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hsu-kuang Chiu, Stephen F. Smith  
 **Published:** 2026-08-07  
@@ -4789,7 +4789,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### 3D Lane Detection with Odometry for High-Speed Vehicle Racing ![Recent](https://img.shields.io/badge/Recent-orange)
+### 3D Lane Detection with Odometry for High-Speed Vehicle Racing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Omoruyi Atekha, John Subosits, Marcus Greiff  
 **Published:** 2026-07-15  
@@ -4799,7 +4799,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jianguo Yu, Rukang Wang, Duanfeng Chu, Chen Wang, Renju Feng, et al.  
 **Published:** 2026-07-15  
@@ -6109,16 +6109,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
-
-**Authors:** Weiyi Xiong, Bing Zhu  
-**Published:** 2026-05-20  
-**Links:** [arXiv](https://arxiv.org/abs/2605.21112) | [PDF](https://arxiv.org/pdf/2605.21112.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** 4D automotive radar is indispensable for autonomous
-
----
-
 ### Improving 3D Labeling in Self-Driving by Inferring Vehicle Information using Vision Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Steven Chen, Shivesh Khaitan, Nemanja Djuric  
@@ -6169,7 +6159,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### DriveSafe: A Framework for Risk Detection and Safety Suggestions in Driving Scenarios ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### DriveSafe: A Framework for Risk Detection and Safety Suggestions in Driving Scenarios
 
 **Authors:** Sainithin Artham, Shankar Gangisetty, Avijit Dasgupta, C. V. Jawahar  
 **Published:** 2026-05-16  
@@ -6601,7 +6591,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ## Planning
 
-### Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model ![New](https://img.shields.io/badge/New-red)
+### Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harisankar Babu, Benjamin Coors, Christopher Lang, Hendrik Berkemeyer, Tamim Asfour, et al.  
 **Published:** 2026-08-07  
@@ -7313,7 +7303,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors ![Recent](https://img.shields.io/badge/Recent-orange)
+### GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Changqing Zhou, Yueru Luo, Yulan Guo, Bing Wang, Jie Qin, et al.  
 **Published:** 2026-07-15  
@@ -8847,7 +8837,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** NVIDIA, :, Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz, et al.  
 **Published:** 2026-07-15  
