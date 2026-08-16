@@ -1,6 +1,6 @@
 <div align="center">
 
-# AlphaAD · Autonomous Driving Research
+# 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--16-blue)
@@ -12,30 +12,9 @@ Discover, scan, and open the latest arXiv papers from a rolling 180-day window.
 
 <p><a href="https://alaliqing.github.io/AlphaAD/"><strong>Explore the interactive research index →</strong></a></p>
 
-[Latest additions](#latest-additions) · [Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
+[Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
 
 </div>
-
-<a id="latest-additions"></a>
-
-## Latest additions
-
-The newest papers across every topic. Titles jump to their full entry.
-
-| Published | Paper | Topic |
-|:--|:--|:--|
-| 2026-08-13 | [LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles](#paper-2608-13450) | Control |
-| 2026-08-13 | [BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving](#paper-2608-12854) | General |
-| 2026-08-13 | [FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving](#paper-2608-13395) | Perception |
-| 2026-08-13 | [Geometry-Grounded Unified 3D Perception for Autonomous Driving](#paper-2608-13147) | Perception |
-| 2026-08-13 | [FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving](#paper-2608-12932) | Perception |
-| 2026-08-12 | [PseudoMapLabeler: Confidence-Aware Pseudo-Label Generation for Semi-Supervised Online Mapping](#paper-2608-12600) | Mapping & Localization |
-| 2026-08-12 | [High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving](#paper-2608-11790) | Perception |
-| 2026-08-12 | [Achieving Near-Zero-Overhead Multi-Model Hierarchical Classification in Real-Time Detection Pipelines](#paper-2608-11770) | Perception |
-| 2026-08-12 | [Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving](#paper-2608-12051) | Safety & Verification |
-| 2026-08-11 | [Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards](#paper-2608-11451) | End-to-End Learning |
-| 2026-08-11 | [Cross-View Sequential Visual Localization with Spatio-Temporal Context Modeling for Autonomous Driving](#paper-2608-10660) | Mapping & Localization |
-| 2026-08-11 | [XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving](#paper-2608-10976) | Perception |
 
 <a id="browse-by-topic"></a>
 
@@ -64,7 +43,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-13395"></a>
 
-### FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving **NEW · 3d**
+### FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Hao Dou<br>
 **Published:** 2026-08-13<br>
@@ -74,7 +53,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-13147"></a>
 
-### Geometry-Grounded Unified 3D Perception for Autonomous Driving **NEW · 3d**
+### Geometry-Grounded Unified 3D Perception for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Longfei Xu, Xiaohui Wang, Zehao Huang, Han Li, Ya Yang, et al.<br>
 **Published:** 2026-08-13<br>
@@ -84,7 +63,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-12932"></a>
 
-### FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving **NEW · 3d**
+### FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Zekai Li, Yihao Liang, Hongfei Zhang, Jian Chen, Yesheng Liang, et al.<br>
 **Published:** 2026-08-13<br>
@@ -94,7 +73,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-11790"></a>
 
-### High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving **NEW · 4d**
+### High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Muhammad Ayub Sabir, Junbiao Pang, Fatima Ashraf<br>
 **Published:** 2026-08-12<br>
@@ -104,7 +83,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-11770"></a>
 
-### Achieving Near-Zero-Overhead Multi-Model Hierarchical Classification in Real-Time Detection Pipelines **NEW · 4d**
+### Achieving Near-Zero-Overhead Multi-Model Hierarchical Classification in Real-Time Detection Pipelines ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Vaishnav Raju<br>
 **Published:** 2026-08-12<br>
@@ -114,7 +93,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10976"></a>
 
-### XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving **NEW · 5d**
+### XCoT-VLA: Executable Chain-of-Thought for Vision-Language-Action Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Foundation Model Team, XPeng Inc<br>
 **Published:** 2026-08-11<br>
@@ -124,7 +103,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10864"></a>
 
-### Multi-View Relational Distillation for Spatial Reasoning with Vision-Language Models **NEW · 5d**
+### Multi-View Relational Distillation for Spatial Reasoning with Vision-Language Models ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Kiet T. Nguyen, Hanbo Shim, Jinwoo Kim, Seunghoon Hong<br>
 **Published:** 2026-08-11<br>
@@ -134,7 +113,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10413"></a>
 
-### DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving **NEW · 6d**
+### DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Zebin Xing, Yupeng Zheng, Qiang Chen, Linbo Wang, Yichen Zhang, et al.<br>
 **Published:** 2026-08-10<br>
@@ -144,7 +123,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10278"></a>
 
-### Chain of Spatial Thoughts: Modality-Agnostic Spatial Grounding for Vision Language Models **NEW · 6d**
+### Chain of Spatial Thoughts: Modality-Agnostic Spatial Grounding for Vision Language Models ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Hunter Schofield, Mohammed Elmahgiubi, Mohammad Mahdavian, Richard Shi, Jinjun Shan, et al.<br>
 **Published:** 2026-08-10<br>
@@ -154,7 +133,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09591"></a>
 
-### FactorDrive: Adaptive Multi-Step Reasoning Driven by Planning-Critical Factors for End-to-End Autonomous Driving **NEW · 6d**
+### FactorDrive: Adaptive Multi-Step Reasoning Driven by Planning-Critical Factors for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Guolei Huang, Tengfei She, Yuxuan Lu, Yao Huang, Yuqi Ye, et al.<br>
 **Published:** 2026-08-10<br>
@@ -164,7 +143,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09202"></a>
 
-### CRUISE: Vision-Language Model-Guided Uncertainty-Aware Cross-Modal Sensor Fusion for Robust Autonomous Driving **NEW · 6d**
+### CRUISE: Vision-Language Model-Guided Uncertainty-Aware Cross-Modal Sensor Fusion for Robust Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Junyao Wang, Yulin Xu, Yu Li, Pramod Khargonekar, Mohammad Abdullah Al Faruque<br>
 **Published:** 2026-08-10<br>
@@ -174,7 +153,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08947"></a>
 
-### Can Webcam Gaze Constrain Mesa-Objectives in Driving Models? An Instrument Precision Analysis **NEW · 7d**
+### Can Webcam Gaze Constrain Mesa-Objectives in Driving Models? An Instrument Precision Analysis ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Lennox Anderson, Ahmed Boutar, Jonah Mulcrone, Tal Erez<br>
 **Published:** 2026-08-09<br>
@@ -184,7 +163,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08476"></a>
 
-### RayLift: Lifting Complementary Ray-Wise Evidence with 3D Geometry Priors for Semantic Scene Completion **NEW · 7d**
+### RayLift: Lifting Complementary Ray-Wise Evidence with 3D Geometry Priors for Semantic Scene Completion ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Meng Wang, Hongxia Yu, Wenzhe He, Xingdong Song, Huilong Pi, et al.<br>
 **Published:** 2026-08-09<br>
@@ -194,7 +173,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07750"></a>
 
-### Multi-Task Consistency-based Detection of Adversarial Attacks **RECENT · 9d**
+### Multi-Task Consistency-based Detection of Adversarial Attacks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Cong Chen, Jean-Philippe Monteuuis, Jonathan Petit<br>
 **Published:** 2026-08-07<br>
@@ -204,7 +183,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07621"></a>
 
-### CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models **RECENT · 9d**
+### CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hsu-kuang Chiu, Stephen F. Smith<br>
 **Published:** 2026-08-07<br>
@@ -214,7 +193,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-05356"></a>
 
-### LoDA: A Level of Detection Aware Method and a Multimodal Sensing Benchmark for Object Level Change Detection **RECENT · 11d**
+### LoDA: A Level of Detection Aware Method and a Multimodal Sensing Benchmark for Object Level Change Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Haitian Wang, Xinyu Wang, Sheldon Fung, Xian Zhang, Zichen Geng<br>
 **Published:** 2026-08-05<br>
@@ -224,7 +203,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04865"></a>
 
-### Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen **RECENT · 11d**
+### Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chengming Feng, Hesam Araghi, Liming Zheng, Julien Dupeyroux, Xucong Zhang, et al.<br>
 **Published:** 2026-08-05<br>
@@ -234,7 +213,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04852"></a>
 
-### Toward Blockage-Resilient 6G-V2X Connectivity: Semi-Distributed Bandit with Dynamic Arm Set for mmWave HetNets **RECENT · 11d**
+### Toward Blockage-Resilient 6G-V2X Connectivity: Semi-Distributed Bandit with Dynamic Arm Set for mmWave HetNets ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Weiqi Chi, Bo Qian, Hanlin Wu, Donghui Li, Haibo Zhou, et al.<br>
 **Published:** 2026-08-05<br>
@@ -244,7 +223,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04568"></a>
 
-### Talk2Sensors: 3D Visual Grounding in Autonomous Driving via Sensor-Adaptive Physical Cue Matching **RECENT · 11d**
+### Talk2Sensors: 3D Visual Grounding in Autonomous Driving via Sensor-Adaptive Physical Cue Matching ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Runwei Guan, Di Tian, Ningwei Ouyang, Ruixiao Zhang, Shaofeng Liang, et al.<br>
 **Published:** 2026-08-05<br>
@@ -254,7 +233,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04130"></a>
 
-### Radar4D-VLM: Proposal-Grounded Temporal 4D Radar Reasoning Across Frozen Language Models **RECENT · 12d**
+### Radar4D-VLM: Proposal-Grounded Temporal 4D Radar Reasoning Across Frozen Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiaju Han, Xuemeng Sun, Qike Zhang, Xiang Chen, Luwei Yang, et al.<br>
 **Published:** 2026-08-04<br>
@@ -264,7 +243,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03490"></a>
 
-### Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation **RECENT · 12d**
+### Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Quoc Cuong Ninh, Huy Xuan Pham, Anh Tung Nguyen, Dinh Hoan Trinh<br>
 **Published:** 2026-08-04<br>
@@ -274,7 +253,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02449"></a>
 
-### MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving **RECENT · 13d**
+### MoRAL: Sensor-Grounded BEV Reasoning for Compact VLMs toward Edge-Oriented Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ambarish Govindarajulu Kaliamurthi, Kaikai Liu<br>
 **Published:** 2026-08-03<br>
@@ -284,7 +263,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01998"></a>
 
-### TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving **RECENT · 13d**
+### TALSC: Timeliness-Aware Large-Small VLM Collaboration for Infrastructure-Assisted Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mengmeng Zhu, Yuxuan Sun, Wei Chen, Bo Ai<br>
 **Published:** 2026-08-03<br>
@@ -294,7 +273,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01755"></a>
 
-### Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs **RECENT · 13d**
+### Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zixuan Huang, Yang Zhou, Kaixuan Wang, Guli Zhang, Hongyan Xie, et al.<br>
 **Published:** 2026-08-03<br>
@@ -304,7 +283,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01535"></a>
 
-### STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision **RECENT · 14d**
+### STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Pou-Chun Kung, Aryaman Rao, Utkrisht Sahai, Hemanth Murali, Yi Liu, et al.<br>
 **Published:** 2026-08-02<br>
@@ -314,7 +293,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01201"></a>
 
-### PRISM: Privileged Probabilistic Latent Supervision for End-to-End Autonomous Driving Motion Planning **RECENT · 14d**
+### PRISM: Privileged Probabilistic Latent Supervision for End-to-End Autonomous Driving Motion Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Volodymyr Havrylov, Faris Janjoš, Andreas Look, Jürgen Mathes, Andreas Geiger<br>
 **Published:** 2026-08-02<br>
@@ -324,7 +303,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01035"></a>
 
-### WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA **RECENT · 14d**
+### WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhihao Zhu, Hanlin Shang, Mingwang Xu, Feipeng Cai, Zhuolin He, et al.<br>
 **Published:** 2026-08-02<br>
@@ -334,7 +313,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00237"></a>
 
-### Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving **RECENT · 16d**
+### Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Meibo Hu, Jiamian Wang, Pichao Wang, Zhiqiang Tao<br>
 **Published:** 2026-07-31<br>
@@ -344,7 +323,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-28483"></a>
 
-### Towards Real-Time PixOOD: Efficient Anomaly Segmentation for Autonomous Vehicles **RECENT · 17d**
+### Towards Real-Time PixOOD: Efficient Anomaly Segmentation for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Luca de Martino, Federico Aromolo, Federico Nesti, Giorgio Buttazzo<br>
 **Published:** 2026-07-30<br>
@@ -354,7 +333,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-27058"></a>
 
-### Object Detection for Autonomous Driving in Chinese Rural Scenes: An Experimental Study on Real-Synthetic Data Mixing and Model Evaluation **RECENT · 18d**
+### Object Detection for Autonomous Driving in Chinese Rural Scenes: An Experimental Study on Real-Synthetic Data Mixing and Model Evaluation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Danning Zhu, Ziyan Lin, Jing Wu<br>
 **Published:** 2026-07-29<br>
@@ -364,7 +343,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-26165"></a>
 
-### DVPSFormer: Efficient Online Depth-aware Video Panoptic Segmentation for Autonomous Driving **RECENT · 19d**
+### DVPSFormer: Efficient Online Depth-aware Video Panoptic Segmentation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yung-Hsu Yang, Luigi Piccinelli, Siyuan Li, Mattia Segu, Lei Ke, et al.<br>
 **Published:** 2026-07-28<br>
@@ -374,7 +353,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-25989"></a>
 
-### Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks **RECENT · 19d**
+### Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Md. Kamrul Hossain, Walid Aljoby<br>
 **Published:** 2026-07-28<br>
@@ -384,7 +363,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24692"></a>
 
-### Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines **RECENT · 20d**
+### Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jhonatan Tavori, Gur-Eyal Sela, Ion Stoica, Gil Zussman<br>
 **Published:** 2026-07-27<br>
@@ -394,7 +373,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24431"></a>
 
-### InterOCF: Spatio-Temporal 2D-3D Interaction for Camera-Only 4D Occupancy Forecasting **RECENT · 20d**
+### InterOCF: Spatio-Temporal 2D-3D Interaction for Camera-Only 4D Occupancy Forecasting ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qi Zhang, Xinquan Yu, Kaiyi Zhang, Hui Huang<br>
 **Published:** 2026-07-27<br>
@@ -404,7 +383,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23962"></a>
 
-### Development of Vision-Language Model-based GNSS Spoofing Detection for Autonomous Vehicle Navigation **RECENT · 21d**
+### Development of Vision-Language Model-based GNSS Spoofing Detection for Autonomous Vehicle Navigation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mohammed Aldeen, Muhammad Sami Irfan, Sagar Dasgupta, Long Cheng, Mizanur Rahman, et al.<br>
 **Published:** 2026-07-26<br>
@@ -414,7 +393,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23755"></a>
 
-### DAP-Pose: Deep Temporal Alignment and Physics-aware Cross-modal Sensor Fusion for Robust Pose Estimation **RECENT · 21d**
+### DAP-Pose: Deep Temporal Alignment and Physics-aware Cross-modal Sensor Fusion for Robust Pose Estimation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jianhan Lin, Yuchu Qin, Jiateng Yuan, Wenbo Zhang, Shuai Gao<br>
 **Published:** 2026-07-26<br>
@@ -424,7 +403,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23132"></a>
 
-### DispatchRAG: Grounding Emergency Dispatch Decisions in Real-World Protocols from Traffic Accident Video **RECENT · 22d**
+### DispatchRAG: Grounding Emergency Dispatch Decisions in Real-World Protocols from Traffic Accident Video ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Muhammad Sulthan Adhipradhana, Ehsan Javanmardi, Naren Bao, Manabu Tsukada<br>
 **Published:** 2026-07-25<br>
@@ -434,7 +413,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20988"></a>
 
-### HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving **RECENT · 24d**
+### HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Quanfu Yu, Xian Wu, Hao Xu, Liulong Ma<br>
 **Published:** 2026-07-23<br>
@@ -444,7 +423,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20947"></a>
 
-### RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection **RECENT · 24d**
+### RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Junsheng Du, Zhaocheng He, Yuhuan Lu<br>
 **Published:** 2026-07-23<br>
@@ -454,7 +433,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20175"></a>
 
-### PerceptDrive: Perception Prior World-Action Modeling with Adaptive Expert Routing for End-to-End Autonomous Driving **RECENT · 25d**
+### PerceptDrive: Perception Prior World-Action Modeling with Adaptive Expert Routing for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yushan Liu, Tianxiong Lv, Bohua Wang, Hangqi Fan, Chenxu Zhao, et al.<br>
 **Published:** 2026-07-22<br>
@@ -464,7 +443,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20071"></a>
 
-### GaussianSeed: Hierarchical Gaussian Seeding for High-Resolution 3D Occupancy Prediction **RECENT · 25d**
+### GaussianSeed: Hierarchical Gaussian Seeding for High-Resolution 3D Occupancy Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xinzhuo Li, Xianghui Pan, Jiayuan Du, Wei Wei, Liuyi Wang, et al.<br>
 **Published:** 2026-07-22<br>
@@ -474,7 +453,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19911"></a>
 
-### LoRFT: Benchmarking Long-Range Vehicle Trajectory Reconstruction from Fixed Highway Cameras **RECENT · 25d**
+### LoRFT: Benchmarking Long-Range Vehicle Trajectory Reconstruction from Fixed Highway Cameras ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yufan Zhu, Kefu Yi, Xueju Zhang, Yunyang Tian, Long Chen, et al.<br>
 **Published:** 2026-07-22<br>
@@ -484,7 +463,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19781"></a>
 
-### WASABI: Whole-graph Assignment-based Stabilizer for lAne topology By Inter-frame tracking **RECENT · 25d**
+### WASABI: Whole-graph Assignment-based Stabilizer for lAne topology By Inter-frame tracking ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Tetsuhiro Uchida, Myu Sasaki, Kensho Nakajima, Yasuhiro Shimada, Toru Saito<br>
 **Published:** 2026-07-22<br>
@@ -494,7 +473,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20662"></a>
 
-### Scalable Low-Cost Laboratory Automation: A Digital Twin-Integrated Robotic Platform for Autonomous Liquid Handling (RAINBOT) **RECENT · 25d**
+### Scalable Low-Cost Laboratory Automation: A Digital Twin-Integrated Robotic Platform for Autonomous Liquid Handling (RAINBOT) ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mohamed Rami Ayeche, Souhil Sid, Ahyen Mostofa, Rehaan Hussain, Ali Shayesteh, et al.<br>
 **Published:** 2026-07-22<br>
@@ -504,7 +483,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22714"></a>
 
-### Real-Time Semantic Segmentation with Optimized RetinaNet Architectures for Embedded Automotive Systems **RECENT · 26d**
+### Real-Time Semantic Segmentation with Optimized RetinaNet Architectures for Embedded Automotive Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sai Sidharth D<br>
 **Published:** 2026-07-21<br>
@@ -514,7 +493,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19617"></a>
 
-### EGRNet: A Lightweight Semantic Segmentation Network with Edge-Gated Refinement and Adversarial Sensing **RECENT · 26d**
+### EGRNet: A Lightweight Semantic Segmentation Network with Edge-Gated Refinement and Adversarial Sensing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Bareera Qaseem, Mohsin Kamal, Muhammad Naveed Aman<br>
 **Published:** 2026-07-21<br>
@@ -524,7 +503,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-17351"></a>
 
-### DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception **RECENT · 28d**
+### DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Eli Goldenshluger, Barak Pinkovich, Chaim Baskin<br>
 **Published:** 2026-07-19<br>
@@ -534,7 +513,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16938"></a>
 
-### What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning **RECENT · 29d**
+### What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Kalpana Panda, Wesley Maia, Vinti Agarwal, Ross Greer<br>
 **Published:** 2026-07-18<br>
@@ -544,7 +523,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16181"></a>
 
-### Vision-Language Assistant for Emotional Reactions to Risky Driving **RECENT · 30d**
+### Vision-Language Assistant for Emotional Reactions to Risky Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harine Choi, Eun Hak Lee, Zhengzhong Tu<br>
 **Published:** 2026-07-17<br>
@@ -554,7 +533,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14710"></a>
 
-### Variational Inference for Bird's Eye View Segmentation in Autonomous Driving **FRESH · 31d**
+### Variational Inference for Bird's Eye View Segmentation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingyue Shi, Huaicheng Li, Junhui Zhao, Yanxiang Jiang<br>
 **Published:** 2026-07-16<br>
@@ -564,7 +543,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14248"></a>
 
-### 3D Lane Detection with Odometry for High-Speed Vehicle Racing **FRESH · 32d**
+### 3D Lane Detection with Odometry for High-Speed Vehicle Racing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Omoruyi Atekha, John Subosits, Marcus Greiff<br>
 **Published:** 2026-07-15<br>
@@ -574,7 +553,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13926"></a>
 
-### S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving **FRESH · 32d**
+### S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jianguo Yu, Rukang Wang, Duanfeng Chu, Chen Wang, Renju Feng, et al.<br>
 **Published:** 2026-07-15<br>
@@ -584,7 +563,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12858"></a>
 
-### LARAD: Layout-Aware Road Anomaly Detection via Spatial-Logic Reasoning **FRESH · 33d**
+### LARAD: Layout-Aware Road Anomaly Detection via Spatial-Logic Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shiyi Mu, Xujie Chen, Shugong Xu<br>
 **Published:** 2026-07-14<br>
@@ -594,7 +573,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12419"></a>
 
-### DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection **FRESH · 33d**
+### DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haifa Zhang, Yijing Wang, Peixi Peng, Zhiqiang Zuo<br>
 **Published:** 2026-07-14<br>
@@ -604,7 +583,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12833"></a>
 
-### ANGLE: Angular Neural Generative Learning via Engression **FRESH · 33d**
+### ANGLE: Angular Neural Generative Learning via Engression ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rajdeep Pathak, Archi Roy, Tanujit Chakraborty<br>
 **Published:** 2026-07-14<br>
@@ -614,7 +593,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12352"></a>
 
-### Filtering-out poor-quality images for data preparation **FRESH · 33d**
+### Filtering-out poor-quality images for data preparation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Roopdeep Kaur, Gour Karmakar, Muhammad Imran<br>
 **Published:** 2026-07-14<br>
@@ -624,7 +603,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-11964"></a>
 
-### LIDAR-AD: A Decoder-Free Latent-Interaction Dreamer with Action-Residual Chains for Autonomous Driving **FRESH · 35d**
+### LIDAR-AD: A Decoder-Free Latent-Interaction Dreamer with Action-Residual Chains for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yongzhi Liu, Yang Xiao, Zhong Cao, Zeng Kang, Sunan Zhang, et al.<br>
 **Published:** 2026-07-12<br>
@@ -634,7 +613,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10942"></a>
 
-### Edge Physical AI Deployment of Vision Transformers on Heterogeneous Edge GPU Targeting Autonomous Vehicles **FRESH · 35d**
+### Edge Physical AI Deployment of Vision Transformers on Heterogeneous Edge GPU Targeting Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ashiyana Abdul Majeed, Mahmoud Meribout, Neethu Joseph, Abel Kidane Haile, Mohammad Abdullah Al Faruque<br>
 **Published:** 2026-07-12<br>
@@ -644,7 +623,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10712"></a>
 
-### Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud **FRESH · 35d**
+### Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah<br>
 **Published:** 2026-07-12<br>
@@ -654,7 +633,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10071"></a>
 
-### FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness **FRESH · 37d**
+### FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shunsuke Yokokawa, Hironori Kasahara<br>
 **Published:** 2026-07-10<br>
@@ -664,7 +643,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09655"></a>
 
-### OpenLongTail: Generative Scaling of Long-Tail Driving Data **FRESH · 37d**
+### OpenLongTail: Generative Scaling of Long-Tail Driving Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lulin Liu, Nuo Chen, Yan Wang, Bangya Liu, Wenyan Cong, et al.<br>
 **Published:** 2026-07-10<br>
@@ -674,7 +653,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09629"></a>
 
-### 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception **FRESH · 37d**
+### 4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaokai Bai, Lianqing Zheng, Runwei Guan, Songkai Wang, Siyuan Cao, et al.<br>
 **Published:** 2026-07-10<br>
@@ -684,7 +663,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09103"></a>
 
-### Equivariant Filter for High Performance Image Tracking using an Event Camera **FRESH · 37d**
+### Equivariant Filter for High Performance Image Tracking using an Event Camera ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Angus Apps, Yixiao Ge, Timothy L. Molloy, Robert Mahony<br>
 **Published:** 2026-07-10<br>
@@ -694,7 +673,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08745"></a>
 
-### AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding **FRESH · 38d**
+### AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita<br>
 **Published:** 2026-07-09<br>
@@ -704,7 +683,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08391"></a>
 
-### On Exploring Input Resolution Scaling For Anytime LiDAR Object Detection **FRESH · 38d**
+### On Exploring Input Resolution Scaling For Anytime LiDAR Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmet Soyyigit, Shuochao Yao, Heechul Yun<br>
 **Published:** 2026-07-09<br>
@@ -714,7 +693,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08375"></a>
 
-### WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving **FRESH · 38d**
+### WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuerun Yan, Zhexi Lian, Nuoheng Zhang, Shiyu Fang, Haoran Wang, et al.<br>
 **Published:** 2026-07-09<br>
@@ -724,7 +703,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09787"></a>
 
-### Adversarially Guided Diffusion for LiDAR Range Image Synthesis **FRESH · 39d**
+### Adversarially Guided Diffusion for LiDAR Range Image Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Stavros Bouras, Antonios Makris, Alexandros Gkillas, Aris S. Lalos, Konstantinos Tserpes<br>
 **Published:** 2026-07-08<br>
@@ -734,7 +713,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06516"></a>
 
-### Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation **FRESH · 40d**
+### Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Songbur Wong, Xiaosong Jia, Junqi You, Bo Zhang, Pei Xu, et al.<br>
 **Published:** 2026-07-07<br>
@@ -744,7 +723,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06484"></a>
 
-### Assessing the Operational Impact of Poisoning Attacks over Augmented 3D Point Cloud Public Datasets for Connected and Autonomous Vehicles **FRESH · 40d**
+### Assessing the Operational Impact of Poisoning Attacks over Augmented 3D Point Cloud Public Datasets for Connected and Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Marwan Lazrag, Badis Hammi, Lorena Gonzalez-Manzano, Joaquin Garcia-Alfaro<br>
 **Published:** 2026-07-07<br>
@@ -754,7 +733,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-05801"></a>
 
-### TRIG: Trajectory-Rig Decoupled Metric Geometry Learning **FRESH · 41d**
+### TRIG: Trajectory-Rig Decoupled Metric Geometry Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lizhou Liao, Wentao Xu, Handong Wang, Lirong Yang, Shuai Yang, et al.<br>
 **Published:** 2026-07-06<br>
@@ -764,7 +743,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-05180"></a>
 
-### VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving **FRESH · 41d**
+### VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianjia Yang, Ke Li, Ruwen Qin, Xianbiao Hu<br>
 **Published:** 2026-07-06<br>
@@ -774,7 +753,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04732"></a>
 
-### SparseOcc++: Geometry-Aware Sparse Latent Representation for Semantic Occupancy Prediction **FRESH · 41d**
+### SparseOcc++: Geometry-Aware Sparse Latent Representation for Semantic Occupancy Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pin Tang, Zhongdao Wang, Guoqing Wang, Xiangxuan Ren, Chao Ma<br>
 **Published:** 2026-07-06<br>
@@ -784,7 +763,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04689"></a>
 
-### A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving **FRESH · 41d**
+### A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, et al.<br>
 **Published:** 2026-07-06<br>
@@ -794,7 +773,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04681"></a>
 
-### Do Vision-Language-Action Models Mean What They Say? On the Role of Faithfulness in Embodied Reasoning **FRESH · 41d**
+### Do Vision-Language-Action Models Mean What They Say? On the Role of Faithfulness in Embodied Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Matthew Foutter, Matteo Cercola, Lena Wild, Yunshan Wang, Michelle Li, et al.<br>
 **Published:** 2026-07-06<br>
@@ -804,7 +783,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-05649"></a>
 
-### REVIVE: A Multi-Modal Framework for Vandalism Detection and Recovery in Autonomous Vehicles **FRESH · 41d**
+### REVIVE: A Multi-Modal Framework for Vandalism Detection and Recovery in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abdullah Tariq Choudhry, Tapadhir Das<br>
 **Published:** 2026-07-06<br>
@@ -814,7 +793,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04637"></a>
 
-### PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving **FRESH · 42d**
+### PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, et al.<br>
 **Published:** 2026-07-05<br>
@@ -824,7 +803,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04541"></a>
 
-### CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining **FRESH · 42d**
+### CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingyu Song, Yi Liu, Katherine A. Skinner<br>
 **Published:** 2026-07-05<br>
@@ -834,7 +813,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04330"></a>
 
-### Framework and Multi-modal Dataset for Roadwork Zone Detection and Geo-localization **FRESH · 42d**
+### Framework and Multi-modal Dataset for Roadwork Zone Detection and Geo-localization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiran Yan, Yutong Xin, S Shyam Shenoi, Rui Song, Gordon Elger<br>
 **Published:** 2026-07-05<br>
@@ -844,7 +823,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04304"></a>
 
-### Road-Aware Anomaly Segmentation with Query-Guided Polygons and CLIP in Autonomous Driving **FRESH · 42d**
+### Road-Aware Anomaly Segmentation with Query-Guided Polygons and CLIP in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiran Yan, Gordon Elger<br>
 **Published:** 2026-07-05<br>
@@ -854,7 +833,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04098"></a>
 
-### Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion **FRESH · 43d**
+### Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fuyuan Ai, Yuchen Tan, Jiehui Chen, Zhiwei Xu, Chunyi Song<br>
 **Published:** 2026-07-04<br>
@@ -864,7 +843,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-03182"></a>
 
-### AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning **FRESH · 44d**
+### AnchorVLA: Bridging Discrete Decisions and Continuous Trajectories for Vision-Language-Action Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qi Liu, Yabei Li, Hongsong Wang, Heng Zhang, Lei He<br>
 **Published:** 2026-07-03<br>
@@ -874,7 +853,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-03247"></a>
 
-### Learning to Suppress SPAD-based LiDAR Flare **FRESH · 44d**
+### Learning to Suppress SPAD-based LiDAR Flare ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuanya Zhu, Linghao Shen<br>
 **Published:** 2026-07-03<br>
@@ -884,7 +863,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-02074"></a>
 
-### Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving **FRESH · 45d**
+### Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Adwait Chandorkar, Kai Krink, Yerdana Maulenbay, Hasan Tercan, Tobias Meisen<br>
 **Published:** 2026-07-02<br>
@@ -894,7 +873,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01983"></a>
 
-### Open-Weather Robust 3D Detection via Dual-Critic Diffusion Alignment **FRESH · 45d**
+### Open-Weather Robust 3D Detection via Dual-Critic Diffusion Alignment ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuyao Li, Chuanxing Geng, Heyang Sun, Qiang Zhou, Jingjing Gu<br>
 **Published:** 2026-07-02<br>
@@ -904,7 +883,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01827"></a>
 
-### C2E: Boosting Ego-Only 3D Object Detection via Multi-Teacher Contrastive Knowledge Distillation **FRESH · 45d**
+### C2E: Boosting Ego-Only 3D Object Detection via Multi-Teacher Contrastive Knowledge Distillation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinlong Wang, Xun Huang, Qiming Xia, Shijia Zhao, Chenglu Wen<br>
 **Published:** 2026-07-02<br>
@@ -914,7 +893,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01772"></a>
 
-### LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design **FRESH · 45d**
+### LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wen Wang, Yaping Sun, Yejun He, Hao Chen, Zhiyong Chen, et al.<br>
 **Published:** 2026-07-02<br>
@@ -924,7 +903,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01658"></a>
 
-### Teaching Vision-Language-Action Models What to See and Where to Look **FRESH · 46d**
+### Teaching Vision-Language-Action Models What to See and Where to Look ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuguang Yang, Canyu Chen, Zhewen Tan, Yizhi Wang, Zichao Feng, et al.<br>
 **Published:** 2026-07-01<br>
@@ -934,7 +913,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00839"></a>
 
-### Rethinking Multi-Label Image Classification With Deep Learning: Taxonomy, Challenge, and Outlook **FRESH · 46d**
+### Rethinking Multi-Label Image Classification With Deep Learning: Taxonomy, Challenge, and Outlook ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuelin Zhu, Xiu-Shen Wei, Jiawei Ge, Shuai Xu, Bing Wang<br>
 **Published:** 2026-07-01<br>
@@ -944,7 +923,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31875"></a>
 
-### SENSE-VAD: Sentient and Semantic Video Anomaly Detection for Autonomous Driving **FRESH · 47d**
+### SENSE-VAD: Sentient and Semantic Video Anomaly Detection for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nghia T. Nguyen, Lokman Bekit, Yasin Yilmaz<br>
 **Published:** 2026-06-30<br>
@@ -954,7 +933,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31834"></a>
 
-### Real-Time Source-Free Object Detection **FRESH · 47d**
+### Real-Time Source-Free Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sairam VCR, Varun Gopal, Poornima Jain, Vineeth N Balasubramanian, Muhammad Haris Khan<br>
 **Published:** 2026-06-30<br>
@@ -964,7 +943,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31716"></a>
 
-### Gaussian Belief Propagation for Tracking With Unresolved Measurements **FRESH · 47d**
+### Gaussian Belief Propagation for Tracking With Unresolved Measurements ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Augustin A. Saucan, Florian Meyer, Peter Willett<br>
 **Published:** 2026-06-30<br>
@@ -974,7 +953,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31688"></a>
 
-### Semantic Occupancy Prediction with Dual Range-Voxel Representation **FRESH · 47d**
+### Semantic Occupancy Prediction with Dual Range-Voxel Representation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sitao Chen, Zhuangwei Zhuang, Hui Luo, Lizhao Liu, Qingyao Wu, et al.<br>
 **Published:** 2026-06-30<br>
@@ -984,7 +963,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31172"></a>
 
-### HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection **FRESH · 47d**
+### HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiyong Boo, Byeongin Joung, Hyemin Yang, Kuk-Jin Yoon<br>
 **Published:** 2026-06-30<br>
@@ -994,7 +973,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31160"></a>
 
-### Reasoning-aware Speculative Decoding for Efficient Vision-Language-Action Models in Autonomous Driving **FRESH · 47d**
+### Reasoning-aware Speculative Decoding for Efficient Vision-Language-Action Models in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Anh Dung Dinh, Simon Khan, Flora Salim<br>
 **Published:** 2026-06-30<br>
@@ -1004,7 +983,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31096"></a>
 
-### Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving **FRESH · 48d**
+### Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Geonho Bang, Geunju Baek, Dongyoung Lee, Wonjun Jeong, Jun Won Choi<br>
 **Published:** 2026-06-29<br>
@@ -1014,7 +993,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30896"></a>
 
-### Knowledge-Driven Dimension Estimation from a Single Image -3D Asset Generation Technology for Digital Twin Construction **FRESH · 48d**
+### Knowledge-Driven Dimension Estimation from a Single Image -3D Asset Generation Technology for Digital Twin Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hidenori Sakaniwa, Akihito Akai, Akihiko Hyodo<br>
 **Published:** 2026-06-29<br>
@@ -1024,7 +1003,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29879"></a>
 
-### LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving **FRESH · 48d**
+### LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, et al.<br>
 **Published:** 2026-06-29<br>
@@ -1034,7 +1013,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30554"></a>
 
-### SubEdge: A Subscriber-Centric Edge Computing Subsystem in 6G Networks for AI **FRESH · 48d**
+### SubEdge: A Subscriber-Centric Edge Computing Subsystem in 6G Networks for AI ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abdirazak Ali Asir Rage, Riccardo Pozza, Rahim Tafazolli<br>
 **Published:** 2026-06-29<br>
@@ -1044,7 +1023,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29677"></a>
 
-### Lateral String Stability for Vehicle Platoons **FRESH · 49d**
+### Lateral String Stability for Vehicle Platoons ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sixu Li, Swaroop Darbha, Yang Zhou<br>
 **Published:** 2026-06-28<br>
@@ -1054,7 +1033,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27660"></a>
 
-### MVPruner: Dynamic Token Pruning for Accelerating Multi-view Vision-Language Models in Autonomous Driving **FRESH · 52d**
+### MVPruner: Dynamic Token Pruning for Accelerating Multi-view Vision-Language Models in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nan Yang, Zhanwen Liu, Linfeng Zhang, Shangyu Xie, Yang Wang, et al.<br>
 **Published:** 2026-06-25<br>
@@ -1064,7 +1043,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27554"></a>
 
-### Understanding Cross-Rig Generalization in Automotive Perception: a Multi-Rig Benchmark and Rig Variation Metrics **FRESH · 52d**
+### Understanding Cross-Rig Generalization in Automotive Perception: a Multi-Rig Benchmark and Rig Variation Metrics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tim Alexander Bader, Tim Dieter Eberhardt, Maximilian Dillitzer, Wilhelm Stork<br>
 **Published:** 2026-06-25<br>
@@ -1074,7 +1053,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25953"></a>
 
-### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild **FRESH · 53d**
+### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmad Kourani, Ghina Daoud, Daniel Asmar, Imad Elhajj<br>
 **Published:** 2026-06-24<br>
@@ -1084,7 +1063,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25652"></a>
 
-### Auto-Labelling-Based Domain Transfer for 3D Object Detection on a Bicycle-Mounted LiDAR Platform **FRESH · 53d**
+### Auto-Labelling-Based Domain Transfer for 3D Object Detection on a Bicycle-Mounted LiDAR Platform ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mario Finkbeiner, Max A. Buettner, Kanak Mazumder, Fabian B. Flohr<br>
 **Published:** 2026-06-24<br>
@@ -1094,7 +1073,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24805"></a>
 
-### DDStereo: Efficient Dual Decoder Transformers for Stereo 3D Road Anomaly Detection **FRESH · 54d**
+### DDStereo: Efficient Dual Decoder Transformers for Stereo 3D Road Anomaly Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shiyi Mu, Zichong Gu, Zhiqi Ai, Yilin Gao, Shugong Xu<br>
 **Published:** 2026-06-23<br>
@@ -1104,7 +1083,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24759"></a>
 
-### UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving **FRESH · 54d**
+### UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaowei Gao, Pengxiang Li, Yitai Cheng, Ruihan Xu, James Haworth, et al.<br>
 **Published:** 2026-06-23<br>
@@ -1114,7 +1093,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24353"></a>
 
-### Open-Vocabulary BEV Segmentation with 3D-Aware Geometric Constraints **FRESH · 54d**
+### Open-Vocabulary BEV Segmentation with 3D-Aware Geometric Constraints ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hojun Choi, Seulbin Hwang, Daejung Kim, Kisung Kim, Hyunjung Shim, et al.<br>
 **Published:** 2026-06-23<br>
@@ -1124,7 +1103,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24096"></a>
 
-### Beyond Bayer: Task-Optimal Sensor Co-Design for Robust Autonomous-Driving Segmentation **FRESH · 55d**
+### Beyond Bayer: Task-Optimal Sensor Co-Design for Robust Autonomous-Driving Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Reeshad Khan, John Gauch<br>
 **Published:** 2026-06-22<br>
@@ -1134,7 +1113,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-22913"></a>
 
-### Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving **FRESH · 55d**
+### Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zisheng Chen, Yuping Qiu, Jianhua Han, Tao Tang, Xiuwei Chen, et al.<br>
 **Published:** 2026-06-22<br>
@@ -1144,7 +1123,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-22881"></a>
 
-### A Vendor-Agnostic LiDAR Data Conversion System with Multi-Signal Detection and Multi-Format Output **FRESH · 55d**
+### A Vendor-Agnostic LiDAR Data Conversion System with Multi-Signal Detection and Multi-Format Output ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Param Patel, Jay Dave, Pratyush Chakraborty<br>
 **Published:** 2026-06-22<br>
@@ -1154,7 +1133,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20772"></a>
 
-### Mind the Privileged-to-Camera Gap: Actor-Centric Sidecar Supervision for Camera-First Open-Loop Waypoint Prediction **FRESH · 59d**
+### Mind the Privileged-to-Camera Gap: Actor-Centric Sidecar Supervision for Camera-First Open-Loop Waypoint Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Feeza Khan Khanzada, Jaerock Kwon<br>
 **Published:** 2026-06-18<br>
@@ -1164,7 +1143,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20189"></a>
 
-### HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training **FRESH · 59d**
+### HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Maciej Wozniak, Jesper Ericsson, Hariprasath Govindarajan, Truls Nyberg, Thomas Gustafsson, et al.<br>
 **Published:** 2026-06-18<br>
@@ -1174,7 +1153,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-18242"></a>
 
-### EventDrive: Event Cameras for Vision-Language Driving Intelligence **FRESH · 61d**
+### EventDrive: Event Cameras for Vision-Language Driving Intelligence ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dongyue Lu, Rong Li, Ao Liang, Lingdong Kong, Wei Yin, et al.<br>
 **Published:** 2026-06-16<br>
@@ -1184,7 +1163,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-18112"></a>
 
-### Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System **FRESH · 61d**
+### Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiazhao Zhang, Gengze Zhou, Hale Yin, Yiyang Huang, Zixing Lei, et al.<br>
 **Published:** 2026-06-16<br>
@@ -1194,7 +1173,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17562"></a>
 
-### Anywhere, Any-Stymie: Remote Activation of Trojan Malware on LiDAR with Modulated Signals **FRESH · 61d**
+### Anywhere, Any-Stymie: Remote Activation of Trojan Malware on LiDAR with Modulated Signals ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** R. Spencer Hallyburton, Miroslav Pajic<br>
 **Published:** 2026-06-16<br>
@@ -1204,7 +1183,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17362"></a>
 
-### DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models **FRESH · 62d**
+### DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xinglong Sun, Kevin Xie, Jenny Schmalfuss, Despoina Paschalidou, Xiuming Zhang, et al.<br>
 **Published:** 2026-06-15<br>
@@ -1214,7 +1193,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16996"></a>
 
-### ActiveSAM: Image-Conditional Class Pruning for Fast and Accurate Open-Vocabulary Segmentation **FRESH · 62d**
+### ActiveSAM: Image-Conditional Class Pruning for Fast and Accurate Open-Vocabulary Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tran Dinh Tien, Zhiqiang Shen<br>
 **Published:** 2026-06-15<br>
@@ -1224,7 +1203,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16589"></a>
 
-### DRIFT: Risk-Constrained Diffusion with Imitation Priors for Mixed-Autonomy Traffic Generation **FRESH · 62d**
+### DRIFT: Risk-Constrained Diffusion with Imitation Priors for Mixed-Autonomy Traffic Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yaoshen Yu, Minghui Liwang, Wenbo Zhu, Xinlei Yi, Zhang Liu, et al.<br>
 **Published:** 2026-06-15<br>
@@ -1234,7 +1213,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20687"></a>
 
-### ARGUSTRACK: A Multi-View Annotation System for Multi-Object Tracking **FRESH · 63d**
+### ARGUSTRACK: A Multi-View Annotation System for Multi-Object Tracking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hao Vo, Duc Nguyen, Ngan Le<br>
 **Published:** 2026-06-14<br>
@@ -1244,7 +1223,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16048"></a>
 
-### CloudDiffusion: Diffusion-Based Scene Completion in the Point Cloud Domain **FRESH · 63d**
+### CloudDiffusion: Diffusion-Based Scene Completion in the Point Cloud Domain ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chidera Agbasiere, Mikhail Sannikov, Faith Ogunwoye, Erik Shaikhiev, Alex Kozinov, et al.<br>
 **Published:** 2026-06-14<br>
@@ -1254,7 +1233,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14992"></a>
 
-### KATANA: A Fast, Low-Power Mapping of Kalman Filters onto Edge NPUs for Real-Time Tracking **FRESH · 65d**
+### KATANA: A Fast, Low-Power Mapping of Kalman Filters onto Edge NPUs for Real-Time Tracking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bodhisatwa Kundu, Anish Rooj, Sumit Saha, Abhradeep Sarkar, Arghadip Das, et al.<br>
 **Published:** 2026-06-12<br>
@@ -1264,7 +1243,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14658"></a>
 
-### Giving AI a Headache: Acoustic Adversarial Attacks to Computer Vision Applications **FRESH · 65d**
+### Giving AI a Headache: Acoustic Adversarial Attacks to Computer Vision Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nicole Villavicencio-Garduño, Maksim Ekin Eren, Milo Prisbrey, Ben Migliori, Michael Teti<br>
 **Published:** 2026-06-12<br>
@@ -1274,7 +1253,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14067"></a>
 
-### Vision-Based Efficient Joint Trajectory and Channel Tracking in Near-Field XL-MIMO Systems **FRESH · 66d**
+### Vision-Based Efficient Joint Trajectory and Channel Tracking in Near-Field XL-MIMO Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mengyuan Li, Yu Han, Hao Xu, Yongxu Zhu, Shi Jin, et al.<br>
 **Published:** 2026-06-11<br>
@@ -1284,7 +1263,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14010"></a>
 
-### RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation **FRESH · 66d**
+### RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiangyu Huang, Zhenlin Hua, Han Zhou, Shounak Sural, Ragunathan Rajkumar<br>
 **Published:** 2026-06-11<br>
@@ -1294,7 +1273,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12826"></a>
 
-### DIMOS: Disentangling Instance-level Moving Object Segmentation **FRESH · 67d**
+### DIMOS: Disentangling Instance-level Moving Object Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongxiang Huang, Hongwei Ren, Xiaopeng Lin, Yulong Huang, Zeke Xie, et al.<br>
 **Published:** 2026-06-10<br>
@@ -1304,7 +1283,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12706"></a>
 
-### VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving **FRESH · 67d**
+### VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Thach Nguyen, Danhua Guo, Tom Lampo, Fei Wu, Burhan Yaman<br>
 **Published:** 2026-06-10<br>
@@ -1314,7 +1293,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12628"></a>
 
-### Context-Aware Feature-Fusion for Co-occurring Object Detection in Autonomous Driving **FRESH · 67d**
+### Context-Aware Feature-Fusion for Co-occurring Object Detection in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Binay Kumar Singh, Niels Da Vitoria Lobo<br>
 **Published:** 2026-06-10<br>
@@ -1324,7 +1303,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12396"></a>
 
-### VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving **FRESH · 67d**
+### VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jin Yao, Dhruva Dixith Kurra, Tom Lampo, Zezhou Cheng, Danhua Guo, et al.<br>
 **Published:** 2026-06-10<br>
@@ -1334,7 +1313,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12066"></a>
 
-### Performance Analysis of YOLOv11 and YOLOv8 for Mixed Traffic Object Detection under Adverse Weather Conditions in Developing Countries **FRESH · 67d**
+### Performance Analysis of YOLOv11 and YOLOv8 for Mixed Traffic Object Detection under Adverse Weather Conditions in Developing Countries ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Quoc Thuan Nguyen, Ha Anh Vu, Ngo Dang Thanh Ngan, Minh Phuc Hoang Ngoc<br>
 **Published:** 2026-06-10<br>
@@ -1344,7 +1323,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11889"></a>
 
-### Task-Aligned Stability Analysis of Vision-Language Models for Autonomous Driving Hazard Detection **FRESH · 67d**
+### Task-Aligned Stability Analysis of Vision-Language Models for Autonomous Driving Hazard Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Everett Richards<br>
 **Published:** 2026-06-10<br>
@@ -1354,7 +1333,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11120"></a>
 
-### Monte Carlo Pass Search: Using Trajectory Generation for 3D Counterfactual Pass Evaluation in Football **FRESH · 68d**
+### Monte Carlo Pass Search: Using Trajectory Generation for 3D Counterfactual Pass Evaluation in Football ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Andrew Kang, Priya Narasimhan<br>
 **Published:** 2026-06-09<br>
@@ -1364,7 +1343,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10974"></a>
 
-### Language-Driven Cost Optimization for Autonomous Driving **FRESH · 68d**
+### Language-Driven Cost Optimization for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Diego Martinez-Baselga, Khaled Mustafa, Javier Alonso-Mora<br>
 **Published:** 2026-06-09<br>
@@ -1374,7 +1353,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10656"></a>
 
-### Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving **FRESH · 68d**
+### Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qi Song, Yifei He, Chi Zhang, Zheng Fu, Xuhe Zhao, et al.<br>
 **Published:** 2026-06-09<br>
@@ -1384,7 +1363,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10044"></a>
 
-### Business World Model **FRESH · 69d**
+### Business World Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Cecil Pang, Hiroki Sayama<br>
 **Published:** 2026-06-08<br>
@@ -1394,7 +1373,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09569"></a>
 
-### Efficient Minimal Solvers for Relative Pose Estimation in Autonomous Driving Applications **FRESH · 69d**
+### Efficient Minimal Solvers for Relative Pose Estimation in Autonomous Driving Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tao Li, Liang Liu, Jianli Han, Weimin Lv<br>
 **Published:** 2026-06-08<br>
@@ -1404,7 +1383,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09350"></a>
 
-### Taming Perception Jitter: Uncertainty-Aware LiDAR Object Detection for Reliable Motion Classification **FRESH · 69d**
+### Taming Perception Jitter: Uncertainty-Aware LiDAR Object Detection for Reliable Motion Classification ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Cornelius Schröder, Žygimantas Marcinkus, Markus Lienkamp<br>
 **Published:** 2026-06-08<br>
@@ -1414,7 +1393,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09477"></a>
 
-### Efficient Minimal Solvers for Visual-Inertial Relative Pose Estimation in Multi-Camera Systems **FRESH · 69d**
+### Efficient Minimal Solvers for Visual-Inertial Relative Pose Estimation in Multi-Camera Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tao Li, Zhenbao Yu, Banglei Guan, Jianli Han, Weimin Lv<br>
 **Published:** 2026-06-08<br>
@@ -1424,7 +1403,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08684"></a>
 
-### BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving **FRESH · 70d**
+### BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** George Ling, Lijin Yang, Hao Yang, Zhongzhan Huang<br>
 **Published:** 2026-06-07<br>
@@ -1434,7 +1413,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08680"></a>
 
-### Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras **FRESH · 70d**
+### Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiangzhong Liu<br>
 **Published:** 2026-06-07<br>
@@ -1444,7 +1423,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08525"></a>
 
-### DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving **FRESH · 70d**
+### DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qimao Chen, Fang Li, Yuechen Luo, Zehan Zhang, Haiyang Sun, et al.<br>
 **Published:** 2026-06-07<br>
@@ -1454,7 +1433,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08173"></a>
 
-### AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation **FRESH · 71d**
+### AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bilal Hussain, Muhammad Bilal, Tan Li, Haris Pervaiz, Xiao Tang, et al.<br>
 **Published:** 2026-06-06<br>
@@ -1464,7 +1443,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07464"></a>
 
-### Planning-aligned Token Compression for Long-Context Autonomous Driving **FRESH · 72d**
+### Planning-aligned Token Compression for Long-Context Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhixuan Liang, Yuxiao Chen, Yurong You, Peter Karkus, Wenhao Ding, et al.<br>
 **Published:** 2026-06-05<br>
@@ -1474,7 +1453,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06312"></a>
 
-### Meridian: Metric-Semantic Primitive Matching for Cross-View Geo-Localization Beyond Urban Environments **FRESH · 73d**
+### Meridian: Metric-Semantic Primitive Matching for Cross-View Geo-Localization Beyond Urban Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mason Peterson, Qingyuan Li, Yixuan Jia, Fernando Cladera, Carlos Nieto-Granda, et al.<br>
 **Published:** 2026-06-04<br>
@@ -1484,7 +1463,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06255"></a>
 
-### RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning **FRESH · 73d**
+### RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziyang Yu, Xiang Li, Qiong Chang, Jun Miyazaki<br>
 **Published:** 2026-06-04<br>
@@ -1494,7 +1473,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-05645"></a>
 
-### Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning **FRESH · 74d**
+### Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziyang Yao, Haochen Liu, Yuncheng Jiang, Zeyu Zhu, Zibin Guo, et al.<br>
 **Published:** 2026-06-03<br>
@@ -1504,7 +1483,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04871"></a>
 
-### Recent Advances and Trends in Learning-based 3D Representations **FRESH · 74d**
+### Recent Advances and Trends in Learning-based 3D Representations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Adrien Schockaert, Hamid Laga, Hazem Wannous, Vincent Magnier, Guillaume Dufaye, et al.<br>
 **Published:** 2026-06-03<br>
@@ -1514,7 +1493,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04656"></a>
 
-### Instance-Level Post Hoc Uncertainty Quantification in Object Detection **FRESH · 74d**
+### Instance-Level Post Hoc Uncertainty Quantification in Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chongzhe Zhang, Zifan Zeng, Qunli Zhang, Feng Liu, Zheng Hu<br>
 **Published:** 2026-06-03<br>
@@ -1524,7 +1503,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03915"></a>
 
-### PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion **FRESH · 75d**
+### PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qingdong Xu, Jiajun Zhu, Shilin Zhu, Xinjing He, Chao Lu, et al.<br>
 **Published:** 2026-06-02<br>
@@ -1534,7 +1513,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03694"></a>
 
-### Face versus Body Tracking for Human-Robot Interaction: An Egocentric Dataset **FRESH · 75d**
+### Face versus Body Tracking for Human-Robot Interaction: An Egocentric Dataset ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jessica Wenninger, Gabriel Skantze<br>
 **Published:** 2026-06-02<br>
@@ -1544,7 +1523,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03590"></a>
 
-### CANMOT: Class-Aware Noise Modeling for Multi-Object Tracking in Autonomous Driving **FRESH · 75d**
+### CANMOT: Class-Aware Noise Modeling for Multi-Object Tracking in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Timo Osterburg, Stefan Schütte, Torsten Bertram<br>
 **Published:** 2026-06-02<br>
@@ -1554,7 +1533,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03160"></a>
 
-### SRENet: Spectral Re-Entry Network for Point Cloud Action Recognition **FRESH · 75d**
+### SRENet: Spectral Re-Entry Network for Point Cloud Action Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiuxia Wu, Jiarui Lan, Wenxiong Kang, Zhiyong Wang, Kun Hu<br>
 **Published:** 2026-06-02<br>
@@ -1564,7 +1543,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03617"></a>
 
-### SA-DTS: Semantic-Aware Digital Twin Synchronization over 6G Networks **FRESH · 75d**
+### SA-DTS: Semantic-Aware Digital Twin Synchronization over 6G Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Vincenzo Sammartino<br>
 **Published:** 2026-06-02<br>
@@ -1574,7 +1553,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02979"></a>
 
-### Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion **FRESH · 76d**
+### Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Oskar Natan, Jun Miura<br>
 **Published:** 2026-06-01<br>
@@ -1584,7 +1563,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02924"></a>
 
-### ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception **FRESH · 76d**
+### ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mellon M. Zhang, Siddhant Panse, Zimo Fan, Akshal Dhal, Rishit Sarkar, et al.<br>
 **Published:** 2026-06-01<br>
@@ -1594,7 +1573,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02774"></a>
 
-### GeoDrive-Bench: Benchmarking Region-Specific Multimodal Reasoning in Autonomous Driving **FRESH · 76d**
+### GeoDrive-Bench: Benchmarking Region-Specific Multimodal Reasoning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yingzi Ma, Chaowei Xiao, Ming Jiang<br>
 **Published:** 2026-06-01<br>
@@ -1604,7 +1583,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01972"></a>
 
-### AI-Based KPI Prediction Methods in Future 6G Networks: A Survey **FRESH · 76d**
+### AI-Based KPI Prediction Methods in Future 6G Networks: A Survey ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Niloofar Mehrnia, Gourav Prateek Sharma, Samie Mostafavi, Andreas Johnsson, Sinem Coleri, et al.<br>
 **Published:** 2026-06-01<br>
@@ -1614,7 +1593,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01822"></a>
 
-### Hierarchically Decoupled Mixture-of-Experts for Robust Traffic Sign Recognition in Complex Driving Scenarios **FRESH · 76d**
+### Hierarchically Decoupled Mixture-of-Experts for Robust Traffic Sign Recognition in Complex Driving Scenarios ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mingxiao Wang, Xiaozhen Qu, Bolin Gao, Tong Wang, Lei He<br>
 **Published:** 2026-06-01<br>
@@ -1624,7 +1603,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01757"></a>
 
-### PillarDETR: YOLO-Backbone and RT-DETR Head for Real-Time 3D Object Detection **FRESH · 76d**
+### PillarDETR: YOLO-Backbone and RT-DETR Head for Real-Time 3D Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Smit Kadvani, Shriya Gumber, Kriti Faujdar, Harsh Dave<br>
 **Published:** 2026-06-01<br>
@@ -1634,7 +1613,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01277"></a>
 
-### DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance **FRESH · 77d**
+### DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Oskar Natan, Andi Dharmawan, Aufaclav Zatu Kusuma Frisky, Jazi Eko Istiyanto, Jun Miura<br>
 **Published:** 2026-05-31<br>
@@ -1644,7 +1623,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07626"></a>
 
-### Eyes All Around: Design and Analysis of 360-Degree LiDAR Perception Using Equivariant Feature Learning in Unstructured Traffic **FRESH · 78d**
+### Eyes All Around: Design and Analysis of 360-Degree LiDAR Perception Using Equivariant Feature Learning in Unstructured Traffic ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pranav Darshan, Raghuveer Narayanan Rajesh, M Uttara Kumari<br>
 **Published:** 2026-05-30<br>
@@ -1654,7 +1633,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00688"></a>
 
-### Shape-Prior-Based Point Cloud Completion for Single-Stage Fully Sparse 3D Object Detection **FRESH · 78d**
+### Shape-Prior-Based Point Cloud Completion for Single-Stage Fully Sparse 3D Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kaizheng Wang, Mingqian Ji, Jian Yang, Shanshan Zhang<br>
 **Published:** 2026-05-30<br>
@@ -1664,7 +1643,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00416"></a>
 
-### 4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather **FRESH · 79d**
+### 4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Melih Yazgan, Iramm Hamdard, Qiyuan Wu, J. Marius Zoellner<br>
 **Published:** 2026-05-29<br>
@@ -1674,7 +1653,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00267"></a>
 
-### StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement **FRESH · 79d**
+### StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junwon Seo, Sushant Veer, Ran Tian, Wenhao Ding, Apoorva Sharma, et al.<br>
 **Published:** 2026-05-29<br>
@@ -1684,7 +1663,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-31256"></a>
 
-### Before Parc Fermé: RL-Time Pruning for Efficient Embodied LLMs in Autonomous Driving **FRESH · 79d**
+### Before Parc Fermé: RL-Time Pruning for Efficient Embodied LLMs in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca Benfenati, Ali Azimi, Matteo Risso, Fabio Carapellese, Daniele Jahier Pagliari, et al.<br>
 **Published:** 2026-05-29<br>
@@ -1694,7 +1673,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-31041"></a>
 
-### Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior? **FRESH · 79d**
+### Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingtao He, Hongliang Lu, Xiaoyun Qiu, Yixuan Wang, Xinhu Zheng<br>
 **Published:** 2026-05-29<br>
@@ -1704,7 +1683,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30939"></a>
 
-### IAF-Net: Illumination-Adaptive Fusion for Low-Light Urban Road Segmentation **FRESH · 79d**
+### IAF-Net: Illumination-Adaptive Fusion for Low-Light Urban Road Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bingtao Wang, Daojie Peng, Fulong Ma, Jun Ma, Liang Zhang<br>
 **Published:** 2026-05-29<br>
@@ -1714,7 +1693,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29114"></a>
 
-### ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving **FRESH · 81d**
+### ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mohammadreza Teymoorianfard, Jean-Philippe Monteuuis, Jonathan Petit, Amir Houmansadr<br>
 **Published:** 2026-05-27<br>
@@ -1724,7 +1703,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-28180"></a>
 
-### Tensor Train Decomposition Based Noise Reduction and Enhanced Parameter Estimation for FMCW MIMO Radar Systems **FRESH · 81d**
+### Tensor Train Decomposition Based Noise Reduction and Enhanced Parameter Estimation for FMCW MIMO Radar Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luoyan Zhu, Sergiy A. Vorobyov, Jie Wang, Yinsheng Liu, Zhangdui Zhong<br>
 **Published:** 2026-05-27<br>
@@ -1734,7 +1713,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-28136"></a>
 
-### SAM-Enhanced Segmentation on Road Datasets: Balancing Critical Classes in Autonomous Driving **FRESH · 81d**
+### SAM-Enhanced Segmentation on Road Datasets: Balancing Critical Classes in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Toomas Tahves, Mauro Bellone, Junyi Gu, Raivo Sell<br>
 **Published:** 2026-05-27<br>
@@ -1744,7 +1723,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-27038"></a>
 
-### TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving **FRESH · 82d**
+### TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiaxiang Li, Yumao Liu, Ke Ma<br>
 **Published:** 2026-05-26<br>
@@ -1754,7 +1733,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26477"></a>
 
-### Variational Inference for Evidential Deep Learning **FRESH · 83d**
+### Variational Inference for Evidential Deep Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiawei Tang, Xinyan Du, Hui Liu, Junhui Hou, Yuheng Jia<br>
 **Published:** 2026-05-25<br>
@@ -1764,7 +1743,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25293"></a>
 
-### Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks **FRESH · 84d**
+### Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sambit Mohapatra, Senthil Yogamani, Heinrich Gotzig, Patrick Mader<br>
 **Published:** 2026-05-24<br>
@@ -1774,7 +1753,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25262"></a>
 
-### Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection **FRESH · 84d**
+### Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Prabuddhi Wariyapperuma, Rajitha de Silva, Marc Hanheide, Thomas Bohné, Leonardo Guevara<br>
 **Published:** 2026-05-24<br>
@@ -1784,7 +1763,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24098"></a>
 
-### D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving **FRESH · 86d**
+### D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kevin Richard, Alphin Varghese, Colin Pham, David Oh, Srijan Das<br>
 **Published:** 2026-05-22<br>
@@ -1794,7 +1773,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23406"></a>
 
-### RS2AD-LiDAR: End-to-End Autonomous Driving LiDAR Data Generation from Roadside Sensor Observations **FRESH · 86d**
+### RS2AD-LiDAR: End-to-End Autonomous Driving LiDAR Data Generation from Roadside Sensor Observations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Runyi Huang, Ni Ding, Ruidan Xing, Yuheng Shi, Lei He, et al.<br>
 **Published:** 2026-05-22<br>
@@ -1804,7 +1783,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23327"></a>
 
-### GFSR: Geometric Fidelity and Spatial Refinement for Reliable Lane Detection **FRESH · 86d**
+### GFSR: Geometric Fidelity and Spatial Refinement for Reliable Lane Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tiancheng Wang, Zhaolu Ding, Richeng Xu, Tianhui Zheng, Hui Liu, et al.<br>
 **Published:** 2026-05-22<br>
@@ -1814,7 +1793,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23270"></a>
 
-### ChainFlow-VLA: Causal Flow Planning with Vision-Language Models **FRESH · 86d**
+### ChainFlow-VLA: Causal Flow Planning with Vision-Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiyang Wang, Xinlin Wang, Tingguang Zhou, Gong Chen, Xingtai Gui, et al.<br>
 **Published:** 2026-05-22<br>
@@ -1824,7 +1803,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22997"></a>
 
-### Scene Reconstruction as Mapping Priors for 3D Detection **FRESH · 87d**
+### Scene Reconstruction as Mapping Priors for 3D Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yang Fu, Yuliang Zou, Hao Xiang, Xin Huang, Yijing Bai, et al.<br>
 **Published:** 2026-05-21<br>
@@ -1834,7 +1813,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22455"></a>
 
-### Making the Discrete Continuous: Synthetic RAW Augmentations for Fine-Grained Evaluation of Person Detection Performance in Low Light **FRESH · 87d**
+### Making the Discrete Continuous: Synthetic RAW Augmentations for Fine-Grained Evaluation of Person Detection Performance in Low Light ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Valeria Pais, Malena Mendilaharzu, Daniele Faccio, Luis Oala, Christoph Clausen, et al.<br>
 **Published:** 2026-05-21<br>
@@ -1844,7 +1823,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22089"></a>
 
-### LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model **FRESH · 87d**
+### LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaodong Mei, Diankun Zhang, Hongwei Xie, Guang Chen, Hangjun Ye, et al.<br>
 **Published:** 2026-05-21<br>
@@ -1854,7 +1833,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22659"></a>
 
-### A Metalens-based Bicycle Safety Reflector for Autonomous Vehicle Radars **FRESH · 87d**
+### A Metalens-based Bicycle Safety Reflector for Autonomous Vehicle Radars ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sepideh Ghasemi, Jimmy Hester, Aline Eid<br>
 **Published:** 2026-05-21<br>
@@ -1864,7 +1843,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21395"></a>
 
-### Towards Resilient and Autonomous Networks: A BlueSky Vision on AI-Native 6G **FRESH · 88d**
+### Towards Resilient and Autonomous Networks: A BlueSky Vision on AI-Native 6G ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Liang Wu, Kelly Wan, Mayank Darbari, Liangjie Hong<br>
 **Published:** 2026-05-20<br>
@@ -1874,7 +1853,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21309"></a>
 
-### Hyper-V2X: Hypernetworks for Estimating Epistemic and Aleatoric Uncertainty in Cooperative Bird's-Eye-View Semantic Segmentation **FRESH · 88d**
+### Hyper-V2X: Hypernetworks for Estimating Epistemic and Aleatoric Uncertainty in Cooperative Bird's-Eye-View Semantic Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abhishek Dinkar Jagtap, Sanath Tiptur Sadashivaiah, Andreas Festag<br>
 **Published:** 2026-05-20<br>
@@ -1884,7 +1863,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21747"></a>
 
-### Improving 3D Labeling in Self-Driving by Inferring Vehicle Information using Vision Language Models **FRESH · 88d**
+### Improving 3D Labeling in Self-Driving by Inferring Vehicle Information using Vision Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Steven Chen, Shivesh Khaitan, Nemanja Djuric<br>
 **Published:** 2026-05-20<br>
@@ -1894,7 +1873,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00069"></a>
 
-### Invascal: Inverse-Vacuity Self-Calibration for Uncertainty-Aware LiDAR Range-View Semantic Segmentation **FRESH · 88d**
+### Invascal: Inverse-Vacuity Self-Calibration for Uncertainty-Aware LiDAR Range-View Semantic Segmentation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kerim Turacan, Hannes Reichert, Andrei Bolandut, Konrad Doll<br>
 **Published:** 2026-05-20<br>
@@ -1904,7 +1883,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-19837"></a>
 
-### CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving **FRESH · 89d**
+### CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sherif Khairy, Catherine M. Elias<br>
 **Published:** 2026-05-19<br>
@@ -1914,7 +1893,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-19328"></a>
 
-### RoboJailBench: Benchmarking Adversarial Attacks and Defenses in Embodied Robotic Agents **FRESH · 89d**
+### RoboJailBench: Benchmarking Adversarial Attacks and Defenses in Embodied Robotic Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Doguhuan Yeke, Yanming Zhou, Leo Y. Lin, Hongyu Cai, Antonio Bianchi, et al.<br>
 **Published:** 2026-05-19<br>
@@ -1924,7 +1903,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-17984"></a>
 
-### See Silhouettes in Motion with Neuromorphic Vision **FRESH · 90d**
+### See Silhouettes in Motion with Neuromorphic Vision ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pei Zhang, Shijie Lin, Zhou Ge, Jinpeng Chen, Wei Pu<br>
 **Published:** 2026-05-18<br>
@@ -2360,7 +2339,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07361"></a>
 
-### Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model **RECENT · 9d**
+### Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harisankar Babu, Benjamin Coors, Christopher Lang, Hendrik Berkemeyer, Tamim Asfour, et al.<br>
 **Published:** 2026-08-07<br>
@@ -2370,7 +2349,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00779"></a>
 
-### SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction **RECENT · 15d**
+### SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, et al.<br>
 **Published:** 2026-08-01<br>
@@ -2380,7 +2359,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00690"></a>
 
-### LLM-Assisted Coalition Formation for Cooperative Perception in Autonomous Driving **RECENT · 15d**
+### LLM-Assisted Coalition Formation for Cooperative Perception in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ahmad Sarlak, Hao Wang, Rahul Amin, Abolfazl Razi<br>
 **Published:** 2026-08-01<br>
@@ -2390,7 +2369,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00625"></a>
 
-### Learning-Based Motion Planning for Dynamic Environments: From Foundational Algorithms to Emerging Paradigms **RECENT · 15d**
+### Learning-Based Motion Planning for Dynamic Environments: From Foundational Algorithms to Emerging Paradigms ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zongyuan Shen, Shalabh Gupta, Shancheng Zhao, Dehua Zhou, Gao Wang, et al.<br>
 **Published:** 2026-08-01<br>
@@ -2400,7 +2379,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-26802"></a>
 
-### Risk-Aware Motion Planning with Learned Trajectory Primitives and Probabilistic Safety Assessment **RECENT · 18d**
+### Risk-Aware Motion Planning with Learned Trajectory Primitives and Probabilistic Safety Assessment ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Marc Kaufeld, Dian Zhuang, Johannes Betz<br>
 **Published:** 2026-07-29<br>
@@ -2410,7 +2389,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-21043"></a>
 
-### A Real-Time Generalized Nash Equilibrium Framework for Interaction-Aware Autonomous Driving in Mixed Traffic **RECENT · 24d**
+### A Real-Time Generalized Nash Equilibrium Framework for Interaction-Aware Autonomous Driving in Mixed Traffic ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nouhed Naidja, Mohamed-Cherif Rahal, Steve Pechberti, Stéphane Font, Guillaume Sandou, et al.<br>
 **Published:** 2026-07-23<br>
@@ -2420,7 +2399,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15491"></a>
 
-### Trajectory-aware Cross-view Geo-localization with Sequential Observations **FRESH · 31d**
+### Trajectory-aware Cross-view Geo-localization with Sequential Observations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Gao, Jiayu Lin, Danielle Beaulieu, Nathan Jacobs<br>
 **Published:** 2026-07-16<br>
@@ -2430,7 +2409,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10565"></a>
 
-### BucketKD: A Safety-Aware Bucket-Based Knowledge Distillation Framework for End-to-End Motion Planning **FRESH · 35d**
+### BucketKD: A Safety-Aware Bucket-Based Knowledge Distillation Framework for End-to-End Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Md Nahidul Islam, Mohd Hasan Ali, Dipankar Dasgupta, Myounggyu Won<br>
 **Published:** 2026-07-12<br>
@@ -2440,7 +2419,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10630"></a>
 
-### World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning **FRESH · 35d**
+### World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tong Nie, Yuewen Mei, Junlin He, Yihong Tang, Jian Sun, et al.<br>
 **Published:** 2026-07-12<br>
@@ -2450,7 +2429,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10438"></a>
 
-### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving **FRESH · 36d**
+### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shihao Zhang, Jing Yang, Ziyu Song, Zheng Lin, Sunil Prajapat, et al.<br>
 **Published:** 2026-07-11<br>
@@ -2460,7 +2439,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09740"></a>
 
-### A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles **FRESH · 45d**
+### A Dynamic Scene Interaction Reasoning Framework for Scene-level Lane-Change Intention and Trajectory Prediction of Multiple Interacting Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Joshua Kofi Asamoah, Blessing Agyei Kyem, Eugene Denteh, Armstrong Aboah<br>
 **Published:** 2026-07-02<br>
@@ -2470,7 +2449,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01382"></a>
 
-### CommonRoad-Game: A Human-in-the-Loop Simulation Framework for Autonomous Driving **FRESH · 46d**
+### CommonRoad-Game: A Human-in-the-Loop Simulation Framework for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yunfei Bi, Youran Wang<br>
 **Published:** 2026-07-01<br>
@@ -2480,7 +2459,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01133"></a>
 
-### Towards Metric-Agnostic Trajectory Forecasting **FRESH · 46d**
+### Towards Metric-Agnostic Trajectory Forecasting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Markus Knoche, Daan de Geus, Bastian Leibe<br>
 **Published:** 2026-07-01<br>
@@ -2490,7 +2469,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00399"></a>
 
-### DriveVer: Lightweight Trajectory Evaluator as Test-Time Verifier for Autonomous Driving **FRESH · 47d**
+### DriveVer: Lightweight Trajectory Evaluator as Test-Time Verifier for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chong He, Yuechen Luo, Fang Li, Shaoqing Xu, Fuxi Wen<br>
 **Published:** 2026-06-30<br>
@@ -2500,7 +2479,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09725"></a>
 
-### Learning High-Level Decision Making with an Interaction-Aware Attention-Based Network in Autonomous Driving **FRESH · 48d**
+### Learning High-Level Decision Making with an Interaction-Aware Attention-Based Network in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Marcelo Contreras, Willi Poh, Christoph Stiller, Ehsan Hashemi<br>
 **Published:** 2026-06-29<br>
@@ -2510,7 +2489,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30940"></a>
 
-### Motion Planning in Compressed Representation Spaces **FRESH · 48d**
+### Motion Planning in Compressed Representation Spaces ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lukas Lao Beyer, Sertac Karaman<br>
 **Published:** 2026-06-29<br>
@@ -2520,7 +2499,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26858"></a>
 
-### PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts **FRESH · 52d**
+### PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Joonhee Lim, Yongjae Lee, Jangho Shin, Dongsuk Kum<br>
 **Published:** 2026-06-25<br>
@@ -2530,7 +2509,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26424"></a>
 
-### Rethinking Training & Inference for Forecasting: Linking Winner-Take-All back to GMMs **FRESH · 53d**
+### Rethinking Training & Inference for Forecasting: Linking Winner-Take-All back to GMMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiyuan Wu, Katie Z Luo, Bharath Hariharan, Wei-Lun Chao, Mark Campbell<br>
 **Published:** 2026-06-24<br>
@@ -2540,7 +2519,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25626"></a>
 
-### Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation **FRESH · 53d**
+### Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Julius Monsen, Jakob Suchan, Mehul Bhatt, Lars Karlsson<br>
 **Published:** 2026-06-24<br>
@@ -2550,7 +2529,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-22971"></a>
 
-### Humanoid-OmniOcc: Stereo-Based Full-View Occupancy Dataset for Embodied AI **FRESH · 55d**
+### Humanoid-OmniOcc: Stereo-Based Full-View Occupancy Dataset for Embodied AI ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xianda Guo, Bohao Zhang, Chenwei Huang, Shiyuan Chen, Ruilin Wang, et al.<br>
 **Published:** 2026-06-22<br>
@@ -2560,7 +2539,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20394"></a>
 
-### Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems **FRESH · 59d**
+### Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amit Jain, Richard Linares<br>
 **Published:** 2026-06-18<br>
@@ -2570,7 +2549,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20336"></a>
 
-### Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty **FRESH · 59d**
+### Autonomous Driving with Priority-Ordered STL Specifications Under Multimodal Uncertainty ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Taha Bouzid, Shuhao Qi, Mircea Lazar, Sofie Haesaert<br>
 **Published:** 2026-06-18<br>
@@ -2580,7 +2559,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-19122"></a>
 
-### Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning **FRESH · 60d**
+### Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yukai Ma, Joe Lin, Liu Liu, Honglin He, Lulu Ricketts, et al.<br>
 **Published:** 2026-06-17<br>
@@ -2590,7 +2569,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16313"></a>
 
-### Is Your Trajectory Displacement Safe in Long-tail? **FRESH · 62d**
+### Is Your Trajectory Displacement Safe in Long-tail? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiao Sun, Weicheng Zheng, Yixin Huang, Hang Zhao<br>
 **Published:** 2026-06-15<br>
@@ -2600,7 +2579,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15869"></a>
 
-### Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation **FRESH · 63d**
+### Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingyu Li, Zhe Liu, Dongnan Hu, Junjie Wu, Zipei Ma, et al.<br>
 **Published:** 2026-06-14<br>
@@ -2610,7 +2589,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17082"></a>
 
-### ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking **FRESH · 65d**
+### ParkingTransformer: LLM-Enhanced End-to-End Trajectory Planning for Autonomous Parking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hauteng Wu, Xu Li, Dong Kong, Zihang Wang, Xieyuanli Chen, et al.<br>
 **Published:** 2026-06-12<br>
@@ -2620,7 +2599,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14216"></a>
 
-### Short-Horizon Position Accuracy of Single-Track Models: Implications for Motion Planning of Autonomous Vehicles **FRESH · 65d**
+### Short-Horizon Position Accuracy of Single-Track Models: Implications for Motion Planning of Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Aron J. Aertssen, Lars A. T. H. van Alen, Igo J. M. Besselink, Rudolf G. M. Huisman, René M. J. G. van de Molengraft<br>
 **Published:** 2026-06-12<br>
@@ -2630,7 +2609,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12783"></a>
 
-### A Tutorial on World Models and Physical AI **FRESH · 67d**
+### A Tutorial on World Models and Physical AI ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Il-Seok Oh<br>
 **Published:** 2026-06-10<br>
@@ -2640,7 +2619,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12603"></a>
 
-### From Imitation to Alignment: Human-Preference Flow Policies for Long-Horizon Sidewalk Navigation **FRESH · 67d**
+### From Imitation to Alignment: Human-Preference Flow Policies for Long-Horizon Sidewalk Navigation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Honglin He, Zhizheng Liu, Yukai Ma, Bolei Zhou<br>
 **Published:** 2026-06-10<br>
@@ -2650,7 +2629,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12207"></a>
 
-### Intelligent Automation for Embodied Benchmark Construction: Pipelines, Embodiments, Simulators, and Trends **FRESH · 67d**
+### Intelligent Automation for Embodied Benchmark Construction: Pipelines, Embodiments, Simulators, and Trends ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinshan Lai, Jianwei Hu, Baoyang Jiang, Fengchun Zhang, Leyuan Wang, et al.<br>
 **Published:** 2026-06-10<br>
@@ -2660,7 +2639,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11019"></a>
 
-### Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving **FRESH · 68d**
+### Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zehan Zhang, Neng Zhang, Yaoyi Li, Jia Cai, Zhiling Wang<br>
 **Published:** 2026-06-09<br>
@@ -2670,7 +2649,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14776"></a>
 
-### Deep Learning-Based Lunar Crater Terrain Relative Navigation **FRESH · 68d**
+### Deep Learning-Based Lunar Crater Terrain Relative Navigation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Batu Candan, Simone Servadio<br>
 **Published:** 2026-06-09<br>
@@ -2680,7 +2659,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09292"></a>
 
-### Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for Navigation in GPS-Denied Environments **FRESH · 69d**
+### Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for Navigation in GPS-Denied Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mohamed Khalifa, Hashim A. Hashim<br>
 **Published:** 2026-06-08<br>
@@ -2690,7 +2669,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07170"></a>
 
-### Test-Time Trajectory Optimization for Autonomous Driving **FRESH · 72d**
+### Test-Time Trajectory Optimization for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yihong Xu, Eloi Zablocki, Yuan Yin, Elias Ramzi, Ellington Kirby, et al.<br>
 **Published:** 2026-06-05<br>
@@ -2700,7 +2679,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07855"></a>
 
-### Path Planning Using Deep Deterministic Policy Gradient: A Reinforcement Learning Approach **FRESH · 72d**
+### Path Planning Using Deep Deterministic Policy Gradient: A Reinforcement Learning Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiang Le, Yaguang Yang, Isaac E. Weintraub<br>
 **Published:** 2026-06-05<br>
@@ -2710,7 +2689,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06366"></a>
 
-### Waypoints Matter: A Systematic Study for Sampling-Based Trajectory Planning **FRESH · 73d**
+### Waypoints Matter: A Systematic Study for Sampling-Based Trajectory Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Josep M. Barbera, Antonio Artuñedo, Jorge Villagra<br>
 **Published:** 2026-06-04<br>
@@ -2720,7 +2699,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20641"></a>
 
-### MAGNIFIED: RL Fine-tuning of Multimodal Large Language Models for Motion Planning **FRESH · 75d**
+### MAGNIFIED: RL Fine-tuning of Multimodal Large Language Models for Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Letian Chen, Yiren Lu, Justin Fu, Yichen Xie, Runsheng Xu, et al.<br>
 **Published:** 2026-06-02<br>
@@ -2730,7 +2709,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25095"></a>
 
-### RECTOR: Priority-Aware Rule-Based Reranking for Compliance-Aware Autonomous Driving Trajectory Selection **FRESH · 84d**
+### RECTOR: Priority-Aware Rule-Based Reranking for Compliance-Aware Autonomous Driving Trajectory Selection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hadi Hajieghrary, Benedikt Walter, Chaitanya Shinde, Paul Schmitt, Miguel Hurtado<br>
 **Published:** 2026-05-24<br>
@@ -2740,7 +2719,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24004"></a>
 
-### Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving **FRESH · 89d**
+### Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhengqi Sun, Yiwen Sun, Boxuan Liu, Tailai Chen, Tianxu Guo, et al.<br>
 **Published:** 2026-05-19<br>
@@ -2986,7 +2965,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09493"></a>
 
-### GeoRoute: Geometry-Aware Hybrid Inference for Traffic Future-Frame Prediction **NEW · 6d**
+### GeoRoute: Geometry-Aware Hybrid Inference for Traffic Future-Frame Prediction ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Khang Minh Le, Hieu Dinh Trung Pham, Luu Thanh Danh, Nam-Tien Le, Hieu Anh Ngo, et al.<br>
 **Published:** 2026-08-10<br>
@@ -2996,7 +2975,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09541"></a>
 
-### Towards Collaborative Joint Perception and Prediction: Framework, Baseline Evaluation, and Deployment Perspectives **NEW · 6d**
+### Towards Collaborative Joint Perception and Prediction: Framework, Baseline Evaluation, and Deployment Perspectives ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Lei Wan, Hannan Ejaz Keen, Alexey Vinel<br>
 **Published:** 2026-08-10<br>
@@ -3006,7 +2985,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-06445"></a>
 
-### Game-Theoretic Inverse Reinforcement Learning for Modeling Competitive Human Driving: A Cut-in Prediction Study **RECENT · 10d**
+### Game-Theoretic Inverse Reinforcement Learning for Modeling Competitive Human Driving: A Cut-in Prediction Study ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yu Song<br>
 **Published:** 2026-08-06<br>
@@ -3016,7 +2995,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-05560"></a>
 
-### From Sports to Safety: Benchmarking Proactive Risk Inference in MLLMs **RECENT · 11d**
+### From Sports to Safety: Benchmarking Proactive Risk Inference in MLLMs ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiawei Qiu, Yichen Xu, Jianzhe Ma, Mingyang Yu, Wenbin Zhu, et al.<br>
 **Published:** 2026-08-05<br>
@@ -3026,7 +3005,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04453"></a>
 
-### TwinIR: Coordinated Invisible Dual-Point Attacks on Online HD Map Construction **RECENT · 11d**
+### TwinIR: Coordinated Invisible Dual-Point Attacks on Online HD Map Construction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Haibo Hu, Jianghuai Deng, Chen Tang, Yang Lou, Qian Xu, et al.<br>
 **Published:** 2026-08-05<br>
@@ -3036,7 +3015,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03521"></a>
 
-### Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance **RECENT · 12d**
+### Pivot-Centric Trajectory Prediction: Bridging Long Horizons via Dynamical Guidance ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiucong Zhao, Jindong Tian, Hao Miao<br>
 **Published:** 2026-08-04<br>
@@ -3046,7 +3025,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03330"></a>
 
-### Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving **RECENT · 12d**
+### Long-term Traffic Scene Prediction via Polynomial Representations in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yue Yao<br>
 **Published:** 2026-08-04<br>
@@ -3056,7 +3035,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-27371"></a>
 
-### Dynamics-matched Physical Reservoir Computing for Undersensed Traffic Prediction **RECENT · 18d**
+### Dynamics-matched Physical Reservoir Computing for Undersensed Traffic Prediction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Michael McCreesh, Rohit Gupta, Stephen L. Smith<br>
 **Published:** 2026-07-29<br>
@@ -3066,7 +3045,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13481"></a>
 
-### GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors **FRESH · 32d**
+### GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Changqing Zhou, Yueru Luo, Yulan Guo, Bing Wang, Jie Qin, et al.<br>
 **Published:** 2026-07-15<br>
@@ -3076,7 +3055,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12293"></a>
 
-### Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction **FRESH · 34d**
+### Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Md Mahfuzur Rahman, Pengzhan Zhou, A F M Abdun Noor, Md Imam Ahasan, Kah Ong Michael Goh, et al.<br>
 **Published:** 2026-07-13<br>
@@ -3086,7 +3065,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08316"></a>
 
-### INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis **FRESH · 38d**
+### INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios with Comprehensive Ablation Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Logine M. Zaki, Catherine M. Elias<br>
 **Published:** 2026-07-09<br>
@@ -3096,7 +3075,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04812"></a>
 
-### TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving **FRESH · 41d**
+### TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, et al.<br>
 **Published:** 2026-07-06<br>
@@ -3106,7 +3085,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09741"></a>
 
-### SWIFT: A Small-World Interaction Framework for Flow-Aware Trajectory Prediction in Autonomous Driving **FRESH · 44d**
+### SWIFT: A Small-World Interaction Framework for Flow-Aware Trajectory Prediction in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chengyue Wang, Bin Rao, Haicheng Liao, Bonan Wang, Chengzhong Xu, et al.<br>
 **Published:** 2026-07-03<br>
@@ -3116,7 +3095,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-28716"></a>
 
-### TrajRS: Towards Certified Robustness in Pedestrian Trajectory Prediction **FRESH · 51d**
+### TrajRS: Towards Certified Robustness in Pedestrian Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Liang Zhang, Gaojie Jin, Yao Shi, Quanzhi Li, Cheng-Chao Huang, et al.<br>
 **Published:** 2026-06-26<br>
@@ -3126,7 +3105,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27900"></a>
 
-### Long-Term Prediction of Local and Global Human Motion with Occlusion Recovery **FRESH · 51d**
+### Long-Term Prediction of Local and Global Human Motion with Occlusion Recovery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiaoyue Yang, Sven Heutger, Christopher Niemann, Magnus Jung, Ayoub Al-Hamadi, et al.<br>
 **Published:** 2026-06-26<br>
@@ -3136,7 +3115,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26661"></a>
 
-### LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction **FRESH · 52d**
+### LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sangjin Han, Hoseong Jung, Jeongtae Her, Changhyun Choi, H. Jin Kim<br>
 **Published:** 2026-06-25<br>
@@ -3146,7 +3125,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24962"></a>
 
-### Towards Scalable Multi-Task Reinforcement Learning with Large Decision Models **FRESH · 54d**
+### Towards Scalable Multi-Task Reinforcement Learning with Large Decision Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Thibaut Kulak<br>
 **Published:** 2026-06-23<br>
@@ -3156,7 +3135,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-22813"></a>
 
-### Active Inference as the Test-Time Scaling Law for Physical AI Agents **FRESH · 56d**
+### Active Inference as the Test-Time Scaling Law for Physical AI Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston, et al.<br>
 **Published:** 2026-06-21<br>
@@ -3166,7 +3145,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21623"></a>
 
-### A DVDrive Approach for doScenes Instructed Driving Challenge **FRESH · 58d**
+### A DVDrive Approach for doScenes Instructed Driving Challenge ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zijian Fu, Xiangyang Chu, Mengshi Qi, Huadong Ma, Guanghao Zhang, et al.<br>
 **Published:** 2026-06-19<br>
@@ -3176,7 +3155,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21344"></a>
 
-### Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data **FRESH · 58d**
+### Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez<br>
 **Published:** 2026-06-19<br>
@@ -3186,7 +3165,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17897"></a>
 
-### Learn to Quantify Social Interaction with Constraints for Pedestrian Walking **FRESH · 61d**
+### Learn to Quantify Social Interaction with Constraints for Pedestrian Walking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaodan Shi<br>
 **Published:** 2026-06-16<br>
@@ -3196,7 +3175,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20725"></a>
 
-### D2HDMap: Non-visible Driveline Map Prior for Online Vectorized HD Map Prediction **FRESH · 61d**
+### D2HDMap: Non-visible Driveline Map Prior for Online Vectorized HD Map Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Seojun Shon, Chikao Tsuchiya, Dhaval Bhanderi, David Ilstrup, Hsinmin Cheng, et al.<br>
 **Published:** 2026-06-16<br>
@@ -3206,7 +3185,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14956"></a>
 
-### A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction **FRESH · 65d**
+### A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** George Daoud, Mohamed El-Darieby<br>
 **Published:** 2026-06-12<br>
@@ -3216,7 +3195,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12987"></a>
 
-### Diffusion Transformer World-Action Model for AV Scene Prediction **FRESH · 66d**
+### Diffusion Transformer World-Action Model for AV Scene Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruslan Sharifullin, Benjamin Jiang, Kai Xi Chew<br>
 **Published:** 2026-06-11<br>
@@ -3226,7 +3205,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09958"></a>
 
-### Uncertainty-Aware Motion Planning for Autonomous Driving in Mixed Traffic Environment **FRESH · 69d**
+### Uncertainty-Aware Motion Planning for Autonomous Driving in Mixed Traffic Environment ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ming Cheng, Hao Chen, Ziyi Yang, Ziluowen Luo, Senzhang Wang<br>
 **Published:** 2026-06-08<br>
@@ -3236,7 +3215,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07697"></a>
 
-### TianJi-Environ: An Autonomous AI Scientist for Atmospheric Environmental Research **FRESH · 72d**
+### TianJi-Environ: An Autonomous AI Scientist for Atmospheric Environmental Research ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haoluo Zhao, Hongchun Zhang, Nan Li, Jing-Jia Luo, Kaikai Zhang, et al.<br>
 **Published:** 2026-06-05<br>
@@ -3246,7 +3225,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03581"></a>
 
-### UnsOcc: 3D Semantic Occupancy Prediction in Unstructured Scene via Rendering Fusion **FRESH · 75d**
+### UnsOcc: 3D Semantic Occupancy Prediction in Unstructured Scene via Rendering Fusion ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ye Wu, Ruiqi Song, Baiyong Ding, Nanxin Zeng, Junjie Cheng, et al.<br>
 **Published:** 2026-06-02<br>
@@ -3256,7 +3235,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00857"></a>
 
-### From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction **FRESH · 78d**
+### From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay<br>
 **Published:** 2026-05-30<br>
@@ -3266,7 +3245,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00471"></a>
 
-### MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting **FRESH · 79d**
+### MUSCLE-NET: Predicted-Multiscale-Aware Network for Pedestrian Trajectory Forecasting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yu Liu, Ming Huang, Xiao Ren, Zhijie Liu, Youfu Li, et al.<br>
 **Published:** 2026-05-29<br>
@@ -3276,7 +3255,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-31476"></a>
 
-### IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving **FRESH · 79d**
+### IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chenghao Zhang, Timin Li, Dongmei Li<br>
 **Published:** 2026-05-29<br>
@@ -3286,7 +3265,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-28583"></a>
 
-### SARAD: LLM-Based Safety-Aware Hybrid Reinforcement Learning with Collision Prediction for Autonomous Driving **FRESH · 81d**
+### SARAD: LLM-Based Safety-Aware Hybrid Reinforcement Learning with Collision Prediction for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kangyu Wu, Peng Cui, Guoxi Chen, Ya Zhang<br>
 **Published:** 2026-05-27<br>
@@ -3296,7 +3275,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26061"></a>
 
-### Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning **FRESH · 83d**
+### Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Waleed Razzaq, Yun-Bo Zhao<br>
 **Published:** 2026-05-25<br>
@@ -3306,7 +3285,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24562"></a>
 
-### PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction **FRESH · 85d**
+### PEDESTRIANQA: A Benchmark for Vision-Language Models on Pedestrian Intention and Trajectory Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Naman Mishra, Shankar Gangisetty, C. V. Jawahar<br>
 **Published:** 2026-05-23<br>
@@ -3316,7 +3295,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24354"></a>
 
-### SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation **FRESH · 86d**
+### SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruoyu Wang, Jingke Wang, Yukai Ma, Yuehao Huang, Shuangming Lei, et al.<br>
 **Published:** 2026-05-22<br>
@@ -3326,7 +3305,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22189"></a>
 
-### Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments **FRESH · 87d**
+### Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jie Jia, Yaofeng Su, Zeyu Bao, Yun Hong, Bingzhao Gao, et al.<br>
 **Published:** 2026-05-21<br>
@@ -3432,7 +3411,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-11451"></a>
 
-### Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards **NEW · 5d**
+### Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Simón Patiño Idarraga, Erick Silva, Rehana Yasmin, Ali Shoker<br>
 **Published:** 2026-08-11<br>
@@ -3442,7 +3421,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10403"></a>
 
-### Threat-guided Policy-aware Scene Perturbation for Safe Autonomous Driving with Online Reinforcement Learning **NEW · 6d**
+### Threat-guided Policy-aware Scene Perturbation for Safe Autonomous Driving with Online Reinforcement Learning ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Xincong Hu, Lei Ou, Maosen Li, Jingtao Zhang, Liguo Hou, et al.<br>
 **Published:** 2026-08-10<br>
@@ -3452,7 +3431,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10386"></a>
 
-### Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving **NEW · 6d**
+### Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Jiazhuo Li, Linjiang Cao, Qi Liu, Xi Xiong<br>
 **Published:** 2026-08-10<br>
@@ -3462,7 +3441,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09098"></a>
 
-### UnsDrive: Towards Robust End-to-End Autonomous Driving in Unstructured Scenes **NEW · 7d**
+### UnsDrive: Towards Robust End-to-End Autonomous Driving in Unstructured Scenes ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Nanxin Zeng, Ruiqi Song, Xiangyu Guo, Baiyong Ding, Yunfeng Ai<br>
 **Published:** 2026-08-09<br>
@@ -3472,7 +3451,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07468"></a>
 
-### SimWAM: A Simple World Action Model for End-to-End Autonomous Driving **RECENT · 9d**
+### SimWAM: A Simple World Action Model for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, et al.<br>
 **Published:** 2026-08-07<br>
@@ -3482,7 +3461,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01761"></a>
 
-### DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing **RECENT · 13d**
+### DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Siying Li, Ying Ni, Jie Sun, Jian Sun, Haotian Shi<br>
 **Published:** 2026-08-03<br>
@@ -3492,7 +3471,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01133"></a>
 
-### Policy Optimality Measurement for Multi-Vehicle Decision-Making: From Extrinsic Indicators to Intrinsic Quality **RECENT · 14d**
+### Policy Optimality Measurement for Multi-Vehicle Decision-Making: From Extrinsic Indicators to Intrinsic Quality ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ye Han, Lijun Zhang, Dejian Meng<br>
 **Published:** 2026-08-02<br>
@@ -3502,7 +3481,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-29052"></a>
 
-### Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving **RECENT · 16d**
+### Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zeyu Dong, Yimin Zhu, Yu Wu, Yu Sun<br>
 **Published:** 2026-07-31<br>
@@ -3512,7 +3491,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-29031"></a>
 
-### Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving **RECENT · 16d**
+### Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiwei Yang, Zhengxian Chen, Chaosheng Huang, Jun Li<br>
 **Published:** 2026-07-31<br>
@@ -3522,7 +3501,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23511"></a>
 
-### MOJITO: Modal Joint Learning for Unified End-to-End Autonomous Driving **RECENT · 21d**
+### MOJITO: Modal Joint Learning for Unified End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhijing Cheng, Xuancheng Zhang, Donglin Di, Lei Fan, Baorui Ma, et al.<br>
 **Published:** 2026-07-26<br>
@@ -3532,7 +3511,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19774"></a>
 
-### Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving **RECENT · 25d**
+### Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nuoran Li, Zhang Zhang, Yueran Zhao, Tianze Wang, Chao Sun<br>
 **Published:** 2026-07-22<br>
@@ -3542,7 +3521,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19528"></a>
 
-### D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models **RECENT · 26d**
+### D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Heesang Han, A. Lynn Abbott, Abhijit Sarkar<br>
 **Published:** 2026-07-21<br>
@@ -3552,7 +3531,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-18115"></a>
 
-### Compositional Semantic Communication for Physical AI: Category Theory Meets Game Theory **RECENT · 27d**
+### Compositional Semantic Communication for Physical AI: Category Theory Meets Game Theory ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Christo Kurisummoottil Thomas, Walid Saad, Emilio Calvanese Strinati<br>
 **Published:** 2026-07-20<br>
@@ -3562,7 +3541,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13494"></a>
 
-### A VAE-Driven Multi-Task Satellite-Aided Semantic Communication Framework for 6G-Enabled Connected Autonomous Vehicles **FRESH · 32d**
+### A VAE-Driven Multi-Task Satellite-Aided Semantic Communication Framework for 6G-Enabled Connected Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** S. M. Abtahiul Alam, Niloy Das, Apurba Adhikary, Yu Qiao, Zhu Han, et al.<br>
 **Published:** 2026-07-15<br>
@@ -3572,7 +3551,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13410"></a>
 
-### Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation **FRESH · 33d**
+### Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhidong Wang, Jingsong Liang, Zirui Li, Zhan Chen, Han Yu, et al.<br>
 **Published:** 2026-07-14<br>
@@ -3582,7 +3561,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12593"></a>
 
-### Improving Autonomous Nano-drones Performance via Automated End-to-End Optimization and Deployment of DNNs **FRESH · 33d**
+### Improving Autonomous Nano-drones Performance via Automated End-to-End Optimization and Deployment of DNNs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Vlad Niculescu, Lorenzo Lamberti, Francesco Conti, Luca Benini, Daniele Palossi<br>
 **Published:** 2026-07-14<br>
@@ -3592,7 +3571,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10336"></a>
 
-### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving **FRESH · 36d**
+### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, et al.<br>
 **Published:** 2026-07-11<br>
@@ -3602,7 +3581,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09138"></a>
 
-### BeyondSight: Object Permanence for End-to-End Autonomous Driving **FRESH · 37d**
+### BeyondSight: Object Permanence for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sandro Papais, Letian Wang, Mudit Jain, Behnaz Rezaei, Steven L. Waslander<br>
 **Published:** 2026-07-10<br>
@@ -3612,7 +3591,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08137"></a>
 
-### Securing Autonomous Vehicle Systems via Twin-Aware Federated Reinforcement Learning **FRESH · 38d**
+### Securing Autonomous Vehicle Systems via Twin-Aware Federated Reinforcement Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zifan Zhang, Minghong Fang, Dianwei Chen, Zhuqing Liu, Prashant Khanduri, et al.<br>
 **Published:** 2026-07-09<br>
@@ -3622,7 +3601,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09070"></a>
 
-### Latency-Aware Digital Twin-Assisted Cooperative Perception for Autonomous Vehicles **FRESH · 38d**
+### Latency-Aware Digital Twin-Assisted Cooperative Perception for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Boniface Uwizeyimana, Manobendu Sarker, Abraham O. Fapojuwo<br>
 **Published:** 2026-07-09<br>
@@ -3632,7 +3611,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08072"></a>
 
-### Post-Training in End-to-End Autonomous Driving **FRESH · 39d**
+### Post-Training in End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruining Yang, Muxing Wang, Yixiao Chen, Tongfei Guo, Yi Xu, et al.<br>
 **Published:** 2026-07-08<br>
@@ -3642,7 +3621,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06328"></a>
 
-### Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models **FRESH · 40d**
+### Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Franz Motzkus, Sebastian Bernhard<br>
 **Published:** 2026-07-07<br>
@@ -3652,7 +3631,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04179"></a>
 
-### CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving **FRESH · 42d**
+### CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhaohong Liu, Hao Ye, Xianlin Zhang, Mengshi Qi<br>
 **Published:** 2026-07-05<br>
@@ -3662,7 +3641,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-02841"></a>
 
-### CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving **FRESH · 45d**
+### CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yunxiao Shi, Hong Cai, Mohammad Ghavamzadeh, Fatih Porikli<br>
 **Published:** 2026-07-02<br>
@@ -3672,7 +3651,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31830"></a>
 
-### PriorEye: Geospatial Visual Priors for End-to-End Autonomous Driving **FRESH · 47d**
+### PriorEye: Geospatial Visual Priors for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kyuhwan Yeon, Benjamin Ramtoula, Daniele De Martini<br>
 **Published:** 2026-06-30<br>
@@ -3682,7 +3661,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31372"></a>
 
-### Failure-Based Testing for Deep Reinforcement Learning Agents **FRESH · 47d**
+### Failure-Based Testing for Deep Reinforcement Learning Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Weibin Lin, Jiangtao Meng, Zheng Zheng<br>
 **Published:** 2026-06-30<br>
@@ -3692,7 +3671,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31106"></a>
 
-### What Probing Reveals about Autonomous Driving: Linking Internal Prediction Errors to Ego Planning **FRESH · 47d**
+### What Probing Reveals about Autonomous Driving: Linking Internal Prediction Errors to Ego Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hyeonchang Jeon, Kyungbeom Kim, Eugene Vinitsky, Kyung-Joong Kim<br>
 **Published:** 2026-06-30<br>
@@ -3702,7 +3681,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30421"></a>
 
-### OWMDrive: Causality-Aware End-to-End Autonomous Driving via 4D Occupancy World Model **FRESH · 48d**
+### OWMDrive: Causality-Aware End-to-End Autonomous Driving via 4D Occupancy World Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junjie Cheng, Ruiqi Song, Ye Wu, Nanxing Zeng, Ximiao Li, et al.<br>
 **Published:** 2026-06-29<br>
@@ -3712,7 +3691,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25736"></a>
 
-### UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving **FRESH · 53d**
+### UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bo Zhao, Xinting Zhao, Naifan Li, Erkang Cheng, Haibin Ling<br>
 **Published:** 2026-06-24<br>
@@ -3722,7 +3701,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25127"></a>
 
-### Reward-Conditioned Attention: How Reward Design Shapes What Autonomous Driving Agents See **FRESH · 54d**
+### Reward-Conditioned Attention: How Reward Design Shapes What Autonomous Driving Agents See ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mohamed Benabdelouahad, Ahmed Djalal Hacini, Nadir Farhi, Aissa Boulmerka<br>
 **Published:** 2026-06-23<br>
@@ -3732,7 +3711,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21587"></a>
 
-### FAST: A Framework for Aligned Sampling and Training in Parallel Reinforcement Learning for Autonomous Driving **FRESH · 58d**
+### FAST: A Framework for Aligned Sampling and Training in Parallel Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bonan Wang, Letian Tao, Bin Shuai, Jiaxin Gao, Wenxin Zhao, et al.<br>
 **Published:** 2026-06-19<br>
@@ -3742,7 +3721,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21509"></a>
 
-### A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving **FRESH · 58d**
+### A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yueyuan Li, Yifei Xiao, Mingyang Jiang, Xiang Zuo, Songan Zhang, et al.<br>
 **Published:** 2026-06-19<br>
@@ -3752,7 +3731,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20376"></a>
 
-### CRAX: Fast Safe Reinforcement Learning Benchmarking **FRESH · 59d**
+### CRAX: Fast Safe Reinforcement Learning Benchmarking ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tristan Tomilin, Mourad Boustani, Mickey Beurskens, Thiago D. Simão<br>
 **Published:** 2026-06-18<br>
@@ -3762,7 +3741,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20274"></a>
 
-### Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving **FRESH · 59d**
+### Lagrange: An Open-Vocabulary, Energy-Based Sparse Framework for Generalized End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shihao Ji, HongXi Li, Zihui Song, Mingyu Li<br>
 **Published:** 2026-06-18<br>
@@ -3772,7 +3751,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-19641"></a>
 
-### Scaling Self-Play for End-to-End Driving **FRESH · 60d**
+### Scaling Self-Play for End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luke Rowe, Roger Girgis, Rodrigue de Schaetzen, Daphne Cornelisse, Alaap Grandhi, et al.<br>
 **Published:** 2026-06-17<br>
@@ -3782,7 +3761,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17386"></a>
 
-### TerraTransfer: Learning End-to-End Driving Policies Without Expert Demonstrations **FRESH · 62d**
+### TerraTransfer: Learning End-to-End Driving Policies Without Expert Demonstrations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zikang Xiong, Weixin Li, Zhouchonghao Wu, Akshay Rangesh, Saarth Bonde, et al.<br>
 **Published:** 2026-06-15<br>
@@ -3792,7 +3771,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16480"></a>
 
-### HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization **FRESH · 62d**
+### HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Youngjae Min, Jovin D'sa, Faizan M. Tariq, David Isele, Navid Azizan, et al.<br>
 **Published:** 2026-06-15<br>
@@ -3802,7 +3781,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16274"></a>
 
-### GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving **FRESH · 62d**
+### GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziying Song, Caiyan Jia, Lin Liu, Lei Yang, Shengkai Zhang, et al.<br>
 **Published:** 2026-06-15<br>
@@ -3812,7 +3791,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14438"></a>
 
-### CADET: Physics-Grounded Causal Auditing and Training-Free Deconfounding of End-to-End Driving Planners **FRESH · 65d**
+### CADET: Physics-Grounded Causal Auditing and Training-Free Deconfounding of End-to-End Driving Planners ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zikun Guo, Yuanyuan Li, Rongjin Zou<br>
 **Published:** 2026-06-12<br>
@@ -3822,7 +3801,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14609"></a>
 
-### Safe Reinforcement Learning of Autonomous Highway Driving: A Unified Framework for Safety and Efficiency **FRESH · 65d**
+### Safe Reinforcement Learning of Autonomous Highway Driving: A Unified Framework for Safety and Efficiency ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chufei Yan, Zhihao Cui, Yiyan Lv, Taojie Chen, Ning Bian, et al.<br>
 **Published:** 2026-06-12<br>
@@ -3832,7 +3811,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13891"></a>
 
-### TetraRL: A Self-Adaptive Runtime for On-Device Deep Reinforcement Learning Systems **FRESH · 66d**
+### TetraRL: A Self-Adaptive Runtime for On-Device Deep Reinforcement Learning Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zexin Li, Soheil Shirvani, Cong Liu<br>
 **Published:** 2026-06-11<br>
@@ -3842,7 +3821,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10856"></a>
 
-### An Exposure-Time-Aligned Primary-Path Architecture for Autonomous-Driving ECUs **FRESH · 68d**
+### An Exposure-Time-Aligned Primary-Path Architecture for Autonomous-Driving ECUs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Toru Saito, Yuki Hagura, Tatsuya Konishi, Satoru Mizusawa, Takumi Yajima<br>
 **Published:** 2026-06-09<br>
@@ -3852,7 +3831,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10303"></a>
 
-### Isolation-aware Scheduling Framework for DNN-based End-to-End Autonomous Driving System on Tile-based Accelerators **FRESH · 69d**
+### Isolation-aware Scheduling Framework for DNN-based End-to-End Autonomous Driving System on Tile-based Accelerators ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chenguang Zhang, Yuanpeng Zhang, Chenhao Xue, Yihan Yin, Chen Zhang, et al.<br>
 **Published:** 2026-06-08<br>
@@ -3862,7 +3841,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20648"></a>
 
-### Platooning Connected, Autonomous, and Human-Driven Vehicles: A Deep Reinforcement Learning-based Approach **FRESH · 70d**
+### Platooning Connected, Autonomous, and Human-Driven Vehicles: A Deep Reinforcement Learning-based Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhen Qina, Dong-Fan Xie, Heng Ma, Xiaomei Zhao, Zhengbing He<br>
 **Published:** 2026-06-07<br>
@@ -3872,7 +3851,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08170"></a>
 
-### Learning from Human Driving: A Human-in-the-Loop Online Behavior Cloning Framework for Autonomous Driving **FRESH · 71d**
+### Learning from Human Driving: A Human-in-the-Loop Online Behavior Cloning Framework for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuhong Shi, Jianyi Liu, Lihang Sun, Li Li, Xudong Dong<br>
 **Published:** 2026-06-06<br>
@@ -3882,7 +3861,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06219"></a>
 
-### CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving **FRESH · 73d**
+### CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yining Xing, Zehong Ke, Zhiyuan Liu, Yanbo Jiang, Wenhao Yu, et al.<br>
 **Published:** 2026-06-04<br>
@@ -3892,7 +3871,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06014"></a>
 
-### PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models **FRESH · 73d**
+### PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyun Qiu, Jingtao He, Yijie Chen, Yusong Huang, Haotian Wang, et al.<br>
 **Published:** 2026-06-04<br>
@@ -3902,7 +3881,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04271"></a>
 
-### StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets **FRESH · 75d**
+### StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Stepan Konev<br>
 **Published:** 2026-06-02<br>
@@ -3912,7 +3891,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04072"></a>
 
-### CADET: A Modular Platform for Evaluating Distributed Cooperative Autonomy in Connected Autonomous Vehicles **FRESH · 75d**
+### CADET: A Modular Platform for Evaluating Distributed Cooperative Autonomy in Connected Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pragya Sharma, Brian Wang, Mani Srivastava<br>
 **Published:** 2026-06-02<br>
@@ -3922,7 +3901,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02105"></a>
 
-### Multimodal Action Diffusion for Robust End-to-End Autonomous Driving **FRESH · 76d**
+### Multimodal Action Diffusion for Robust End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jorge Daniel Rodríguez-Vidal, Diego Porres, Gabriel Villalonga Pineda, Antonio M. López Peña<br>
 **Published:** 2026-06-01<br>
@@ -3932,7 +3911,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00191"></a>
 
-### Safe2Drive: Evaluating Safe Driving Behaviors of E2E Autonomous Driving Models **FRESH · 79d**
+### Safe2Drive: Evaluating Safe Driving Behaviors of E2E Autonomous Driving Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nishad Sahu, Kalpana Panda, Congyuan Yu, Changzhong Qian, Shounak Sural, et al.<br>
 **Published:** 2026-05-29<br>
@@ -3942,7 +3921,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-31116"></a>
 
-### NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving **FRESH · 79d**
+### NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiahui Li, Jiawei Sun, Zixiang Ren, Ming Liu, Jiamin Shi, et al.<br>
 **Published:** 2026-05-29<br>
@@ -3952,7 +3931,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30576"></a>
 
-### Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving **FRESH · 80d**
+### Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmed Abouelazm, Felix Klingebiel, Philip Schörner, J. Marius Zöllner<br>
 **Published:** 2026-05-28<br>
@@ -3962,7 +3941,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29138"></a>
 
-### Multi-Resolution End-to-End Deep Neural Network for Optimizing Latency-Accuracy Tradeoff in Autonomous Driving **FRESH · 81d**
+### Multi-Resolution End-to-End Deep Neural Network for Optimizing Latency-Accuracy Tradeoff in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qitao Weng, Heechul Yun<br>
 **Published:** 2026-05-27<br>
@@ -3972,7 +3951,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-28544"></a>
 
-### DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving **FRESH · 81d**
+### DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chen Shi, Jinrui Xu, Shaoshuai Shi, Kehua Sheng, Bo Zhang, et al.<br>
 **Published:** 2026-05-27<br>
@@ -3982,7 +3961,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-27659"></a>
 
-### Transferable Reinforcement Learning via Probabilistic Latent Embeddings and Dynamic Policy Adaptation for Sim-to-Real Deployment **FRESH · 82d**
+### Transferable Reinforcement Learning via Probabilistic Latent Embeddings and Dynamic Policy Adaptation for Sim-to-Real Deployment ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gengyue Han, Yiheng Feng<br>
 **Published:** 2026-05-26<br>
@@ -3992,7 +3971,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26627"></a>
 
-### Breaking the Epistemic Trap: Active Perception Under Compound Uncertainty **FRESH · 82d**
+### Breaking the Epistemic Trap: Active Perception Under Compound Uncertainty ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chayan Banerjee, Ethan Goan<br>
 **Published:** 2026-05-26<br>
@@ -4002,7 +3981,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24992"></a>
 
-### Scaling up Energy-Aware Multi-Agent Reinforcement Learning for Mission-Oriented Drone Networks with Individual Reward **FRESH · 84d**
+### Scaling up Energy-Aware Multi-Agent Reinforcement Learning for Mission-Oriented Drone Networks with Individual Reward ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Changling Li, Ying Li<br>
 **Published:** 2026-05-24<br>
@@ -4012,7 +3991,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23163"></a>
 
-### Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving **FRESH · 87d**
+### Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kewei Zhang, Jin Wang, Sensen Gao, Chengyue Wu, Yulong Cao, et al.<br>
 **Published:** 2026-05-21<br>
@@ -4022,7 +4001,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21372"></a>
 
-### Closed Loop Dynamic Driving Data Mixture for Real-Synthetic Co-Training **FRESH · 88d**
+### Closed Loop Dynamic Driving Data Mixture for Real-Synthetic Co-Training ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongzhi Ruan, Pei Liu, Weiliang Ma, Zhengning Li, Xueyang Zhang, et al.<br>
 **Published:** 2026-05-20<br>
@@ -4032,7 +4011,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21139"></a>
 
-### Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving **FRESH · 88d**
+### Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yang Wu, Qiang Meng, Zhaojiang Liu, Youquan Liu, Jian Yang, et al.<br>
 **Published:** 2026-05-20<br>
@@ -4138,7 +4117,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-12600"></a>
 
-### PseudoMapLabeler: Confidence-Aware Pseudo-Label Generation for Semi-Supervised Online Mapping **NEW · 4d**
+### PseudoMapLabeler: Confidence-Aware Pseudo-Label Generation for Semi-Supervised Online Mapping ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Chikao Tsuchiya, Dhaval Bhanderi, David Ilstrup, Hsinmin Cheng, Christopher Ostafew<br>
 **Published:** 2026-08-12<br>
@@ -4148,7 +4127,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10660"></a>
 
-### Cross-View Sequential Visual Localization with Spatio-Temporal Context Modeling for Autonomous Driving **NEW · 5d**
+### Cross-View Sequential Visual Localization with Spatio-Temporal Context Modeling for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Jiaping Wang, Shaobo Li, Zhen Wang<br>
 **Published:** 2026-08-11<br>
@@ -4158,7 +4137,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-06021"></a>
 
-### Topometric Autonomous Vehicle Localization by Combining Visual Embeddings and Feed-Forward 3D Models **RECENT · 10d**
+### Topometric Autonomous Vehicle Localization by Combining Visual Embeddings and Feed-Forward 3D Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Eulogio Quemada-Torres, Alberto Jaenal, Francisco-Angel Moreno, Javier Gonzalez-Jimenez<br>
 **Published:** 2026-08-06<br>
@@ -4168,7 +4147,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23758"></a>
 
-### RoadVGGT: Road-Structure-Aware Feed-Forward Road Surface Reconstruction **RECENT · 21d**
+### RoadVGGT: Road-Structure-Aware Feed-Forward Road Surface Reconstruction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Han Jiao, Chen Liu, Jiakai Sun, Zhanjie Zhang, Mengyuan Yang, et al.<br>
 **Published:** 2026-07-26<br>
@@ -4178,7 +4157,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22123"></a>
 
-### DB-VIO: Dual-Branch Visual Inertial Odometry with Enhanced Visual-Inertial Representation **RECENT · 23d**
+### DB-VIO: Dual-Branch Visual Inertial Odometry with Enhanced Visual-Inertial Representation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ziyu Wan, Lin Zhao<br>
 **Published:** 2026-07-24<br>
@@ -4188,7 +4167,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-21281"></a>
 
-### HGeo-TopoMap: Boosting Topological Mapping with Hierarchical Geometric Priors **RECENT · 24d**
+### HGeo-TopoMap: Boosting Topological Mapping with Hierarchical Geometric Priors ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Siyu Li, Kunyu Peng, Di Wen, Beiping Hou, Zhiyong Li, et al.<br>
 **Published:** 2026-07-23<br>
@@ -4198,7 +4177,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15713"></a>
 
-### Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization **RECENT · 30d**
+### Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yong Chu, Xun Zhou, Zenglin Xu, Hui Wang, Yue Yu<br>
 **Published:** 2026-07-17<br>
@@ -4208,7 +4187,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15048"></a>
 
-### RoGS: Adaptive Meshgrid Gaussian for Large-Scale Road Surface Mapping **FRESH · 31d**
+### RoGS: Adaptive Meshgrid Gaussian for Large-Scale Road Surface Mapping ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianchen Deng, Zhiheng Feng, Wenhua Wu, Ziming Li, Siting Zhu, et al.<br>
 **Published:** 2026-07-16<br>
@@ -4218,7 +4197,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10394"></a>
 
-### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles **FRESH · 36d**
+### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Boris Radovanovic, Sasa Talosi, Srdjan Sobot, Dejan Vukobratovic<br>
 **Published:** 2026-07-11<br>
@@ -4228,7 +4207,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31177"></a>
 
-### GaussianMap: Learning Gaussian Representation for Multi-Sensor Online HD Map Construction **FRESH · 47d**
+### GaussianMap: Learning Gaussian Representation for Multi-Sensor Online HD Map Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongyu Lyu, Julie Stephany Berrio Perez, Mao Shan, Stewart Worrall<br>
 **Published:** 2026-06-30<br>
@@ -4238,7 +4217,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24796"></a>
 
-### Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM **FRESH · 54d**
+### Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Leshu Li, Jie Peng, Yang Zhao<br>
 **Published:** 2026-06-23<br>
@@ -4248,7 +4227,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21223"></a>
 
-### Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems **FRESH · 58d**
+### Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yihong Tian, Junjie Zhang, Liuyang Li, Deteng Zhang, Yunfei Zuo, et al.<br>
 **Published:** 2026-06-19<br>
@@ -4258,7 +4237,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00119"></a>
 
-### V2I Work Zone Geometry Reconstruction with Pose-Conditioned UWB Range Denoising **FRESH · 81d**
+### V2I Work Zone Geometry Reconstruction with Pose-Conditioned UWB Range Denoising ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiaxi Liu, Hangyu Li, Yang Cheng, Rui Gana, Junwei You, et al.<br>
 **Published:** 2026-05-27<br>
@@ -4268,7 +4247,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22578"></a>
 
-### Beyond Chamfer Distance: Granular Order-aware Evaluation Metric For Online Mapping **FRESH · 87d**
+### Beyond Chamfer Distance: Granular Order-aware Evaluation Metric For Online Mapping ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chouaib Bencheikh Lehocine, Adam Lilja, Junsheng Fu, Lars Hammarstrand<br>
 **Published:** 2026-05-21<br>
@@ -4354,7 +4333,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-13450"></a>
 
-### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles **NEW · 3d**
+### LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman, Md Rayhanur Rahman<br>
 **Published:** 2026-08-13<br>
@@ -4364,7 +4343,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09402"></a>
 
-### Beyond the Plane: Coupling Planar Vehicle Dynamics with Three-Dimensional Road Geometry **NEW · 6d**
+### Beyond the Plane: Coupling Planar Vehicle Dynamics with Three-Dimensional Road Geometry ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Simon Sagmeister, Phillip Pitschi, Nico Haja, Markus Lienkamp<br>
 **Published:** 2026-08-10<br>
@@ -4374,7 +4353,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08293"></a>
 
-### Scalable High-Speed Lateral Control for Single-Body and Articulated Autonomous Vehicles **RECENT · 8d**
+### Scalable High-Speed Lateral Control for Single-Body and Articulated Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aashish Shaju, Steve Southward, Mehdi Ahmadian<br>
 **Published:** 2026-08-08<br>
@@ -4384,7 +4363,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07740"></a>
 
-### Enhancing Autonomous Vehicle Navigation with a Clothoid-Based Lateral Controller **RECENT · 9d**
+### Enhancing Autonomous Vehicle Navigation with a Clothoid-Based Lateral Controller ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aashish Shaju, Steve Southward, Mehdi Ahmadian<br>
 **Published:** 2026-08-07<br>
@@ -4394,7 +4373,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-05266"></a>
 
-### Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks **RECENT · 11d**
+### Agentic self-driving microscopy benchmarks support qualification but do not necessarily generalize to unseen tasks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nathan S Johnson, Ian Abshire<br>
 **Published:** 2026-08-05<br>
@@ -4404,7 +4383,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01448"></a>
 
-### Latent Two-Sample Testing for Fair Autonomous Vehicle Road Evaluation **RECENT · 14d**
+### Latent Two-Sample Testing for Fair Autonomous Vehicle Road Evaluation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qiujing Lu, Xuanhan Wang, Guanghong Jia, Zhenxia Zhu, Huijuan Lin, et al.<br>
 **Published:** 2026-08-02<br>
@@ -4414,7 +4393,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-29517"></a>
 
-### STAGE: STyle-controllable Action GEneration for personalized autonomous driving **RECENT · 16d**
+### STAGE: STyle-controllable Action GEneration for personalized autonomous driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zihao Liu, Xing Liu, Yizhai Zhang, Panfeng Huang<br>
 **Published:** 2026-07-31<br>
@@ -4424,7 +4403,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00113"></a>
 
-### Track-Guided Hierarchical Reinforcement Learning for Autonomous Vehicle Drifting with Minimum-Lap-Time Planning **RECENT · 16d**
+### Track-Guided Hierarchical Reinforcement Learning for Autonomous Vehicle Drifting with Minimum-Lap-Time Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sheng Zhao, Bolin Zhao, Xiaodong Wu, Chen Lv<br>
 **Published:** 2026-07-31<br>
@@ -4434,7 +4413,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-28083"></a>
 
-### Layered Architecture for Mobile Intelligence **RECENT · 17d**
+### Layered Architecture for Mobile Intelligence ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qingwen Liu, Mingqing Liu<br>
 **Published:** 2026-07-30<br>
@@ -4444,7 +4423,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-27085"></a>
 
-### Controlled Experiments on Lane Changing by Transitional Autonomous Vehicle: Dataset and Behavioral Insights **RECENT · 18d**
+### Controlled Experiments on Lane Changing by Transitional Autonomous Vehicle: Dataset and Behavioral Insights ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Abhinav Sharma, Md Abdullah Al Hasan, Danjue Chen, George F. List<br>
 **Published:** 2026-07-29<br>
@@ -4454,7 +4433,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24863"></a>
 
-### Steeringless Drifting: Differential-Torque Control of a Four-Wheel Independently Driven Vehicle **RECENT · 21d**
+### Steeringless Drifting: Differential-Torque Control of a Four-Wheel Independently Driven Vehicle ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sheng Zhao, Zexin Wu, Dongyang Zhou, Bolin Zhao, Xiaodong Wu<br>
 **Published:** 2026-07-26<br>
@@ -4464,7 +4443,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23792"></a>
 
-### GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks **RECENT · 21d**
+### GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Prachi Nandi, Madhuri Malakar, Sonakshi Satpathy, Pabitra Mohan Khilar<br>
 **Published:** 2026-07-26<br>
@@ -4474,7 +4453,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22525"></a>
 
-### Explainable Reinforcement Learning for assisting Air Traffic Controllers **RECENT · 23d**
+### Explainable Reinforcement Learning for assisting Air Traffic Controllers ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Anduel Mehmeti, Gabriella Gigante, Salvatore Venticinque<br>
 **Published:** 2026-07-24<br>
@@ -4484,7 +4463,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-18663"></a>
 
-### How defensive driving enhances driving safety: A driving simulator study on drivers' defensive driving behaviors **RECENT · 27d**
+### How defensive driving enhances driving safety: A driving simulator study on drivers' defensive driving behaviors ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xinzheng Wu, Junyi Chen, Shaolingfeng Ye, Yong Shen<br>
 **Published:** 2026-07-20<br>
@@ -4494,7 +4473,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-18637"></a>
 
-### End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation **RECENT · 27d**
+### End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jingzheng Li, Yufei Ge, Zhijun Chen, Qianren Mao, Zizhe Wang, et al.<br>
 **Published:** 2026-07-20<br>
@@ -4504,7 +4483,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15117"></a>
 
-### A Model Predictive Control Framework for Assisted Vehicle Drifting **FRESH · 31d**
+### A Model Predictive Control Framework for Assisted Vehicle Drifting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Marco Cortese, Antonio Gallina, Matteo Grandin, Giovanni Righetti, Mattia Bruschetta, et al.<br>
 **Published:** 2026-07-16<br>
@@ -4514,7 +4493,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13561"></a>
 
-### Design and Implementation of a Microservice-Architecture Master Control System for AIMS **FRESH · 32d**
+### Design and Implementation of a Microservice-Architecture Master Control System for AIMS ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Li-Yue Tong, Jia-Ben Lin, Jun-Feng Hou, Yuan-Yong Deng, Dong-Guang Wang, et al.<br>
 **Published:** 2026-07-15<br>
@@ -4524,7 +4503,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13274"></a>
 
-### Deconstructing Actor-Critic: A Large-scale Empirical Study of Design Components for Practitioners **FRESH · 33d**
+### Deconstructing Actor-Critic: A Large-scale Empirical Study of Design Components for Practitioners ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haseeb Shah, Lingwei Zhu, Adam White, Martha White<br>
 **Published:** 2026-07-14<br>
@@ -4534,7 +4513,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10975"></a>
 
-### Real-Time Rulebook-Aware Nonlinear MPC for Autonomous Driving with Priority-Biased Tiered Slacks **FRESH · 35d**
+### Real-Time Rulebook-Aware Nonlinear MPC for Autonomous Driving with Priority-Biased Tiered Slacks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hadi Hajieghrary, Benedikt Walter, Chaitanya Shinde, Paul Schmitt, Miguel Hurtado<br>
 **Published:** 2026-07-12<br>
@@ -4544,7 +4523,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10061"></a>
 
-### Federated Cybersecurity Testbed as a Service (FCTaaS): A framework to federate cybersecurity testbeds **FRESH · 37d**
+### Federated Cybersecurity Testbed as a Service (FCTaaS): A framework to federate cybersecurity testbeds ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Josh Dean, Yu-Zheng Lin, John Paul Martin Encinas, Ibrahim Almazyad, Qinxuan Shi, et al.<br>
 **Published:** 2026-07-10<br>
@@ -4554,7 +4533,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04259"></a>
 
-### Integrated Graph Search and Model Predictive Control for Smooth and Efficient Path Planning in Autonomous Vehicles **FRESH · 42d**
+### Integrated Graph Search and Model Predictive Control for Smooth and Efficient Path Planning in Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Duc-Tien Bui, Ngoc Thinh Nguyen, Hung Duy Nguyen, Dong Bi, Tomislav Mihalj, et al.<br>
 **Published:** 2026-07-05<br>
@@ -4564,7 +4543,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-02924"></a>
 
-### Longitudinal-Motion-Aware Lateral Control for Autonomous Vehicles: A Robust Nonlinear Control Framework **FRESH · 45d**
+### Longitudinal-Motion-Aware Lateral Control for Autonomous Vehicles: A Robust Nonlinear Control Framework ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sixu Li, Nitesh Kumar, Reyshwanth Ganeshan, Sivakumar Rathinam, Swaroop Darbha, et al.<br>
 **Published:** 2026-07-02<br>
@@ -4574,7 +4553,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00545"></a>
 
-### ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation **FRESH · 46d**
+### ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yu-Hsiang Chen, Wei-Jer Chang, Yi-Ting Chen, Masayoshi Tomizuka<br>
 **Published:** 2026-07-01<br>
@@ -4584,7 +4563,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31918"></a>
 
-### DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation **FRESH · 47d**
+### DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junzhe Jiang, Zipei Ma, Zijie Pan, Li Zhang<br>
 **Published:** 2026-06-30<br>
@@ -4594,7 +4573,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31109"></a>
 
-### InfiniVerse: Occupancy Guided Unbounded Scene Generation for Autonomous Driving **FRESH · 47d**
+### InfiniVerse: Occupancy Guided Unbounded Scene Generation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyu Ye, Leheng Li, Xinyu Ji, Yingjie Cai, Hongda He, et al.<br>
 **Published:** 2026-06-30<br>
@@ -4604,7 +4583,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30838"></a>
 
-### A Practical Implementation of Day-3 Cooperative Intersection with Automated Connected Mini-Cars **FRESH · 48d**
+### A Practical Implementation of Day-3 Cooperative Intersection with Automated Connected Mini-Cars ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lorenzo Farina, Vittorio Todisco, Federico Gavioli, Salvatore Iandolo, Francesco Moretti, et al.<br>
 **Published:** 2026-06-29<br>
@@ -4614,7 +4593,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29684"></a>
 
-### Evolutionary Hyperparameter Optimization to Find Lightweight CNN Models for Autonomous Steering **FRESH · 49d**
+### Evolutionary Hyperparameter Optimization to Find Lightweight CNN Models for Autonomous Steering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Devson Butani, Ryan Kaddis, Chan-Jin Chung<br>
 **Published:** 2026-06-28<br>
@@ -4624,7 +4603,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29115"></a>
 
-### When Stopping Fails: Rethinking Minimal Risk Conditions through Human-Interactive Autonomous Driving for Safe Transportation Systems **FRESH · 50d**
+### When Stopping Fails: Rethinking Minimal Risk Conditions through Human-Interactive Autonomous Driving for Safe Transportation Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yash Tandon, Giovanni Tapia Lopez, Marcus Blennemann, Mohan Trivedi, Ross Greer<br>
 **Published:** 2026-06-27<br>
@@ -4634,7 +4613,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29020"></a>
 
-### Semantic-Aware, Physics-Informed, Geometry-Grounded Weather Video Synthesis **FRESH · 50d**
+### Semantic-Aware, Physics-Informed, Geometry-Grounded Weather Video Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chenghao Qian, Nedko Savov, Lingdong Kong, Yeying Jin, Rui Song, et al.<br>
 **Published:** 2026-06-27<br>
@@ -4644,7 +4623,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27123"></a>
 
-### Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation **FRESH · 52d**
+### Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shubham Vaijanath Phoolari, Aleyna Kara, Christoph Lauer, Steven Peters<br>
 **Published:** 2026-06-25<br>
@@ -4654,7 +4633,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26574"></a>
 
-### Revisiting Action Factorization for Complex Action Spaces **FRESH · 53d**
+### Revisiting Action Factorization for Complex Action Spaces ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Timothy Flavin, Sandip Sen<br>
 **Published:** 2026-06-24<br>
@@ -4664,7 +4643,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25134"></a>
 
-### Causality-Based Parametric Control Barrier Function for Safe Multi-Vehicle Interaction **FRESH · 54d**
+### Causality-Based Parametric Control Barrier Function for Safe Multi-Vehicle Interaction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yiwei Lyu, Caleb Chang, John M. Dolan<br>
 **Published:** 2026-06-23<br>
@@ -4674,7 +4653,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21486"></a>
 
-### Reference-Free, Long-Horizon Trajectory Optimization for Aggressive Autonomous Driving in Milliseconds **FRESH · 58d**
+### Reference-Free, Long-Horizon Trajectory Optimization for Aggressive Autonomous Driving in Milliseconds ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Prayag Sharma, Jonathan Y. M. Goh, Franck Djeumou<br>
 **Published:** 2026-06-19<br>
@@ -4684,7 +4663,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15930"></a>
 
-### ControlMap: Controllable High-Definition Map Generation for Traffic Scenario Simulation **FRESH · 63d**
+### ControlMap: Controllable High-Definition Map Generation for Traffic Scenario Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Marwan Farag, Steffen Wäldele, Yu Yao<br>
 **Published:** 2026-06-14<br>
@@ -4694,7 +4673,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15094"></a>
 
-### Adaptive Deep Koopman Operator for Vehicle Dynamics Modeling: A Physics-Informed and Tire-Force-Driven Approach **FRESH · 64d**
+### Adaptive Deep Koopman Operator for Vehicle Dynamics Modeling: A Physics-Informed and Tire-Force-Driven Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wenjie Wang, Hao Chen, Ran Shu, Solyeon Kwon, Kyoungseok Han, et al.<br>
 **Published:** 2026-06-13<br>
@@ -4704,7 +4683,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12774"></a>
 
-### Agentic MPC for Semantic Control System Resynthesis **FRESH · 67d**
+### Agentic MPC for Semantic Control System Resynthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuya Miyaoka, Masaki Inoue<br>
 **Published:** 2026-06-10<br>
@@ -4714,7 +4693,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11971"></a>
 
-### Cooperative Switched Formation Control of Autonomous Vehicles: An Event-triggered Approach to Input Saturation and Time-delay Challenges **FRESH · 67d**
+### Cooperative Switched Formation Control of Autonomous Vehicles: An Event-triggered Approach to Input Saturation and Time-delay Challenges ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziming Wang, Guanxuan Jiang, Yihuai Zhang, Karl H. Johansson, Apostolos I. Rikos<br>
 **Published:** 2026-06-10<br>
@@ -4724,7 +4703,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10851"></a>
 
-### Modular2Simple: A Tool for Modular Scenario Creation Based on the OpenSCENARIO Format **FRESH · 68d**
+### Modular2Simple: A Tool for Modular Scenario Creation Based on the OpenSCENARIO Format ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nikolai Khriapov, Mohamed Taha Drif, Renjue Li, Cas Widdershoven<br>
 **Published:** 2026-06-09<br>
@@ -4734,7 +4713,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09236"></a>
 
-### Self-Paced Curriculum Reinforcement Learning for Autonomous Superbike Racing in Simulation **FRESH · 69d**
+### Self-Paced Curriculum Reinforcement Learning for Autonomous Superbike Racing in Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca Ghisi, Jacopo Essenziale, Carlo D'Eramo, Matteo Luperto<br>
 **Published:** 2026-06-08<br>
@@ -4744,7 +4723,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08136"></a>
 
-### Learning Predictive Control with Deep Koopman Operators for Autonomous Vehicle Motion Planning **FRESH · 71d**
+### Learning Predictive Control with Deep Koopman Operators for Autonomous Vehicle Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xinglong Zhang, Yongqian Xiao, Haotian Cao, Xing Zhou, Xin Yin, et al.<br>
 **Published:** 2026-06-06<br>
@@ -4754,7 +4733,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07437"></a>
 
-### Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability **FRESH · 72d**
+### Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chaitanya Shinde, Hadi Hajieghrary, Paul Schmitt, Adam Shoemaker, Bodo Seifert, et al.<br>
 **Published:** 2026-06-05<br>
@@ -4764,7 +4743,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-05159"></a>
 
-### X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation **FRESH · 74d**
+### X4Val: Learning Neural Surrogates for Variance-Reduced Policy Evaluation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rachel Luo, Michael Watson, Apoorva Sharma, Heng Yang, Han Qi, et al.<br>
 **Published:** 2026-06-03<br>
@@ -4774,7 +4753,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04884"></a>
 
-### D$^3$-MoE:Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving **FRESH · 74d**
+### D$^3$-MoE:Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Renju Feng, Rukang Wang, Ning Xi, Jianguo Yu, Liping Lu, et al.<br>
 **Published:** 2026-06-03<br>
@@ -4784,7 +4763,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20640"></a>
 
-### An LLM-Explainable DRL Framework for Passenger-Directed Autonomous Driving **FRESH · 75d**
+### An LLM-Explainable DRL Framework for Passenger-Directed Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ouided Braoui, Meriem Bouali, Nadir Farhi<br>
 **Published:** 2026-06-02<br>
@@ -4794,7 +4773,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01192"></a>
 
-### PairedGTA: Generating Driving Datasets for Controlled Photometric Shift Analysis **FRESH · 77d**
+### PairedGTA: Generating Driving Datasets for Controlled Photometric Shift Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Andrea Chianese, Giulio Rossolini, Alessandro Biondi, Marco Cococcioni, Giorgio Buttazzo<br>
 **Published:** 2026-05-31<br>
@@ -4804,7 +4783,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01164"></a>
 
-### Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends **FRESH · 77d**
+### Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiuming Liu, Chaojun Ni, Mengmeng Liu, Chensheng Peng, Fangjinhua Wang, et al.<br>
 **Published:** 2026-05-31<br>
@@ -4814,7 +4793,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00133"></a>
 
-### World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications **FRESH · 80d**
+### World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Arif Hassan Zidan, Yi Pan, Hanqi Jiang, Ruiyu Yan, Wei Ruan, et al.<br>
 **Published:** 2026-05-28<br>
@@ -4824,7 +4803,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29231"></a>
 
-### $α$-stability of Differentially Flat Systems with Application to Newton-Raphson Tracking Control for Vehicle Dynamics **FRESH · 81d**
+### $α$-stability of Differentially Flat Systems with Application to Newton-Raphson Tracking Control for Vehicle Dynamics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Aadila Ali Sabry, Gennaro Notomista<br>
 **Published:** 2026-05-27<br>
@@ -4834,7 +4813,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26577"></a>
 
-### Bridging Control with Neural Network Verifier alpha-beta-CROWN: A Tutorial **FRESH · 82d**
+### Bridging Control with Neural Network Verifier alpha-beta-CROWN: A Tutorial ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haoyu Li, Xiangru Zhong, Hao Cheng, Bin Hu, Huan Zhang<br>
 **Published:** 2026-05-26<br>
@@ -4844,7 +4823,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26113"></a>
 
-### AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond **FRESH · 83d**
+### AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haiming Zhang, Junfei Zhou, Feng Jiang, Jingzhong Li, Zhenglong Guo, et al.<br>
 **Published:** 2026-05-25<br>
@@ -4854,7 +4833,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23816"></a>
 
-### SDNator is Not Another SDN Controller: Enabling Extensible Data-Driven Control in Cyber-Physical Systems **FRESH · 86d**
+### SDNator is Not Another SDN Controller: Enabling Extensible Data-Driven Control in Cyber-Physical Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Y. Lin, R. Zhang, E. Balta, X. Zhu, J. Zhang, et al.<br>
 **Published:** 2026-05-22<br>
@@ -4864,7 +4843,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22600"></a>
 
-### Branch-Stochastic Model Predictive Control for Motion Planning under Multi-Modal Uncertainty with Scenario Clustering **FRESH · 87d**
+### Branch-Stochastic Model Predictive Control for Motion Planning under Multi-Modal Uncertainty with Scenario Clustering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zekun Xing, Ramkrishna Chaudhari, Marion Leibold, Dirk Wollherr, Martin Buss<br>
 **Published:** 2026-05-21<br>
@@ -4874,7 +4853,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21168"></a>
 
-### ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving **FRESH · 88d**
+### ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qiyu Ruan, Yuxuan Wang, He Li, Zhenning Li, Cheng-zhong Xu<br>
 **Published:** 2026-05-20<br>
@@ -5230,7 +5209,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-12051"></a>
 
-### Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving **NEW · 4d**
+### Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Fabian Hüger<br>
 **Published:** 2026-08-12<br>
@@ -5240,7 +5219,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-11407"></a>
 
-### Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling **NEW · 5d**
+### Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Da Saem Lee, Yash Vardhan Pant, Sebastian Fischmeister<br>
 **Published:** 2026-08-11<br>
@@ -5250,7 +5229,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09144"></a>
 
-### How Roadside Units Enhance Intersection Safety? Cooperative Autonomous Driving System Design and A Proof of Concept **NEW · 6d**
+### How Roadside Units Enhance Intersection Safety? Cooperative Autonomous Driving System Design and A Proof of Concept ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Taoyuan Yu, Kui Wang, Zongdian Li, Tao Yu, Walid Saad, et al.<br>
 **Published:** 2026-08-10<br>
@@ -5260,7 +5239,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08941"></a>
 
-### From Operational Design Domain to Action: A Systematic Behavioral Taxonomy for Autonomous Driving **NEW · 7d**
+### From Operational Design Domain to Action: A Systematic Behavioral Taxonomy for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Chaitanya Shinde, Hadi Hajieghrary, Miguel Hurtado<br>
 **Published:** 2026-08-09<br>
@@ -5270,7 +5249,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10025"></a>
 
-### The Impact of Operational-Data Fidelity when Assessing Safety-Critical Autonomous-Vehicle Software **NEW · 7d**
+### The Impact of Operational-Data Fidelity when Assessing Safety-Critical Autonomous-Vehicle Software ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Kizito Salako, Rabiu Tsoho Muhammad<br>
 **Published:** 2026-08-09<br>
@@ -5280,7 +5259,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08815"></a>
 
-### Distilling Vision-Language Models for Robust Traffic Sign Perception in Autonomous Vehicles **NEW · 7d**
+### Distilling Vision-Language Models for Robust Traffic Sign Perception in Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Pedram MohajerAnsari, Amir Salarpour, Mert D. Pesé<br>
 **Published:** 2026-08-09<br>
@@ -5290,7 +5269,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-06535"></a>
 
-### Flaky Test Recognition when Testing CPSs Using Hybrid Models **RECENT · 10d**
+### Flaky Test Recognition when Testing CPSs Using Hybrid Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zahra Sadri-Moshkenani, Justin Bradley, Gregg Rothermel<br>
 **Published:** 2026-08-06<br>
@@ -5300,7 +5279,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-05634"></a>
 
-### MEC-Patch: Visible-Infrared Cross-Modal Adversarial Attack Driven by Intrinsic Material Emissivity Laws **RECENT · 10d**
+### MEC-Patch: Visible-Infrared Cross-Modal Adversarial Attack Driven by Intrinsic Material Emissivity Laws ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhixiang Huang, Xinbo Nie, Wenxuan Wang, Lu Yang, Xin Li, et al.<br>
 **Published:** 2026-08-06<br>
@@ -5310,7 +5289,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04776"></a>
 
-### NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment **RECENT · 11d**
+### NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yu Zhao, Jiangyu Pan, Tao Hu, Ming Yin, Fan Yang, et al.<br>
 **Published:** 2026-08-05<br>
@@ -5320,7 +5299,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03590"></a>
 
-### Secure Long-Range Autonomous Valet Parking: A Reservation Scheme With Three-Factor Authentication and Key Agreement **RECENT · 12d**
+### Secure Long-Range Autonomous Valet Parking: A Reservation Scheme With Three-Factor Authentication and Key Agreement ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Di Wang, Yue Cao, Fei Yan, Yining Liu, Daxin Tian, et al.<br>
 **Published:** 2026-08-04<br>
@@ -5330,7 +5309,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03384"></a>
 
-### Reusing Operational Evidence After Context Changes: A Conservative Bayesian Framework for Autonomous Vehicle Safety **RECENT · 12d**
+### Reusing Operational Evidence After Context Changes: A Conservative Bayesian Framework for Autonomous Vehicle Safety ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Robab Aghazadeh Chakherlou, Siddartha Khastgir, Xingyu Zhao<br>
 **Published:** 2026-08-04<br>
@@ -5340,7 +5319,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02200"></a>
 
-### RSC-GestureNet: Reliability-Aware Selective Causal Recognition of Chinese Traffic Police Gestures **RECENT · 13d**
+### RSC-GestureNet: Reliability-Aware Selective Causal Recognition of Chinese Traffic Police Gestures ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Cheng Li, Renjun Gao, Boyi Fu<br>
 **Published:** 2026-08-03<br>
@@ -5350,7 +5329,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-26121"></a>
 
-### Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels **RECENT · 19d**
+### Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xinyu Yang, Tianxing Chen, Honghao Su, Minxuan Wang, Chenze Yu, et al.<br>
 **Published:** 2026-07-28<br>
@@ -5360,7 +5339,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24577"></a>
 
-### Evaluating Fuzz Testing for Reinforcement Learning Agents **RECENT · 20d**
+### Evaluating Fuzz Testing for Reinforcement Learning Agents ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhibin Kang, Hanmo You, Dong Wang, Haiming Zheng, Junjie Chen<br>
 **Published:** 2026-07-27<br>
@@ -5370,7 +5349,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24199"></a>
 
-### Reasoning to Regulate: Chain-of-Thought for Traffic Rule Understanding **RECENT · 20d**
+### Reasoning to Regulate: Chain-of-Thought for Traffic Rule Understanding ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yueru Luo, Xu Yan, Changqing Zhou, Yiming Yang, Chao Zhan, et al.<br>
 **Published:** 2026-07-27<br>
@@ -5380,7 +5359,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23979"></a>
 
-### Mutual Modality Trust with Lightweight Reconstruction Regularization for Fine-grained Tire Pattern Recognition **RECENT · 20d**
+### Mutual Modality Trust with Lightweight Reconstruction Regularization for Fine-grained Tire Pattern Recognition ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jianning Yang, Jie Fang, Xinda Ma, Zirui Song, Dianwei Wang, et al.<br>
 **Published:** 2026-07-27<br>
@@ -5390,7 +5369,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23365"></a>
 
-### On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems **RECENT · 22d**
+### On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Muhammad Tukur, Hayatullahi B. Adeyemo, Tao Chen, Nour Ali, Anis Zarrad, et al.<br>
 **Published:** 2026-07-25<br>
@@ -5400,7 +5379,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-21526"></a>
 
-### Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving **RECENT · 24d**
+### Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mengshi Qi, Xiaoyang Bi, Xianlin Zhang, Huadong Ma<br>
 **Published:** 2026-07-23<br>
@@ -5410,7 +5389,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20967"></a>
 
-### Update the Unseen Only: Minimizing AoI for Collaborative Perception through Online Learning **RECENT · 24d**
+### Update the Unseen Only: Minimizing AoI for Collaborative Perception through Online Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yanan Ma, Zhuoyi Zhao, Zhengru Fang, Haonan An, Xianhao Chen, et al.<br>
 **Published:** 2026-07-23<br>
@@ -5420,7 +5399,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-21243"></a>
 
-### Detectors Learn the Wrong Thing: Shortcut-Resistant Adversarial Training Against Physically Realizable Attacks **RECENT · 24d**
+### Detectors Learn the Wrong Thing: Shortcut-Resistant Adversarial Training Against Physically Realizable Attacks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuanhao Huang, Yilong Ren, Jinlei Wang, Xuesong Bai, Zheng Zhang, et al.<br>
 **Published:** 2026-07-23<br>
@@ -5430,7 +5409,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19284"></a>
 
-### Stochastic Multi-Objective Kinodynamic Planning Against Adversaries **RECENT · 26d**
+### Stochastic Multi-Objective Kinodynamic Planning Against Adversaries ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Thomas Marshall Vielmetti, Daniel Cherenson, Dimitra Panagou<br>
 **Published:** 2026-07-21<br>
@@ -5440,7 +5419,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-18548"></a>
 
-### Engineering Trustworthy Agentic AI for Critical Systems **RECENT · 27d**
+### Engineering Trustworthy Agentic AI for Critical Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Omar Al-Refai, Ibrahim Shahbaz, Adam Ali Husseinat, Michael Mandulak, Jaewon Kim, et al.<br>
 **Published:** 2026-07-20<br>
@@ -5450,7 +5429,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-18106"></a>
 
-### Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles **RECENT · 27d**
+### Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hailey Warner, Duncan Eddy, Shreya Parjan, Caroline Cahilly, Harrison Delecki, et al.<br>
 **Published:** 2026-07-20<br>
@@ -5460,7 +5439,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16943"></a>
 
-### SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections **RECENT · 29d**
+### SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yunwei Li, Shengjie Fu, Chunrong Chen, Chengxiang Zhao, Yuchen Fan, et al.<br>
 **Published:** 2026-07-18<br>
@@ -5470,7 +5449,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16922"></a>
 
-### Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing **RECENT · 29d**
+### Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Taorui Huang, Namita Gaidhani, Ritvik Bansal, S M Jubaer, Regina Lim, et al.<br>
 **Published:** 2026-07-18<br>
@@ -5480,7 +5459,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15820"></a>
 
-### In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing **RECENT · 30d**
+### In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qunying Song, Yuan Gao, Johannes Betz, Dietmar Pfahl, Mohammad Reza Mousavi, et al.<br>
 **Published:** 2026-07-17<br>
@@ -5490,7 +5469,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15620"></a>
 
-### AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots **RECENT · 30d**
+### AEGIS: Assay-Aware Protocol Validation and Runtime Monitoring for Open-Source Liquid Handling Robots ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Priyanka V. Setty, Arvind Ramanathan, Ian Foster, Rick Stevens<br>
 **Published:** 2026-07-17<br>
@@ -5500,7 +5479,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12598"></a>
 
-### Hierarchical Fault Localization for Autonomous Driving Systems with Hypothesis Validation and Intent Analysis **FRESH · 33d**
+### Hierarchical Fault Localization for Autonomous Driving Systems with Hypothesis Validation and Intent Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rui Zheng, Changwen Li, Yi Ji, Rongjie Yan<br>
 **Published:** 2026-07-14<br>
@@ -5510,7 +5489,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13254"></a>
 
-### Attitude Estimation Using Inertial and Barometric Measurements **FRESH · 33d**
+### Attitude Estimation Using Inertial and Barometric Measurements ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Melone Nyoba Tchonkeu, Soulaimane Berkane, Tarek Hamel<br>
 **Published:** 2026-07-14<br>
@@ -5520,7 +5499,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12452"></a>
 
-### Automatic Testing of Interacting Autonomous Vehicles **FRESH · 33d**
+### Automatic Testing of Interacting Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fabio Cavaleri, Alessio Gambi, Paolo Arcaini, Dejan Ničković, Mauro Pezzè<br>
 **Published:** 2026-07-14<br>
@@ -5530,7 +5509,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-11560"></a>
 
-### Technical Report on the CVPR 2026@AdvML Workshop Challenge **FRESH · 34d**
+### Technical Report on the CVPR 2026@AdvML Workshop Challenge ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyuan Zhang, Zonglei Jing, Jiangfan Liu, Ligong Zhang, Ke Ma, et al.<br>
 **Published:** 2026-07-13<br>
@@ -5540,7 +5519,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-07844"></a>
 
-### Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning **FRESH · 39d**
+### Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alessandro Canevaro, Hang Yu, Julian Schmidt, Peizheng Li, Silvan Lindner, et al.<br>
 **Published:** 2026-07-08<br>
@@ -5550,7 +5529,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-07196"></a>
 
-### Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators **FRESH · 39d**
+### Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Christian Oefinger, Finn Rasmus Schäfer, Korbinian Moller, Mattia Piccinini, Johannes Betz<br>
 **Published:** 2026-07-08<br>
@@ -5560,7 +5539,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12214"></a>
 
-### Robust 4D Driving Scene Reconstruction from Imperfect Visual Priors **FRESH · 40d**
+### Robust 4D Driving Scene Reconstruction from Imperfect Visual Priors ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyun Dong, Qian Xu, Yun Wang, Yang Lu, Jen-Ming Wu, et al.<br>
 **Published:** 2026-07-07<br>
@@ -5570,7 +5549,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09772"></a>
 
-### A Risk-Field Enhanced Closed-Loop Digital Twin Framework for Autonomous Driving Safety Validation **FRESH · 40d**
+### A Risk-Field Enhanced Closed-Loop Digital Twin Framework for Autonomous Driving Safety Validation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yongzhi Liu<br>
 **Published:** 2026-07-07<br>
@@ -5580,7 +5559,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09764"></a>
 
-### OmniSCS: Omni Safety-Critical Scenario Synthesis for Autonomous Driving via a Fully Editable Driving World **FRESH · 40d**
+### OmniSCS: Omni Safety-Critical Scenario Synthesis for Autonomous Driving via a Fully Editable Driving World ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyun Dong, Qian Xu, Yang Lu, Yang Lou, Yung-Hui Li, et al.<br>
 **Published:** 2026-07-07<br>
@@ -5590,7 +5569,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06319"></a>
 
-### Synthetic-to-Real Translation for Class-Agnostic Motion Prediction **FRESH · 40d**
+### Synthetic-to-Real Translation for Class-Agnostic Motion Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, et al.<br>
 **Published:** 2026-07-07<br>
@@ -5600,7 +5579,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06078"></a>
 
-### Collaborative Multi-Agent Testing for Emergent Failure Discovery in Autonomous Driving Systems **FRESH · 40d**
+### Collaborative Multi-Agent Testing for Emergent Failure Discovery in Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruizhen Gu, Konstantinos Koufos, Donghwan Shin, Vahid Garousi, Mehrdad Dianati<br>
 **Published:** 2026-07-07<br>
@@ -5610,7 +5589,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-05783"></a>
 
-### Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective **FRESH · 41d**
+### Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyuan Zhang, Xianglong Liu, Aishan Liu, Lu Wang, Yitong Zhang, et al.<br>
 **Published:** 2026-07-06<br>
@@ -5620,7 +5599,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04953"></a>
 
-### Real-World Perturbation Testing of Autonomous Driving Systems **FRESH · 41d**
+### Real-World Perturbation Testing of Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Stefano Carlo Lambertenghi, Matthias Weil, Andrea Stocco<br>
 **Published:** 2026-07-06<br>
@@ -5630,7 +5609,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04508"></a>
 
-### Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery **FRESH · 42d**
+### Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kyunghoon Hur, Chihun Lee<br>
 **Published:** 2026-07-05<br>
@@ -5640,7 +5619,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04451"></a>
 
-### CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation **FRESH · 42d**
+### CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ke Li, Kaidi Liang, Yuxin Ding, Debojyoti Biswas, Xianbiao Hu, et al.<br>
 **Published:** 2026-07-05<br>
@@ -5650,7 +5629,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-02494"></a>
 
-### Towards Robustness against Typographic Attack with Training-free Concept Localization **FRESH · 45d**
+### Towards Robustness against Typographic Attack with Training-free Concept Localization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bohan Liu, Wenqian Ye, Guangzhi Xiong, Zhenghao He, Sanchit Sinha, et al.<br>
 **Published:** 2026-07-02<br>
@@ -5660,7 +5639,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00874"></a>
 
-### Beyond Line of Sight: Hybrid Validation of V2X Collective Perception in Complex Scenarios **FRESH · 46d**
+### Beyond Line of Sight: Hybrid Validation of V2X Collective Perception in Complex Scenarios ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Markos Antonopoulos, Anastasia Bolovinou, Bill Roungas, Elena Daskalaki, Angelos Amditis<br>
 **Published:** 2026-07-01<br>
@@ -5670,7 +5649,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31131"></a>
 
-### Scenario Generation for Testing of Autonomous Driving Systems Using Real-World Failure Records **FRESH · 47d**
+### Scenario Generation for Testing of Autonomous Driving Systems Using Real-World Failure Records ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Anjali Parashar, Chuchu Fan<br>
 **Published:** 2026-06-30<br>
@@ -5680,7 +5659,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30807"></a>
 
-### Off the Rails: Hijacking the Scoring Head in Generative End-to-End Driving Planners with Safety-Violating Adversarial Perturbations **FRESH · 48d**
+### Off the Rails: Hijacking the Scoring Head in Generative End-to-End Driving Planners with Safety-Violating Adversarial Perturbations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Halima Bouzidi, Mboutidem Ekemini Mkpong, Haoyu Liu, Mohammad Abdullah Al Faruque<br>
 **Published:** 2026-06-29<br>
@@ -5690,7 +5669,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26456"></a>
 
-### Towards Safety-Aware Mutation Testing for Autonomous Driving Systems **FRESH · 53d**
+### Towards Safety-Aware Mutation Testing for Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Donghwan Shin<br>
 **Published:** 2026-06-24<br>
@@ -5700,7 +5679,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25296"></a>
 
-### SafeGen: LLM-Driven Assertion Generation and Fault Criticality Evaluation for Functional Safety **FRESH · 54d**
+### SafeGen: LLM-Driven Assertion Generation and Fault Criticality Evaluation for Functional Safety ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuanyi Tan, Arjun Chaudhuri, Rubin Parekhji, Krishnendu Chakrabarty<br>
 **Published:** 2026-06-23<br>
@@ -5710,7 +5689,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25239"></a>
 
-### Tensor-Based Batch Fuzzing with Adaptive Perturbation Scaling for Deep Neural Networks **FRESH · 54d**
+### Tensor-Based Batch Fuzzing with Adaptive Perturbation Scaling for Deep Neural Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Guanqin Zhang, Yulei Sui<br>
 **Published:** 2026-06-23<br>
@@ -5720,7 +5699,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21154"></a>
 
-### Virginia Tech Transportation Safety Index (VTTSI) **FRESH · 58d**
+### Virginia Tech Transportation Safety Index (VTTSI) ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jason Cusati, Cheng-Shun Chuang<br>
 **Published:** 2026-06-19<br>
@@ -5730,7 +5709,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20120"></a>
 
-### Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform **FRESH · 59d**
+### Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hyeonna Choi, Jung Yup Kim, Hyuneui Lim, Seunggyu Jeon<br>
 **Published:** 2026-06-18<br>
@@ -5740,7 +5719,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-19632"></a>
 
-### Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation **FRESH · 60d**
+### Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmad Farooq, Kamran Iqbal<br>
 **Published:** 2026-06-17<br>
@@ -5750,7 +5729,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-18537"></a>
 
-### Do as the Romans Do: Learning Universal Behaviors from Heterogeneous Agents **FRESH · 61d**
+### Do as the Romans Do: Learning Universal Behaviors from Heterogeneous Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Caleb Chang, Davin Win Kyi, Natasha Jaques, Karen Leung<br>
 **Published:** 2026-06-16<br>
@@ -5760,7 +5739,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17482"></a>
 
-### SPHINX: First Explain, Then Explore **FRESH · 62d**
+### SPHINX: First Explain, Then Explore ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nguyen Do, Tue M. Cao, Tien Van Do, András Hajdu, Tamás Bérczes, et al.<br>
 **Published:** 2026-06-15<br>
@@ -5770,7 +5749,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14032"></a>
 
-### From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving **FRESH · 66d**
+### From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuewen Mei, Tong Nie, Jie Sun, Haotian Shi, Wei Ma, et al.<br>
 **Published:** 2026-06-11<br>
@@ -5780,7 +5759,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13282"></a>
 
-### ERTS: Adversarial Robustness Testing of Ethical AI via Semantic Perturbation in a Bounded Consequence Space **FRESH · 66d**
+### ERTS: Adversarial Robustness Testing of Ethical AI via Semantic Perturbation in a Bounded Consequence Space ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pratyush Chaudhari<br>
 **Published:** 2026-06-11<br>
@@ -5790,7 +5769,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09746"></a>
 
-### Hybrid Robustness Verification for Spatio-Temporal Neural Networks **FRESH · 69d**
+### Hybrid Robustness Verification for Spatio-Temporal Neural Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sherwin Varghese, Matthew Wicker, Alessio Lomuscio<br>
 **Published:** 2026-06-08<br>
@@ -5800,7 +5779,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09109"></a>
 
-### Driving Video Retrieval for Complex Queries with Structured Grounding **FRESH · 69d**
+### Driving Video Retrieval for Complex Queries with Structured Grounding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Manyi Yao, Sparsh Garg, Christian Shelton, Amit Roy-Chowdhury, Abhishek Aich<br>
 **Published:** 2026-06-08<br>
@@ -5810,7 +5789,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08470"></a>
 
-### LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving **FRESH · 70d**
+### LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruoyu Yao, Pei Liu, Ruiguo Zhong, Mingxing Peng, Rui Yang, et al.<br>
 **Published:** 2026-06-07<br>
@@ -5820,7 +5799,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07186"></a>
 
-### A Causal Probabilistic Framework for Perception-Informed Closed-Loop Simulation of Autonomous Driving **FRESH · 72d**
+### A Causal Probabilistic Framework for Perception-Informed Closed-Loop Simulation of Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhennan Fei, Rickard Johansson, Mikael Andersson, Matthias Eng, Mattias Eriksson, et al.<br>
 **Published:** 2026-06-05<br>
@@ -5830,7 +5809,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07067"></a>
 
-### Extending Responsibility-Sensitive Safety for the Assessment of Offloaded Autonomous Driving Services **FRESH · 72d**
+### Extending Responsibility-Sensitive Safety for the Assessment of Offloaded Autonomous Driving Services ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Robin Dehler, Aryan Thakur, Michael Buchholz<br>
 **Published:** 2026-06-05<br>
@@ -5840,7 +5819,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06996"></a>
 
-### Mission-Level Runtime Assurance Framework for Autonomous Driving **FRESH · 72d**
+### Mission-Level Runtime Assurance Framework for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chieh Tsai, Salim Hariri<br>
 **Published:** 2026-06-05<br>
@@ -5850,7 +5829,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06423"></a>
 
-### RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation **FRESH · 73d**
+### RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qi Lan, Yining Tang, Yu Shen, Yi Zhou, Yuhao Wei, et al.<br>
 **Published:** 2026-06-04<br>
@@ -5860,7 +5839,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-05461"></a>
 
-### Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety **FRESH · 74d**
+### Output Type Before Quality: A Standards-Derived XAI Admissibility Rubric for Autonomous-Driving Safety ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abhinaw Priyadershi, Mandar Pitale, Jelena Frtunikj, Maria Spence<br>
 **Published:** 2026-06-03<br>
@@ -5870,7 +5849,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03678"></a>
 
-### EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents **FRESH · 75d**
+### EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tong Nie, Yuewen Mei, Yihong Tang, Junlin He, Jie Deng, et al.<br>
 **Published:** 2026-06-02<br>
@@ -5880,7 +5859,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30328"></a>
 
-### Supercharging Thermal Gaussian Splatting with Depth Estimation **FRESH · 80d**
+### Supercharging Thermal Gaussian Splatting with Depth Estimation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Manoj Biswanath, Chenxin Cai, Hannah Schieber, Daniel Roth, Benjamin Busam<br>
 **Published:** 2026-05-28<br>
@@ -5890,7 +5869,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-27964"></a>
 
-### DRIFT: Driving Risk Inference via Field Transmission for Human-like Autonomous Driving **FRESH · 81d**
+### DRIFT: Driving Risk Inference via Field Transmission for Human-like Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zian Wang, Yiming Shu, Zejian Deng, Chen Sun<br>
 **Published:** 2026-05-27<br>
@@ -5900,7 +5879,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-27643"></a>
 
-### Agentic Language-to-Objective Synthesis for Optofluidic Assembly **FRESH · 82d**
+### Agentic Language-to-Objective Synthesis for Optofluidic Assembly ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ivan Saraev, Elena Erben, Weida Liao, Fan Nan, Gerhard Neumann, et al.<br>
 **Published:** 2026-05-26<br>
@@ -5910,7 +5889,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26501"></a>
 
-### Unveiling the Fragility of Vision-Language Models: Multi-Modal Adversarial Synergy via Texture-Constrained Perturbations and Cross-Modal Optimization **FRESH · 83d**
+### Unveiling the Fragility of Vision-Language Models: Multi-Modal Adversarial Synergy via Texture-Constrained Perturbations and Cross-Modal Optimization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiang Fang, Wanlong Fang, Changshuo Wang<br>
 **Published:** 2026-05-25<br>
@@ -5920,7 +5899,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25617"></a>
 
-### Justice-informed Planning of Intermodal Autonomous Mobility-on-Demand Systems under Operational Constraints **FRESH · 83d**
+### Justice-informed Planning of Intermodal Autonomous Mobility-on-Demand Systems under Operational Constraints ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Giacomo Ganassoli, Francesco Mazzeo, Cecilia Pasquale, Silvia Siri, Mauro Salazar<br>
 **Published:** 2026-05-25<br>
@@ -5930,7 +5909,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25431"></a>
 
-### Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication **FRESH · 83d**
+### Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dewei Jiang, Xiang Gu<br>
 **Published:** 2026-05-25<br>
@@ -5940,7 +5919,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23203"></a>
 
-### Lipschitz Optimization for Formal Verification of Homographies **FRESH · 87d**
+### Lipschitz Optimization for Formal Verification of Homographies ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jean-Guillaume Durand, Panagiotis Kouvaros, Maxime Gariel, Alessio Lomuscio<br>
 **Published:** 2026-05-21<br>
@@ -5950,7 +5929,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22809"></a>
 
-### Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving **FRESH · 87d**
+### Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiahao Wang, Bo Sun, Yijing Bai, Vincent Casser, Songyou Peng, et al.<br>
 **Published:** 2026-05-21<br>
@@ -5960,7 +5939,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22420"></a>
 
-### Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction **FRESH · 87d**
+### Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Henry Che, Jingkang Wang, Yun Chen, Ze Yang, Sivabalan Manivasagam, et al.<br>
 **Published:** 2026-05-21<br>
@@ -5970,7 +5949,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22122"></a>
 
-### Adversarial Trust Poisoning in Vehicular Collaborative Perception **FRESH · 87d**
+### Adversarial Trust Poisoning in Vehicular Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yutong Liu, Chenyi Wang, Ming F. Li, Qingzhao Zhang<br>
 **Published:** 2026-05-21<br>
@@ -5980,7 +5959,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21676"></a>
 
-### SENTIL: A Runtime Verification Tool for Probabilistic Temporal Logic **FRESH · 88d**
+### SENTIL: A Runtime Verification Tool for Probabilistic Temporal Logic ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Paapa Kwesi Quansah, Ernest Bonnah<br>
 **Published:** 2026-05-20<br>
@@ -5990,7 +5969,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22874"></a>
 
-### NeuroNL2LTL: A Neurosymbolic Framework for Natural Language Translation of Linear Temporal Logic **FRESH · 89d**
+### NeuroNL2LTL: A Neurosymbolic Framework for Natural Language Translation of Linear Temporal Logic ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Paapa Kwesi Quansah, Ernest Bonnah<br>
 **Published:** 2026-05-19<br>
@@ -6000,7 +5979,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-27418"></a>
 
-### Differentiable Model Predictive Safety for Heterogeneous Mobility at Urban Intersections **FRESH · 90d**
+### Differentiable Model Predictive Safety for Heterogeneous Mobility at Urban Intersections ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Wenzhe Song, Hao Zhang<br>
 **Published:** 2026-05-18<br>
@@ -6336,7 +6315,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-25570"></a>
 
-### The LAIA Dataset: Labelled Attention for Intelligent Automobiles **RECENT · 19d**
+### The LAIA Dataset: Labelled Attention for Intelligent Automobiles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** A. Contreras, D. Porres, R. Abad, P. Cano, A. Levy, et al.<br>
 **Published:** 2026-07-28<br>
@@ -6346,7 +6325,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23537"></a>
 
-### ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness **RECENT · 21d**
+### ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qiao Yan, Yihan Wang, Zhenghao Xing, Jiaqi Xu, Pheng-Ann Heng<br>
 **Published:** 2026-07-26<br>
@@ -6356,7 +6335,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23704"></a>
 
-### LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratory **RECENT · 21d**
+### LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratory ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Haobo Wang, Baoli Sun, Anqi Zou, Dongsheng Huang, Zelin Lv, et al.<br>
 **Published:** 2026-07-26<br>
@@ -6366,7 +6345,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23910"></a>
 
-### SimBEV2X: A Large-Scale Dataset and Data Generation Tool for Multi-Task Vehicle-to-Everything Cooperative Perception **RECENT · 21d**
+### SimBEV2X: A Large-Scale Dataset and Data Generation Tool for Multi-Task Vehicle-to-Everything Cooperative Perception ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Goodarz Mehr, Sepideh Gohari, Montasir Abbas, Azim Eskandarian<br>
 **Published:** 2026-07-26<br>
@@ -6376,7 +6355,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-17813"></a>
 
-### A2RL V\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction **RECENT · 27d**
+### A2RL V\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Marvin Klemp, Dominic Ebner, Cornelius Schröder, Davide Malvezzi, László Turányi, et al.<br>
 **Published:** 2026-07-20<br>
@@ -6386,7 +6365,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-17767"></a>
 
-### VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking **RECENT · 27d**
+### VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yijian Li, Xiangru Mu, Changze Li, Hantian Shi, Jiyuan Cai, et al.<br>
 **Published:** 2026-07-20<br>
@@ -6396,7 +6375,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22698"></a>
 
-### FogDrive: A Multi-Modal Synthetic Driving Dataset for Perception under Graded Fog **RECENT · 29d**
+### FogDrive: A Multi-Modal Synthetic Driving Dataset for Perception under Graded Fog ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Vansh Panwar<br>
 **Published:** 2026-07-18<br>
@@ -6406,7 +6385,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13704"></a>
 
-### nuTruck: Benchmarking Autonomous Driving Planning for Distributed Electric-drive Trucks **FRESH · 32d**
+### nuTruck: Benchmarking Autonomous Driving Planning for Distributed Electric-drive Trucks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jinyu Miao, Pu Zhang, Yifei He, Chengyao Zhang, Kun Jiang, et al.<br>
 **Published:** 2026-07-15<br>
@@ -6416,7 +6395,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09903"></a>
 
-### The Precursor Genome: A Pairwise Reaction Dataset for Solid-State Synthesis **FRESH · 37d**
+### The Precursor Genome: A Pairwise Reaction Dataset for Solid-State Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lauren N. Walters, Matthew J. McDermott, Bernardus Rendy, Yuxing Fei, Kristin A. Persson, et al.<br>
 **Published:** 2026-07-10<br>
@@ -6426,7 +6405,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08402"></a>
 
-### Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS **FRESH · 38d**
+### Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Roba H. Farouk, Catherine M. Elias<br>
 **Published:** 2026-07-09<br>
@@ -6436,7 +6415,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-07103"></a>
 
-### A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving **FRESH · 39d**
+### A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Heye Huang, Jingguang Li, Zhiyuan Zhou, Paul Liang, Mingyu Wu, et al.<br>
 **Published:** 2026-07-08<br>
@@ -6446,7 +6425,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04610"></a>
 
-### RoboVista: Evaluating Vision Language Models for Diverse Robot Applications **FRESH · 42d**
+### RoboVista: Evaluating Vision Language Models for Diverse Robot Applications ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuangyu Xie, Kaiyuan Chen, Ziyang Chen, Simeon Adebola, Yixuan Huang, et al.<br>
 **Published:** 2026-07-05<br>
@@ -6456,7 +6435,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00710"></a>
 
-### Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark **FRESH · 46d**
+### Creating Impactful Autonomous Driving Datasets: A Strategic Guide from Research Gap to Benchmark ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Richard Schwarzkopf, Jonas Merkert, Frank Bieder, Annika Bätz, Alexander Blumberg, et al.<br>
 **Published:** 2026-07-01<br>
@@ -6466,7 +6445,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00283"></a>
 
-### What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models **FRESH · 47d**
+### What's Hidden Matters: Identifying Planning-Critical Occluded Agents using Vision-Language Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amirhosein Chahe, Tyler Naes, Jovin D'sa, Faizan M. Tariq, Sangjae Bae, et al.<br>
 **Published:** 2026-06-30<br>
@@ -6476,7 +6455,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31219"></a>
 
-### CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication Characterization **FRESH · 47d**
+### CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication Characterization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Bo Wu, Ruoshen Mo, Justin Yue, Yanyu Zhang, Janice Nguyen, et al.<br>
 **Published:** 2026-06-30<br>
@@ -6486,7 +6465,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20980"></a>
 
-### Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City **FRESH · 59d**
+### Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Adrian Cespedes, Marcelo Chincha, Dunant Cusipuma, Victor Flores-Benites, David Ortega, et al.<br>
 **Published:** 2026-06-18<br>
@@ -6496,7 +6475,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-19836"></a>
 
-### World Engine: Towards the Era of Post-Training for Autonomous Driving **FRESH · 59d**
+### World Engine: Towards the Era of Post-Training for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyu Li, Li Chen, Caojun Wang, Haochen Liu, Kashyap Chitta, et al.<br>
 **Published:** 2026-06-18<br>
@@ -6506,7 +6485,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15139"></a>
 
-### Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent **FRESH · 64d**
+### Self-Driving Negotiator: An interactive, verifiable benchmark for social negotiation and theory of mind under hidden intent ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ashutosh Kumar<br>
 **Published:** 2026-06-13<br>
@@ -6516,7 +6495,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17080"></a>
 
-### HRDX: A Large-Scale Vector HD-Map Dataset **FRESH · 66d**
+### HRDX: A Large-Scale Vector HD-Map Dataset ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sahith Reddy Chada, Isht Dwivedi, Nirav Savaliya<br>
 **Published:** 2026-06-11<br>
@@ -6526,7 +6505,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09644"></a>
 
-### Where Does the Answer Come From? Benchmarking View-Level Visual Evidence Identification in Multi-View MLLMs for Autonomous Driving **FRESH · 69d**
+### Where Does the Answer Come From? Benchmarking View-Level Visual Evidence Identification in Multi-View MLLMs for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yimu Wang, Yee Man Choi, Barry Zhang, Mozhgan Nasr Azadani, Sean Sedwards, et al.<br>
 **Published:** 2026-06-08<br>
@@ -6536,7 +6515,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03890"></a>
 
-### OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs **FRESH · 75d**
+### OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yifei Li, Pengyiang Liu, Yuhang Zang, Zhongyue Shi, Qi Fu, et al.<br>
 **Published:** 2026-06-02<br>
@@ -6546,7 +6525,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02956"></a>
 
-### The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset **FRESH · 76d**
+### The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Richard Schwarzkopf, Fabian Immel, Alexander Blumberg, Jonas Merkert, Nils Rack, et al.<br>
 **Published:** 2026-06-01<br>
@@ -6556,7 +6535,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-31572"></a>
 
-### nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving **FRESH · 79d**
+### nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiyu Huang, Johnson Liu, Rui Song, Zewei Zhou, Ruining Yang, et al.<br>
 **Published:** 2026-05-29<br>
@@ -6566,7 +6545,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25947"></a>
 
-### A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras **FRESH · 83d**
+### A Pedestrian-Vehicle Interaction Benchmark and Annotation Framework for Unstructured Scenes via Uncalibrated Cameras ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haoyang Peng, Qian Hu, Songan Zhang, Ming Yang<br>
 **Published:** 2026-05-25<br>
@@ -6576,7 +6555,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-24950"></a>
 
-### ARCANE-PedSynth: Synthetic Multi-Pedestrian Datasets with Behavioural Crossing Annotations **FRESH · 84d**
+### ARCANE-PedSynth: Synthetic Multi-Pedestrian Datasets with Behavioural Crossing Annotations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Muhammad Naveed Riaz, Maciej Wielgosz, Antonio M. López Peña<br>
 **Published:** 2026-05-24<br>
@@ -6586,7 +6565,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23176"></a>
 
-### DRIVESPATIAL: A Benchmark for Spatiotemporal Intelligence in VLMs for Autonomous Driving **FRESH · 87d**
+### DRIVESPATIAL: A Benchmark for Spatiotemporal Intelligence in VLMs for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hao Vo, Khoa Vo, Phu Loc Nguyen, Sieu Tran, Duc Minh Nguyen, et al.<br>
 **Published:** 2026-05-21<br>
@@ -6596,7 +6575,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-22018"></a>
 
-### FRED: A Multi-Modal Autonomous Driving Dataset for Flooded Road Environments **FRESH · 87d**
+### FRED: A Multi-Modal Autonomous Driving Dataset for Flooded Road Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Connor Malone, Sebastien Demmel, Sebastien Glaser<br>
 **Published:** 2026-05-21<br>
@@ -6672,7 +6651,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-11580"></a>
 
-### RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation **NEW · 5d**
+### RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Yueyuan Li, Zexi Chen, Weijie Xi, Mingyang Jiang, Songan Zhang, et al.<br>
 **Published:** 2026-08-11<br>
@@ -6682,7 +6661,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08045"></a>
 
-### Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities **RECENT · 8d**
+### Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaohe Li, Yiru Wang, Junhao Fan, Mingyuan Liu, Jie Huang, et al.<br>
 **Published:** 2026-08-08<br>
@@ -6692,7 +6671,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02177"></a>
 
-### GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes **RECENT · 13d**
+### GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Fanyu Wang, Longgao Zhang, Junyi Chen<br>
 **Published:** 2026-08-03<br>
@@ -6702,7 +6681,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00298"></a>
 
-### WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation **RECENT · 16d**
+### WM-Cov: Test Adequacy for Interactive World-Model-Style Autonomous Driving Simulation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jianxun Cui, Ping Wu, Stanisa Peric, Marko Milojkovic, Vladan Devedzic<br>
 **Published:** 2026-07-31<br>
@@ -6712,7 +6691,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-25612"></a>
 
-### Multi-Sensor Alignment for Weather Simulations **RECENT · 19d**
+### Multi-Sensor Alignment for Weather Simulations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Samsad Alam, Devyani Lambhate, Aditya Mohan, Vishal Kumar, Vaibhav Katewa<br>
 **Published:** 2026-07-28<br>
@@ -6722,7 +6701,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22038"></a>
 
-### Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators **RECENT · 23d**
+### Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Afzal Ahmad, Gaoyu Mao, Shoubo Hu, Hui-Ling Zhen, Mingxuan Yuan, et al.<br>
 **Published:** 2026-07-24<br>
@@ -6732,7 +6711,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19701"></a>
 
-### SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving **RECENT · 26d**
+### SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiangfan Liu, Zexuan Cui, Tianyuan Zhang, Zonglei Jing, Zonghao Ying, et al.<br>
 **Published:** 2026-07-21<br>
@@ -6742,7 +6721,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14203"></a>
 
-### Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation **FRESH · 32d**
+### Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** NVIDIA, :, Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz, et al.<br>
 **Published:** 2026-07-15<br>
@@ -6752,7 +6731,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13028"></a>
 
-### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale **FRESH · 33d**
+### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Zachary Lee, et al.<br>
 **Published:** 2026-07-14<br>
@@ -6762,7 +6741,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10037"></a>
 
-### Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving **FRESH · 37d**
+### Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiewen Liu, Rui Liu, Matthew Lee, Ming C. Lin, Xiaorui Liu, et al.<br>
 **Published:** 2026-07-10<br>
@@ -6772,7 +6751,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-07601"></a>
 
-### CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis **FRESH · 39d**
+### CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kaicong Huang, Meng Ma, Ruimin Ke<br>
 **Published:** 2026-07-08<br>
@@ -6782,7 +6761,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06957"></a>
 
-### Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation **FRESH · 40d**
+### Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Seulbin Hwang, Kiyoung Om, Daejung Kim, Jinhan Lee<br>
 **Published:** 2026-07-07<br>
@@ -6792,7 +6771,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04803"></a>
 
-### E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios **FRESH · 41d**
+### E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Manfredi Napolitano, Alessandra Somma, Alessio Gambi, Andrea Stocco, Nicola Mazzocca<br>
 **Published:** 2026-07-06<br>
@@ -6802,7 +6781,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04770"></a>
 
-### Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation **FRESH · 41d**
+### Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Davide Jannussi, Stefano Carlo Lambertenghi, Constantin Carste, Andrea Stocco<br>
 **Published:** 2026-07-06<br>
@@ -6812,7 +6791,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04331"></a>
 
-### Agent-driven Long-tail Simulation for Autonomous Driving **FRESH · 42d**
+### Agent-driven Long-tail Simulation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Junru Gu, Lijin Yang, Jianing Huang, Shu Liu, Zhongzhan Huang, et al.<br>
 **Published:** 2026-07-05<br>
@@ -6822,7 +6801,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31209"></a>
 
-### Long-term Traffic Simulation via Structured Autoregressive Modeling **FRESH · 47d**
+### Long-term Traffic Simulation via Structured Autoregressive Modeling ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lingyu Xiao, Zexin Feng, Xintao Yan<br>
 **Published:** 2026-06-30<br>
@@ -6832,7 +6811,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29286"></a>
 
-### ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving **FRESH · 49d**
+### ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dingyi Yao, Xinqi Zhang, Lihui Peng, Jianming Hu, Danya Yao, et al.<br>
 **Published:** 2026-06-28<br>
@@ -6842,7 +6821,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-28384"></a>
 
-### A Query-Driven Communication-Efficient Digital Twins Design for Autonomous Driving **FRESH · 55d**
+### A Query-Driven Communication-Efficient Digital Twins Design for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nuocheng Yang, Longyu Zhou, Sihua Wang, Changchuan Yin, Tony Q. S. Quek<br>
 **Published:** 2026-06-22<br>
@@ -6852,7 +6831,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20110"></a>
 
-### FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model **FRESH · 59d**
+### FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuhwan Jeong, Hyeonseong Kim, Daehyun We, Seonkyu Song, Jinnyeong Yang, et al.<br>
 **Published:** 2026-06-18<br>
@@ -6862,7 +6841,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16278"></a>
 
-### RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos **FRESH · 62d**
+### RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhenhua Wu, Yun Pang, Mingkun Chang, Yuwei Ning, Liangzhi Wang, et al.<br>
 **Published:** 2026-06-15<br>
@@ -6872,7 +6851,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-14058"></a>
 
-### ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving **FRESH · 66d**
+### ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiyuan Zhang, Yanlun Peng, Jianing Zhang, Xianda Guo, Zehan Huang, et al.<br>
 **Published:** 2026-06-11<br>
@@ -6882,7 +6861,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07366"></a>
 
-### Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos **FRESH · 72d**
+### Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Anurag Ghosh, Francesco Pittaluga, Khiem Vuong, Angela Chen, Juan Alvarez-Padilla, et al.<br>
 **Published:** 2026-06-05<br>
@@ -6892,7 +6871,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03159"></a>
 
-### NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation **FRESH · 75d**
+### NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** NVIDIA, :, Aarti Basant, Amlan Kar, Despoina Paschalidou, et al.<br>
 **Published:** 2026-06-02<br>
@@ -6902,7 +6881,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30239"></a>
 
-### CA-World: Multi-Object Counterfactual Alignment for Efficient Interactive-Ready Reconstruction **FRESH · 80d**
+### CA-World: Multi-Object Counterfactual Alignment for Efficient Interactive-Ready Reconstruction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xin Dong, Weijian Deng, Lihan Zhang, Tianru Dai, Wenfeng Deng, et al.<br>
 **Published:** 2026-05-28<br>
@@ -6912,7 +6891,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-20255"></a>
 
-### Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty **FRESH · 90d**
+### Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Prakash Aryan, Kaushik Raghupathruni, Timo Kehrer, Sebastiano Panichella<br>
 **Published:** 2026-05-18<br>
@@ -7028,7 +7007,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-12854"></a>
 
-### BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving **NEW · 3d**
+### BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Bing Zhan, Shuyao Shang, Jiahao Gu, Shuo Lu, Yuan Xu, et al.<br>
 **Published:** 2026-08-13<br>
@@ -7038,7 +7017,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-10107"></a>
 
-### 4D-WAM: 4D Consistent World Modeling for Autonomous Driving **NEW · 6d**
+### 4D-WAM: 4D Consistent World Modeling for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Jiacheng Fu, Yibo Yuan, Meng Tian, Yue Li, Jiangtong Zhu, et al.<br>
 **Published:** 2026-08-10<br>
@@ -7048,7 +7027,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-09333"></a>
 
-### DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving **NEW · 6d**
+### DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
 
 **Authors:** Ziyi Song, Chen Xia, Hang Yu, Sheng Zhou, Zhisheng Niu<br>
 **Published:** 2026-08-10<br>
@@ -7058,7 +7037,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-08035"></a>
 
-### Decentralized Multi-Agent Urban Traffic Management via Spatio-Temporal Mobility Profile Planning **RECENT · 8d**
+### Decentralized Multi-Agent Urban Traffic Management via Spatio-Temporal Mobility Profile Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lorenzo Mario Amorosa, Lorenzo Farina, Vittorio Todisco, Alessandro Bazzi<br>
 **Published:** 2026-08-08<br>
@@ -7068,7 +7047,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-06008"></a>
 
-### Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features **RECENT · 10d**
+### Adaptive-WAM: Quality-Guided Early-Exit Planning from Intermediate Video-Diffusion Features ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Sining Ang, Yuguang Yang, Yan Wang<br>
 **Published:** 2026-08-06<br>
@@ -7078,7 +7057,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-07577"></a>
 
-### Open-World Hierarchical Perception: Taxonomic Abstraction over Class-Agnostic Proposals for the Safe Handling of Out-of-Vocabulary Road Objects **RECENT · 12d**
+### Open-World Hierarchical Perception: Taxonomic Abstraction over Class-Agnostic Proposals for the Safe Handling of Out-of-Vocabulary Road Objects ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Felix Schaller<br>
 **Published:** 2026-08-04<br>
@@ -7088,7 +7067,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-04412"></a>
 
-### muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards **RECENT · 12d**
+### muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yang Chen, Yicheng Zhu, Tao Li, Zilin Bian<br>
 **Published:** 2026-08-04<br>
@@ -7098,7 +7077,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-03361"></a>
 
-### The Evolutionary Origin of Values: implications for AI alignment, sentience and existential risk **RECENT · 12d**
+### The Evolutionary Origin of Values: implications for AI alignment, sentience and existential risk ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Francis Heylighen<br>
 **Published:** 2026-08-04<br>
@@ -7108,7 +7087,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02953"></a>
 
-### RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models **RECENT · 13d**
+### RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yuwei Ning, Liangzhi Wang, Yi Xiao, Zhenhua Wu, Yun Pang, et al.<br>
 **Published:** 2026-08-03<br>
@@ -7118,7 +7097,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02191"></a>
 
-### DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views **RECENT · 13d**
+### DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Fuzhen Jiang, Changyue Shi, Chuxiao Yang, Xinyuan Hu, Wenjie Ye, et al.<br>
 **Published:** 2026-08-03<br>
@@ -7128,7 +7107,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01572"></a>
 
-### Enhancing Visual Perception in Foggy Conditions via Multiclass Fog Density Modeling **RECENT · 14d**
+### Enhancing Visual Perception in Foggy Conditions via Multiclass Fog Density Modeling ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mohamad Mofeed Chaar, Galia Weidl<br>
 **Published:** 2026-08-02<br>
@@ -7138,7 +7117,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01338"></a>
 
-### Driver2Map: Imitating Human Driving for Online High-Definition Map Construction **RECENT · 14d**
+### Driver2Map: Imitating Human Driving for Online High-Definition Map Construction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Pan Yin, Runtian Xia, Weisong Kuang, Kaiyu Li, Cong Zhao, et al.<br>
 **Published:** 2026-08-02<br>
@@ -7148,7 +7127,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-01336"></a>
 
-### Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data **RECENT · 14d**
+### Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Advait Pavuluri, Shamik Karkhanis, Uzma Mushtaque<br>
 **Published:** 2026-08-02<br>
@@ -7158,7 +7137,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00878"></a>
 
-### Goal-Oriented Logic-based Semantic Communication for Neuro-Symbolic Reasoning with Applications onto Autonomous Driving **RECENT · 15d**
+### Goal-Oriented Logic-based Semantic Communication for Neuro-Symbolic Reasoning with Applications onto Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ahmet Faruk Saz, Duo Xu, Faramarz Fekri<br>
 **Published:** 2026-08-01<br>
@@ -7168,7 +7147,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-00524"></a>
 
-### Cooperative Platoon Routing and Dispatching via Edge-Assisted Hybrid Quantum Optimization **RECENT · 15d**
+### Cooperative Platoon Routing and Dispatching via Edge-Assisted Hybrid Quantum Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Talha Azfar, Ruimin Ke<br>
 **Published:** 2026-08-01<br>
@@ -7178,7 +7157,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2608-02638"></a>
 
-### Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems **RECENT · 16d**
+### Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Beena<br>
 **Published:** 2026-07-31<br>
@@ -7188,7 +7167,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-28799"></a>
 
-### FedQML-Edge: Compact Quantum Feature Sketches for Communication-Constrained Roadside Federated Learning **RECENT · 17d**
+### FedQML-Edge: Compact Quantum Feature Sketches for Communication-Constrained Roadside Federated Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Talha Azfar, Ruimin Ke<br>
 **Published:** 2026-07-30<br>
@@ -7198,7 +7177,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-27036"></a>
 
-### Mitigating Compounding Error via Video Representation Regularization **RECENT · 18d**
+### Mitigating Compounding Error via Video Representation Regularization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Taiye Chen, Qi Zhang, Yisen Wang<br>
 **Published:** 2026-07-29<br>
@@ -7208,7 +7187,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-26651"></a>
 
-### Physically Real-time Infrared Attack against Optical Flow Estimation Networks **RECENT · 18d**
+### Physically Real-time Infrared Attack against Optical Flow Estimation Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Shen You, Wei Jiang, Jiarui Liu, Yijian Ye, Qiuzhen Lin, et al.<br>
 **Published:** 2026-07-29<br>
@@ -7218,7 +7197,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-26464"></a>
 
-### PUDA: An AI-Native Hardware Harness for Self-Driving Laboratories **RECENT · 18d**
+### PUDA: An AI-Native Hardware Harness for Self-Driving Laboratories ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zekun Ren, Hongzhao Tan, Jiaen Yee, Kedar Hippalgaonkar<br>
 **Published:** 2026-07-29<br>
@@ -7228,7 +7207,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24224"></a>
 
-### MATS: A novel multi-modality multi-task learning framework for 3D perception in autonomous driving **RECENT · 20d**
+### MATS: A novel multi-modality multi-task learning framework for 3D perception in autonomous driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Junchen Huo, Wanming Hao, Song Wang, Enqing Chen, Shouyi Yang, et al.<br>
 **Published:** 2026-07-27<br>
@@ -7238,7 +7217,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-24336"></a>
 
-### Unequal Trips, Unequal Places: Diagnosing and Mitigating Delay Inequity in Autonomous Vehicle Fleet Coordination **RECENT · 20d**
+### Unequal Trips, Unequal Places: Diagnosing and Mitigating Delay Inequity in Autonomous Vehicle Fleet Coordination ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nicole Hu, Mingtao Zhang, Haoyang LI, Chen Jason Zhang, Li Qing<br>
 **Published:** 2026-07-27<br>
@@ -7248,7 +7227,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23059"></a>
 
-### GLST: Defending Confidence-Driven V2X Collaborative Perception Against Stealthy Multi-Attacker Feature Injection **RECENT · 22d**
+### GLST: Defending Confidence-Driven V2X Collaborative Perception Against Stealthy Multi-Attacker Feature Injection ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ji He, Ying Wang, Lijie Zheng, Xinghui Zhu, Yulong Shen, et al.<br>
 **Published:** 2026-07-25<br>
@@ -7258,7 +7237,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-23404"></a>
 
-### Transfer Learning Architectures for Scalable Multi-Fidelity Bayesian Optimization **RECENT · 22d**
+### Transfer Learning Architectures for Scalable Multi-Fidelity Bayesian Optimization ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jaewook Lee, Ethan Errington, Christian D. Lorenz, Miao Guo<br>
 **Published:** 2026-07-25<br>
@@ -7268,7 +7247,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22494"></a>
 
-### CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation **RECENT · 23d**
+### CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhishan Tao, Ruoyu Wang, Yucheng Wu, Enjun Du, Yilei Yuan, et al.<br>
 **Published:** 2026-07-24<br>
@@ -7278,7 +7257,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22078"></a>
 
-### CommandLM: Data driven behavior level descriptor for ego vehicles **RECENT · 23d**
+### CommandLM: Data driven behavior level descriptor for ego vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Boris Tokic, Constantin Selzer, Fabian B. Flohr<br>
 **Published:** 2026-07-24<br>
@@ -7288,7 +7267,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22975"></a>
 
-### AEcroscopyWave: Towards Self-Driving Characterization Platforms for Agentic AI **RECENT · 23d**
+### AEcroscopyWave: Towards Self-Driving Characterization Platforms for Agentic AI ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yongtao Liu, Jawad Chowdhury, Ganesh Narasimha, Ralph Bulanadi, Liam Collins, et al.<br>
 **Published:** 2026-07-24<br>
@@ -7298,7 +7277,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-21488"></a>
 
-### Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections **RECENT · 24d**
+### Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Gil Lifshits, Igal Bilik, Gilad Katz<br>
 **Published:** 2026-07-23<br>
@@ -7308,7 +7287,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-20880"></a>
 
-### MatDiffract: A Material-Informed Automated Analysis Platform for X-ray Powder Diffraction **RECENT · 25d**
+### MatDiffract: A Material-Informed Automated Analysis Platform for X-ray Powder Diffraction ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Hongqing Wang, Mingwei Chen, Hongjie Luo, Wen Yin, Fazhi Qi, et al.<br>
 **Published:** 2026-07-22<br>
@@ -7318,7 +7297,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19194"></a>
 
-### Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency **RECENT · 26d**
+### Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhongyao Yang, Haoyu Li, Yu Yan, Zhuangxuan Yu, Jiangfeng Nan, et al.<br>
 **Published:** 2026-07-21<br>
@@ -7328,7 +7307,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19661"></a>
 
-### Leveraging ECRAM for Edge Continual Learning **RECENT · 26d**
+### Leveraging ECRAM for Edge Continual Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nabila Tasnim, Haoran Liu, Qing Cao, Saugata Ghose<br>
 **Published:** 2026-07-21<br>
@@ -7338,7 +7317,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-19146"></a>
 
-### Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption **RECENT · 26d**
+### Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Munawar Hasan, Apostol Vassilev<br>
 **Published:** 2026-07-21<br>
@@ -7348,7 +7327,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-17521"></a>
 
-### GeoWorldAD: Geometry World Action Model for Autonomous Driving **RECENT · 28d**
+### GeoWorldAD: Geometry World Action Model for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Songyan Zhang, Jinyuan Tian, Hanbing Li, Daqi Liu, Hao Chen, et al.<br>
 **Published:** 2026-07-19<br>
@@ -7358,7 +7337,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16758"></a>
 
-### Hybrid Machine Learning for Articulation Angle Estimation of Truck-Semitrailer Combinations **RECENT · 29d**
+### Hybrid Machine Learning for Articulation Angle Estimation of Truck-Semitrailer Combinations ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Qixuan Zhang, Jonas Boettcher, Simon F. G. Ehlers, Marvin Stuede<br>
 **Published:** 2026-07-18<br>
@@ -7368,7 +7347,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-22697"></a>
 
-### Test-Time Coverage: Test-Conditioned Data Curation for Deployment-Aware Learning **RECENT · 30d**
+### Test-Time Coverage: Test-Conditioned Data Curation for Deployment-Aware Learning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nadine Chang, Maying Shen, Shizhe Diao, Jialiang Wang, Jingde Chen, et al.<br>
 **Published:** 2026-07-17<br>
@@ -7378,7 +7357,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16560"></a>
 
-### From Modalities to Propositions: A Language-Centric Framework for Multimodal Intelligence **RECENT · 30d**
+### From Modalities to Propositions: A Language-Centric Framework for Multimodal Intelligence ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Nadine Chang, Maying Shen, Shizhe Diao, Jialiang Wang, Jingde Chen, et al.<br>
 **Published:** 2026-07-17<br>
@@ -7388,7 +7367,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15888"></a>
 
-### Red Light, Grey Zone: A Multi-Perspective Interactive Narrative for Autonomous Driving Ethics **RECENT · 30d**
+### Red Light, Grey Zone: A Multi-Perspective Interactive Narrative for Autonomous Driving Ethics ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mengyi Wei, Nianhua Liu, Chenyu Zuo, Liqiu Meng<br>
 **Published:** 2026-07-17<br>
@@ -7398,7 +7377,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-15697"></a>
 
-### SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models **RECENT · 30d**
+### SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jinwen Xin, Xixiang Lv<br>
 **Published:** 2026-07-17<br>
@@ -7408,7 +7387,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-16175"></a>
 
-### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities **RECENT · 30d**
+### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Md Erfan, Ahmed Ryan, Md Kamal Hossain Chowdhury, Md Rayhanur Rahman<br>
 **Published:** 2026-07-17<br>
@@ -7418,7 +7397,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14727"></a>
 
-### WorkDrive: Roadwork Chain of Causation for Autonomous Driving **FRESH · 31d**
+### WorkDrive: Roadwork Chain of Causation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang<br>
 **Published:** 2026-07-16<br>
@@ -7428,7 +7407,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14688"></a>
 
-### MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy **FRESH · 31d**
+### MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mainak Mondal, Yihang Feng, Yangchao Luo, Song Han<br>
 **Published:** 2026-07-16<br>
@@ -7438,7 +7417,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14387"></a>
 
-### Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving **FRESH · 32d**
+### Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuan Gao, Wenting Miao, Mattia Piccinini, Haoyu Wang, Qunying Song, et al.<br>
 **Published:** 2026-07-15<br>
@@ -7448,7 +7427,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14005"></a>
 
-### M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming **FRESH · 32d**
+### M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ke Cheng, Hanqiao Ye, Lei Shi, Yahui Liu, Yunhan Shen, et al.<br>
 **Published:** 2026-07-15<br>
@@ -7458,7 +7437,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-13927"></a>
 
-### Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data **FRESH · 32d**
+### Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Thang-Anh-Quan Nguyen, Moussab Bennehar, Luis Guillermo Roldao Jimenez, Nathan Piasco, Dzmitry Tsishkou, et al.<br>
 **Published:** 2026-07-15<br>
@@ -7468,7 +7447,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-14436"></a>
 
-### Global drivers and barriers to the public acceptance of autonomous vehicles: Evidence from 17 countries **FRESH · 32d**
+### Global drivers and barriers to the public acceptance of autonomous vehicles: Evidence from 17 countries ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Antonios Saravanos<br>
 **Published:** 2026-07-15<br>
@@ -7478,7 +7457,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-12113"></a>
 
-### Toward Trustworthy Autonomous Science: A Two-Year Community Roadmap **FRESH · 34d**
+### Toward Trustworthy Autonomous Science: A Two-Year Community Roadmap ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rafael Ferreira da Silva, Milad Abolhasani, Peter Beaucage, Laura Biven, Michael Bussmann, et al.<br>
 **Published:** 2026-07-13<br>
@@ -7488,7 +7467,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-11232"></a>
 
-### Modular Autonomous Transit: From Vehicle Modularity to Deployment-Ready Transit Operations **FRESH · 34d**
+### Modular Autonomous Transit: From Vehicle Modularity to Deployment-Ready Transit Operations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dongyang Xia, Shadi Sharif Azadeh<br>
 **Published:** 2026-07-13<br>
@@ -7498,7 +7477,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-10138"></a>
 
-### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving **FRESH · 36d**
+### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yi Wang, Yingyang Chen, Feng Bai, Li Wang, Gang Feng<br>
 **Published:** 2026-07-11<br>
@@ -7508,7 +7487,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09428"></a>
 
-### Multimodal Scenario Similarity Search for Autonomous Driving **FRESH · 37d**
+### Multimodal Scenario Similarity Search for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tamás Matuszka, András Tamásy, Balázs Szolár<br>
 **Published:** 2026-07-10<br>
@@ -7518,7 +7497,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09045"></a>
 
-### Can the Cloud Drive? Infrastructure Feasibility of Offloading Autonomous Driving Across 5G and 6G **FRESH · 38d**
+### Can the Cloud Drive? Infrastructure Feasibility of Offloading Autonomous Driving Across 5G and 6G ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Pouya Parsa, Kawon Han, Seongjin Choi<br>
 **Published:** 2026-07-09<br>
@@ -7528,7 +7507,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-09795"></a>
 
-### Large Multimodal Model-Based Environment-Aware Mobility Management **FRESH · 38d**
+### Large Multimodal Model-Based Environment-Aware Mobility Management ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Seokhyun Jeong, Sangmok Shin, Seungnyun Kim, Jiao Wu, Byonghyo Shim<br>
 **Published:** 2026-07-09<br>
@@ -7538,7 +7517,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-08610"></a>
 
-### Sharing economy in the era of full automation: Evidence from autonomous vehicle on-demand mobility services **FRESH · 38d**
+### Sharing economy in the era of full automation: Evidence from autonomous vehicle on-demand mobility services ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyan Wang, Kenan Zhang, Yaochen Ma<br>
 **Published:** 2026-07-09<br>
@@ -7548,7 +7527,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-06039"></a>
 
-### Automating Quality Assessment with NLP of LLM-Generated Defeaters **FRESH · 40d**
+### Automating Quality Assessment with NLP of LLM-Generated Defeaters ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tihomir Rohlinger, Daniel Ratiu, Stefan Wagner<br>
 **Published:** 2026-07-07<br>
@@ -7558,7 +7537,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-05133"></a>
 
-### UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation **FRESH · 41d**
+### UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mengmeng Liu, Diankun Zhang, Jiuming Liu, Jianfeng Cui, Hongwei Xie, et al.<br>
 **Published:** 2026-07-06<br>
@@ -7568,7 +7547,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04974"></a>
 
-### A Comprehensive Study of Implementation Bugs in Multi-modal Agents **FRESH · 41d**
+### A Comprehensive Study of Implementation Bugs in Multi-modal Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Suwan Li, Lei Bu, Shangqing Liu, Yile Wang, Guangdong Bai, et al.<br>
 **Published:** 2026-07-06<br>
@@ -7578,7 +7557,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04661"></a>
 
-### Targeted Structure Completion for Sparse-View 3D Reconstruction in Autonomous Driving **FRESH · 41d**
+### Targeted Structure Completion for Sparse-View 3D Reconstruction in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Guoqing Wang, Pin Tang, Xiangxuan Ren, Liping Hou, Chao Ma<br>
 **Published:** 2026-07-06<br>
@@ -7588,7 +7567,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04670"></a>
 
-### Who Responds When the Driver Is Gone? A Framework for Holistic Passenger Intent Understanding **FRESH · 41d**
+### Who Responds When the Driver Is Gone? A Framework for Holistic Passenger Intent Understanding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuewen Luo, Ding Fan, Ruiqi Chen, Ye Cao, Xiujin Liu, et al.<br>
 **Published:** 2026-07-06<br>
@@ -7598,7 +7577,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-04129"></a>
 
-### Toward the Right Analytical Model and System Software for Autonomous Driving Systems: Open Problems and Research Directions **FRESH · 42d**
+### Toward the Right Analytical Model and System Software for Autonomous Driving Systems: Open Problems and Research Directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Atsushi Yano, Takuya Azumi<br>
 **Published:** 2026-07-05<br>
@@ -7608,7 +7587,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-03755"></a>
 
-### EvoEye: Self-Evolving Runtime Monitoring for Autonomous Driving Systems **FRESH · 43d**
+### EvoEye: Self-Evolving Runtime Monitoring for Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mingfei Cheng, Lionel Briand, Xiaofei Xie<br>
 **Published:** 2026-07-04<br>
@@ -7618,7 +7597,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-03554"></a>
 
-### Interception-Driven Inverse Reachability for Engagement Zone Construction **FRESH · 44d**
+### Interception-Driven Inverse Reachability for Engagement Zone Construction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Grant Stagg, Cameron K. Peterson, Alexander Von Moll, Isaac Weintraub<br>
 **Published:** 2026-07-03<br>
@@ -7628,7 +7607,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-03155"></a>
 
-### Hope for the Best, Prepare for the Worst: Occlusion-Aware Contingency Planning for Autonomous Vehicles **FRESH · 44d**
+### Hope for the Best, Prepare for the Worst: Occlusion-Aware Contingency Planning for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Truls Nyberg, Anna Gautier, Jana Tumova<br>
 **Published:** 2026-07-03<br>
@@ -7638,7 +7617,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-02478"></a>
 
-### Docking of Autonomous Vehicles with a Stationary Docking Station in 3D Space **FRESH · 45d**
+### Docking of Autonomous Vehicles with a Stationary Docking Station in 3D Space ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ram Milan Kumar Verma, Shashi Ranjan Kumar, Hemendra Arya<br>
 **Published:** 2026-07-02<br>
@@ -7648,7 +7627,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01370"></a>
 
-### MapDreamer: Aerial Imagery Conditioned Latent Diffusion for Lane-Level Map Generation **FRESH · 46d**
+### MapDreamer: Aerial Imagery Conditioned Latent Diffusion for Lane-Level Map Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Julian Brandes, Philipp Crocoll, Wolfram Burgard<br>
 **Published:** 2026-07-01<br>
@@ -7658,7 +7637,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-01524"></a>
 
-### Flexible and Reliable Network Design for Emerging Transportation Services: Multi-stage Stochastic Programming Approach **FRESH · 46d**
+### Flexible and Reliable Network Design for Emerging Transportation Services: Multi-stage Stochastic Programming Approach ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Riki Kawase, Koki Satsukawa, Toru Seo<br>
 **Published:** 2026-07-01<br>
@@ -7668,7 +7647,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31589"></a>
 
-### From Failure to Alignment: A Requirements Engineering Framework for Machine Learning Systems **FRESH · 47d**
+### From Failure to Alignment: A Requirements Engineering Framework for Machine Learning Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Amel Bennaceur, Gopi Krishnan Rajbahadur, Prince Mercy, Bashar Nuseibeh, Faeq Alrimawi<br>
 **Published:** 2026-06-30<br>
@@ -7678,7 +7657,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31512"></a>
 
-### Support of Teleoperated Driving with 5G Networks **FRESH · 47d**
+### Support of Teleoperated Driving with 5G Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** M. Carmen Lucas-Estañ, Baldomero Coll-Perales, Mohammad Irfan Khan, Sergei S. Avedisov, Onur Altintas, et al.<br>
 **Published:** 2026-06-30<br>
@@ -7688,7 +7667,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31488"></a>
 
-### DrivingDepth: Sparse-Prompted Pixel-wise Scale Correction for Driving Depth Estimation **FRESH · 47d**
+### DrivingDepth: Sparse-Prompted Pixel-wise Scale Correction for Driving Depth Estimation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chi Huang, Wenhao Zhang, Hang Yin, YuAn Wang, Hao Li, et al.<br>
 **Published:** 2026-06-30<br>
@@ -7698,7 +7677,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31226"></a>
 
-### ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving **FRESH · 47d**
+### ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xuchang Zhong, He Zheng, Chenxu Zhao, Tianxiong Lv, Hangqi Fan, et al.<br>
 **Published:** 2026-06-30<br>
@@ -7708,7 +7687,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-31273"></a>
 
-### The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims **FRESH · 47d**
+### The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongmin Li<br>
 **Published:** 2026-06-30<br>
@@ -7718,7 +7697,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30537"></a>
 
-### Learning from Mistakes: Rollout-Retrieval Lifelong Policy Learning for Autonomous Driving **FRESH · 48d**
+### Learning from Mistakes: Rollout-Retrieval Lifelong Policy Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Cheng Gong, Haoyang Wang, Chao Lu, Zirui Li, Jianwei Gong<br>
 **Published:** 2026-06-29<br>
@@ -7728,7 +7707,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-30153"></a>
 
-### The Spectrum Strikes Back: Infrared POV Attacks on Traffic Sign Classification **FRESH · 48d**
+### The Spectrum Strikes Back: Infrared POV Attacks on Traffic Sign Classification ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Michael Kühr, Mevlüt Yildirim, Maximilian Luedecke, Mohammad Hamad, Sebastian Steinhorst<br>
 **Published:** 2026-06-29<br>
@@ -7738,7 +7717,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29374"></a>
 
-### L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction **FRESH · 49d**
+### L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zetian Song, Chenming Wu, Junnan Liu, Chitian Sun, Liangliang He, et al.<br>
 **Published:** 2026-06-28<br>
@@ -7748,7 +7727,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29566"></a>
 
-### Analyzing Uncertainty in the Spatial Representation of the Kinematic Bicycle Model **FRESH · 49d**
+### Analyzing Uncertainty in the Spatial Representation of the Kinematic Bicycle Model ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shafayat Abrar, M. Zaeem Baig, Shahir Ul Islam Anzal, Abdul Basit Memon<br>
 **Published:** 2026-06-28<br>
@@ -7758,7 +7737,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-29097"></a>
 
-### TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation **FRESH · 50d**
+### TrafficAlign: Aligning Large Language Models for Traffic Scenario Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhi Tu, Liangkun Niu, Tianyi Zhang<br>
 **Published:** 2026-06-27<br>
@@ -7768,7 +7747,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27644"></a>
 
-### CascadeOcc: Rethinking 3D Occupancy World Models with Cascaded VQ Representations **FRESH · 52d**
+### CascadeOcc: Rethinking 3D Occupancy World Models with Cascaded VQ Representations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kyumin Hwang, Wonhyeok Choi, Jaeyeul Kim, Jihun Park, Daehee Park, et al.<br>
 **Published:** 2026-06-25<br>
@@ -7778,7 +7757,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27504"></a>
 
-### ReWorld: Learning Better Representations for World Action Models **FRESH · 52d**
+### ReWorld: Learning Better Representations for World Action Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianze Xia, Lijun Zhou, Kaixin Xiong, Jingfeng Yao, Yu Zhu, et al.<br>
 **Published:** 2026-06-25<br>
@@ -7788,7 +7767,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-27656"></a>
 
-### Characterizing Driver Interactions with Autonomous Vehicles via Response Maps **FRESH · 52d**
+### Characterizing Driver Interactions with Autonomous Vehicles via Response Maps ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dave Broaddus, Rachel DiPirro, Chishang, Yang, Dan Calderone, et al.<br>
 **Published:** 2026-06-25<br>
@@ -7798,7 +7777,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-26017"></a>
 
-### G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance **FRESH · 53d**
+### G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hang Yu, Ye Jin, Alessandro Canevaro, Julian Schmidt, Julian Jordan, et al.<br>
 **Published:** 2026-06-24<br>
@@ -7808,7 +7787,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25509"></a>
 
-### ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving **FRESH · 53d**
+### ASSCG: Just-Right Gating over Chattering for Fast-Slow LLM Planning in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Sining Ang, Yuan Chen, Liu Haiyan, Xuanyao Mao, Jason Bao, et al.<br>
 **Published:** 2026-06-24<br>
@@ -7818,7 +7797,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-25711"></a>
 
-### Distributed SDN-Based Communication Architecture for the Pods4Rail System **FRESH · 53d**
+### Distributed SDN-Based Communication Architecture for the Pods4Rail System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Dingyang Liu, Dereje Mechal Molla, Léo Mendiboure, Marion Berbineau<br>
 **Published:** 2026-06-24<br>
@@ -7828,7 +7807,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24301"></a>
 
-### MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving **FRESH · 54d**
+### MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongli Xiao, Youjian Zhang, Yucai Bai, Chaoyue Wang, Yaohui Jin, et al.<br>
 **Published:** 2026-06-23<br>
@@ -7838,7 +7817,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24257"></a>
 
-### 3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis **FRESH · 54d**
+### 3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hongli Xiao, Youjian Zhang, Yaohui Jin, Xiaoguang Ren, Wenjing Yang, et al.<br>
 **Published:** 2026-06-23<br>
@@ -7848,7 +7827,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-24546"></a>
 
-### Explaining Failures of Cyber-Physical Systems with Actual Causality **FRESH · 54d**
+### Explaining Failures of Cyber-Physical Systems with Actual Causality ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Khen Elimelech, Tom Yaacov, David A. Kelly, Hana Chockler, Moshe Y. Vardi<br>
 **Published:** 2026-06-23<br>
@@ -7858,7 +7837,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-23046"></a>
 
-### UECP: Uncertainty-Enhanced Collaborative Perception **FRESH · 55d**
+### UECP: Uncertainty-Enhanced Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kang Yang, Tianci Bu, Peng Wang, Deying Li, Wen Jie, et al.<br>
 **Published:** 2026-06-22<br>
@@ -7868,7 +7847,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2607-00027"></a>
 
-### Urban Deceleration Behavior Modes Under Scene Context: An Early-Kinematic Classifier from Argoverse 2 Multi-Agent Trajectories **FRESH · 56d**
+### Urban Deceleration Behavior Modes Under Scene Context: An Early-Kinematic Classifier from Argoverse 2 Multi-Agent Trajectories ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Eni Solomon Laughter<br>
 **Published:** 2026-06-21<br>
@@ -7878,7 +7857,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-22617"></a>
 
-### OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs **FRESH · 56d**
+### OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Hao Vo, Phu Loc Nguyen, Khoa Vo, Sieu Tran, Duc Minh Nguyen, et al.<br>
 **Published:** 2026-06-21<br>
@@ -7888,7 +7867,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21993"></a>
 
-### From Driving Videos to Simulatable Scenarios **FRESH · 57d**
+### From Driving Videos to Simulatable Scenarios ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Alexandre Levy, Ernest Valveny Llobet, Antonio Manuel López<br>
 **Published:** 2026-06-20<br>
@@ -7898,7 +7877,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21270"></a>
 
-### Non-line-of-sight imaging with arbitrary relay surface geometries via 3D Gaussian Transient Rendering **FRESH · 58d**
+### Non-line-of-sight imaging with arbitrary relay surface geometries via 3D Gaussian Transient Rendering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yi Wang, Ziyu Zhan, Yuran Wang, Hao Wang, Qiang Liu, et al.<br>
 **Published:** 2026-06-19<br>
@@ -7908,7 +7887,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-21172"></a>
 
-### BadDreamer: Transferable Backdoor Attacks against Video World Models for Autonomous Driving **FRESH · 58d**
+### BadDreamer: Transferable Backdoor Attacks against Video World Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhe Shuai, Xiaopeng Xie, Yikun Zeng<br>
 **Published:** 2026-06-19<br>
@@ -7918,7 +7897,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-20764"></a>
 
-### One Image is All You Need: Agentic One-Shot Image Generation via Text-Based World Models for Long-Tail Spatial Perception **FRESH · 59d**
+### One Image is All You Need: Agentic One-Shot Image Generation via Text-Based World Models for Long-Tail Spatial Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Keqin Zeng, Shuting Su, Shihao Lin, Ziyue Li, Rui Zhao<br>
 **Published:** 2026-06-18<br>
@@ -7928,7 +7907,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-19267"></a>
 
-### A Mixed-Reality Testbed for Autonomous Vehicles **FRESH · 60d**
+### A Mixed-Reality Testbed for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** H. M. Sabbir Ahmad, Ehsan Sabouni, Emrullah Celik, Zean Wan, Damola Ajeyemi, et al.<br>
 **Published:** 2026-06-17<br>
@@ -7938,7 +7917,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17536"></a>
 
-### OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation **FRESH · 61d**
+### OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zijie Meng, Yufei Liu, Chengqian Ma, Zhiyu Li, Jiyuan Liu, et al.<br>
 **Published:** 2026-06-16<br>
@@ -7948,7 +7927,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17049"></a>
 
-### BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering **FRESH · 62d**
+### BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yi-Ruei Liu, Jie-Ying Lee, Zheng-Hui Huang, Yu-Lun Liu, Chih-Hao Lin<br>
 **Published:** 2026-06-15<br>
@@ -7958,7 +7937,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17030"></a>
 
-### Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation **FRESH · 62d**
+### Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jie Zhang, Xiaoyue Chen, Anzhe Chen, Dayiheng Liu, Deqing Li, et al.<br>
 **Published:** 2026-06-15<br>
@@ -7968,7 +7947,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16960"></a>
 
-### SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving **FRESH · 62d**
+### SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shuai Yuan, Runxi Tang, Yuzhou Ji, Fudong Ge, Hanshi Wang, et al.<br>
 **Published:** 2026-06-15<br>
@@ -7978,7 +7957,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16354"></a>
 
-### GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving **FRESH · 62d**
+### GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziying Song, Caiyan Jia, Lin Liu, Shaoqing Xu, Lei Yang, et al.<br>
 **Published:** 2026-06-15<br>
@@ -7988,7 +7967,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-17451"></a>
 
-### Credibility-Weighted Pricing of Autonomous Vehicle Liability Under Operational Design Domain Shift **FRESH · 62d**
+### Credibility-Weighted Pricing of Autonomous Vehicle Liability Under Operational Design Domain Shift ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Doyeon Jang<br>
 **Published:** 2026-06-15<br>
@@ -7998,7 +7977,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16735"></a>
 
-### Pride and Prejudice: Toward an Information-Theoretic Framework for Mutually Communicative Driver Behavior Modeling **FRESH · 62d**
+### Pride and Prejudice: Toward an Information-Theoretic Framework for Mutually Communicative Driver Behavior Modeling ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tingjun Li, Nan Xu, Shuo Feng, Hassan Askari, Bruno Henrique Groenner Barbosa, et al.<br>
 **Published:** 2026-06-15<br>
@@ -8008,7 +7987,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-16374"></a>
 
-### Transient-Safe Platooning via Dynamic Headway **FRESH · 62d**
+### Transient-Safe Platooning via Dynamic Headway ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gal Barkai, J Ér Émie Kreiss, Vineeth S Varma, Irinel-Constantin Morarescu<br>
 **Published:** 2026-06-15<br>
@@ -8018,7 +7997,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15341"></a>
 
-### CausalDrive: Real-time Causal World Models for Autonomous Driving **FRESH · 64d**
+### CausalDrive: Real-time Causal World Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Yan, Huan Zheng, Dubing Chen, Meizhi Qu, Yingying Shen, et al.<br>
 **Published:** 2026-06-13<br>
@@ -8028,7 +8007,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-15522"></a>
 
-### NIMO: A Software Platform for Closed-Loop Materials Exploration with Diverse AI Algorithms **FRESH · 64d**
+### NIMO: A Software Platform for Closed-Loop Materials Exploration with Diverse AI Algorithms ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ryo Tamura, Naruki Yoshikawa, Koji Tsuda, Shoichi Matsuda<br>
 **Published:** 2026-06-13<br>
@@ -8038,7 +8017,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13951"></a>
 
-### Accuracy of Joint Time-Based and Carrier-Phase Positioning in 5G Networks under Correlated Measurement Errors **FRESH · 66d**
+### Accuracy of Joint Time-Based and Carrier-Phase Positioning in 5G Networks under Correlated Measurement Errors ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Nahidul Islam, Mohammad Razzaghpour, Marwan Hammouda, Carsten Bockelmann, Armin Dekorsy<br>
 **Published:** 2026-06-11<br>
@@ -8048,7 +8027,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13840"></a>
 
-### Multi-Agent Embodied Autonomous Driving: From V2X Information Exchange to Shared World Models **FRESH · 66d**
+### Multi-Agent Embodied Autonomous Driving: From V2X Information Exchange to Shared World Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Senkang Hu, Zhengru Fang, Yihang Tao, Zihan Fang, Yiqin Deng, et al.<br>
 **Published:** 2026-06-11<br>
@@ -8058,7 +8037,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13460"></a>
 
-### VISA: VLM-Guided Instance Semantic Auditing for 3D Occupancy World Models **FRESH · 66d**
+### VISA: VLM-Guided Instance Semantic Auditing for 3D Occupancy World Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruiqi Xian, Yuehan Xian, Jing Liang, Xuewei Qi, Dinesh Manocha<br>
 **Published:** 2026-06-11<br>
@@ -8068,7 +8047,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-13899"></a>
 
-### ARTSN: Exact and Adaptive Self-triggered Traffic Scheduling for ARTS Networks **FRESH · 66d**
+### ARTSN: Exact and Adaptive Self-triggered Traffic Scheduling for ARTS Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruide Cao, Shuangping Zhan, Jiashuo Lin, Yan Liu, Chenxi Ling, et al.<br>
 **Published:** 2026-06-11<br>
@@ -8078,7 +8057,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12236"></a>
 
-### DrivingAgent: Design and Scheduling Agents for Autonomous Driving Systems **FRESH · 67d**
+### DrivingAgent: Design and Scheduling Agents for Autonomous Driving Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhongyu Xia, Wenhao Chen, Yongtao Wang, Ming-Hsuan Yang<br>
 **Published:** 2026-06-10<br>
@@ -8088,7 +8067,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11989"></a>
 
-### From Nominal Intensity to Equivalent Rainfall: A Path-Based Credibility Evaluation Framework for Simulated Rainfall in Autonomous-Driving Perception Tests **FRESH · 67d**
+### From Nominal Intensity to Equivalent Rainfall: A Path-Based Credibility Evaluation Framework for Simulated Rainfall in Autonomous-Driving Perception Tests ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tian Xia, Xin Zhao, Shaolingfeng Ye, Junyi Chen<br>
 **Published:** 2026-06-10<br>
@@ -8098,7 +8077,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11874"></a>
 
-### AutoMine Solution for AV2 2026 Scenario Mining Challenge **FRESH · 67d**
+### AutoMine Solution for AV2 2026 Scenario Mining Challenge ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Songliang Cao, Jiele Zhao, Yuru Wang, Hao Li, Daqi Liu, et al.<br>
 **Published:** 2026-06-10<br>
@@ -8108,7 +8087,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11839"></a>
 
-### Systematic Cybersecurity Risk Analysis of European Rail Traffic Management System **FRESH · 67d**
+### Systematic Cybersecurity Risk Analysis of European Rail Traffic Management System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kacper Darowski, Sebastian N. Peters, Lukas Lautenschlager<br>
 **Published:** 2026-06-10<br>
@@ -8118,7 +8097,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-12614"></a>
 
-### DARRMS -- An Efficient Algorithm for Dynamic Attention Radius in Resource-Constrained Multi-Agent Systems **FRESH · 67d**
+### DARRMS -- An Efficient Algorithm for Dynamic Attention Radius in Resource-Constrained Multi-Agent Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Benjamin Alcorn, Eman Hammad<br>
 **Published:** 2026-06-10<br>
@@ -8128,7 +8107,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-11569"></a>
 
-### ConsistencyPlanner: Real-time Planning with Fast-Sampling Consistency Models **FRESH · 68d**
+### ConsistencyPlanner: Real-time Planning with Fast-Sampling Consistency Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qichao Zhang, Xing Fang, Jiaqi Fang, Zhenwen Cai, Jie Ling, et al.<br>
 **Published:** 2026-06-09<br>
@@ -8138,7 +8117,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10688"></a>
 
-### Self-Supervised Relevance Modelling in Autonomous Driving via Counterfactual Analysis **FRESH · 68d**
+### Self-Supervised Relevance Modelling in Autonomous Driving via Counterfactual Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca Lusvarghi, Javier Gozalvez, Pablo Urbano Hidalgo<br>
 **Published:** 2026-06-09<br>
@@ -8148,7 +8127,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10997"></a>
 
-### A Companion App for an Autonomous Family Vehicle: Identification of Values for an Autonomous Mobility System **FRESH · 68d**
+### A Companion App for an Autonomous Family Vehicle: Identification of Values for an Autonomous Mobility System ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Leon Johann Brettin, Tobias Schräder, Kerstin Kuhlmann, Vanessa Schmidt, Markus Maurer<br>
 **Published:** 2026-06-09<br>
@@ -8158,7 +8137,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-10774"></a>
 
-### Asynchronous Decentralized Federated Learning over Lossy Wireless Links via Reception- and Age-Aware Aggregation **FRESH · 68d**
+### Asynchronous Decentralized Federated Learning over Lossy Wireless Links via Reception- and Age-Aware Aggregation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chanuka A. S. Hewa Kaluannakkage, Rajkumar Buyya<br>
 **Published:** 2026-06-09<br>
@@ -8168,7 +8147,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09362"></a>
 
-### Zero-Shot Semantic Re-Identification for Autonomous Driving: A VLM Baseline Study **FRESH · 69d**
+### Zero-Shot Semantic Re-Identification for Autonomous Driving: A VLM Baseline Study ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Eduardo Borges, Manuel Abreu, Luís Garrote, Urbano J. Nunes<br>
 **Published:** 2026-06-08<br>
@@ -8178,7 +8157,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-09273"></a>
 
-### EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models **FRESH · 69d**
+### EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Fatima Balde, Raoul de Charette, Alexandre Boulch<br>
 **Published:** 2026-06-08<br>
@@ -8188,7 +8167,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-08197"></a>
 
-### AlignFed: Alignment-Aware Asynchronous Federated Fine-Tuning for Large Language Models in Heterogeneous Edge Environments **FRESH · 71d**
+### AlignFed: Alignment-Aware Asynchronous Federated Fine-Tuning for Large Language Models in Heterogeneous Edge Environments ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yan Wang, Ziyi Gao, Rui Wang<br>
 **Published:** 2026-06-06<br>
@@ -8198,7 +8177,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-06396"></a>
 
-### Risk Assessment of Autonomous Driving: Integrating Technical Failures, Ethical Dilemmas, and Policy Frameworks **FRESH · 73d**
+### Risk Assessment of Autonomous Driving: Integrating Technical Failures, Ethical Dilemmas, and Policy Frameworks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Boyi Chen, Shengqin Chu, Zicheng Wang, Brian Baetz, Zhen Gao<br>
 **Published:** 2026-06-04<br>
@@ -8208,7 +8187,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-05774"></a>
 
-### LiAuto-GeoX: Efficient Grounded Driving Transformer **FRESH · 73d**
+### LiAuto-GeoX: Efficient Grounded Driving Transformer ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiawei Lian, Haoyi Sun, Yang Wu, Lifu Mu, Siyuan Wang, et al.<br>
 **Published:** 2026-06-04<br>
@@ -8218,7 +8197,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-05677"></a>
 
-### LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video **FRESH · 73d**
+### LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Shiqiang Lang, Jing Liu, Haoyang He, Peiwen Sun, Yuanteng Chen, et al.<br>
 **Published:** 2026-06-04<br>
@@ -8228,7 +8207,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-07657"></a>
 
-### QDS-SNN: Energy-efficient Quantum Deeply-Supervised Spiking Neural Network Algorithm for Traffic Sign Recognition **FRESH · 74d**
+### QDS-SNN: Energy-efficient Quantum Deeply-Supervised Spiking Neural Network Algorithm for Traffic Sign Recognition ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhiguo Qu, Keqi Li, Le Sun, Wenjie Liu, Yimin Yu, et al.<br>
 **Published:** 2026-06-03<br>
@@ -8238,7 +8217,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04513"></a>
 
-### MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation **FRESH · 74d**
+### MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Deguo Xia, Zihan Li, Haochen Zhao, Dong Xie, Yuyao Kong, et al.<br>
 **Published:** 2026-06-03<br>
@@ -8248,7 +8227,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-04437"></a>
 
-### INTACT: Ego-Guided Typed Sparse Evidence Retrieval for Heterogeneous Collaborative Perception **FRESH · 74d**
+### INTACT: Ego-Guided Typed Sparse Evidence Retrieval for Heterogeneous Collaborative Perception ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chen Li, Shengrong Yuan, Jialong Zuo, Xinzhong Zhu, Nong Sang, et al.<br>
 **Published:** 2026-06-03<br>
@@ -8258,7 +8237,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03314"></a>
 
-### TASE: Truncation-Aware Semantic Embeddings for 3D Scene Understanding and Editing **FRESH · 75d**
+### TASE: Truncation-Aware Semantic Embeddings for 3D Scene Understanding and Editing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tim-Felix Faasch, Jochen Kall, Lucas Nunes, Jens Behley, Cyrill Stachniss<br>
 **Published:** 2026-06-02<br>
@@ -8268,7 +8247,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03296"></a>
 
-### Bridging Predictive Uncertainty and Safe Action: Sample-Conditioned Differentiable Planning for Autonomous Driving **FRESH · 75d**
+### Bridging Predictive Uncertainty and Safe Action: Sample-Conditioned Differentiable Planning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chengzhen Meng, Pei Liu, Zhiyu Huang, Chen Lv, Jun Ma<br>
 **Published:** 2026-06-02<br>
@@ -8278,7 +8257,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03755"></a>
 
-### LAP: An Agent-to-Instrument Protocol for Autonomous Science **FRESH · 75d**
+### LAP: An Agent-to-Instrument Protocol for Autonomous Science ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Linwu Zhu, Liqiang Gao, Yan Chen, Dan Zhu, Jian Huang<br>
 **Published:** 2026-06-02<br>
@@ -8288,7 +8267,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-03662"></a>
 
-### Agentic Generation and Evolution of Knowledge Models **FRESH · 75d**
+### Agentic Generation and Evolution of Knowledge Models ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Man Zhang, Tao Yue, Nazareno M. Aguirre, Diego Garbervetsky, Sebastian Uchitel<br>
 **Published:** 2026-06-02<br>
@@ -8298,7 +8277,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02482"></a>
 
-### X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding **FRESH · 76d**
+### X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Peiwen Sun, Xudong Lu, Huadai Liu, Yang Bo, Dongming Wu, et al.<br>
 **Published:** 2026-06-01<br>
@@ -8308,7 +8287,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01935"></a>
 
-### Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models and Planning **FRESH · 76d**
+### Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models and Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ziyang Yao, Zeyu Zhu, YunCheng Jiang, Zibin Guo, Huijing Zhao<br>
 **Published:** 2026-06-01<br>
@@ -8318,7 +8297,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01818"></a>
 
-### Unsupervised Collaborative Domain Adaptation for Driving Scene Parsing **FRESH · 76d**
+### Unsupervised Collaborative Domain Adaptation for Driving Scene Parsing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jiahe Fan, Shaolong Shu, Mingjian Sun, Tiehua Zhang, Bohong Xiao, et al.<br>
 **Published:** 2026-06-01<br>
@@ -8328,7 +8307,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-02641"></a>
 
-### CARVE: Certified Affordable Repair of Vetoed Maneuvers via Envelopes for Interactive Driving **FRESH · 77d**
+### CARVE: Certified Affordable Repair of Vetoed Maneuvers via Envelopes for Interactive Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yifan Wang<br>
 **Published:** 2026-05-31<br>
@@ -8338,7 +8317,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-01312"></a>
 
-### A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks **FRESH · 77d**
+### A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Kiran Khurshid, Shumaila Javaid, Nasir Saeed<br>
 **Published:** 2026-05-31<br>
@@ -8348,7 +8327,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2606-00519"></a>
 
-### DriveAnchor: Progressive Anchor-based Flow Learning for Autonomous Driving Planning **FRESH · 78d**
+### DriveAnchor: Progressive Anchor-based Flow Learning for Autonomous Driving Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Limin Yan, Haoyun Tang, Yutao Qiu, Hongqing Liu, Haoyu Xu<br>
 **Published:** 2026-05-30<br>
@@ -8358,7 +8337,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30983"></a>
 
-### Can BEV Perception Gracefully Degrade under Sensor Failures? **FRESH · 79d**
+### Can BEV Perception Gracefully Degrade under Sensor Failures? ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haifa Zhang, Yijing Wang, Haoyu Wang, Zheng Li, Zhiqiang Zuo<br>
 **Published:** 2026-05-29<br>
@@ -8368,7 +8347,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29935"></a>
 
-### CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving **FRESH · 80d**
+### CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zezhong Qian, Zhao Yang, Lu Tan, Zhihao Yan, Weiyi Hong, et al.<br>
 **Published:** 2026-05-28<br>
@@ -8378,7 +8357,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29471"></a>
 
-### V2VCrafter: Consistent Street-View Image Generation Across Vehicles **FRESH · 80d**
+### V2VCrafter: Consistent Street-View Image Generation Across Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yihang Tao, Yu Guo, Senkang Hu, Yanan Ma, Zihan Fang, et al.<br>
 **Published:** 2026-05-28<br>
@@ -8388,7 +8367,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-30571"></a>
 
-### Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode **FRESH · 80d**
+### Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Josef Chen<br>
 **Published:** 2026-05-28<br>
@@ -8398,7 +8377,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-29518"></a>
 
-### Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions **FRESH · 80d**
+### Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Rudolf Krecht, Tamas Budai, Erno Horvath, Akos Kovacs, Nobert Marko, et al.<br>
 **Published:** 2026-05-28<br>
@@ -8408,7 +8387,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-28587"></a>
 
-### Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation **FRESH · 81d**
+### Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yang Gao, Wuyang Li, Po-Chien Luan, Alexandre Alahi<br>
 **Published:** 2026-05-27<br>
@@ -8418,7 +8397,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-26155"></a>
 
-### When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability **FRESH · 84d**
+### When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mehmet Haklidir<br>
 **Published:** 2026-05-24<br>
@@ -8428,7 +8407,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25393"></a>
 
-### Decision-Making with Lightweight Confidence-Aware Language Model for Autonomous Driving **FRESH · 84d**
+### Decision-Making with Lightweight Confidence-Aware Language Model for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ruoyu Yao, Ruiguo Zhong, Pei Liu, Mingxing Peng, Rui Yang, et al.<br>
 **Published:** 2026-05-24<br>
@@ -8438,7 +8417,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25373"></a>
 
-### Physics-Aware 3D Gaussian Editing for Driving Scene Generation **FRESH · 84d**
+### Physics-Aware 3D Gaussian Editing for Driving Scene Generation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Feng Zhou, Jian Zhang, Yuhang Sun, He Wang, Qiong Wen, et al.<br>
 **Published:** 2026-05-24<br>
@@ -8448,7 +8427,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-25308"></a>
 
-### Stabilizing Streaming Video Geometry via Dynamic Feature Normalization **FRESH · 84d**
+### Stabilizing Streaming Video Geometry via Dynamic Feature Normalization ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xiaoyang Lyu, Muxin Liu, Xiaoshan Wu, Ruicheng Wang, Yi-Hua Huang, et al.<br>
 **Published:** 2026-05-24<br>
@@ -8458,7 +8437,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23630"></a>
 
-### To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems **FRESH · 86d**
+### To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Xingzhen Chen, Shixin Ji, Zheng Dong, Peipei Zhou<br>
 **Published:** 2026-05-22<br>
@@ -8468,7 +8447,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-23782"></a>
 
-### Routing Equilibrium in Mixed-Autonomy Traffic Networks with Altruistic Autonomous Agents **FRESH · 86d**
+### Routing Equilibrium in Mixed-Autonomy Traffic Networks with Altruistic Autonomous Agents ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lihui Yi, Ermin Wei<br>
 **Published:** 2026-05-22<br>
@@ -8478,7 +8457,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21446"></a>
 
-### Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs **FRESH · 88d**
+### Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Abhinaw Priyadershi, Jelena Frtunikj<br>
 **Published:** 2026-05-20<br>
@@ -8488,7 +8467,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-21820"></a>
 
-### Beyond Scalar Objectives: Expert-Feedback-Driven Autonomous Experimentation for Scientific Discovery at the Nanoscale **FRESH · 88d**
+### Beyond Scalar Objectives: Expert-Feedback-Driven Autonomous Experimentation for Scientific Discovery at the Nanoscale ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ralph Bulanadi, Jefferey Baxter, Arpan Biswas, Hiroshi Funakubo, Dennis Meier, et al.<br>
 **Published:** 2026-05-20<br>
@@ -8498,7 +8477,7 @@ All 900 papers remain in this README. For full-text search, filters, and sorting
 
 <a id="paper-2605-19824"></a>
 
-### From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning **FRESH · 89d**
+### From Prompts to Pavement Through Time: Temporal Grounding in Agentic Scene-to-Plan Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ahmed Y. Gado, Omar Y. Goba, Alaa Hassanein, Catherine M. Elias, Ahmed Hussein<br>
 **Published:** 2026-05-19<br>

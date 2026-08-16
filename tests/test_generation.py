@@ -35,10 +35,21 @@ class GenerationTests(unittest.TestCase):
 
         self.assertEqual(readme.count("[↑ BackToTop](#browse-by-topic)"), 3)
         self.assertEqual(readme.count('<a id="paper-'), 3)
-        self.assertIn("## Latest additions", readme)
+        self.assertNotIn("Latest additions", readme)
+        self.assertIn("# 🚗 AlphaAD · Autonomous Driving Research", readme)
         self.assertIn("## Browse by topic", readme)
         self.assertIn(PAGES_URL, readme)
         self.assertIn(REPOSITORY_URL, readme)
+
+    def test_readme_recency_badges_are_preserved(self):
+        self.assertIn("![New]", paper("new", "New", "General", 2).get_recency_badge())
+        self.assertIn(
+            "![Recent]", paper("recent", "Recent", "General", 20).get_recency_badge()
+        )
+        self.assertIn(
+            "![Fresh]", paper("fresh", "Fresh", "General", 60).get_recency_badge()
+        )
+        self.assertEqual(paper("archive", "Archive", "General", 120).get_recency_badge(), "")
 
     def test_payload_is_sorted_and_matches_category_counts(self):
         payload = self.scraper.build_data_payload()

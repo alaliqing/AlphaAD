@@ -35,7 +35,6 @@ HTML_MAX_PAGES = 10
 REPOSITORY_URL = "https://github.com/alaliqing/AlphaAD"
 PAGES_URL = "https://alaliqing.github.io/AlphaAD/"
 DATA_WINDOW_DAYS = 180
-LATEST_PAPERS_COUNT = 12
 CATEGORY_ORDER = [
     "Perception",
     "Planning",
@@ -116,9 +115,15 @@ class ArXivPaper:
         return self.abstract[:length].rsplit(' ', 1)[0] + "..."
 
     def get_recency_badge(self) -> str:
-        """Get an accessible text label indicating paper recency."""
-        label = self.get_recency_label()
-        return f"**{label}**" if label else ""
+        """Get the visual recency badge shown beside README paper titles."""
+        days_old = self.get_age_days()
+        if days_old <= 7:
+            return "![New](https://img.shields.io/badge/New-red)"
+        if days_old <= 30:
+            return "![Recent](https://img.shields.io/badge/Recent-orange)"
+        if days_old <= 90:
+            return "![Fresh](https://img.shields.io/badge/Fresh-yellow)"
+        return ""
 
     def get_age_days(self) -> int:
         """Return the paper age in whole days, clamped at zero."""
@@ -531,7 +536,6 @@ class ArXivScraper:
         categories = self.categorize_papers()
         ordered_categories = self._ordered_categories(categories)
         content = self._build_readme_header()
-        content += self._build_latest_additions()
         content += self._build_category_navigation(ordered_categories)
         for category, papers in ordered_categories:
             content += self._build_category_section(category, papers)
@@ -614,7 +618,7 @@ class ArXivScraper:
         """Build the README header."""
         return f"""<div align="center">
 
-# AlphaAD · Autonomous Driving Research
+# 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Last Update](https://img.shields.io/badge/Last%20Updated-{datetime.now().strftime('%Y--%m--%d')}-blue)
@@ -626,25 +630,11 @@ Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAY
 
 <p><a href="{PAGES_URL}"><strong>Explore the interactive research index →</strong></a></p>
 
-[Latest additions](#latest-additions) · [Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
+[Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
 
 </div>
 
 """
-
-    def _build_latest_additions(self) -> str:
-        """Build compact links to the newest papers across every category."""
-        newest = sorted(self.papers, key=lambda paper: paper.published, reverse=True)
-        content = "<a id=\"latest-additions\"></a>\n\n## Latest additions\n\n"
-        content += "The newest papers across every topic. Titles jump to their full entry.\n\n"
-        content += "| Published | Paper | Topic |\n|:--|:--|:--|\n"
-        for paper in newest[:LATEST_PAPERS_COUNT]:
-            title = self._markdown_text(paper.title)
-            content += (
-                f"| {paper.published[:10]} | [{title}](#{self._paper_anchor(paper)}) "
-                f"| {paper.category} |\n"
-            )
-        return content + "\n"
 
     def _build_category_navigation(self, ordered_categories) -> str:
         """Combine statistics and navigation into one useful section."""
