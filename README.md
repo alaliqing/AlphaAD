@@ -3,8 +3,8 @@
 # 🚗 Autonomous Driving Research Papers
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--15-blue)
-![Total Papers](https://img.shields.io/badge/Papers-903-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--16-blue)
+![Total Papers](https://img.shields.io/badge/Papers-900-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 > A curated collection of the latest research papers on autonomous driving from arXiv
@@ -42,12 +42,12 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 | Category | Paper Count |
 |----------|-------------|
 | Control | 87 |
-| Dataset & Benchmark | 34 |
+| Dataset & Benchmark | 33 |
 | End-to-End Learning | 70 |
 | General | 209 |
 | Mapping & Localization | 21 |
-| Perception | 230 |
-| Planning | 63 |
+| Perception | 229 |
+| Planning | 62 |
 | Prediction | 44 |
 | Safety & Verification | 110 |
 | Simulation | 35 |
@@ -89,7 +89,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Scalable High-Speed Lateral Control for Single-Body and Articulated Autonomous Vehicles ![New](https://img.shields.io/badge/New-red)
+### Scalable High-Speed Lateral Control for Single-Body and Articulated Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Aashish Shaju, Steve Southward, Mehdi Ahmadian  
 **Published:** 2026-08-08  
@@ -219,7 +219,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### A Model Predictive Control Framework for Assisted Vehicle Drifting ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Model Predictive Control Framework for Assisted Vehicle Drifting ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Marco Cortese, Antonio Gallina, Matteo Grandin, Giovanni Righetti, Mattia Bruschetta, et al.  
 **Published:** 2026-07-16  
@@ -1271,16 +1271,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### ScenicRules: An Autonomous Driving Benchmark with Multi-Objective Specifications and Abstract Scenarios
-
-**Authors:** Kevin Kai-Chun Chang, Ekin Beyazit, Alberto Sangiovanni-Vincentelli, Tichakorn Wongpiromsarn, Sanjit A. Seshia  
-**Published:** 2026-02-17  
-**Links:** [arXiv](https://arxiv.org/abs/2602.16073) | [PDF](https://arxiv.org/pdf/2602.16073.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Developing autonomous driving systems for complex traffic environments requires balancing multiple objectives, such as avoiding collisions, obeying traffic rules, and making efficient progress. In...
-
----
-
 ## End-to-End Learning
 
 ### Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards ![New](https://img.shields.io/badge/New-red)
@@ -2015,7 +2005,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Decentralized Multi-Agent Urban Traffic Management via Spatio-Temporal Mobility Profile Planning ![New](https://img.shields.io/badge/New-red)
+### Decentralized Multi-Agent Urban Traffic Management via Spatio-Temporal Mobility Profile Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Lorenzo Mario Amorosa, Lorenzo Farina, Vittorio Todisco, Alessandro Bazzi  
 **Published:** 2026-08-08  
@@ -2375,7 +2365,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### WorkDrive: Roadwork Chain of Causation for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### WorkDrive: Roadwork Chain of Causation for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang  
 **Published:** 2026-07-16  
@@ -2385,7 +2375,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy ![Recent](https://img.shields.io/badge/Recent-orange)
+### MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mainak Mondal, Yihang Feng, Yangchao Luo, Song Han  
 **Published:** 2026-07-16  
@@ -3465,7 +3455,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Empowering Embodied AI in 6G Networks: Architecture, Enablers, and Open Challenges ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Empowering Embodied AI in 6G Networks: Architecture, Enablers, and Open Challenges
 
 **Authors:** Junaid Sajid, Sheikh Salman Hassan, Wenshuai Liu, Yan Kyaw Tun, Yaru Fu, et al.  
 **Published:** 2026-05-17  
@@ -4147,7 +4137,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### RoGS: Adaptive Meshgrid Gaussian for Large-Scale Road Surface Mapping ![Recent](https://img.shields.io/badge/Recent-orange)
+### RoGS: Adaptive Meshgrid Gaussian for Large-Scale Road Surface Mapping ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianchen Deng, Zhiheng Feng, Wenhua Wu, Ziming Li, Siting Zhu, et al.  
 **Published:** 2026-07-16  
@@ -4779,7 +4769,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Variational Inference for Bird's Eye View Segmentation in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Variational Inference for Bird's Eye View Segmentation in Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jingyue Shi, Huaicheng Li, Junhui Zhao, Yanxiang Jiang  
 **Published:** 2026-07-16  
@@ -6579,16 +6569,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Peeking Ahead of the Field Study: Exploring VLM Personas as Support Tools for Embodied Studies in HCI
-
-**Authors:** Xinyue Gui, Ding Xia, Mark Colley, Yuan Li, Vishal Chauhan, et al.  
-**Published:** 2026-02-17  
-**Links:** [arXiv](https://arxiv.org/abs/2602.16157) | [PDF](https://arxiv.org/pdf/2602.16157.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Field studies are irreplaceable but costly, time-consuming, and error-prone, which need careful preparation. Inspired by rapid-prototyping in manufacturing, we propose a fast, low-cost evaluation...
-
----
-
 ## Planning
 
 ### Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model ![Recent](https://img.shields.io/badge/Recent-orange)
@@ -6651,7 +6631,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Trajectory-aware Cross-view Geo-localization with Sequential Observations ![Recent](https://img.shields.io/badge/Recent-orange)
+### Trajectory-aware Cross-view Geo-localization with Sequential Observations ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Tianyi Gao, Jiayu Lin, Danielle Beaulieu, Nathan Jacobs  
 **Published:** 2026-07-16  
@@ -7208,16 +7188,6 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 **Links:** [arXiv](https://arxiv.org/abs/2603.01864) | [PDF](https://arxiv.org/pdf/2603.01864.pdf) | [BackToTop](#table-of-contents)  
 
 **Abstract:** Future trajectories of neighboring traffic agents have a significant influence on the path planning and decision-making of autonomous
-
----
-
-### The Impact of Class Uncertainty Propagation in Perception-Based Motion Planning
-
-**Authors:** Jibran Iqbal Shah, Andrei Ivanovic, Kelly Zhu, Masha Itkina, Rowan McAllister, et al.  
-**Published:** 2026-02-17  
-**Links:** [arXiv](https://arxiv.org/abs/2602.16035) | [PDF](https://arxiv.org/pdf/2602.16035.pdf) | [BackToTop](#table-of-contents)  
-
-**Abstract:** Autonomous
 
 ---
 
@@ -8777,7 +8747,7 @@ Papers are automatically fetched from arXiv and categorized by topic for easy na
 
 ---
 
-### Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities ![New](https://img.shields.io/badge/New-red)
+### Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaohe Li, Yiru Wang, Junhao Fan, Mingyuan Liu, Jie Huang, et al.  
 **Published:** 2026-08-08  
