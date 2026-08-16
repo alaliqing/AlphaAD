@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Search and filter the latest autonomous driving research papers from arXiv.">
+    <meta name="theme-color" content="#efe9dd">
+    <meta property="og:title" content="AlphaAD · Autonomous Driving Research">
+    <meta property="og:description" content="A daily research signal for autonomous driving.">
+    <meta property="og:type" content="website">
+    <title>AlphaAD · Autonomous Driving Research</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to research results</a>
+
+    <div class="page-shell">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="./" aria-label="AlphaAD home">
+          <span class="brand-mark" aria-hidden="true">A/</span>
+          <span class="brand-copy">
+            <strong>AlphaAD</strong>
+            <small>Autonomous driving research</small>
+          </span>
+        </a>
+
+        <nav class="header-actions" aria-label="Project links">
+          <a href="https://github.com/alaliqing/AlphaAD#readme">README</a>
+          <a href="https://github.com/alaliqing/AlphaAD">Repository</a>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Change color theme">
+            Theme: <span id="theme-label">Auto</span>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> arXiv signal / updated daily</p>
+            <h1 id="page-title">
+              <span class="hero-phrase">Find the</span> <span class="hero-phrase">signal</span><br>
+              <em><span class="hero-phrase">in</span> <span class="hero-phrase">autonomous</span> <span class="hero-phrase">driving.</span></em>
+            </h1>
+            <p class="hero-intro">
+              Search a rolling six-month research window across perception, planning,
+              safety, simulation, and the systems that connect them.
+            </p>
+          </div>
+
+          <dl class="signal-board" aria-label="Research index summary">
+            <div>
+              <dt>Indexed papers</dt>
+              <dd id="total-papers">—</dd>
+            </div>
+            <div>
+              <dt>Added in 7 days</dt>
+              <dd id="new-papers">—</dd>
+            </div>
+            <div>
+              <dt>Last signal</dt>
+              <dd id="last-updated">—</dd>
+            </div>
+          </dl>
+
+          <form class="search-panel" id="search-form" role="search">
+            <label for="search-input">Search titles, authors, and abstracts</label>
+            <div class="search-field">
+              <span class="search-prefix" aria-hidden="true">QUERY /</span>
+              <input
+                id="search-input"
+                name="q"
+                type="search"
+                autocomplete="off"
+                placeholder="Try “world model”, “trajectory”, or an author…"
+              >
+              <button id="clear-search" type="button" hidden>Clear</button>
+            </div>
+            <p class="search-hint">Press <kbd>/</kbd> to focus · filters stay shareable in the URL</p>
+          </form>
+        </section>
+
+        <section class="filter-deck" aria-label="Research filters">
+          <div class="filter-heading">
+            <p class="section-index">01 / SCOPE</p>
+            <button id="reset-filters" type="button" class="text-button">Reset filters</button>
+          </div>
+
+          <div class="category-scroller" id="category-filters" aria-label="Filter by topic"></div>
+
+          <div class="select-filters">
+            <label>
+              <span>Recency</span>
+              <select id="recency-filter">
+                <option value="all">All 180 days</option>
+                <option value="7">Last 7 days</option>
+                <option value="30">Last 30 days</option>
+                <option value="90">Last 90 days</option>
+              </select>
+            </label>
+            <label>
+              <span>Order</span>
+              <select id="sort-filter">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="title">Title A–Z</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="results-section" id="results" aria-labelledby="results-title">
+          <header class="results-header">
+            <div>
+              <p class="section-index">02 / RESEARCH FEED</p>
+              <h2 id="results-title"><span id="result-count">—</span> papers in view</h2>
+            </div>
+            <p id="result-context" class="result-context" aria-live="polite">Loading the latest signal…</p>
+          </header>
+
+          <div class="paper-list" id="paper-list" aria-busy="true"></div>
+
+          <div class="empty-state" id="empty-state" hidden>
+            <p class="empty-code">NO MATCH / 00</p>
+            <h3>No papers crossed this filter.</h3>
+            <p>Try a broader phrase, another topic, or the full 180-day window.</p>
+            <button id="empty-reset" type="button">Reset the research view</button>
+          </div>
+
+          <button class="load-more" id="load-more" type="button" hidden>
+            Show 24 more papers <span aria-hidden="true">↓</span>
+          </button>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p><strong>AlphaAD</strong> turns a noisy arXiv feed into a navigable research surface.</p>
+        <div>
+          <a href="https://github.com/alaliqing/AlphaAD">Source</a>
+          <a href="https://github.com/alaliqing/AlphaAD/issues">Report an issue</a>
+          <a href="data/papers.json">JSON data</a>
+        </div>
+      </footer>
+    </div>
+
+    <noscript>
+      <p class="noscript">JavaScript is required for search and filtering. The complete paper index remains available in the repository README.</p>
+    </noscript>
+  </body>
+</html>

@@ -1,59 +1,94 @@
-name: Daily ArXiv Papers Update
+name: Update papers and deploy research index
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scrape_arxiv.py
+      - site/**
+      - tests/**
+      - .github/workflows/daily-update.yml
   schedule:
-    # Run daily at 00:00 UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch:  # Allow manual triggering
+    # Run daily at 00:00 UTC.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: alphaad-pages
+  cancel-in-progress: false
 
 jobs:
-  update-papers:
+  update-and-deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Run scraper (with retry)
+      - name: Refresh papers with retry
+        if: github.event_name != 'push'
         run: |
           set +e
           for attempt in 1 2 3; do
-            echo "=== Scraper attempt $attempt/3 ==="
+            echo "Scraper attempt $attempt/3"
             python scrape_arxiv.py
             status=$?
             if [ "$status" -eq 0 ]; then
-              echo "Scraper succeeded on attempt $attempt"
               exit 0
             fi
             if [ "$attempt" -lt 3 ]; then
               sleep_seconds=$((300 * attempt))
-              echo "Attempt $attempt failed (exit $status). Sleeping ${sleep_seconds}s before retry..."
+              echo "Attempt $attempt failed. Retrying in ${sleep_seconds}s."
               sleep "$sleep_seconds"
             fi
           done
-          echo "All scraper attempts failed."
+          echo "All scraper attempts failed; keeping the last published index."
           exit 1
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git diff --quiet README.md || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Verify generated outputs
+        run: python -m unittest discover -s tests
 
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.changed == 'true'
+      - name: Check generated changes
+        if: github.event_name != 'push'
+        id: generated_changes
+        run: |
+          if ! git diff --quiet -- README.md site/data/papers.json; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit refreshed papers
+        if: steps.generated_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "Update papers - $(date +'%Y-%m-%d')"
+          git add README.md site/data/papers.json
+          git commit -m "[update] refresh papers $(date +'%Y-%m-%d')"
           git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload research index
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
