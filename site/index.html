@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Search and filter the latest autonomous driving research papers from arXiv.">
-    <meta name="theme-color" content="#efe9dd">
+    <meta name="theme-color" content="#edf2f4">
     <meta property="og:title" content="AlphaAD · Autonomous Driving Research">
     <meta property="og:description" content="A daily research signal for autonomous driving.">
     <meta property="og:type" content="website">
@@ -12,7 +12,7 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="assets/app.js" defer></script>
   </head>
@@ -40,56 +40,45 @@
 
       <main>
         <section class="hero" aria-labelledby="page-title">
-          <div class="hero-copy">
+          <div class="hero-content">
             <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> arXiv signal / updated daily</p>
-            <h1 id="page-title">
-              <span class="hero-phrase">Find the</span> <span class="hero-phrase">signal</span><br>
-              <em><span class="hero-phrase">in</span> <span class="hero-phrase">autonomous</span> <span class="hero-phrase">driving.</span></em>
-            </h1>
-            <p class="hero-intro">
-              Search a rolling six-month research window across perception, planning,
-              safety, simulation, and the systems that connect them.
-            </p>
+            <h1 id="page-title">Autonomous driving, <span>indexed.</span></h1>
+            <p class="hero-intro">A rolling six-month view of perception, planning, safety, simulation, and the systems connecting them.</p>
           </div>
 
           <dl class="signal-board" aria-label="Research index summary">
             <div>
-              <dt>Indexed papers</dt>
+              <dt>Papers</dt>
               <dd id="total-papers">—</dd>
             </div>
             <div>
-              <dt>Added in 7 days</dt>
+              <dt>Added · 7d</dt>
               <dd id="new-papers">—</dd>
             </div>
             <div>
-              <dt>Last signal</dt>
+              <dt>Updated</dt>
               <dd id="last-updated">—</dd>
             </div>
           </dl>
-
-          <form class="search-panel" id="search-form" role="search">
-            <label for="search-input">Search titles, authors, and abstracts</label>
-            <div class="search-field">
-              <span class="search-prefix" aria-hidden="true">QUERY /</span>
-              <input
-                id="search-input"
-                name="q"
-                type="search"
-                autocomplete="off"
-                placeholder="Try “world model”, “trajectory”, or an author…"
-              >
-              <button id="clear-search" type="button" hidden>Clear</button>
-            </div>
-            <p class="search-hint">Press <kbd>/</kbd> to focus · filters stay shareable in the URL</p>
-          </form>
         </section>
 
-        <section class="filter-deck" aria-label="Research filters">
-          <div class="filter-heading">
-            <p class="section-index">01 / SCOPE</p>
-            <button id="reset-filters" type="button" class="text-button">Reset filters</button>
+        <form class="search-panel" id="search-form" role="search">
+          <label class="sr-only" for="search-input">Search titles, authors, and abstracts</label>
+          <div class="search-field">
+            <span class="search-icon" aria-hidden="true"></span>
+            <input
+              id="search-input"
+              name="q"
+              type="search"
+              autocomplete="off"
+              placeholder="Search titles, authors, or abstracts…"
+            >
+            <button id="clear-search" type="button" hidden>Clear</button>
+            <kbd aria-hidden="true">/</kbd>
           </div>
+        </form>
 
+        <section class="filter-deck" aria-label="Research filters">
           <div class="category-scroller" id="category-filters" aria-label="Filter by topic"></div>
 
           <div class="select-filters">
@@ -110,14 +99,15 @@
                 <option value="title">Title A–Z</option>
               </select>
             </label>
+            <button id="reset-filters" type="button" class="text-button">Reset</button>
           </div>
         </section>
 
         <section class="results-section" id="results" aria-labelledby="results-title">
           <header class="results-header">
             <div>
-              <p class="section-index">02 / RESEARCH FEED</p>
-              <h2 id="results-title"><span id="result-count">—</span> papers in view</h2>
+              <p class="section-index">Research feed</p>
+              <h2 id="results-title"><span id="result-count">—</span> papers</h2>
             </div>
             <p id="result-context" class="result-context" aria-live="polite">Loading the latest signal…</p>
           </header>

@@ -165,6 +165,7 @@ function recencyText(paper) {
 function paperCard(paper, index) {
   const article = createElement("article", "paper-card");
   article.style.animationDelay = `${Math.min(index, 12) * 28}ms`;
+  article.dataset.recency = paper.recency;
 
   const indexBlock = createElement("div", "paper-index", paper.id);
   const date = createElement("time", "paper-date", formatDate(paper.published));
@@ -175,6 +176,9 @@ function paperCard(paper, index) {
   const heading = createElement("h3");
   const title = createElement("a", "", paper.title);
   setExternalLink(title, paper.arxiv_url, `${paper.title} on arXiv`);
+  const titleCue = createElement("span", "title-link-cue", "↗");
+  titleCue.setAttribute("aria-hidden", "true");
+  title.append(titleCue);
   heading.append(title);
 
   const authorNames = paper.authors.filter((author) => author.toLowerCase() !== "et al.");
@@ -196,6 +200,7 @@ function paperCard(paper, index) {
       abstractToggle.setAttribute("aria-expanded", String(!expanded));
       abstractToggle.textContent = expanded ? "Read full abstract +" : "Collapse abstract −";
       abstract.textContent = expanded ? abstractExcerpt : paper.abstract;
+      abstract.classList.toggle("is-expanded", !expanded);
     });
     main.append(abstractToggle);
   }
@@ -212,11 +217,9 @@ function paperCard(paper, index) {
   }
 
   const links = createElement("div", "paper-links");
-  const arxiv = createElement("a", "", "arXiv  ↗");
   const pdf = createElement("a", "", "PDF  ↗");
-  setExternalLink(arxiv, paper.arxiv_url, `Open arXiv abstract for ${paper.title}`);
   setExternalLink(pdf, paper.pdf_url, `Open PDF for ${paper.title}`);
-  links.append(arxiv, pdf);
+  links.append(pdf);
   aside.append(links);
 
   article.append(indexBlock, main, aside);
