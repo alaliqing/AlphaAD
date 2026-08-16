@@ -173,7 +173,14 @@ class StaticSiteContractTests(unittest.TestCase):
         self.assertIn("aria-controls", script)
         self.assertIn("aria-expanded", script)
         self.assertIn("Read full abstract", script)
-        self.assertIn("prefers-reduced-motion", Path("site/assets/styles.css").read_text(encoding="utf-8"))
+        self.assertIn("setExternalLink(title, paper.arxiv_url", script)
+        self.assertNotIn('createElement("a", "", "arXiv', script)
+        styles = Path("site/assets/styles.css").read_text(encoding="utf-8")
+        self.assertNotIn("Newsreader", html)
+        self.assertIn("Autonomous driving, <span>indexed.</span>", html)
+        self.assertIn("width: min(1320px, calc(100% - 48px));", styles)
+        self.assertIn("grid-template-columns: 118px minmax(0, 1fr) 136px;", styles)
+        self.assertIn("prefers-reduced-motion", styles)
 
 
 if __name__ == "__main__":
