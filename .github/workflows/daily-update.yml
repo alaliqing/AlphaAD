@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - qj/alphaad-readme-pages
     paths:
       - README.md
       - scrape_arxiv.py
@@ -27,6 +26,7 @@ concurrency:
 
 jobs:
   update-and-deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
