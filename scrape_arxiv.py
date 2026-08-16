@@ -5,11 +5,13 @@ Fetches and categorizes recent autonomous driving research papers from arXiv.
 """
 
 import sys
+import json
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-from typing import List, Dict
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from typing import Any, List, Dict
 import time
 import re
 import random
@@ -29,6 +31,23 @@ HTML_PAGE_SIZE = 50
 # Cap pagination per keyword. 10 pages * 50 = 500 papers, well above the
 # previous API max_results=200 and enough to cover any 180-day window.
 HTML_MAX_PAGES = 10
+
+REPOSITORY_URL = "https://github.com/alaliqing/AlphaAD"
+PAGES_URL = "https://alaliqing.github.io/AlphaAD/"
+DATA_WINDOW_DAYS = 180
+LATEST_PAPERS_COUNT = 12
+CATEGORY_ORDER = [
+    "Perception",
+    "Planning",
+    "Prediction",
+    "End-to-End Learning",
+    "Mapping & Localization",
+    "Control",
+    "Safety & Verification",
+    "Dataset & Benchmark",
+    "Simulation",
+    "General",
+]
 
 
 class ArXivPaper:
@@ -97,16 +116,24 @@ class ArXivPaper:
         return self.abstract[:length].rsplit(' ', 1)[0] + "..."
 
     def get_recency_badge(self) -> str:
-        """Get a badge indicating paper recency."""
-        published_date = datetime.strptime(self.published, "%Y-%m-%dT%H:%M:%SZ")
-        days_old = (datetime.now() - published_date).days
+        """Get an accessible text label indicating paper recency."""
+        label = self.get_recency_label()
+        return f"**{label}**" if label else ""
 
+    def get_age_days(self) -> int:
+        """Return the paper age in whole days, clamped at zero."""
+        published_date = datetime.strptime(self.published, "%Y-%m-%dT%H:%M:%SZ")
+        return max(0, (datetime.now() - published_date).days)
+
+    def get_recency_label(self) -> str:
+        """Return a short text label that does not rely on color alone."""
+        days_old = self.get_age_days()
         if days_old <= 7:
-            return "![New](https://img.shields.io/badge/New-red)"
+            return f"NEW · {days_old}d"
         elif days_old <= 30:
-            return "![Recent](https://img.shields.io/badge/Recent-orange)"
+            return f"RECENT · {days_old}d"
         elif days_old <= 90:
-            return "![Fresh](https://img.shields.io/badge/Fresh-yellow)"
+            return f"FRESH · {days_old}d"
         return ""
 
 
@@ -459,203 +486,254 @@ class ArXivScraper:
 
         return categories
 
-    def generate_readme(self):
-        """Generate README.md file."""
+    @staticmethod
+    def _category_slug(category: str) -> str:
+        """Build a stable category anchor shared by README navigation."""
+        return re.sub(r"[^a-z0-9]+", "-", category.lower()).strip("-")
+
+    @staticmethod
+    def _paper_anchor(paper: ArXivPaper) -> str:
+        """Build a stable README anchor from the arXiv identifier."""
+        suffix = re.sub(r"[^a-z0-9]+", "-", paper.arxiv_id.lower()).strip("-")
+        return f"paper-{suffix}"
+
+    @staticmethod
+    def _markdown_text(value: str) -> str:
+        """Keep generated table and link text on one safe Markdown line."""
+        return re.sub(r"\s+", " ", value).strip().replace("|", "\\|")
+
+    @staticmethod
+    def _ordered_categories(categories: Dict[str, List[ArXivPaper]]):
+        """Return product-oriented categories followed by future additions."""
+        ordered = [
+            (category, categories[category])
+            for category in CATEGORY_ORDER
+            if category in categories
+        ]
+        known = set(CATEGORY_ORDER)
+        ordered.extend(
+            (category, categories[category])
+            for category in sorted(categories)
+            if category not in known
+        )
+        return ordered
+
+    @staticmethod
+    def _write_text_atomic(path: Path, content: str):
+        """Write generated output without exposing a partial file."""
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temporary_path = path.with_name(path.name + ".tmp")
+        temporary_path.write_text(content, encoding="utf-8")
+        temporary_path.replace(path)
+
+    def build_readme(self) -> str:
+        """Build the complete GitHub-native research index."""
         categories = self.categorize_papers()
+        ordered_categories = self._ordered_categories(categories)
+        content = self._build_readme_header()
+        content += self._build_latest_additions()
+        content += self._build_category_navigation(ordered_categories)
+        for category, papers in ordered_categories:
+            content += self._build_category_section(category, papers)
+        return content + self._build_footer()
 
-        # Sort categories alphabetically
-        sorted_categories = sorted(categories.items())
+    def build_data_payload(self) -> Dict[str, Any]:
+        """Build the structured data consumed by GitHub Pages."""
+        categories = self.categorize_papers()
+        ordered_categories = self._ordered_categories(categories)
+        papers = sorted(self.papers, key=lambda paper: paper.published, reverse=True)
+        generated_at = datetime.now(timezone.utc).isoformat(
+            timespec="seconds"
+        ).replace("+00:00", "Z")
+        return {
+            "meta": {
+                "generated_at": generated_at,
+                "window_days": DATA_WINDOW_DAYS,
+                "total_papers": len(papers),
+                "repository_url": REPOSITORY_URL,
+                "categories": [
+                    {
+                        "name": category,
+                        "slug": self._category_slug(category),
+                        "count": len(category_papers),
+                        "latest_published": category_papers[0].published[:10],
+                    }
+                    for category, category_papers in ordered_categories
+                ],
+            },
+            "papers": [self._paper_record(paper) for paper in papers],
+        }
 
-        readme_content = self._build_readme_header()
-        readme_content += self._build_statistics(categories)
-        readme_content += self._build_table_of_contents(sorted_categories)
+    def _paper_record(self, paper: ArXivPaper) -> Dict[str, Any]:
+        """Serialize one paper for search, filtering, and rendering."""
+        days_old = paper.get_age_days()
+        if days_old <= 7:
+            recency = "new"
+        elif days_old <= 30:
+            recency = "recent"
+        elif days_old <= 90:
+            recency = "fresh"
+        else:
+            recency = "archive"
+        return {
+            "id": paper.arxiv_id,
+            "anchor": self._paper_anchor(paper),
+            "title": paper.title,
+            "authors": paper.authors,
+            "abstract": paper.abstract,
+            "short_abstract": paper.get_short_abstract(260),
+            "published": paper.published[:10],
+            "updated": paper.updated[:10],
+            "category": paper.category,
+            "recency": recency,
+            "age_days": days_old,
+            "arxiv_url": paper.get_arxiv_url(),
+            "pdf_url": paper.get_pdf_url(),
+        }
 
-        for category, papers in sorted_categories:
-            readme_content += self._build_category_section(category, papers)
+    def generate_outputs(
+        self,
+        readme_path: str = "README.md",
+        data_path: str = "site/data/papers.json",
+    ):
+        """Generate README and Pages data from the same collection."""
+        data_content = json.dumps(
+            self.build_data_payload(), ensure_ascii=False, indent=2
+        ) + "\n"
+        self._write_text_atomic(Path(readme_path), self.build_readme())
+        self._write_text_atomic(Path(data_path), data_content)
+        print(f"Generated {readme_path}")
+        print(f"Generated {data_path}")
 
-        readme_content += self._build_footer()
-
-        with open('README.md', 'w', encoding='utf-8') as f:
-            f.write(readme_content)
-
+    def generate_readme(self):
+        """Backward-compatible wrapper for README-only callers."""
+        self._write_text_atomic(Path("README.md"), self.build_readme())
         print("README.md generated successfully!")
 
     def _build_readme_header(self) -> str:
         """Build the README header."""
         return f"""<div align="center">
 
-# 🚗 Autonomous Driving Research Papers
+# AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Last Update](https://img.shields.io/badge/Last%20Updated-{datetime.now().strftime('%Y--%m--%d')}-blue)
 ![Total Papers](https://img.shields.io/badge/Papers-{len(self.papers)}-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
-> A curated collection of the latest research papers on autonomous driving from arXiv
-> This repository is automatically updated daily to bring you the most recent advances
-> in self-driving technology (papers from the last 6 months)
+**A daily research signal for autonomous driving.**<br>
+Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAYS}-day window.
+
+<p><a href="{PAGES_URL}"><strong>Explore the interactive research index →</strong></a></p>
+
+[Latest additions](#latest-additions) · [Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
 
 </div>
 
-## About
-
-This repository tracks recent research papers in autonomous driving, covering topics including:
-- Perception (object detection, segmentation, tracking)
-- Planning and decision-making
-- Control systems
-- Prediction and forecasting
-- Simulation environments
-- End-to-end learning approaches
-- Mapping and localization
-- Safety and verification
-- Datasets and benchmarks
-
-Papers are automatically fetched from arXiv and categorized by topic for easy navigation.
-
-## ✨ Features
-
-- 🕐 **Daily Updates**: Automatically updated every day with the latest papers
-- 🎯 **Smart Categorization**: Papers are organized into 10 main categories
-- 🏷️ **Recency Badges**: Visual indicators show how recent each paper is
-- 🔍 **Easy Navigation**: Table of contents and category-based organization
-- 📄 **Direct Links**: Quick access to arXiv abstracts and PDFs
-- 📊 **Statistics**: Track the number of papers in each category
-
 """
 
-    def _build_statistics(self, categories: Dict[str, List[ArXivPaper]]) -> str:
-        """Build statistics section."""
-        content = "## Statistics\n\n"
-        content += "| Category | Paper Count |\n"
-        content += "|----------|-------------|\n"
+    def _build_latest_additions(self) -> str:
+        """Build compact links to the newest papers across every category."""
+        newest = sorted(self.papers, key=lambda paper: paper.published, reverse=True)
+        content = "<a id=\"latest-additions\"></a>\n\n## Latest additions\n\n"
+        content += "The newest papers across every topic. Titles jump to their full entry.\n\n"
+        content += "| Published | Paper | Topic |\n|:--|:--|:--|\n"
+        for paper in newest[:LATEST_PAPERS_COUNT]:
+            title = self._markdown_text(paper.title)
+            content += (
+                f"| {paper.published[:10]} | [{title}](#{self._paper_anchor(paper)}) "
+                f"| {paper.category} |\n"
+            )
+        return content + "\n"
 
-        for category in sorted(categories.keys()):
-            count = len(categories[category])
-            content += f"| {category} | {count} |\n"
-
-        content += "\n"
-        return content
-
-    def _build_table_of_contents(self, sorted_categories: List) -> str:
-        """Build table of contents."""
-        content = "## Table of Contents\n\n"
-
-        for category, _ in sorted_categories:
-            anchor = category.lower().replace(' ', '-').replace('&', '')
-            content += f"- [{category}](#{anchor})\n"
-
-        content += "\n---\n\n"
-        return content
+    def _build_category_navigation(self, ordered_categories) -> str:
+        """Combine statistics and navigation into one useful section."""
+        content = "<a id=\"browse-by-topic\"></a>\n\n## Browse by topic\n\n"
+        content += (
+            f"All {len(self.papers)} papers remain in this README. For full-text search, "
+            f"filters, and sorting, use the [interactive index]({PAGES_URL}).\n\n"
+        )
+        content += "| Topic | Papers | Latest | Jump |\n|:--|--:|:--|:--|\n"
+        for category, papers in ordered_categories:
+            content += (
+                f"| {category} | {len(papers)} | {papers[0].published[:10]} | "
+                f"[View papers](#category-{self._category_slug(category)}) |\n"
+            )
+        return content + "\n---\n\n"
 
     def _build_category_section(self, category: str, papers: List[ArXivPaper]) -> str:
-        """Build a section for a specific category."""
-        content = f"## {category}\n\n"
-
+        """Build a complete category section with compact paper entries."""
+        slug = self._category_slug(category)
+        content = f"<a id=\"category-{slug}\"></a>\n\n## {category} · {len(papers)} papers\n\n"
         for paper in papers:
-            # Title with badge
             badge = paper.get_recency_badge()
             badge_str = f" {badge}" if badge else ""
-
-            content += f"### {paper.title}{badge_str}\n\n"
-
-            # Authors
-            authors_str = ", ".join(paper.authors[:5])  # First 5 authors
+            title = self._markdown_text(paper.title)
+            authors_str = ", ".join(paper.authors[:5])
             if len(paper.authors) > 5:
                 authors_str += ", et al."
-            content += f"**Authors:** {authors_str}  \n"
-
-            # Date
-            published_date = datetime.strptime(paper.published, "%Y-%m-%dT%H:%M:%SZ")
-            content += f"**Published:** {published_date.strftime('%Y-%m-%d')}  \n"
-
-            # Links
-            content += f"**Links:** [arXiv]({paper.get_arxiv_url()}) | [PDF]({paper.get_pdf_url()}) | [BackToTop](#table-of-contents)  \n\n"
-
-            # Abstract
+            content += f"<a id=\"{self._paper_anchor(paper)}\"></a>\n\n"
+            content += f"### {title}{badge_str}\n\n"
+            content += f"**Authors:** {authors_str}<br>\n"
+            content += f"**Published:** {paper.published[:10]}<br>\n"
+            content += (
+                f"**Links:** [arXiv abstract]({paper.get_arxiv_url()}) | "
+                f"[PDF]({paper.get_pdf_url()}) | [↑ BackToTop](#browse-by-topic)\n\n"
+            )
             content += f"**Abstract:** {paper.get_short_abstract()}\n\n"
-            content += "---\n\n"
-
-        return content
+        return content + "---\n\n"
 
     def _build_footer(self) -> str:
-        """Build the README footer."""
-        return """---
+        """Build concise, accurate project notes."""
+        return f"""<a id="how-it-works"></a>
 
-## 🤖 How It Works
+## Project notes
 
-This repository uses automation to stay up-to-date with the latest research:
+<details>
+<summary><strong>How it works</strong></summary>
 
-- **Automated Fetching**: Python script queries the arXiv API daily using relevant keywords
-- **Smart Categorization**: Papers are categorized by topic using keyword analysis
-- **Auto-Generated README**: This README is automatically generated with formatted paper information
-- **GitHub Actions**: Updates run automatically every day at 00:00 UTC
+- Searches arXiv's HTML results first and uses the arXiv API as a fallback.
+- Deduplicates papers by arXiv ID and groups them with keyword-based categorization.
+- Generates this README and the [GitHub Pages dataset](site/data/papers.json) from the same records.
+- Runs daily at 00:00 UTC through GitHub Actions.
 
-## ⚙️ Local Usage
+</details>
 
-Want to run the scraper locally or contribute to the project?
+<details>
+<summary><strong>Run locally</strong></summary>
 
 ```bash
-# Clone the repository
-git clone https://github.com/qinjing/AlphaAD.git
+git clone {REPOSITORY_URL}.git
 cd AlphaAD
-
-# The script uses only Python standard library (no external dependencies)
 python3 scrape_arxiv.py
 ```
 
 **Requirements**: Python 3.11 or higher
 
-## 🤝 Contributing
+</details>
 
-Contributions are welcome! Here are some ways you can contribute:
+<details>
+<summary><strong>Contributing and feedback</strong></summary>
 
-- **Improve categorization**: Suggest better keywords or categories for paper classification
-- **Add features**: Propose new features like filtering by date range, author search, etc.
-- **Fix bugs**: Report or fix any issues you find
-- **Enhance documentation**: Help improve the README or code comments
+- Improve categorization or report an incorrect topic through [Issues]({REPOSITORY_URL}/issues).
+- Propose product and data improvements through [Discussions]({REPOSITORY_URL}/discussions).
+- Fork the repository, create a focused branch, and open a pull request.
 
-To contribute:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+</details>
 
-## 📊 Topics Covered
+## Data quality
 
-| Category | Description |
-|----------|-------------|
-| **Perception** | Object detection, segmentation, tracking, sensor fusion |
-| **Planning** | Path planning, motion planning, trajectory optimization |
-| **Control** | Vehicle control, MPC, steering, acceleration |
-| **Prediction** | Trajectory prediction, intent prediction, forecasting |
-| **Simulation** | Simulation environments, synthetic data |
-| **End-to-End Learning** | Imitation learning, reinforcement learning |
-| **Mapping & Localization** | SLAM, HD maps, visual odometry |
-| **Safety & Verification** | Safety verification, robust testing |
-| **Dataset & Benchmark** | Dataset collections, benchmarks |
-| **General** | Other autonomous driving research |
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📮 Contact & Feedback
-
-- **Issues**: [Open an issue](https://github.com/qinjing/AlphaAD/issues) for bugs or feature requests
-- **Discussions**: [Start a discussion](https://github.com/qinjing/AlphaAD/discussions) for questions or ideas
-
----
+Collection and categorization are automated. A paper can match the search terms without being
+primarily about road vehicles, and keyword-based topic assignment can be imperfect. Treat this
+project as a discovery index and verify important details on arXiv.
 
 <div align="center">
 
 **⭐ If you find this repository helpful, consider giving it a star!**
 
-Made with ❤️ by the autonomous driving community
+[Interactive index]({PAGES_URL}) · [MIT License](LICENSE) · [Report an issue]({REPOSITORY_URL}/issues)
 
 </div>
-
-**Note**: This is an automated repository. Papers are fetched from arXiv and categorized algorithmically. Categorization may not always be perfect. Please report any misclassified papers.
 """
 
 
@@ -668,9 +746,9 @@ def main():
         "autonomous vehicles"
     ]
 
-    # Create scraper and fetch papers from last 180 days
+    # Create scraper and fetch papers from the configured rolling window
     scraper = ArXivScraper(max_results=200)
-    scraper.fetch_papers(keywords, days_back=180)
+    scraper.fetch_papers(keywords, days_back=DATA_WINDOW_DAYS)
 
     # Safeguard: never overwrite README with an empty result set.
     # Exiting non-zero makes the GitHub Action fail loudly and keeps
@@ -680,8 +758,8 @@ def main():
               file=sys.stderr)
         sys.exit(1)
 
-    # Generate README
-    scraper.generate_readme()
+    # Generate the GitHub README and the shared Pages dataset together.
+    scraper.generate_outputs()
 
     print("Done!")
 
