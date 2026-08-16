@@ -3,8 +3,17 @@ import tempfile
 import unittest
 from datetime import datetime, timedelta
 from pathlib import Path
+from unittest import mock
+from urllib.parse import parse_qs, urlparse
 
-from scrape_arxiv import ArXivPaper, ArXivScraper, PAGES_URL, REPOSITORY_URL
+from scrape_arxiv import (
+    ArXivFetchError,
+    ArXivPaper,
+    ArXivScraper,
+    HTML_PAGE_SIZE,
+    PAGES_URL,
+    REPOSITORY_URL,
+)
 
 
 def paper(arxiv_id, title, category, days_old):
@@ -104,6 +113,50 @@ class GenerationTests(unittest.TestCase):
             payload = json.loads(data_path.read_text(encoding="utf-8"))
             self.assertEqual(readme.count("BackToTop"), payload["meta"]["total_papers"])
             self.assertEqual(len(payload["papers"]), payload["meta"]["total_papers"])
+
+    def test_html_query_uses_large_pages_to_reduce_rate_limit_pressure(self):
+        with mock.patch.object(
+            self.scraper, "_fetch_with_retry", return_value="<ol></ol>"
+        ) as fetch:
+            self.scraper._query_arxiv_html("autonomous driving", days_back=180)
+
+        query = parse_qs(urlparse(fetch.call_args.args[0]).query)
+        self.assertEqual(query["size"], [str(HTML_PAGE_SIZE)])
+        self.assertEqual(HTML_PAGE_SIZE, 200)
+
+    def test_html_pagination_failure_rejects_partial_results(self):
+        submitted = (datetime.now() - timedelta(days=1)).strftime("%d %B, %Y")
+        html = f"""
+        <ol>
+          <li class="arxiv-result">
+            <a href="https://arxiv.org/abs/2608.00001">arXiv:2608.00001</a>
+            <p class="title is-5 mathjax">Safe autonomous driving</p>
+            <p class="authors"><a href="#">Ada Researcher</a></p>
+            <p class="abstract mathjax">
+              <span class="abstract-full">A complete abstract for pagination.</span>
+            </p>
+            <p class="is-size-7"><span>Submitted</span> {submitted};</p>
+          </li>
+        </ol>
+        """
+        with mock.patch.object(
+            self.scraper, "_fetch_with_retry", side_effect=[html, None]
+        ), mock.patch("scrape_arxiv.time.sleep"):
+            with self.assertRaisesRegex(ArXivFetchError, "page 2 failed"):
+                self.scraper._query_arxiv_html("autonomous driving", days_back=180)
+
+    def test_collection_retention_rejects_large_one_run_drop(self):
+        self.scraper.papers = self.scraper.papers[:2]
+        with tempfile.TemporaryDirectory() as directory:
+            data_path = Path(directory) / "papers.json"
+            data_path.write_text(
+                json.dumps({"meta": {"total_papers": 3}}), encoding="utf-8"
+            )
+
+            with self.assertRaisesRegex(ArXivFetchError, "expected at least"):
+                self.scraper.validate_collection_retention(
+                    str(data_path), minimum_ratio=1.0
+                )
 
 
 class StaticSiteContractTests(unittest.TestCase):
