@@ -26,12 +26,18 @@ USER_AGENT = (
     "Chrome/124.0.0.0 Safari/537.36"
 )
 
-# arxiv.org/search/ uses fixed page size of 50.
-HTML_PAGE_SIZE = 50
+# arxiv.org/search/ supports up to 200 results per page. Using the largest
+# page size keeps the daily job well below arXiv's request-rate limits.
+HTML_PAGE_SIZE = 200
 
-# Cap pagination per keyword. 10 pages * 50 = 500 papers, well above the
-# previous API max_results=200 and enough to cover any 180-day window.
-HTML_MAX_PAGES = 10
+# Cap pagination per keyword. 5 pages * 200 = 1,000 papers, twice the previous
+# ceiling while still requiring at most half as many requests.
+HTML_MAX_PAGES = 5
+
+# A daily rolling window should not lose a large share of its records at once.
+# This guard prevents a superficially successful partial refresh from replacing
+# the last complete published dataset.
+MIN_COLLECTION_RETENTION_RATIO = 0.8
 
 REPOSITORY_URL = "https://github.com/alaliqing/AlphaAD"
 PAGES_URL = "https://alaliqing.github.io/AlphaAD/"
@@ -48,6 +54,10 @@ CATEGORY_ORDER = [
     "Simulation",
     "General",
 ]
+
+
+class ArXivFetchError(RuntimeError):
+    """Raised when a refresh cannot prove that its collection is complete."""
 
 
 class _ClassTextExtractor(HTMLParser):
@@ -249,13 +259,15 @@ class ArXivScraper:
                 "searchtype": "all",
                 "query": f'"{keyword}"',  # phrase search, matches all:"..." API behaviour
                 "start": start,
+                "size": HTML_PAGE_SIZE,
             }
             url = "https://arxiv.org/search/?" + urllib.parse.urlencode(params)
 
             html_text = self._fetch_with_retry(url, label=f"HTML '{keyword}' p{page + 1}")
             if html_text is None:
-                # Fail this page; if first page, caller will fall back to API.
-                break
+                raise ArXivFetchError(
+                    f"Incomplete HTML results for '{keyword}': page {page + 1} failed"
+                )
 
             page_papers, oldest_date = self._parse_search_html(html_text, cutoff)
             all_papers.extend(page_papers)
@@ -488,12 +500,14 @@ class ArXivScraper:
                         time.sleep(delay)
                         continue
                     else:
-                        print(f"Error querying arXiv for '{keyword}': "
-                              f"HTTP {e.code} after {max_retries} attempts")
-                        return []
+                        raise ArXivFetchError(
+                            f"API query for '{keyword}' failed with HTTP {e.code} "
+                            f"after {max_retries} attempts"
+                        ) from e
                 else:
-                    print(f"Error querying arXiv for '{keyword}': HTTP {e.code} - {e.reason}")
-                    return []
+                    raise ArXivFetchError(
+                        f"API query for '{keyword}' failed with HTTP {e.code}: {e.reason}"
+                    ) from e
 
             except (urllib.error.URLError, TimeoutError) as e:
                 if attempt < max_retries - 1:
@@ -502,14 +516,45 @@ class ArXivScraper:
                           f"(attempt {attempt + 2}/{max_retries})...")
                     time.sleep(delay)
                     continue
-                print(f"Error querying arXiv for '{keyword}': {e}")
-                return []
+                raise ArXivFetchError(
+                    f"API query for '{keyword}' failed after {max_retries} attempts: {e}"
+                ) from e
 
             except Exception as e:
-                print(f"Error querying arXiv for '{keyword}': {e}")
-                return []
+                raise ArXivFetchError(
+                    f"API query for '{keyword}' failed: {e}"
+                ) from e
 
-        return []
+        raise ArXivFetchError(f"API query for '{keyword}' exhausted its retries")
+
+    def validate_collection_retention(
+        self,
+        data_path: str = "site/data/papers.json",
+        minimum_ratio: float = MIN_COLLECTION_RETENTION_RATIO,
+    ):
+        """Reject an implausibly large one-run drop from the published dataset."""
+        path = Path(data_path)
+        if not path.exists():
+            return
+
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            existing_count = int(payload["meta"]["total_papers"])
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            raise ArXivFetchError(
+                f"Cannot validate the existing dataset at {path}: {exc}"
+            ) from exc
+
+        if existing_count <= 0:
+            return
+
+        minimum_count = max(1, int(existing_count * minimum_ratio))
+        if len(self.papers) < minimum_count:
+            raise ArXivFetchError(
+                "Refresh produced only "
+                f"{len(self.papers)} papers; expected at least {minimum_count} "
+                f"({minimum_ratio:.0%} of the previous {existing_count})"
+            )
 
     def categorize_papers(self) -> Dict[str, List[ArXivPaper]]:
         """Group papers by category."""
@@ -775,7 +820,12 @@ def main():
 
     # Create scraper and fetch papers from the configured rolling window
     scraper = ArXivScraper(max_results=200)
-    scraper.fetch_papers(keywords, days_back=DATA_WINDOW_DAYS)
+    try:
+        scraper.fetch_papers(keywords, days_back=DATA_WINDOW_DAYS)
+        scraper.validate_collection_retention()
+    except ArXivFetchError as exc:
+        print(f"ERROR: {exc}. Aborting to preserve the published index.", file=sys.stderr)
+        return 1
 
     # Safeguard: never overwrite README with an empty result set.
     # Exiting non-zero makes the GitHub Action fail loudly and keeps
@@ -783,13 +833,14 @@ def main():
     if not scraper.papers:
         print("ERROR: No papers fetched. Aborting to preserve existing README.",
               file=sys.stderr)
-        sys.exit(1)
+        return 1
 
     # Generate the GitHub README and the shared Pages dataset together.
     scraper.generate_outputs()
 
     print("Done!")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
