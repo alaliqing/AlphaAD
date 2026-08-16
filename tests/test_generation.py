@@ -51,6 +51,38 @@ class GenerationTests(unittest.TestCase):
         )
         self.assertEqual(paper("archive", "Archive", "General", 120).get_recency_badge(), "")
 
+    def test_html_parser_keeps_complete_abstract_with_nested_highlights(self):
+        html = """
+        <ol>
+          <li class="arxiv-result">
+            <a href="https://arxiv.org/abs/2607.23404">arXiv:2607.23404</a>
+            <p class="title is-5 mathjax">Transfer learning for driving labs</p>
+            <p class="authors"><a href="#">Ada Researcher</a></p>
+            <p class="abstract mathjax">
+              <span class="abstract-short has-text-grey-dark mathjax">
+                <span class="search-hit mathjax">Self</span>-driving labs increasingly rely&hellip;
+                <a class="is-size-7">More</a>
+              </span>
+              <span class="abstract-full has-text-grey-dark mathjax">
+                <span class="search-hit mathjax">Self</span>-<span class="search-hit mathjax">driving</span>
+                laboratories increasingly rely on multi-fidelity optimization for efficient discovery.
+                <a class="is-size-7">Less</a>
+              </span>
+            </p>
+            <p class="is-size-7"><span>Submitted</span> 25 July, 2026;</p>
+          </li>
+        </ol>
+        """
+
+        papers, _ = self.scraper._parse_search_html(html, datetime(2026, 1, 1))
+
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(
+            papers[0].abstract,
+            "Self-driving laboratories increasingly rely on multi-fidelity optimization "
+            "for efficient discovery.",
+        )
+
     def test_payload_is_sorted_and_matches_category_counts(self):
         payload = self.scraper.build_data_payload()
 
@@ -85,6 +117,9 @@ class StaticSiteContractTests(unittest.TestCase):
         self.assertIn('id="recency-filter"', html)
         self.assertIn('id="sort-filter"', html)
         self.assertIn("URLSearchParams", script)
+        self.assertIn("aria-controls", script)
+        self.assertIn("aria-expanded", script)
+        self.assertIn("Read full abstract", script)
         self.assertIn("prefers-reduced-motion", Path("site/assets/styles.css").read_text(encoding="utf-8"))
 
 

@@ -16,6 +16,7 @@ import time
 import re
 import random
 import html as html_module
+from html.parser import HTMLParser
 
 
 # A real-looking UA helps avoid silent blocking on the HTML endpoint.
@@ -47,6 +48,48 @@ CATEGORY_ORDER = [
     "Simulation",
     "General",
 ]
+
+
+class _ClassTextExtractor(HTMLParser):
+    """Collect text from a span while preserving nested highlighted spans."""
+
+    def __init__(self, target_class: str):
+        super().__init__(convert_charrefs=True)
+        self.target_class = target_class
+        self.parts: List[str] = []
+        self._in_target = False
+        self._span_depth = 0
+        self._link_depth = 0
+
+    def handle_starttag(self, tag: str, attrs):
+        classes = dict(attrs).get("class", "").split()
+        if not self._in_target:
+            if tag == "span" and self.target_class in classes:
+                self._in_target = True
+                self._span_depth = 1
+            return
+
+        if tag == "span":
+            self._span_depth += 1
+        elif tag == "a":
+            self._link_depth += 1
+
+    def handle_endtag(self, tag: str):
+        if not self._in_target:
+            return
+        if tag == "a" and self._link_depth:
+            self._link_depth -= 1
+        elif tag == "span":
+            self._span_depth -= 1
+            if self._span_depth == 0:
+                self._in_target = False
+
+    def handle_data(self, data: str):
+        if self._in_target and self._link_depth == 0:
+            self.parts.append(data)
+
+    def get_text(self) -> str:
+        return re.sub(r"\s+", " ", "".join(self.parts)).strip()
 
 
 class ArXivPaper:
@@ -275,6 +318,14 @@ class ArXivScraper:
         s = html_module.unescape(s)
         return re.sub(r"\s+", " ", s).strip()
 
+    @staticmethod
+    def _extract_class_text(fragment: str, class_name: str) -> str:
+        """Extract complete text from a classed span, including nested spans."""
+        parser = _ClassTextExtractor(class_name)
+        parser.feed(fragment)
+        parser.close()
+        return parser.get_text()
+
     def _parse_search_html(self, html: str, cutoff: datetime):
         """Parse one search results page into ArXivPaper objects within cutoff.
 
@@ -317,26 +368,12 @@ class ArXivScraper:
                     )
                 ]
 
-            # Abstract: prefer abstract-full, fall back to abstract-short
-            abstract = ""
-            m = re.search(
-                r'<span class="abstract-full[^"]*"[^>]*>(.*?)</span>',
-                block,
-                re.DOTALL,
-            )
-            if m:
-                # Strip the trailing "△ Less" link before stripping all tags.
-                abs_html = re.sub(r'<a [^>]*>.*?</a>', '', m.group(1), flags=re.DOTALL)
-                abstract = self._strip_tags(abs_html)
-            else:
-                m = re.search(
-                    r'<span class="abstract-short[^"]*"[^>]*>(.*?)</span>',
-                    block,
-                    re.DOTALL,
-                )
-                if m:
-                    abs_html = re.sub(r'<a [^>]*>.*?</a>', '', m.group(1), flags=re.DOTALL)
-                    abstract = self._strip_tags(abs_html).rstrip("…").rstrip()
+            # Abstract spans contain nested search-hit spans. Parse the element
+            # structure so a highlighted keyword cannot terminate extraction.
+            abstract = self._extract_class_text(block, "abstract-full")
+            if not abstract:
+                abstract = self._extract_class_text(block, "abstract-short")
+                abstract = abstract.strip("…").strip()
 
             # Submission date. Date paragraph contains:
             #   "Submitted 4 June, 2026; ... originally announced June 2026."

@@ -590,6 +590,27 @@ kbd {
   line-height: 1.48;
 }
 
+.abstract-toggle {
+  margin-top: 13px;
+  padding: 0 0 3px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.abstract-toggle:hover,
+.abstract-toggle[aria-expanded="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .paper-aside {
   display: flex;
   flex-direction: column;
@@ -671,6 +692,10 @@ kbd {
   width: min(420px, 100%);
   margin: 42px auto 0;
   transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.load-more[hidden] {
+  display: none;
 }
 
 .load-more:hover {

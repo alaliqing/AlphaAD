@@ -180,8 +180,25 @@ function paperCard(paper, index) {
   const authorNames = paper.authors.filter((author) => author.toLowerCase() !== "et al.");
   const authorText = authorNames.slice(0, 5).join(", ") + (authorNames.length > 5 || paper.authors.length > 5 ? ", et al." : "");
   const authors = createElement("p", "paper-authors", authorText);
-  const abstract = createElement("p", "paper-abstract", paper.short_abstract || paper.abstract);
+  const abstractExcerpt = paper.short_abstract || paper.abstract;
+  const abstract = createElement("p", "paper-abstract", abstractExcerpt);
+  const abstractId = `abstract-${paper.id.replace(/[^a-z0-9]+/gi, "-")}`;
+  abstract.id = abstractId;
   main.append(heading, authors, abstract);
+
+  if (paper.abstract && paper.abstract !== abstractExcerpt) {
+    const abstractToggle = createElement("button", "abstract-toggle", "Read full abstract +");
+    abstractToggle.type = "button";
+    abstractToggle.setAttribute("aria-controls", abstractId);
+    abstractToggle.setAttribute("aria-expanded", "false");
+    abstractToggle.addEventListener("click", () => {
+      const expanded = abstractToggle.getAttribute("aria-expanded") === "true";
+      abstractToggle.setAttribute("aria-expanded", String(!expanded));
+      abstractToggle.textContent = expanded ? "Read full abstract +" : "Collapse abstract −";
+      abstract.textContent = expanded ? abstractExcerpt : paper.abstract;
+    });
+    main.append(abstractToggle);
+  }
 
   const aside = createElement("aside", "paper-aside", undefined);
   aside.setAttribute("aria-label", "Paper metadata and links");
