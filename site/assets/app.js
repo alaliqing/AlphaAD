@@ -19,6 +19,7 @@ const elements = {
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
   sort: document.querySelector("#sort-filter"),
+  tag: document.querySelector("#tag-filter"),
   themeLabel: document.querySelector("#theme-label"),
   themeToggle: document.querySelector("#theme-toggle"),
   totalPapers: document.querySelector("#total-papers"),
@@ -31,6 +32,7 @@ const state = {
   papers: [],
   query: params.get("q") || "",
   sort: params.get("sort") || "newest",
+  tag: params.get("tag") || "all",
   visible: PAGE_SIZE,
 };
 
@@ -92,6 +94,7 @@ function syncControls() {
     : "newest";
   state.days = elements.recency.value;
   state.sort = elements.sort.value;
+  elements.tag.value = state.tag;
 }
 
 function updateUrl() {
@@ -100,6 +103,7 @@ function updateUrl() {
   if (state.category !== "all") next.set("topic", state.category);
   if (state.days !== "all") next.set("days", state.days);
   if (state.sort !== "newest") next.set("sort", state.sort);
+  if (state.tag !== "all") next.set("tag", state.tag);
   const query = next.toString();
   window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
 }
@@ -132,18 +136,30 @@ function renderCategoryFilters() {
   }
 }
 
+function renderTagFilter() {
+  elements.tag.replaceChildren();
+  elements.tag.append(new Option("All research tags", "all"));
+  for (const tag of meta.tags || []) {
+    elements.tag.append(new Option(`${tag.name} · ${tag.count}`, tag.name));
+  }
+  elements.tag.value = state.tag;
+}
+
 function filteredPapers() {
   const query = normalize(state.query.trim());
   const terms = query.split(/\s+/).filter(Boolean);
   const maxDays = state.days === "all" ? Infinity : Number(state.days);
 
   const filtered = state.papers.filter((paper) => {
-    if (state.category !== "all" && paper.category !== state.category) return false;
+    const category = paper.primary_category || paper.category;
+    const tags = paper.tags || [];
+    if (state.category !== "all" && category !== state.category) return false;
+    if (state.tag !== "all" && !tags.includes(state.tag)) return false;
     if (paper.age_days > maxDays) return false;
     if (!terms.length) return true;
 
     const haystack = normalize(
-      `${paper.title} ${paper.authors.join(" ")} ${paper.abstract} ${paper.category}`,
+      `${paper.title} ${paper.authors.join(" ")} ${paper.abstract} ${category} ${tags.join(" ")}`,
     );
     return terms.every((term) => haystack.includes(term));
   });
@@ -184,11 +200,33 @@ function paperCard(paper, index) {
   const authorNames = paper.authors.filter((author) => author.toLowerCase() !== "et al.");
   const authorText = authorNames.slice(0, 5).join(", ") + (authorNames.length > 5 || paper.authors.length > 5 ? ", et al." : "");
   const authors = createElement("p", "paper-authors", authorText);
+  const tags = paper.tags || [];
   const abstractExcerpt = paper.short_abstract || paper.abstract;
   const abstract = createElement("p", "paper-abstract", abstractExcerpt);
   const abstractId = `abstract-${paper.id.replace(/[^a-z0-9]+/gi, "-")}`;
   abstract.id = abstractId;
-  main.append(heading, authors, abstract);
+  main.append(heading, authors);
+
+  if (tags.length) {
+    const tagList = createElement("div", "paper-tags");
+    tagList.setAttribute("aria-label", "Research tags");
+    for (const tag of tags) {
+      const tagButton = createElement("button", "paper-tag", tag);
+      tagButton.type = "button";
+      tagButton.setAttribute("aria-pressed", String(state.tag === tag));
+      tagButton.addEventListener("click", () => {
+        state.tag = tag;
+        state.visible = PAGE_SIZE;
+        elements.tag.value = tag;
+        renderResults();
+        elements.tag.focus({ preventScroll: true });
+      });
+      tagList.append(tagButton);
+    }
+    main.append(tagList);
+  }
+
+  main.append(abstract);
 
   if (paper.abstract && paper.abstract !== abstractExcerpt) {
     const abstractToggle = createElement("button", "abstract-toggle", "Read full abstract +");
@@ -207,7 +245,14 @@ function paperCard(paper, index) {
 
   const aside = createElement("aside", "paper-aside", undefined);
   aside.setAttribute("aria-label", "Paper metadata and links");
-  aside.append(createElement("span", "topic-label", paper.category));
+  const primaryCategory = paper.primary_category || paper.category;
+  const topic = createElement("span", "topic-label", primaryCategory);
+  const classification = paper.classification;
+  if (classification) {
+    const evidence = (classification.evidence || []).slice(0, 3).join("; ");
+    topic.title = `Automated classification · ${classification.confidence} confidence${evidence ? ` · ${evidence}` : ""}`;
+  }
+  aside.append(topic);
 
   const freshness = recencyText(paper);
   if (freshness) {
@@ -230,6 +275,7 @@ function describeResultSet(count) {
   const parts = [];
   if (state.query) parts.push(`query “${state.query}”`);
   if (state.category !== "all") parts.push(state.category);
+  if (state.tag !== "all") parts.push(`tag: ${state.tag}`);
   if (state.days !== "all") parts.push(`last ${state.days} days`);
   const scope = parts.length ? parts.join(" · ") : "all topics · 180-day window";
   return `${count.toLocaleString("en")} results · ${scope}`;
@@ -264,9 +310,11 @@ function resetView() {
   state.days = "all";
   state.query = "";
   state.sort = "newest";
+  state.tag = "all";
   state.visible = PAGE_SIZE;
   syncControls();
   renderCategoryFilters();
+  elements.categoryFilters.scrollLeft = 0;
   renderResults();
 }
 
@@ -295,6 +343,11 @@ function bindEvents() {
   });
   elements.sort.addEventListener("change", (event) => {
     state.sort = event.target.value;
+    state.visible = PAGE_SIZE;
+    renderResults();
+  });
+  elements.tag.addEventListener("change", (event) => {
+    state.tag = event.target.value;
     state.visible = PAGE_SIZE;
     renderResults();
   });
@@ -354,9 +407,12 @@ async function initialize() {
     state.papers = payload.papers;
     const categoryNames = new Set(meta.categories.map((category) => category.name));
     if (state.category !== "all" && !categoryNames.has(state.category)) state.category = "all";
+    const tagNames = new Set((meta.tags || []).map((tag) => tag.name));
+    if (state.tag !== "all" && !tagNames.has(state.tag)) state.tag = "all";
 
     renderStats();
     renderCategoryFilters();
+    renderTagFilter();
     renderResults();
   } catch (error) {
     showLoadError(error);

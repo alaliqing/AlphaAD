@@ -11,7 +11,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, List, Dict
+from typing import Any, Dict, List, Tuple
 import time
 import re
 import random
@@ -42,17 +42,205 @@ MIN_COLLECTION_RETENTION_RATIO = 0.8
 REPOSITORY_URL = "https://github.com/alaliqing/AlphaAD"
 PAGES_URL = "https://alaliqing.github.io/AlphaAD/"
 DATA_WINDOW_DAYS = 180
+SEARCH_KEYWORDS = [
+    "autonomous driving",
+    "self-driving",
+    "autonomous vehicles",
+    "automated driving",
+    "driverless vehicles",
+    "connected and automated vehicles",
+]
 CATEGORY_ORDER = [
-    "Perception",
-    "Planning",
-    "Prediction",
-    "End-to-End Learning",
+    "Perception & Sensor Fusion",
+    "Prediction & World Models",
+    "Planning & Decision-Making",
+    "Control & Vehicle Dynamics",
     "Mapping & Localization",
-    "Control",
-    "Safety & Verification",
-    "Dataset & Benchmark",
-    "Simulation",
-    "General",
+    "End-to-End & VLA",
+    "Safety, Security & Verification",
+    "Systems, Deployment & Connectivity",
+    "Human Factors & Policy",
+    "Cross-cutting / Other",
+]
+
+# Topic rules deliberately use word/phrase boundaries. Each tuple contains a
+# human-readable signal, a regular expression, and its base weight. A title hit
+# is worth three times an abstract hit so a passing mention cannot dominate the
+# paper's stated subject.
+CATEGORY_RULES = {
+    "Perception & Sensor Fusion": [
+        ("perception", r"\bperception\b", 3),
+        ("object detection", r"\b(?:2d|3d)?\s*object detection\b", 4),
+        ("scene segmentation", r"\b(?:semantic|instance|panoptic) segmentation\b", 4),
+        ("occupancy", r"\boccupancy\b", 2),
+        ("sensor fusion", r"\bsensor fusion\b", 4),
+        ("point cloud", r"\bpoint clouds?\b", 3),
+        ("LiDAR", r"\blidar\b", 3),
+        ("radar", r"\bradar\b", 3),
+        ("camera", r"\bcameras?\b", 2),
+        ("depth estimation", r"\bdepth estimation\b", 3),
+        ("lane detection", r"\blane detection\b", 3),
+        ("traffic sign recognition", r"\btraffic sign (?:detection|recognition)\b", 3),
+        ("scene understanding", r"\bscene understanding\b", 3),
+        ("bird's-eye view", r"\bbird.?s.?eye view\b|\bbev\b", 2),
+    ],
+    "Prediction & World Models": [
+        ("trajectory prediction", r"\btrajectory prediction\b", 5),
+        ("motion forecasting", r"\bmotion (?:prediction|forecasting)\b", 5),
+        ("behavior prediction", r"\bbehavior prediction\b|\bintent(?:ion)? prediction\b", 4),
+        ("forecasting", r"\bforecasting\b", 3),
+        ("world model", r"\bworld (?:action )?models?\b", 4),
+        ("future-frame prediction", r"\bfuture[- ]frame\b", 4),
+        ("future prediction", r"\bfuture prediction\b", 3),
+        ("scene prediction", r"\bscene prediction\b", 3),
+        ("predictive dynamics", r"\bpredictive dynamics\b", 3),
+        ("prediction", r"\bprediction\b", 2),
+    ],
+    "Planning & Decision-Making": [
+        ("motion planning", r"\bmotion planning\b|\bpath planning\b|\btrajectory planning\b", 5),
+        ("planning", r"\bplanning\b", 3),
+        ("decision-making", r"\bdecision[- ]making\b|\bdriving decisions?\b", 4),
+        ("behavior planning", r"\bbehavior planning\b", 5),
+        ("trajectory generation", r"\btrajectory generation\b", 3),
+        ("navigation", r"\bnavigation\b", 2),
+        ("route planning", r"\broute planning\b", 4),
+        ("path generation", r"\bpath generation\b", 3),
+    ],
+    "Control & Vehicle Dynamics": [
+        ("model predictive control", r"\bmodel predictive control\b|\bmpc\b", 5),
+        ("vehicle dynamics", r"\bvehicle dynamics\b", 5),
+        ("vehicle control", r"\b(?:lateral|longitudinal|vehicle|steering) control\b", 4),
+        ("controller", r"\bcontrollers?\b", 3),
+        ("control", r"\bcontrol(?:ling)?\b", 2),
+        ("steering or braking", r"\bsteering\b|\bbraking\b|\bacceleration\b", 2),
+        ("trajectory tracking", r"\btrajectory tracking\b|\bpath following\b", 4),
+    ],
+    "Mapping & Localization": [
+        ("localization", r"\blocali[sz]ation\b", 5),
+        ("HD map", r"\b(?:hd|high[- ]definition) maps?\b", 5),
+        ("SLAM", r"\bslam\b", 6),
+        ("visual odometry", r"\bvisual odometry\b", 6),
+        ("mapping", r"\bmap construction\b|\bmapping\b", 4),
+        ("place recognition", r"\bplace recognition\b", 4),
+        ("pose estimation", r"\bpose estimation\b", 4),
+        ("GNSS or GPS", r"\bgnss\b|\bgps\b", 2),
+    ],
+    "End-to-End & VLA": [
+        ("end-to-end driving", r"\bend[- ]to[- ]end (?:autonomous )?driving\b|\be2e[- ]ad\b", 6),
+        ("vision-language-action", r"\bvision[- ]language[- ]action\b|\bvla\b", 6),
+        ("driving foundation model", r"\bdriving foundation models?\b|\blarge driving models?\b", 5),
+        ("unified driving", r"\bunified driving\b", 3),
+        ("end-to-end", r"\bend[- ]to[- ]end\b", 3),
+        ("driving policy", r"\bdriving policy\b", 2),
+    ],
+    "Safety, Security & Verification": [
+        ("safety", r"\bsafety\b|\bsafe driving\b", 4),
+        ("security", r"\bsecurity\b|\bcybersecurity\b", 5),
+        ("verification", r"\bformal verification\b|\bverification\b", 5),
+        ("validation or testing", r"\bvalidation\b|\btesting\b", 3),
+        ("attack or threat", r"\badversarial\b|\battacks?\b|\bthreats?\b|\bspoofing\b", 4),
+        ("SOTIF", r"\bsotif\b", 6),
+        ("risk assessment", r"\brisk assessment\b|\brisk-aware\b", 4),
+        ("robustness", r"\brobust(?:ness)?\b", 2),
+        ("uncertainty", r"\buncertaint(?:y|ies)\b", 2),
+        ("failure", r"\bfail(?:ure|ures|safe)\b", 2),
+    ],
+    "Systems, Deployment & Connectivity": [
+        ("V2X", r"\bv2x\b|\bvehicle[- ]to[- ](?:vehicle|everything|infrastructure)\b", 6),
+        ("cooperative systems", r"\bcooperative\b|\bcollaborative\b", 3),
+        ("connected vehicles", r"\bconnected (?:and )?(?:autonomous|automated)? ?vehicles?\b", 4),
+        ("teleoperation", r"\bteleoperation\b|\bteleoperated\b", 5),
+        ("deployment or real-time", r"\bdeployment\b|\breal[- ]time\b", 3),
+        ("hardware", r"\bhardware\b|\baccelerators?\b", 3),
+        ("edge or cloud", r"\bedge computing\b|\bcloud[- ]assisted\b", 4),
+        ("communications", r"\bcommunication\b|\bconnectivity\b|\bnetwork(?:s|ing)?\b", 2),
+        ("software architecture", r"\bsystem architecture\b|\bsoftware stacks?\b|\bautoware\b", 4),
+        ("systems constraints", r"\blatenc(?:y|ies)\b|\bbandwidth\b|\bscheduling\b", 2),
+        ("roadside infrastructure", r"\binfrastructure[- ]assisted\b|\broadside\b", 3),
+    ],
+    "Human Factors & Policy": [
+        ("human factors", r"\bhuman factors?\b", 6),
+        ("driver monitoring", r"\bdriver monitoring\b|\bdriver behavior\b|\bdriver state\b", 5),
+        ("human-machine interaction", r"\bhuman[- ]in[- ]the[- ]loop\b|\bhuman[- ]machine\b", 5),
+        ("takeover", r"\btakeover\b|\btake-over\b", 5),
+        ("ethics", r"\bethics?\b|\bethical\b", 4),
+        ("law or policy", r"\btraffic laws?\b|\bregulations?\b|\bpolicy\b|\blegal\b|\blawful\b", 4),
+        ("social acceptance", r"\bsocial acceptance\b|\bpublic trust\b", 4),
+        ("explainability", r"\bexplainab(?:ility|le)\b", 3),
+        ("human driver", r"\bhuman drivers?\b", 3),
+    ],
+}
+
+TAG_RULES = {
+    # Resource tags require title evidence or explicit contribution language in
+    # the abstract; merely evaluating on a dataset or benchmark is not enough.
+    "Dataset": (
+        r"\bdatasets?\b|\bcorpus\b|\bdata collection\b",
+        r"\b(?:introduc|present|releas|build|construct|collect|curat|provid)\w*\b.{0,80}\bdatasets?\b",
+    ),
+    "Benchmark": (
+        r"\bbenchmarks?\b|\bleaderboards?\b",
+        r"\b(?:introduc|present|releas|build|establish|propos)\w*\b.{0,80}\bbenchmarks?\b",
+    ),
+    "Simulation": (
+        r"\bsimulat(?:ion|or|ors)\b|\btestbeds?\b|\bcarla\b|\blgsvl\b",
+        r"\b(?:simulation (?:framework|platform|environment|testbed)|simulators?|carla|lgsvl)\b",
+    ),
+    "Synthetic Data": (
+        r"\bsynthetic data\b|\bdata generation\b|\bscene generation\b",
+        r"\bsynthetic data\b|\bdata generation (?:framework|pipeline)\b|\bscene generation\b",
+    ),
+    "Cooperative / V2X": (
+        r"\bv2x\b|\bcooperative\b|\bcollaborative perception\b|\bvehicle[- ]to[- ]",
+        r"\bv2x\b|\bcooperative\b|\bcollaborative perception\b|\bvehicle[- ]to[- ]",
+    ),
+    "VLA": (
+        r"\bvision[- ]language[- ]action\b|\bvla\b",
+        r"\bvision[- ]language[- ]action\b|\bvla\b",
+    ),
+    "World Model": (
+        r"\bworld (?:action )?models?\b|\bworld modeling\b",
+        r"\bworld (?:action )?models?\b|\bworld modeling\b",
+    ),
+    "Reinforcement Learning": (
+        r"\breinforcement learning\b|\bgrpo\b|\bppo\b",
+        r"\breinforcement learning\b|\bgrpo\b|\bppo\b",
+    ),
+    "Imitation Learning": (
+        r"\bimitation learning\b|\bbehavior cloning\b",
+        r"\bimitation learning\b|\bbehavior cloning\b",
+    ),
+    "Hardware / Real-Time": (
+        r"\bhardware\b|\baccelerators?\b|\breal[- ]time\b|\blatenc(?:y|ies)\b",
+        r"\bhardware deployment\b|\breal[- ]time (?:deployment|inference|performance|system)\b|\binference latency\b",
+    ),
+    "Survey": (
+        r"\bsurveys?\b|\breviews?\b|\btutorial\b",
+        r"\bthis (?:survey|systematic review|tutorial)\b",
+    ),
+    "Explainability": (
+        r"\bexplainab(?:ility|le)\b|\binterpretab(?:ility|le)\b",
+        r"\bexplainab(?:ility|le)\b|\binterpretab(?:ility|le)\b",
+    ),
+    "Human Interaction": (
+        r"\bhuman[- ]in[- ]the[- ]loop\b|\bhuman[- ]machine\b|\bdriver monitoring\b|\btakeover\b",
+        r"\bhuman[- ]in[- ]the[- ]loop\b|\bhuman[- ]machine\b|\bdriver monitoring\b|\btakeover\b",
+    ),
+}
+TAG_ORDER = list(TAG_RULES)
+
+# These title patterns are high-confidence semantic collisions with the search
+# phrases. The gate stays deliberately narrow; ambiguous papers remain visible
+# as Cross-cutting / Other instead of being silently discarded.
+OUT_OF_SCOPE_TITLE_RULES = [
+    ("self-driving laboratory", r"\bself[- ]driving (?:labs?|laborator(?:y|ies)|microscopy)\b"),
+    ("laboratory automation", r"\blaboratory automation\b|\bautonomous liquid handling\b|\bliquid handling robots?\b"),
+    ("materials or chemical discovery", r"\bmaterials? (?:discovery|exploration|science)\b|\bchemical reaction\b|\boptoelectronic materials?\b"),
+    ("non-road transport", r"\bair traffic controllers?\b|\bdrone networks?\b"),
+    ("non-road vision dataset", r"\bcooking\b|\bkitchen\b"),
+    ("non-road embodied systems", r"\bworld model for robot learning\b|\brobotic manipulation\b"),
+    ("unrelated computing systems", r"\bdatacenter\b|\bdata center performance\b"),
+    ("unrelated AI risk", r"\bsentience\b|\bexistential risk\b"),
 ]
 
 
@@ -113,45 +301,99 @@ class ArXivPaper:
         self.arxiv_id = arxiv_id
         self.published = published
         self.updated = updated
-        self.category = self._categorize()
+        classification = self._classify()
+        self.category = classification["category"]
+        self.classification_confidence = classification["confidence"]
+        self.classification_score = classification["score"]
+        self.classification_margin = classification["margin"]
+        self.classification_evidence = classification["evidence"]
+        self.tags = self._derive_tags()
 
     def _categorize(self) -> str:
-        """Categorize paper based on title and abstract."""
-        text = (self.title + " " + self.abstract).lower()
+        """Return the explainable primary topic for backward-compatible callers."""
+        return self._classify()["category"]
 
-        # Define keywords for each category
-        categories = {
-            "Perception": ["detection", "segmentation", "tracking", "object detection",
-                          "semantic segmentation", "lidar", "radar", "sensor fusion",
-                          "3d detection", "point cloud", "camera", "vision"],
-            "Planning": ["path planning", "motion planning", "trajectory", "navigation",
-                        "route planning", "behavior planning", "decision making"],
-            "Control": ["control", "steering", "acceleration", "vehicle dynamics",
-                       "model predictive control", "mpc", "pid", "lateral control"],
-            "Prediction": ["prediction", "trajectory prediction", "intent prediction",
-                          "forecasting", "future trajectory"],
-            "Simulation": ["simulation", "simulator", "carla", "lgsvl", "synthetic data",
-                          "virtual environment"],
-            "End-to-End Learning": ["end-to-end", "imitation learning", "behavior cloning",
-                                   "reinforcement learning", "deep learning"],
-            "Mapping & Localization": ["mapping", "localization", "slam", "hd map",
-                                      "visual odometry", "pose estimation"],
-            "Safety & Verification": ["safety", "verification", "robust", "adversarial",
-                                     "testing", "validation", "certification"],
-            "Dataset & Benchmark": ["dataset", "benchmark", "data collection", "annotation"],
+    @staticmethod
+    def _searchable_text(value: str) -> str:
+        """Normalize punctuation without collapsing meaningful word boundaries."""
+        return re.sub(r"\s+", " ", value.lower().replace("–", "-").replace("—", "-")).strip()
+
+    def _classify(self) -> Dict[str, Any]:
+        """Assign one primary topic using weighted, boundary-aware evidence."""
+        title = self._searchable_text(self.title)
+        abstract = self._searchable_text(self.abstract)
+        scores: Dict[str, int] = {}
+        evidence_by_category: Dict[str, List[str]] = {}
+
+        for category, rules in CATEGORY_RULES.items():
+            score = 0
+            evidence = []
+            for label, pattern, weight in rules:
+                title_match = re.search(pattern, title)
+                abstract_match = re.search(pattern, abstract)
+                if title_match:
+                    score += weight * 3
+                    evidence.append(f"title: {label}")
+                if abstract_match:
+                    score += weight
+                    evidence.append(f"abstract: {label}")
+            scores[category] = score
+            evidence_by_category[category] = evidence
+
+        ranked = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
+        (top_category, top_score), (second_category, second_score) = ranked[:2]
+        is_ambiguous = top_score < 6 or top_score == second_score
+        category = "Cross-cutting / Other" if is_ambiguous else top_category
+        margin = top_score - second_score
+
+        if is_ambiguous:
+            confidence = "low"
+            evidence = []
+            if top_score:
+                for candidate in (top_category, second_category):
+                    evidence.extend(
+                        f"{candidate}: {item}" for item in evidence_by_category[candidate]
+                    )
+            if not evidence:
+                evidence = ["no strong primary-topic signal"]
+        else:
+            if top_score >= 18 and margin >= 7:
+                confidence = "high"
+            elif top_score >= 9 and margin >= 3:
+                confidence = "medium"
+            else:
+                confidence = "low"
+            evidence = evidence_by_category[top_category]
+
+        return {
+            "category": category,
+            "confidence": confidence,
+            "score": top_score,
+            "margin": margin,
+            "evidence": evidence[:8],
         }
 
-        # Score each category
-        scores = {}
-        for category, keywords in categories.items():
-            score = sum(1 for keyword in keywords if keyword in text)
-            if score > 0:
-                scores[category] = score
+    def _derive_tags(self) -> List[str]:
+        """Attach orthogonal method and resource tags independently of topic."""
+        title = self._searchable_text(self.title)
+        abstract = self._searchable_text(self.abstract)
+        return [
+            tag
+            for tag, (title_pattern, abstract_pattern) in TAG_RULES.items()
+            if re.search(title_pattern, title) or re.search(abstract_pattern, abstract)
+        ]
 
-        # Return category with highest score, or "General" if no match
-        if scores:
-            return max(scores.items(), key=lambda x: x[1])[0]
-        return "General"
+    def scope_rejection_reason(self) -> str:
+        """Return a reason only for high-confidence non-road search collisions."""
+        title = self._searchable_text(self.title)
+        for reason, pattern in OUT_OF_SCOPE_TITLE_RULES:
+            if re.search(pattern, title):
+                return reason
+        return ""
+
+    def is_in_scope(self) -> bool:
+        """Keep ambiguous work visible; reject only an explicit scope collision."""
+        return not self.scope_rejection_reason()
 
     def get_arxiv_url(self) -> str:
         """Get the arXiv URL for this paper."""
@@ -239,8 +481,17 @@ class ArXivScraper:
                 seen.add(paper.arxiv_id)
                 unique_papers.append(paper)
 
-        self.papers = unique_papers
-        print(f"Found {len(self.papers)} unique papers")
+        rejected = [paper for paper in unique_papers if not paper.is_in_scope()]
+        self.papers = [paper for paper in unique_papers if paper.is_in_scope()]
+        print(f"Found {len(unique_papers)} unique papers")
+        if rejected:
+            reasons: Dict[str, int] = {}
+            for paper in rejected:
+                reason = paper.scope_rejection_reason()
+                reasons[reason] = reasons.get(reason, 0) + 1
+            summary = ", ".join(f"{reason}: {count}" for reason, count in reasons.items())
+            print(f"Excluded {len(rejected)} high-confidence scope collisions ({summary})")
+        print(f"Retained {len(self.papers)} in-scope papers")
 
     def _query_arxiv_html(self, keyword: str, days_back: int) -> List[ArXivPaper]:
         """Query arxiv.org/search/ HTML endpoint, paginating until results
@@ -573,6 +824,14 @@ class ArXivScraper:
 
         return categories
 
+    def count_tags(self) -> List[Tuple[str, int]]:
+        """Return non-empty tag counts in a stable product order."""
+        counts = {tag: 0 for tag in TAG_ORDER}
+        for paper in self.papers:
+            for tag in paper.tags:
+                counts[tag] += 1
+        return [(tag, counts[tag]) for tag in TAG_ORDER if counts[tag]]
+
     @staticmethod
     def _category_slug(category: str) -> str:
         """Build a stable category anchor shared by README navigation."""
@@ -619,6 +878,7 @@ class ArXivScraper:
         ordered_categories = self._ordered_categories(categories)
         content = self._build_readme_header()
         content += self._build_category_navigation(ordered_categories)
+        content += self._build_tag_navigation(self.count_tags())
         for category, papers in ordered_categories:
             content += self._build_category_section(category, papers)
         return content + self._build_footer()
@@ -627,6 +887,7 @@ class ArXivScraper:
         """Build the structured data consumed by GitHub Pages."""
         categories = self.categorize_papers()
         ordered_categories = self._ordered_categories(categories)
+        tag_counts = self.count_tags()
         papers = sorted(self.papers, key=lambda paper: paper.published, reverse=True)
         generated_at = datetime.now(timezone.utc).isoformat(
             timespec="seconds"
@@ -637,6 +898,7 @@ class ArXivScraper:
                 "window_days": DATA_WINDOW_DAYS,
                 "total_papers": len(papers),
                 "repository_url": REPOSITORY_URL,
+                "taxonomy_version": "2.0",
                 "categories": [
                     {
                         "name": category,
@@ -646,6 +908,20 @@ class ArXivScraper:
                     }
                     for category, category_papers in ordered_categories
                 ],
+                "tags": [
+                    {
+                        "name": tag,
+                        "slug": self._category_slug(tag),
+                        "count": count,
+                    }
+                    for tag, count in tag_counts
+                ],
+                "classification_confidence": {
+                    confidence: sum(
+                        paper.classification_confidence == confidence for paper in papers
+                    )
+                    for confidence in ("high", "medium", "low")
+                },
             },
             "papers": [self._paper_record(paper) for paper in papers],
         }
@@ -671,6 +947,14 @@ class ArXivScraper:
             "published": paper.published[:10],
             "updated": paper.updated[:10],
             "category": paper.category,
+            "primary_category": paper.category,
+            "tags": paper.tags,
+            "classification": {
+                "confidence": paper.classification_confidence,
+                "score": paper.classification_score,
+                "margin": paper.classification_margin,
+                "evidence": paper.classification_evidence,
+            },
             "recency": recency,
             "age_days": days_old,
             "arxiv_url": paper.get_arxiv_url(),
@@ -707,12 +991,12 @@ class ArXivScraper:
 ![Total Papers](https://img.shields.io/badge/Papers-{len(self.papers)}-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
-**A daily research signal for autonomous driving.**<br>
-Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAYS}-day window.
+**A daily, explainable research signal for autonomous driving.**<br>
+Browse one primary topic per paper, then refine the signal with method and resource tags.
 
 <p><a href="{PAGES_URL}"><strong>Explore the interactive research index →</strong></a></p>
 
-[Browse by topic](#browse-by-topic) · [How it works](#how-it-works)
+[Browse by topic](#browse-by-topic) · [Research tags](#research-tags) · [How it works](#how-it-works)
 
 </div>
 
@@ -733,6 +1017,19 @@ Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAY
             )
         return content + "\n---\n\n"
 
+    def _build_tag_navigation(self, tag_counts: List[Tuple[str, int]]) -> str:
+        """Explain the second taxonomy axis and link tags to the web index."""
+        content = '<a id="research-tags"></a>\n\n## Research tags\n\n'
+        content += (
+            "Each paper has one primary topic and may carry several method or resource tags. "
+            "Use the interactive index to combine a topic with a tag.\n\n"
+        )
+        content += "| Tag | Papers | Filter |\n|:--|--:|:--|\n"
+        for tag, count in tag_counts:
+            query = urllib.parse.urlencode({"tag": tag})
+            content += f"| {tag} | {count} | [Open filter]({PAGES_URL}?{query}) |\n"
+        return content + "\n---\n\n"
+
     def _build_category_section(self, category: str, papers: List[ArXivPaper]) -> str:
         """Build a complete category section with compact paper entries."""
         slug = self._category_slug(category)
@@ -748,6 +1045,8 @@ Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAY
             content += f"### {title}{badge_str}\n\n"
             content += f"**Authors:** {authors_str}<br>\n"
             content += f"**Published:** {paper.published[:10]}<br>\n"
+            if paper.tags:
+                content += f"**Research tags:** {' · '.join(paper.tags)}<br>\n"
             content += (
                 f"**Links:** [arXiv abstract]({paper.get_arxiv_url()}) | "
                 f"[PDF]({paper.get_pdf_url()}) | [↑ BackToTop](#browse-by-topic)\n\n"
@@ -764,8 +1063,10 @@ Discover, scan, and open the latest arXiv papers from a rolling {DATA_WINDOW_DAY
 <details>
 <summary><strong>How it works</strong></summary>
 
-- Searches arXiv's HTML results first and uses the arXiv API as a fallback.
-- Deduplicates papers by arXiv ID and groups them with keyword-based categorization.
+- Searches a focused set of road-autonomy phrases in arXiv HTML results first and uses the arXiv API as a fallback.
+- Deduplicates papers by arXiv ID and rejects narrow, high-confidence phrase collisions such as self-driving laboratories.
+- Assigns one weighted, boundary-aware primary topic from title and abstract evidence.
+- Adds independent method and resource tags so cross-domain papers remain discoverable.
 - Generates this README and the [GitHub Pages dataset](site/data/papers.json) from the same records.
 - Runs daily at 00:00 UTC through GitHub Actions.
 
@@ -795,9 +1096,11 @@ python3 scrape_arxiv.py
 
 ## Data quality
 
-Collection and categorization are automated. A paper can match the search terms without being
-primarily about road vehicles, and keyword-based topic assignment can be imperfect. Treat this
-project as a discovery index and verify important details on arXiv.
+Collection and classification are automated and intentionally explainable. Title evidence is
+weighted above abstract mentions, ambiguous papers move to Cross-cutting / Other, and every JSON
+record includes classification confidence and matched evidence. The scope gate only removes
+high-confidence semantic collisions, so some adjacent research may remain. Treat this project as
+a discovery index and verify important details on arXiv.
 
 <div align="center">
 
@@ -811,17 +1114,10 @@ project as a discovery index and verify important details on arXiv.
 
 def main():
     """Main function to run the scraper."""
-    # Keywords to search for
-    keywords = [
-        "autonomous driving",
-        "self-driving",
-        "autonomous vehicles"
-    ]
-
     # Create scraper and fetch papers from the configured rolling window
     scraper = ArXivScraper(max_results=200)
     try:
-        scraper.fetch_papers(keywords, days_back=DATA_WINDOW_DAYS)
+        scraper.fetch_papers(SEARCH_KEYWORDS, days_back=DATA_WINDOW_DAYS)
         scraper.validate_collection_retention()
     except ArXivFetchError as exc:
         print(f"ERROR: {exc}. Aborting to preserve the published index.", file=sys.stderr)

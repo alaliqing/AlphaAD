@@ -43,7 +43,7 @@
           <div class="hero-content">
             <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> arXiv signal / updated daily</p>
             <h1 id="page-title">Autonomous driving, <span>indexed.</span></h1>
-            <p class="hero-intro">A rolling six-month view of perception, planning, safety, simulation, and the systems connecting them.</p>
+            <p class="hero-intro">A rolling six-month view organized by one primary research topic, then refined with method and resource tags.</p>
           </div>
 
           <dl class="signal-board" aria-label="Research index summary">
@@ -79,9 +79,21 @@
         </form>
 
         <section class="filter-deck" aria-label="Research filters">
-          <div class="category-scroller" id="category-filters" aria-label="Filter by topic"></div>
+          <div class="topic-filter-group">
+            <div class="filter-axis-label">
+              <span>Primary topic</span>
+              <small>one per paper</small>
+            </div>
+            <div class="category-scroller" id="category-filters" aria-label="Filter by primary topic"></div>
+          </div>
 
           <div class="select-filters">
+            <label class="tag-select">
+              <span>Research tag</span>
+              <select id="tag-filter">
+                <option value="all">All research tags</option>
+              </select>
+            </label>
             <label>
               <span>Recency</span>
               <select id="recency-filter">
@@ -109,7 +121,10 @@
               <p class="section-index">Research feed</p>
               <h2 id="results-title"><span id="result-count">—</span> papers</h2>
             </div>
-            <p id="result-context" class="result-context" aria-live="polite">Loading the latest signal…</p>
+            <div class="result-meta">
+              <p id="result-context" class="result-context" aria-live="polite">Loading the latest signal…</p>
+              <p class="taxonomy-version">Taxonomy v2 · explainable auto-classification</p>
+            </div>
           </header>
 
           <div class="paper-list" id="paper-list" aria-busy="true"></div>
