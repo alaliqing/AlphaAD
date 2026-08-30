@@ -3,8 +3,8 @@
 # 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--29-blue)
-![Total Papers](https://img.shields.io/badge/Papers-1231-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--08--30-blue)
+![Total Papers](https://img.shields.io/badge/Papers-1228-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 **A daily, explainable research signal for autonomous driving.**<br>
@@ -20,7 +20,7 @@ Browse one primary topic per paper, then refine the signal with method and resou
 
 ## Browse by topic
 
-All 1231 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
+All 1228 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
 
 | Topic | Papers | Latest | Jump |
 |:--|--:|:--|:--|
@@ -28,10 +28,10 @@ All 1231 papers remain in this README. For full-text search, filters, and sortin
 | Prediction & World Models | 86 | 2026-08-26 | [View papers](#category-prediction-world-models) |
 | Planning & Decision-Making | 78 | 2026-08-18 | [View papers](#category-planning-decision-making) |
 | Control & Vehicle Dynamics | 53 | 2026-08-27 | [View papers](#category-control-vehicle-dynamics) |
-| Mapping & Localization | 49 | 2026-08-27 | [View papers](#category-mapping-localization) |
+| Mapping & Localization | 48 | 2026-08-27 | [View papers](#category-mapping-localization) |
 | End-to-End & VLA | 111 | 2026-08-24 | [View papers](#category-end-to-end-vla) |
-| Safety, Security & Verification | 223 | 2026-08-27 | [View papers](#category-safety-security-verification) |
-| Systems, Deployment & Connectivity | 150 | 2026-08-27 | [View papers](#category-systems-deployment-connectivity) |
+| Safety, Security & Verification | 222 | 2026-08-27 | [View papers](#category-safety-security-verification) |
+| Systems, Deployment & Connectivity | 149 | 2026-08-27 | [View papers](#category-systems-deployment-connectivity) |
 | Human Factors & Policy | 28 | 2026-08-19 | [View papers](#category-human-factors-policy) |
 | Cross-cutting / Other | 258 | 2026-08-26 | [View papers](#category-cross-cutting-other) |
 
@@ -45,11 +45,11 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 | Tag | Papers | Filter |
 |:--|--:|:--|
-| Dataset | 105 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Dataset) |
+| Dataset | 104 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Dataset) |
 | Benchmark | 87 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Benchmark) |
 | Simulation | 159 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Simulation) |
 | Synthetic Data | 38 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Synthetic+Data) |
-| Cooperative / V2X | 115 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Cooperative+%2F+V2X) |
+| Cooperative / V2X | 114 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Cooperative+%2F+V2X) |
 | VLA | 66 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=VLA) |
 | World Model | 80 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=World+Model) |
 | Reinforcement Learning | 120 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Reinforcement+Learning) |
@@ -87,7 +87,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-22023"></a>
 
-### Spectral Pre-Filtering for Context-Adaptive Sensor Fusion: A Four-Role FFT-GDCB Integration for High-Stakes Decision Systems ![New](https://img.shields.io/badge/New-red)
+### Spectral Pre-Filtering for Context-Adaptive Sensor Fusion: A Four-Role FFT-GDCB Integration for High-Stakes Decision Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Oleg Miroshnichenko<br>
 **Published:** 2026-08-22<br>
@@ -1102,7 +1102,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-01277"></a>
 
-### DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance
 
 **Authors:** Oskar Natan, Andi Dharmawan, Aufaclav Zatu Kusuma Frisky, Jazi Eko Istiyanto, Jun Miura<br>
 **Published:** 2026-05-31<br>
@@ -1112,7 +1112,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-01192"></a>
 
-### PairedGTA: Generating Driving Datasets for Controlled Photometric Shift Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### PairedGTA: Generating Driving Datasets for Controlled Photometric Shift Analysis
 
 **Authors:** Andrea Chianese, Giulio Rossolini, Alessandro Biondi, Marco Cococcioni, Giorgio Buttazzo<br>
 **Published:** 2026-05-31<br>
@@ -4431,7 +4431,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-mapping-localization"></a>
 
-## Mapping & Localization · 49 papers
+## Mapping & Localization · 48 papers
 
 <a id="paper-2608-26589"></a>
 
@@ -4931,17 +4931,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2603.10688) | [PDF](https://arxiv.org/pdf/2603.10688.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** Autonomous vehicles rely on map information to understand the world around them. However, the creation and maintenance of offline high-definition (HD) maps remains costly. A more scalable alternative...
-
-<a id="paper-2603-03452"></a>
-
-### Impact of Localization Errors on Label Quality for Online HD Map Construction
-
-**Authors:** Alexander Blumberg, Jonas Merkert, Richard Fehler, Fabian Immel, Frank Bieder, et al.<br>
-**Published:** 2026-03-03<br>
-**Research tags:** Dataset<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2603.03452) | [PDF](https://arxiv.org/pdf/2603.03452.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** High-definition (HD) maps are crucial for autonomous vehicles, but their creation and maintenance is very costly. This motivates the idea of online HD map construction. To provide a continuous...
 
 ---
 
@@ -6150,7 +6139,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-safety-security-verification"></a>
 
-## Safety, Security & Verification · 223 papers
+## Safety, Security & Verification · 222 papers
 
 <a id="paper-2608-26755"></a>
 
@@ -8481,21 +8470,11 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Generating safety-critical scenarios is essential for validating the robustness of autonomous driving systems, yet existing methods often struggle to produce collisions that are both realistic and...
 
-<a id="paper-2603-03574"></a>
-
-### Safety-Centered Scenario Generation for Autonomous Vehicles
-
-**Authors:** Kiruthiga Chandra Shekar, Aliasghar Moj Arab<br>
-**Published:** 2026-03-03<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2603.03574) | [PDF](https://arxiv.org/pdf/2603.03574.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** This paper presents a scenario generation framework that creates diverse, parametrized, and safety-critical driving situations to validate the safety features of autonomous vehicles in simulation...
-
 ---
 
 <a id="category-systems-deployment-connectivity"></a>
 
-## Systems, Deployment & Connectivity · 150 papers
+## Systems, Deployment & Connectivity · 149 papers
 
 <a id="paper-2608-27271"></a>
 
@@ -8705,7 +8684,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-28483"></a>
 
-### Towards Real-Time PixOOD: Efficient Anomaly Segmentation for Autonomous Vehicles ![Recent](https://img.shields.io/badge/Recent-orange)
+### Towards Real-Time PixOOD: Efficient Anomaly Segmentation for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Luca de Martino, Federico Aromolo, Federico Nesti, Giorgio Buttazzo<br>
 **Published:** 2026-07-30<br>
@@ -8716,7 +8695,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-28799"></a>
 
-### FedQML-Edge: Compact Quantum Feature Sketches for Communication-Constrained Roadside Federated Learning ![Recent](https://img.shields.io/badge/Recent-orange)
+### FedQML-Edge: Compact Quantum Feature Sketches for Communication-Constrained Roadside Federated Learning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Talha Azfar, Ruimin Ke<br>
 **Published:** 2026-07-30<br>
@@ -8727,7 +8706,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-28953"></a>
 
-### A Cooperative Implementation of Mesh Stability in Vehicular Platoons ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Cooperative Implementation of Mesh Stability in Vehicular Platoons ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Meng Qiu, Di Liu, He Wang, Wenwu Yu, Simone Baldi<br>
 **Published:** 2026-07-30<br>
@@ -9347,7 +9326,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-01312"></a>
 
-### A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks
 
 **Authors:** Kiran Khurshid, Shumaila Javaid, Nasir Saeed<br>
 **Published:** 2026-05-31<br>
@@ -10094,17 +10073,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** As Intelligent Transportation System (ITS) develops, Connected and Automated Vehicles (CAVs) are expected to significantly reduce traffic congestion through cooperative strategies, such as in...
 
-<a id="paper-2603-03039"></a>
-
-### Exploiting Repetitions and Interference Cancellation for the 6G-V2X Sidelink Autonomous Mode
-
-**Authors:** Alessandro Bazzi, Vittorio Todisco, Antonella Molinaro, Antoine O. Berthet, Richard A. Stirling-Gallacher, et al.<br>
-**Published:** 2026-03-03<br>
-**Research tags:** Cooperative / V2X<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2603.03039) | [PDF](https://arxiv.org/pdf/2603.03039.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** In recent years, the Third Generation Partnership Project (3GPP) has developed the new radio-vehicle-to-everything (NR-V2X) sidelink standard, to enable direct communication between connected and...
-
 ---
 
 <a id="category-human-factors-policy"></a>
@@ -10791,7 +10759,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-28083"></a>
 
-### Layered Architecture for Mobile Intelligence ![Recent](https://img.shields.io/badge/Recent-orange)
+### Layered Architecture for Mobile Intelligence ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Qingwen Liu, Mingqing Liu<br>
 **Published:** 2026-07-30<br>
@@ -12039,7 +12007,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-02641"></a>
 
-### CARVE: Certified Affordable Repair of Vetoed Maneuvers via Envelopes for Interactive Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### CARVE: Certified Affordable Repair of Vetoed Maneuvers via Envelopes for Interactive Driving
 
 **Authors:** Yifan Wang<br>
 **Published:** 2026-05-31<br>
@@ -12049,7 +12017,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-01164"></a>
 
-### Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends
 
 **Authors:** Jiuming Liu, Chaojun Ni, Mengmeng Liu, Chensheng Peng, Fangjinhua Wang, et al.<br>
 **Published:** 2026-05-31<br>
