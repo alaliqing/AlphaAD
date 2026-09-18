@@ -3,8 +3,8 @@
 # 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--09--17-blue)
-![Total Papers](https://img.shields.io/badge/Papers-1234-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--09--18-blue)
+![Total Papers](https://img.shields.io/badge/Papers-1240-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 **A daily, explainable research signal for autonomous driving.**<br>
@@ -20,20 +20,20 @@ Browse one primary topic per paper, then refine the signal with method and resou
 
 ## Browse by topic
 
-All 1234 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
+All 1240 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
 
 | Topic | Papers | Latest | Jump |
 |:--|--:|:--|:--|
 | Perception & Sensor Fusion | 193 | 2026-09-16 | [View papers](#category-perception-sensor-fusion) |
-| Prediction & World Models | 84 | 2026-09-15 | [View papers](#category-prediction-world-models) |
-| Planning & Decision-Making | 77 | 2026-09-16 | [View papers](#category-planning-decision-making) |
-| Control & Vehicle Dynamics | 59 | 2026-09-16 | [View papers](#category-control-vehicle-dynamics) |
-| Mapping & Localization | 49 | 2026-09-13 | [View papers](#category-mapping-localization) |
-| End-to-End & VLA | 115 | 2026-09-16 | [View papers](#category-end-to-end-vla) |
-| Safety, Security & Verification | 218 | 2026-09-14 | [View papers](#category-safety-security-verification) |
-| Systems, Deployment & Connectivity | 146 | 2026-09-13 | [View papers](#category-systems-deployment-connectivity) |
+| Prediction & World Models | 85 | 2026-09-17 | [View papers](#category-prediction-world-models) |
+| Planning & Decision-Making | 79 | 2026-09-17 | [View papers](#category-planning-decision-making) |
+| Control & Vehicle Dynamics | 58 | 2026-09-16 | [View papers](#category-control-vehicle-dynamics) |
+| Mapping & Localization | 50 | 2026-09-13 | [View papers](#category-mapping-localization) |
+| End-to-End & VLA | 115 | 2026-09-17 | [View papers](#category-end-to-end-vla) |
+| Safety, Security & Verification | 215 | 2026-09-17 | [View papers](#category-safety-security-verification) |
+| Systems, Deployment & Connectivity | 149 | 2026-09-17 | [View papers](#category-systems-deployment-connectivity) |
 | Human Factors & Policy | 30 | 2026-09-10 | [View papers](#category-human-factors-policy) |
-| Cross-cutting / Other | 263 | 2026-09-16 | [View papers](#category-cross-cutting-other) |
+| Cross-cutting / Other | 266 | 2026-09-17 | [View papers](#category-cross-cutting-other) |
 
 ---
 
@@ -46,16 +46,16 @@ Each paper has one primary topic and may carry several method or resource tags. 
 | Tag | Papers | Filter |
 |:--|--:|:--|
 | Dataset | 93 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Dataset) |
-| Benchmark | 85 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Benchmark) |
-| Simulation | 167 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Simulation) |
+| Benchmark | 84 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Benchmark) |
+| Simulation | 173 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Simulation) |
 | Synthetic Data | 37 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Synthetic+Data) |
-| Cooperative / V2X | 112 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Cooperative+%2F+V2X) |
+| Cooperative / V2X | 114 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Cooperative+%2F+V2X) |
 | VLA | 69 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=VLA) |
-| World Model | 84 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=World+Model) |
-| Reinforcement Learning | 120 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Reinforcement+Learning) |
-| Imitation Learning | 19 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Imitation+Learning) |
-| Hardware / Real-Time | 87 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Hardware+%2F+Real-Time) |
-| Survey | 22 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Survey) |
+| World Model | 85 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=World+Model) |
+| Reinforcement Learning | 124 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Reinforcement+Learning) |
+| Imitation Learning | 20 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Imitation+Learning) |
+| Hardware / Real-Time | 89 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Hardware+%2F+Real-Time) |
+| Survey | 23 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Survey) |
 | Explainability | 108 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Explainability) |
 | Human Interaction | 22 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Human+Interaction) |
 
@@ -64,6 +64,27 @@ Each paper has one primary topic and may carry several method or resource tags. 
 <a id="category-perception-sensor-fusion"></a>
 
 ## Perception & Sensor Fusion · 193 papers
+
+<a id="paper-2609-19358"></a>
+
+### Open-vocabulary 3D object detection with promptable segmentation ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ömer Faruk Deniz, Mustafa Taha Koçyiğit<br>
+**Published:** 2026-09-16<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19358) | [PDF](https://arxiv.org/pdf/2609.19358.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Three-dimensional object detection for autonomous driving is dominated by detectors trained on large corpora of human-annotated 3D boxes. Such a detector learns a fixed category list, and everything...
+
+<a id="paper-2609-19216"></a>
+
+### 4D Radar Perception Algorithms for Autonomous Driving: A Review ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Xumin Wu, Jun Zhou, Jilin Mei, Chen Min, Yu Hu<br>
+**Published:** 2026-09-16<br>
+**Research tags:** Survey<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19216) | [PDF](https://arxiv.org/pdf/2609.19216.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Research on 4D millimeter-wave radar perception algorithms has flourished in recent years, extending from signal processing and object detection to semantic segmentation, motion estimation, occupancy...
 
 <a id="paper-2609-18542"></a>
 
@@ -153,7 +174,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-11717"></a>
 
-### MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images ![New](https://img.shields.io/badge/New-red)
+### MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Vladislav Diuzhev, Dmitry Yudin<br>
 **Published:** 2026-09-10<br>
@@ -164,7 +185,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-11527"></a>
 
-### Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless ![New](https://img.shields.io/badge/New-red)
+### Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Márk Mező-Kerekes, Péter Praksz, Chang Liu<br>
 **Published:** 2026-09-10<br>
@@ -1943,27 +1964,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Camera-based 3D object detection and tracking are central to autonomous driving, yet precise 3D object localization remains fundamentally constrained by depth ambiguity when no expensive, depth-rich...
 
-<a id="paper-2604-24044"></a>
-
-### CLLAP: Contrastive Learning-based LiDAR-Augmented Pretraining for Enhanced Radar-Camera Fusion
-
-**Authors:** Bingyi Liu, Chuanhui Zhu, Hongfei Xue, Jian Teng, Jipeng Liu, et al.<br>
-**Published:** 2026-04-27<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.24044) | [PDF](https://arxiv.org/pdf/2604.24044.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Accurate 3D object detection is critical for autonomous driving, necessitating reliable, cost-effective sensors capable of operating in adverse weather conditions. Camera and millimeter-wave radar...
-
-<a id="paper-2604-23604"></a>
-
-### Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation
-
-**Authors:** Simone Mosco, Daniel Fusaro, Alberto Pretto<br>
-**Published:** 2026-04-26<br>
-**Research tags:** Dataset · Benchmark<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23604) | [PDF](https://arxiv.org/pdf/2604.23604.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Understanding the surrounding environment is fundamental in autonomous driving and robotic perception. Distinguishing between known classes and previously unseen objects is crucial in real-world...
-
 <a id="paper-2604-22872"></a>
 
 ### Vision-Based Lane Following and Traffic Sign Recognition for Resource-Constrained Autonomous Vehicles
@@ -2084,7 +2084,17 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-prediction-world-models"></a>
 
-## Prediction & World Models · 84 papers
+## Prediction & World Models · 85 papers
+
+<a id="paper-2609-19813"></a>
+
+### Vehicle Trajectory Prediction via Neural Fusion of Multiple EKF-Based Trajectory Candidates ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Seong-Jun Kim, Seung-Hyun Kong<br>
+**Published:** 2026-09-17<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19813) | [PDF](https://arxiv.org/pdf/2609.19813.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Predicting the future trajectories of surrounding vehicles in autonomous driving is important for collision risk assessment and safe ego-vehicle path planning. Conventional neural network-based...
 
 <a id="paper-2609-16697"></a>
 
@@ -2099,7 +2109,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-13307"></a>
 
-### IMM-based Multiple Object Tracking using a State Prediction Neural Network ![New](https://img.shields.io/badge/New-red)
+### IMM-based Multiple Object Tracking using a State Prediction Neural Network ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Chan-Bin Lim, Dong-Hee Paek, Seung-Hyun Kong<br>
 **Published:** 2026-09-10<br>
@@ -2206,7 +2216,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17882"></a>
 
-### ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts ![Recent](https://img.shields.io/badge/Recent-orange)
+### ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ingrid Navarro, Pablo Ortega-Kral, Yutong Duan, Jonathan Francis, Jean Oh<br>
 **Published:** 2026-08-18<br>
@@ -2217,7 +2227,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17739"></a>
 
-### Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control ![Recent](https://img.shields.io/badge/Recent-orange)
+### Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Lu Liu, Chi Xie, Xi Xiong<br>
 **Published:** 2026-08-18<br>
@@ -2396,6 +2406,17 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2609.11947) | [PDF](https://arxiv.org/pdf/2609.11947.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** Increasing safety is the primary objective of automated vehicles. Achieving this goal requires reliable safety metrics that incorporate safety-relevant factors such as object type, velocity, and...
+
+<a id="paper-2609-20178"></a>
+
+### MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+
+**Authors:** Md Mahfuzur Rahman, Pengzhan Zhou, A. F. M. Abdun Noor, Md Imam Ahasan, Md Mustafizur Rahman, et al.<br>
+**Published:** 2026-07-24<br>
+**Research tags:** Hardware / Real-Time · Explainability<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20178) | [PDF](https://arxiv.org/pdf/2609.20178.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Accurately predicting pedestrian intentions is crucial for ensuring safe and proactive interaction between autonomous vehicles and pedestrians. However, existing approaches often depend on...
 
 <a id="paper-2607-17521"></a>
 
@@ -2609,7 +2630,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21623"></a>
 
-### A DVDrive Approach for doScenes Instructed Driving Challenge ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### A DVDrive Approach for doScenes Instructed Driving Challenge
 
 **Authors:** Zijian Fu, Xiangyang Chu, Mengshi Qi, Huadong Ma, Guanghao Zhang, et al.<br>
 **Published:** 2026-06-19<br>
@@ -2620,7 +2641,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21344"></a>
 
-### Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data
 
 **Authors:** Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez<br>
 **Published:** 2026-06-19<br>
@@ -2931,17 +2952,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often...
 
-<a id="paper-2604-23728"></a>
-
-### ESIA: An Energy-Based Spatiotemporal Interaction-Aware Framework for Pedestrian Intention Prediction
-
-**Authors:** Yanping Wu, Meiting Dang, Lin Wu, Edmond S. L. Ho, Zhenghua Chen, et al.<br>
-**Published:** 2026-04-26<br>
-**Research tags:** Explainability<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23728) | [PDF](https://arxiv.org/pdf/2604.23728.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Recent advances in autonomous driving have motivated research on pedestrian intention prediction, which aims to infer future crossing decisions and actions by modeling temporal dynamics, social...
-
 <a id="paper-2604-12425"></a>
 
 ### Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction
@@ -2987,7 +2997,28 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-planning-decision-making"></a>
 
-## Planning & Decision-Making · 77 papers
+## Planning & Decision-Making · 79 papers
+
+<a id="paper-2609-20377"></a>
+
+### MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Shuai Liu, Hechangle Gong, Hao Jiang, Runlin He, Junxiang Zhan, et al.<br>
+**Published:** 2026-09-17<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20377) | [PDF](https://arxiv.org/pdf/2609.20377.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Autonomous driving involves coupled decision-making and scene evolution under multi-mode uncertainty. To capture this coupling and uncertainty, we introduce MM-Future, a world-action model that...
+
+<a id="paper-2609-19393"></a>
+
+### WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Nishad Sahu, Changzhong Qian, Guangzhou Cai, Shounak Sural, Ragunathan, et al.<br>
+**Published:** 2026-09-16<br>
+**Research tags:** Dataset · Simulation<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19393) | [PDF](https://arxiv.org/pdf/2609.19393.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Work zones alter lane geometry through temporary traffic controls and closures that may be absent from on-board maps, challenging autonomous vehicle (AV) perception and planning. Generalization is...
 
 <a id="paper-2609-18442"></a>
 
@@ -3055,7 +3086,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-18254"></a>
 
-### GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning ![Recent](https://img.shields.io/badge/Recent-orange)
+### GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zhihong Cui, Hengyu Liu, Zhangkai Wu, Yushuai Li, Tianyi Li, et al.<br>
 **Published:** 2026-08-18<br>
@@ -3811,7 +3842,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-control-vehicle-dynamics"></a>
 
-## Control & Vehicle Dynamics · 59 papers
+## Control & Vehicle Dynamics · 58 papers
 
 <a id="paper-2609-18679"></a>
 
@@ -3846,7 +3877,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-12142"></a>
 
-### A Data-Driven Distributed Control Scheme: Learning Multi-Objective Agent-Based MPC for Path-Tracking ![New](https://img.shields.io/badge/New-red)
+### A Data-Driven Distributed Control Scheme: Learning Multi-Objective Agent-Based MPC for Path-Tracking ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Jiaming Zhong, Reza Valiollahi Mehrizi, Yash Vardhan Pant, Amir Khajepour<br>
 **Published:** 2026-09-10<br>
@@ -3898,7 +3929,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17902"></a>
 
-### Adaptive Model Predictive Control for Ground Vehicles: Review and Demonstrative Implementation ![Recent](https://img.shields.io/badge/Recent-orange)
+### Adaptive Model Predictive Control for Ground Vehicles: Review and Demonstrative Implementation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Chetana Gadgil, Mahendra Singh Tomar<br>
 **Published:** 2026-08-18<br>
@@ -4076,7 +4107,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21486"></a>
 
-### Reference-Free, Long-Horizon Trajectory Optimization for Aggressive Autonomous Driving in Milliseconds ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Reference-Free, Long-Horizon Trajectory Optimization for Aggressive Autonomous Driving in Milliseconds
 
 **Authors:** Prayag Sharma, Jonathan Y. M. Goh, Franck Djeumou<br>
 **Published:** 2026-06-19<br>
@@ -4286,17 +4317,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Intelligent Transportation Systems (ITS) increasingly rely on vision-based perception and learning-based control, necessitating experimental platforms that support realistic hardware-in-the-loop...
 
-<a id="paper-2604-23934"></a>
-
-### VLM-VPI: A Vision-Language Reasoning Framework for Improving Automated Vehicle-Pedestrian Interactions
-
-**Authors:** Qingwen Pu, Kun Xie, Yuxiang Liu<br>
-**Published:** 2026-04-26<br>
-**Research tags:** Simulation<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23934) | [PDF](https://arxiv.org/pdf/2604.23934.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Autonomous driving systems often infer pedestrian yielding behavior from geometric and kinematic cues alone, limiting their ability to reason about visual scene context and age-dependent behavioral...
-
 <a id="paper-2604-19452"></a>
 
 ### Robust Nonlinear Trajectory Tracking Control for Autonomous Racing on Three-Dimensional Tracks
@@ -4438,7 +4458,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-mapping-localization"></a>
 
-## Mapping & Localization · 49 papers
+## Mapping & Localization · 50 papers
 
 <a id="paper-2609-14691"></a>
 
@@ -4584,6 +4604,16 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** High-definition (HD) maps are essential for autonomous driving systems. In constructing such maps, onboard multi-view camera images, standard-definition maps and satellite images provide crucial...
 
+<a id="paper-2609-20321"></a>
+
+### Implementation of Tightly-Coupled SLAM Fusion of GPS, IMU, and LiDAR for Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+
+**Authors:** Amr O. Elmehrath, Farah Khaled, Rana Nahas, Catherine M. Elias<br>
+**Published:** 2026-07-31<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20321) | [PDF](https://arxiv.org/pdf/2609.20321.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Autonomous vehicles depend entirely on Simultaneous Localization and Mapping (SLAM) to navigate safely in unknown environments. However, relying on a single sensory modality introduces critical...
+
 <a id="paper-2607-23755"></a>
 
 ### DAP-Pose: Deep Temporal Alignment and Physics-aware Cross-modal Sensor Fusion for Robust Pose Estimation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
@@ -4710,7 +4740,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21223"></a>
 
-### Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems
 
 **Authors:** Yihong Tian, Junjie Zhang, Liuyang Li, Deteng Zhang, Yunfei Zuo, et al.<br>
 **Published:** 2026-06-19<br>
@@ -4955,6 +4985,17 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 ## End-to-End & VLA · 115 papers
 
+<a id="paper-2609-20756"></a>
+
+### OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Damiano Da Col, Maximilian Igl, Peter Karkus, Kashyap Chitta, Boris Ivanovic, et al.<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation · Reinforcement Learning · Imitation Learning<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20756) | [PDF](https://arxiv.org/pdf/2609.20756.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** As scaling pre-training data alone yields diminishing returns, post-training is becoming increasingly important across physical AI domains such as autonomous driving. End-to-end driving policies are...
+
 <a id="paper-2609-18623"></a>
 
 ### FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory ![New](https://img.shields.io/badge/New-red)
@@ -5001,7 +5042,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-12371"></a>
 
-### READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhiyuan Liu, Yuanxin Tian, Zehong Ke, Jinhao Li, Hao Cheng, et al.<br>
 **Published:** 2026-09-10<br>
@@ -5173,7 +5214,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-21440"></a>
 
-### Geo-VLA: Geometry-Aware Vision-Language-Action Planning via Internalization of Map Semantics ![Recent](https://img.shields.io/badge/Recent-orange)
+### Geo-VLA: Geometry-Aware Vision-Language-Action Planning via Internalization of Map Semantics ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Ran Chen, Jiaxing Ren, Zhikun Zhang, Yunhao Hou, Junbao Zhuo, et al.<br>
 **Published:** 2026-08-18<br>
@@ -5184,7 +5225,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-18035"></a>
 
-### Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Zongzheng Zhang, Jijun Wang, Saining Zhang, Shuo Wang, Yiru Wang, et al.<br>
 **Published:** 2026-08-18<br>
@@ -5604,7 +5645,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21509"></a>
 
-### A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving
 
 **Authors:** Yueyuan Li, Yifei Xiao, Mingyang Jiang, Xiang Zuo, Songan Zhang, et al.<br>
 **Published:** 2026-06-19<br>
@@ -6176,16 +6217,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Autonomous driving (AD) is evolving towards end-to-end (E2E) frameworks through two primary paradigms: monolithic models exemplified by Vision-Language-Action (VLA), and specialized modular...
 
-<a id="paper-2604-23362"></a>
-
-### UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems
-
-**Authors:** Jingyu Zhang, Jacky Wai Keung, Yan Xiao, Yihan Liao, Yishu Li, et al.<br>
-**Published:** 2026-04-25<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23362) | [PDF](https://arxiv.org/pdf/2604.23362.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Adversarial attacks play a pivotal role in testing and improving the reliability of deep learning (DL) systems. Existing literature has demonstrated that subtle perturbations to the input can elicit...
-
 <a id="paper-2603-25672"></a>
 
 ### Can Users Specify Driving Speed? Bench2Drive-Speed: Benchmark and Baselines for Desired-Speed Conditioned Autonomous Driving
@@ -6201,7 +6232,18 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-safety-security-verification"></a>
 
-## Safety, Security & Verification · 218 papers
+## Safety, Security & Verification · 215 papers
+
+<a id="paper-2609-19894"></a>
+
+### Learning Reliable Parking Policies via Offline Reinforcement Learning with Quantized Action Representations ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Zewei Yang, Zengqi Peng, Jun Ma<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation · Reinforcement Learning<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19894) | [PDF](https://arxiv.org/pdf/2609.19894.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Parking is a routine yet safety-critical task for autonomous vehicles operating in urban environments. However, cluttered and weakly structured parking spaces, compounded by the interactive...
 
 <a id="paper-2609-16535"></a>
 
@@ -6245,7 +6287,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-11549"></a>
 
-### Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threats ![New](https://img.shields.io/badge/New-red)
+### Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threats ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Riccardo Donà, Espedito Rusciano, Germana Trentadue, Anastasios Tsakalidis, Maria Cristina Galassi<br>
 **Published:** 2026-09-10<br>
@@ -6740,6 +6782,16 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2608.01448) | [PDF](https://arxiv.org/pdf/2608.01448.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** With the rapid advancement of autonomous vehicle (AV) systems, fast and reliable iteration through road testing has become increasingly critical. However, changes in testing environments make it...
+
+<a id="paper-2609-20318"></a>
+
+### LLM-Guided Transformation of Non-Critical Driving Scenes into Safety-Critical Scenarios Using Augmented Reality ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+
+**Authors:** Noura Fady, Farah Khaled, Catherine M. Elias<br>
+**Published:** 2026-07-31<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20318) | [PDF](https://arxiv.org/pdf/2609.20318.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Testing Autonomous Driving Systems (ADS) requires realistic safety-critical scenarios, but collecting such data from real-world driving is costly and unsafe. This paper presents an automated pipeline...
 
 <a id="paper-2608-00298"></a>
 
@@ -7333,7 +7385,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21172"></a>
 
-### BadDreamer: Transferable Backdoor Attacks against Video World Models for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### BadDreamer: Transferable Backdoor Attacks against Video World Models for Autonomous Driving
 
 **Authors:** Zhe Shuai, Xiaopeng Xie, Yikun Zeng<br>
 **Published:** 2026-06-19<br>
@@ -7344,7 +7396,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21154"></a>
 
-### Virginia Tech Transportation Safety Index (VTTSI) ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Virginia Tech Transportation Safety Index (VTTSI)
 
 **Authors:** Jason Cusati, Cheng-Shun Chuang<br>
 **Published:** 2026-06-19<br>
@@ -8248,46 +8300,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Automated vehicles (AVs) are commonly programmed to yield unconditionally to pedestrians in the interest of safety. However, this design choice can give rise to the Freezing Robot Problem in which...
 
-<a id="paper-2604-23523"></a>
-
-### Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go Wrong
-
-**Authors:** Khouloud Gaaloul, Zaid Ghazal, Madhu Latha Pulimi, Sam Emmanuel Kathiravan<br>
-**Published:** 2026-04-26<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23523) | [PDF](https://arxiv.org/pdf/2604.23523.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Safety specifications in cyber-physical systems (CPS) capture the operational conditions the system must satisfy to operate safely within its intended environment. As operating environments evolve,...
-
-<a id="paper-2604-23342"></a>
-
-### Empirical Insights of Test Selection Metrics under Multiple Testing Objectives and Distribution Shifts
-
-**Authors:** Jingyu Zhang, Fan Wang, Jacky Keung, Yihan Liao, Yan Xiao, et al.<br>
-**Published:** 2026-04-25<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23342) | [PDF](https://arxiv.org/pdf/2604.23342.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Deep learning (DL)-based systems can exhibit unexpected behavior when exposed to out-of-distribution (OOD) scenarios, posing serious risks in safety-critical domains such as malware detection and...
-
-<a id="paper-2604-23262"></a>
-
-### An Interactive Graphical Tool to Check the Coarray Continuity of Two-Fold Redundant Sparse Arrays (TFRSAs) Under Single Sensor Failures
-
-**Authors:** Namya Malik, Ashish Patwari, Sangeetha N<br>
-**Published:** 2026-04-25<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23262) | [PDF](https://arxiv.org/pdf/2604.23262.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Two-fold redundant sparse arrays possess inbuilt redundancy to tackle single-element failures. This property enables them to perform accurate direction of arrival (DOA) estimation even during single...
-
-<a id="paper-2604-23105"></a>
-
-### Transferable Physical-World Adversarial Patches Against Object Detection in Autonomous Driving
-
-**Authors:** Zihui Zhu, Ziqi Zhou, Yichen Wang, Lulu Xue, Minghui Li, et al.<br>
-**Published:** 2026-04-24<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.23105) | [PDF](https://arxiv.org/pdf/2604.23105.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Deep learning drives major advances in autonomous driving (AD), where object detectors are central to perception. However, adversarial attacks pose significant threats to the reliability and safety...
-
 <a id="paper-2604-22068"></a>
 
 ### TRACE: Topology-aware Reconstruction of Accidents in CARLA for AV Evaluation
@@ -8476,21 +8488,43 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** The advancement of autonomous systems -- from legged robots to self-driving vehicles and aircraft -- necessitates executing increasingly high-performance and dynamic motions without ever putting the...
 
-<a id="paper-2603-21066"></a>
-
-### The Role of Road Features and Vehicle Dynamics in Cost-Effective Autonomous Vehicles Safety Testing: Insights from Instance Space Analysis
-
-**Authors:** Victor Crespo-Rodriguez, Christian Birchler, Neelofar, Aldeida Aleti, Sebastiano Panichella<br>
-**Published:** 2026-03-22<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2603.21066) | [PDF](https://arxiv.org/pdf/2603.21066.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Context: Simulation-based testing is a cost-efficient alternative to field testing for Autonomous Vehicles (AVs), but generating safety-critical test cases is challenging due to the vast search...
-
 ---
 
 <a id="category-systems-deployment-connectivity"></a>
 
-## Systems, Deployment & Connectivity · 146 papers
+## Systems, Deployment & Connectivity · 149 papers
+
+<a id="paper-2609-20747"></a>
+
+### MILER: Semantic Mid-Level Representation for Sim-to-Real Reinforcement Learning in Unstructured Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Thomas Steinecker, Denis Trescher, Alexander Bienemann, Thorsten Luettel, Mirko Maehlisch<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation · Reinforcement Learning<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20747) | [PDF](https://arxiv.org/pdf/2609.20747.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Reinforcement learning constitutes a promising approach owing to its potential for superhuman performance and self-learned policies. However, its application to real-world autonomous driving remains...
+
+<a id="paper-2609-19681"></a>
+
+### VAST: V2X/Dynamic Map-Aware Autonomous Driving Systems Validation Toolchain ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Shunsuke Ito, Takuya Azumi<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation · Cooperative / V2X<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19681) | [PDF](https://arxiv.org/pdf/2609.19681.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Cooperative autonomous driving in the IoT-to-Edge-to-Cloud continuum requires system-level validation across vehicles, infrastructure sensors, edge-side Dynamic Map services, and in-vehicle...
+
+<a id="paper-2609-19791"></a>
+
+### Sybil-TraceGuard: Traceability-enhanced Sybil Guardian for Connected and Autonomous Vehicles Using Dynamic Semi-supervised GNN ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Qian Xu, Jiaxun Zhang, Chengyue Wang, Zhenning Li<br>
+**Published:** 2026-09-17<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19791) | [PDF](https://arxiv.org/pdf/2609.19791.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Connected and autonomous vehicles (CAVs) face severe Sybil attacks, where attackers exploit privacy-preserving pseudonym-switching mechanisms to anomaly alternate identities while forging Basic...
 
 <a id="paper-2609-14748"></a>
 
@@ -8504,7 +8538,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-13328"></a>
 
-### Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation ![New](https://img.shields.io/badge/New-red)
+### Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Henok Teklu, Mustafa Sakhai, Maciej Wielgosz, Matej Mertik<br>
 **Published:** 2026-09-10<br>
@@ -8870,6 +8904,17 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2607.28953) | [PDF](https://arxiv.org/pdf/2607.28953.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** This work studies the problem of mesh stability in connected and automated vehicles. Mesh stability, also known as 2D string stability, refers to studying how disturbances propagate in vehicular...
+
+<a id="paper-2609-20271"></a>
+
+### AI-Driven Real-Time Relay Optimisation in Smart Urban NR-V2X Networks via Learning-to-Optimise Graph Neural Networks ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+
+**Authors:** Giambattista Amati, Federica Mangiatordi, Emiliano Pallotti, Simone Angelini<br>
+**Published:** 2026-07-29<br>
+**Research tags:** Cooperative / V2X · Hardware / Real-Time<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20271) | [PDF](https://arxiv.org/pdf/2609.20271.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Reliable and low-latency communication is a fundamental requirement for smart city services and Industry 4.0 applications enabled by NR-V2X networks. However, limited Road-Side Unit (RSU) deployment...
 
 <a id="paper-2607-25989"></a>
 
@@ -9906,17 +9951,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** Multimodal deep neural networks deployed in realistic environments must contend with runtime variations: changes in modality quality, overall input complexity, and available platform resources....
 
-<a id="paper-2604-22856"></a>
-
-### Attention-Augmented YOLOv8 with Ghost Convolution for Real-Time Vehicle Detection in Intelligent Transportation Systems
-
-**Authors:** Syed Sajid Ullah, Muhammad Zunair Zamir, Ahsan Ishfaq, Salman Khan<br>
-**Published:** 2026-04-22<br>
-**Research tags:** Hardware / Real-Time<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.22856) | [PDF](https://arxiv.org/pdf/2604.22856.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Accurate vehicle detection is a critical component of autonomous driving, traffic surveillance, and intelligent transportation systems. This paper presents an enhanced YOLOv8n-based model that...
-
 <a id="paper-2604-16184"></a>
 
 ### Real-Time Solution-Seeking for Game-Theoretic Autonomous Driving via Time-Distributed Iterations
@@ -10066,7 +10100,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-11478"></a>
 
-### CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation ![New](https://img.shields.io/badge/New-red)
+### CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Patrick Rebling, Philipp Nenninger, Reiner Kriesten<br>
 **Published:** 2026-09-10<br>
@@ -10393,7 +10427,50 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-cross-cutting-other"></a>
 
-## Cross-cutting / Other · 263 papers
+## Cross-cutting / Other · 266 papers
+
+<a id="paper-2609-20480"></a>
+
+### Worst-Case Hidden-Vehicle Trajectory Search in Spatiotemporal Occlusion Regions ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Ruichen Tan, Zengxiang Lei, Satish Ukkusuri<br>
+**Published:** 2026-09-17<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20480) | [PDF](https://arxiv.org/pdf/2609.20480.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Occlusion creates fundamental uncertainty in autonomous driving. Existing methods often propagate frame-wise hypotheses or optimize ego behavior against prescribed hidden-agent predictions, leaving...
+
+<a id="paper-2609-20034"></a>
+
+### Astronex-World 1.0: Real-Time Interactive World Model Foundation ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Xin Zhou, Cong Miao<br>
+**Published:** 2026-09-17<br>
+**Research tags:** World Model · Hardware / Real-Time<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.20034) | [PDF](https://arxiv.org/pdf/2609.20034.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** We present Astronex-World 1.0, an open controllable video world-model foundation. Given a text prompt (text-to-video) or an initial observation (image-to-video), the model predicts future visual...
+
+<a id="paper-2609-19903"></a>
+
+### REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Xiaojun Bi, Jun Jiang, Yiwen Sun, Quanyi Ou, Ke Cheng, et al.<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation · Reinforcement Learning<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19903) | [PDF](https://arxiv.org/pdf/2609.19903.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Accurate simulation is crucial for autonomous driving development, yet capturing real-world traffic complexity remains challenging. Existing simulators that rely on predefined rules or static data...
+
+<a id="paper-2609-19699"></a>
+
+### BA-TRACE: Boundary-Aware Trace Reconstruction for Scenario-Based Evaluation of Mixed AUTOSAR Adaptive and ROS 2 Vehicular Embedded Systems ![New](https://img.shields.io/badge/New-red)
+
+**Authors:** Shunsuke Ito, Ryudai Iwakami, Hiroyuki Hanyu, Tasuku Ishigooka, Takuya Azumi<br>
+**Published:** 2026-09-17<br>
+**Research tags:** Simulation<br>
+**Links:** [arXiv abstract](https://arxiv.org/abs/2609.19699) | [PDF](https://arxiv.org/pdf/2609.19699.pdf) | [↑ BackToTop](#browse-by-topic)
+
+**Abstract:** Modern vehicular embedded systems increasingly combine ROS 2-based autonomous-driving stacks with AUTOSAR Adaptive Platform (AUTOSAR AP). Such mixed stacks make scenario-based evaluation hard to...
 
 <a id="paper-2609-18511"></a>
 
@@ -10850,7 +10927,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17779"></a>
 
-### Stability Control for Real World Testing in Autonomous Racing ![Recent](https://img.shields.io/badge/Recent-orange)
+### Stability Control for Real World Testing in Autonomous Racing ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Phillip Pitschi, Simon Sagmeister, Frederik Werner, Markus Lienkamp, Boris Lohmann<br>
 **Published:** 2026-08-18<br>
@@ -10860,7 +10937,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17420"></a>
 
-### SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering ![Recent](https://img.shields.io/badge/Recent-orange)
+### SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Gen Li, Shu Han, Yun Xi Qiao, Hua Chen, Xuyang Dai, et al.<br>
 **Published:** 2026-08-18<br>
@@ -10871,7 +10948,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2608-17567"></a>
 
-### Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries ![Recent](https://img.shields.io/badge/Recent-orange)
+### Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Henrik Wille, Luis-Finley Schütz, Felix Strieth-Kalthoff<br>
 **Published:** 2026-08-18<br>
@@ -11903,7 +11980,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21587"></a>
 
-### FAST: A Framework for Aligned Sampling and Training in Parallel Reinforcement Learning for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### FAST: A Framework for Aligned Sampling and Training in Parallel Reinforcement Learning for Autonomous Driving
 
 **Authors:** Bonan Wang, Letian Tao, Bin Shuai, Jiaxin Gao, Wenxin Zhao, et al.<br>
 **Published:** 2026-06-19<br>
@@ -11914,7 +11991,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2606-21270"></a>
 
-### Non-line-of-sight imaging with arbitrary relay surface geometries via 3D Gaussian Transient Rendering ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Non-line-of-sight imaging with arbitrary relay surface geometries via 3D Gaussian Transient Rendering
 
 **Authors:** Yi Wang, Ziyu Zhan, Yuran Wang, Hao Wang, Qiang Liu, et al.<br>
 **Published:** 2026-06-19<br>
@@ -12955,16 +13032,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2604.24295) | [PDF](https://arxiv.org/pdf/2604.24295.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** Inefficient driving behaviors, such as overly conservative yielding, remain a key obstacle to deployment of autonomous vehicles (AVs). Instantaneous driving efficiency metrics are crucial for...
-
-<a id="paper-2604-24119"></a>
-
-### TopoHR: Hierarchical Centerline Representation for Cyclic Topology Reasoning in Driving Scenes with Point-to-Instance Relations
-
-**Authors:** Yifeng Bai, Zhirong Chen, Bo Song, Erkang Cheng, Haibin Ling<br>
-**Published:** 2026-04-27<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.24119) | [PDF](https://arxiv.org/pdf/2604.24119.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Topology reasoning is crucial for autonomous driving. Current methods primarily focus on instance-level learning for centerline detection, followed by a sequential module for topology reasoning that...
 
 <a id="paper-2604-23685"></a>
 
