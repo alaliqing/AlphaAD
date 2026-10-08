@@ -398,7 +398,8 @@ async function initialize() {
   bindEvents();
 
   try {
-    const response = await fetch("data/papers.json", { cache: "no-store" });
+    // Reuse fresh HTTP cache entries and let the server validate expired data.
+    const response = await fetch("data/papers.json");
     if (!response.ok) throw new Error(`Paper feed returned ${response.status}`);
     const payload = await response.json();
     if (!payload.meta || !Array.isArray(payload.papers)) throw new Error("Paper feed is malformed");
