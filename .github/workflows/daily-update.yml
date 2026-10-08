@@ -7,6 +7,8 @@ on:
     paths:
       - README.md
       - scrape_arxiv.py
+      - build_site.py
+      - templates/**
       - site/**
       - tests/**
       - .github/workflows/daily-update.yml
@@ -61,14 +63,19 @@ jobs:
           echo "All scraper attempts failed; keeping the last published index."
           exit 1
 
+      - name: Build static first page
+        run: python build_site.py
+
       - name: Verify generated outputs
-        run: python -m unittest discover -s tests
+        run: |
+          python -m unittest discover -s tests
+          node --test tests/test_filters.cjs
 
       - name: Check generated changes
         if: github.event_name != 'push'
         id: generated_changes
         run: |
-          if ! git diff --quiet -- README.md site/data/papers.json; then
+          if ! git diff --quiet -- README.md site/data/papers.json site/index.html; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -77,7 +84,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md site/data/papers.json
+          git add README.md site/data/papers.json site/index.html
           git commit -m "[update] refresh papers $(date +'%Y-%m-%d')"
           git push
 

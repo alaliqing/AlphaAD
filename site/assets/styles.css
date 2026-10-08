@@ -596,6 +596,22 @@ kbd {
   opacity: 0.55;
 }
 
+.paper-card.is-initial {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
+.feed-status {
+  margin: 12px 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+button:disabled,
+input:disabled,
+select:disabled { cursor: wait; }
+
 .paper-card[data-recency="new"]::before { background: var(--signal); opacity: 0.78; }
 .paper-card[data-recency="recent"]::before { background: var(--recent); opacity: 0.72; }
 .paper-card[data-recency="fresh"]::before { background: var(--fresh); opacity: 0.68; }

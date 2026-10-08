@@ -8,12 +8,15 @@ const elements = {
   clearSearch: document.querySelector("#clear-search"),
   emptyReset: document.querySelector("#empty-reset"),
   emptyState: document.querySelector("#empty-state"),
+  feedStatus: document.querySelector("#feed-status"),
+  feedStatusText: document.querySelector("#feed-status-text"),
   lastUpdated: document.querySelector("#last-updated"),
   loadMore: document.querySelector("#load-more"),
   newPapers: document.querySelector("#new-papers"),
   paperList: document.querySelector("#paper-list"),
   recency: document.querySelector("#recency-filter"),
   resetFilters: document.querySelector("#reset-filters"),
+  retryFeed: document.querySelector("#retry-feed"),
   resultContext: document.querySelector("#result-context"),
   resultCount: document.querySelector("#result-count"),
   searchForm: document.querySelector("#search-form"),
@@ -30,6 +33,7 @@ const state = {
   category: params.get("topic") || "all",
   days: params.get("days") || "all",
   papers: [],
+  ready: false,
   query: params.get("q") || "",
   sort: params.get("sort") || "newest",
   tag: params.get("tag") || "all",
@@ -38,6 +42,21 @@ const state = {
 
 let meta = null;
 let searchTimer = null;
+let loadingFeed = false;
+let dataUrl = "data/papers.json";
+
+function setFeedControls() {
+  const controls = document.querySelectorAll(
+    "#search-input, #clear-search, #recency-filter, #sort-filter, #tag-filter, " +
+    "#category-filters button, #load-more, #reset-filters, #empty-reset, .paper-tag",
+  );
+  controls.forEach((control) => { control.disabled = !state.ready; });
+}
+
+function hasActiveView() {
+  return Boolean(state.query.trim() || state.category !== "all" || state.days !== "all" ||
+    state.tag !== "all" || state.sort !== "newest");
+}
 
 function normalize(value) {
   return value
@@ -111,7 +130,6 @@ function updateUrl() {
 function selectCategory(category) {
   state.category = category;
   state.visible = PAGE_SIZE;
-  renderCategoryFilters();
   renderResults();
 }
 
@@ -124,37 +142,48 @@ function categoryButton(name, count) {
   const countElement = createElement("span", "chip-count", String(count));
   countElement.setAttribute("aria-hidden", "true");
   button.append(countElement);
-  button.addEventListener("click", () => selectCategory(name));
+  button.disabled = !state.ready;
   return button;
 }
 
-function renderCategoryFilters() {
-  elements.categoryFilters.replaceChildren();
-  elements.categoryFilters.append(categoryButton("all", meta.total_papers));
-  for (const category of meta.categories) {
-    elements.categoryFilters.append(categoryButton(category.name, category.count));
+function renderCategoryFilters(papers = state.papers) {
+  const counts = new Map();
+  for (const paper of papers) {
+    const category = paper.primary_category || paper.category;
+    counts.set(category, (counts.get(category) || 0) + 1);
   }
+  const scrollLeft = elements.categoryFilters.scrollLeft;
+  elements.categoryFilters.replaceChildren();
+  elements.categoryFilters.append(categoryButton("all", papers.length));
+  for (const category of meta.categories) {
+    elements.categoryFilters.append(categoryButton(category.name, counts.get(category.name) || 0));
+  }
+  elements.categoryFilters.scrollLeft = scrollLeft;
 }
 
-function renderTagFilter() {
+function renderTagFilter(papers) {
+  const counts = new Map();
+  for (const paper of papers) {
+    for (const tag of paper.tags || []) counts.set(tag, (counts.get(tag) || 0) + 1);
+  }
   elements.tag.replaceChildren();
-  elements.tag.append(new Option("All research tags", "all"));
+  elements.tag.append(new Option(`All research tags · ${papers.length}`, "all"));
   for (const tag of meta.tags || []) {
-    elements.tag.append(new Option(`${tag.name} · ${tag.count}`, tag.name));
+    elements.tag.append(new Option(`${tag.name} · ${counts.get(tag.name) || 0}`, tag.name));
   }
   elements.tag.value = state.tag;
 }
 
-function filteredPapers() {
+function matchingPapers({ ignoreCategory = false, ignoreTag = false } = {}) {
   const query = normalize(state.query.trim());
   const terms = query.split(/\s+/).filter(Boolean);
   const maxDays = state.days === "all" ? Infinity : Number(state.days);
 
-  const filtered = state.papers.filter((paper) => {
+  return state.papers.filter((paper) => {
     const category = paper.primary_category || paper.category;
     const tags = paper.tags || [];
-    if (state.category !== "all" && category !== state.category) return false;
-    if (state.tag !== "all" && !tags.includes(state.tag)) return false;
+    if (!ignoreCategory && state.category !== "all" && category !== state.category) return false;
+    if (!ignoreTag && state.tag !== "all" && !tags.includes(state.tag)) return false;
     if (paper.age_days > maxDays) return false;
     if (!terms.length) return true;
 
@@ -163,7 +192,10 @@ function filteredPapers() {
     );
     return terms.every((term) => haystack.includes(term));
   });
+}
 
+function filteredPapers() {
+  const filtered = matchingPapers();
   filtered.sort((left, right) => {
     if (state.sort === "oldest") return left.published.localeCompare(right.published);
     if (state.sort === "title") return left.title.localeCompare(right.title);
@@ -180,6 +212,7 @@ function recencyText(paper) {
 
 function paperCard(paper, index) {
   const article = createElement("article", "paper-card");
+  article.dataset.paperId = paper.id;
   article.style.animationDelay = `${Math.min(index, 12) * 28}ms`;
   article.dataset.recency = paper.recency;
 
@@ -214,13 +247,6 @@ function paperCard(paper, index) {
       const tagButton = createElement("button", "paper-tag", tag);
       tagButton.type = "button";
       tagButton.setAttribute("aria-pressed", String(state.tag === tag));
-      tagButton.addEventListener("click", () => {
-        state.tag = tag;
-        state.visible = PAGE_SIZE;
-        elements.tag.value = tag;
-        renderResults();
-        elements.tag.focus({ preventScroll: true });
-      });
       tagList.append(tagButton);
     }
     main.append(tagList);
@@ -233,13 +259,6 @@ function paperCard(paper, index) {
     abstractToggle.type = "button";
     abstractToggle.setAttribute("aria-controls", abstractId);
     abstractToggle.setAttribute("aria-expanded", "false");
-    abstractToggle.addEventListener("click", () => {
-      const expanded = abstractToggle.getAttribute("aria-expanded") === "true";
-      abstractToggle.setAttribute("aria-expanded", String(!expanded));
-      abstractToggle.textContent = expanded ? "Read full abstract +" : "Collapse abstract −";
-      abstract.textContent = expanded ? abstractExcerpt : paper.abstract;
-      abstract.classList.toggle("is-expanded", !expanded);
-    });
     main.append(abstractToggle);
   }
 
@@ -277,18 +296,25 @@ function describeResultSet(count) {
   if (state.category !== "all") parts.push(state.category);
   if (state.tag !== "all") parts.push(`tag: ${state.tag}`);
   if (state.days !== "all") parts.push(`last ${state.days} days`);
-  const scope = parts.length ? parts.join(" · ") : "all topics · 180-day window";
+  const scope = parts.length ? parts.join(" · ") : `all topics · ${meta.window_days}-day window`;
   return `${count.toLocaleString("en")} results · ${scope}`;
 }
 
-function renderResults() {
+function renderResults({ preserveCards = false } = {}) {
   const papers = filteredPapers();
   const visible = papers.slice(0, state.visible);
+  // Each facet counts matches for the other active filters, including recency.
+  renderTagFilter(matchingPapers({ ignoreTag: true }));
+  renderCategoryFilters(matchingPapers({ ignoreCategory: true }));
 
-  elements.paperList.replaceChildren();
-  const fragment = document.createDocumentFragment();
-  visible.forEach((paper, index) => fragment.append(paperCard(paper, index)));
-  elements.paperList.append(fragment);
+  const currentCards = [...elements.paperList.querySelectorAll(".paper-card")];
+  const sameCards = currentCards.length === visible.length &&
+    currentCards.every((card, index) => card.dataset.paperId === visible[index].id);
+  if (!preserveCards || !sameCards) {
+    const fragment = document.createDocumentFragment();
+    visible.forEach((paper, index) => fragment.append(paperCard(paper, index)));
+    elements.paperList.replaceChildren(fragment);
+  }
   elements.paperList.setAttribute("aria-busy", "false");
 
   elements.resultCount.textContent = papers.length.toLocaleString("en");
@@ -302,6 +328,7 @@ function renderResults() {
   }
 
   elements.clearSearch.hidden = !state.query;
+  setFeedControls();
   updateUrl();
 }
 
@@ -313,9 +340,8 @@ function resetView() {
   state.tag = "all";
   state.visible = PAGE_SIZE;
   syncControls();
-  renderCategoryFilters();
-  elements.categoryFilters.scrollLeft = 0;
   renderResults();
+  elements.categoryFilters.scrollLeft = 0;
 }
 
 function handleSearch(value) {
@@ -327,6 +353,32 @@ function handleSearch(value) {
 }
 
 function bindEvents() {
+  elements.categoryFilters.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-category]");
+    if (button && state.ready) selectCategory(button.dataset.category);
+  });
+  elements.paperList.addEventListener("click", (event) => {
+    const tagButton = event.target.closest(".paper-tag");
+    if (tagButton && state.ready) {
+      state.tag = tagButton.textContent;
+      state.visible = PAGE_SIZE;
+      renderResults();
+      elements.tag.focus({ preventScroll: true });
+      return;
+    }
+    const toggle = event.target.closest(".abstract-toggle");
+    if (!toggle) return;
+    const card = toggle.closest(".paper-card");
+    const paper = state.papers.find((item) => item.id === card.dataset.paperId);
+    if (!paper) return;
+    const expanded = toggle.getAttribute("aria-expanded") === "true";
+    const abstract = card.querySelector(".paper-abstract");
+    toggle.setAttribute("aria-expanded", String(!expanded));
+    toggle.textContent = expanded ? "Read full abstract +" : "Collapse abstract −";
+    abstract.textContent = expanded ? (paper.short_abstract || paper.abstract) : paper.abstract;
+    abstract.classList.toggle("is-expanded", !expanded);
+  });
+  elements.retryFeed.addEventListener("click", () => loadFeed({ reload: true }));
   elements.searchForm.addEventListener("submit", (event) => event.preventDefault());
   elements.searchInput.addEventListener("input", (event) => handleSearch(event.target.value));
   elements.clearSearch.addEventListener("click", () => {
@@ -370,54 +422,102 @@ function bindEvents() {
 
 function renderStats() {
   elements.totalPapers.textContent = meta.total_papers.toLocaleString("en");
-  elements.newPapers.textContent = state.papers.filter((paper) => paper.age_days <= 7).length.toLocaleString("en");
+  const recentPapers = meta.recent_papers ?? state.papers.filter((paper) => paper.age_days <= 7).length;
+  elements.newPapers.textContent = recentPapers.toLocaleString("en");
   elements.lastUpdated.textContent = formatDate(meta.generated_at, false);
 }
 
 function showLoadError(error) {
   console.error(error);
   elements.paperList.setAttribute("aria-busy", "false");
-  elements.paperList.replaceChildren();
-  const message = createElement("div", "empty-state");
-  message.append(
-    createElement("p", "empty-code", "SIGNAL LOST / 503"),
-    createElement("h3", "", "The research feed could not be loaded."),
-    createElement("p", "", "Refresh the page or use the complete repository README while the feed reconnects."),
-  );
-  const repository = createElement("a", "", "Open the README →");
-  repository.href = "https://github.com/alaliqing/AlphaAD#readme";
-  message.append(repository);
-  elements.paperList.append(message);
-  elements.resultCount.textContent = "0";
-  elements.resultContext.textContent = "Research data unavailable";
+  elements.feedStatus.hidden = false;
+  elements.feedStatusText.textContent = "Search and filters could not be loaded. You can still read the latest papers below.";
+  elements.retryFeed.hidden = false;
+  if (hasActiveView()) {
+    elements.feedStatusText.textContent = "Matching papers could not be loaded. Retry or browse the complete repository README.";
+  }
 }
 
-async function initialize() {
-  applyTheme(readTheme());
-  syncControls();
-  bindEvents();
-
+async function loadFeed({ reload = false } = {}) {
+  if (loadingFeed || state.ready) return;
+  loadingFeed = true;
+  elements.retryFeed.hidden = true;
+  elements.feedStatusText.textContent = "Preparing search and filters…";
   try {
     // Reuse fresh HTTP cache entries and let the server validate expired data.
-    const response = await fetch("data/papers.json");
+    const response = await fetch(dataUrl, reload ? { cache: "reload" } : undefined);
     if (!response.ok) throw new Error(`Paper feed returned ${response.status}`);
     const payload = await response.json();
-    if (!payload.meta || !Array.isArray(payload.papers)) throw new Error("Paper feed is malformed");
+    if (!payload.meta || !Array.isArray(payload.papers) ||
+        !Array.isArray(payload.meta.categories) || !Array.isArray(payload.meta.tags || []) ||
+        payload.meta.total_papers !== payload.papers.length) {
+      throw new Error("Paper feed is malformed");
+    }
 
+    const sameSnapshot = meta?.generated_at === payload.meta.generated_at;
     meta = payload.meta;
     state.papers = payload.papers;
-    const categoryNames = new Set(meta.categories.map((category) => category.name));
-    if (state.category !== "all" && !categoryNames.has(state.category)) state.category = "all";
-    const tagNames = new Set((meta.tags || []).map((tag) => tag.name));
-    if (state.tag !== "all" && !tagNames.has(state.tag)) state.tag = "all";
-
+    state.ready = true;
+    validateView();
+    syncControls();
     renderStats();
-    renderCategoryFilters();
-    renderTagFilter();
-    renderResults();
+    renderResults({ preserveCards: sameSnapshot && !hasActiveView() });
+    elements.feedStatus.hidden = true;
   } catch (error) {
+    state.ready = false;
+    setFeedControls();
     showLoadError(error);
+  } finally {
+    loadingFeed = false;
   }
+}
+
+function validateView() {
+  const categoryNames = new Set(meta.categories.map((category) => category.name));
+  if (state.category !== "all" && !categoryNames.has(state.category)) state.category = "all";
+  const tagNames = new Set((meta.tags || []).map((tag) => tag.name));
+  if (state.tag !== "all" && !tagNames.has(state.tag)) state.tag = "all";
+}
+
+function initialize() {
+  // Older cached HTML can load the current script during a deployment.
+  if (!elements.feedStatus) {
+    elements.feedStatus = createElement("div", "feed-status");
+    elements.feedStatusText = createElement("span", "", "Preparing search and filters…");
+    elements.retryFeed = createElement("button", "text-button", "Retry");
+    elements.retryFeed.type = "button";
+    elements.retryFeed.hidden = true;
+    elements.feedStatus.append(elements.feedStatusText, elements.retryFeed);
+    elements.paperList.before(elements.feedStatus);
+  }
+  applyTheme(readTheme());
+  const initialData = document.querySelector("#initial-data");
+  if (initialData) {
+    const payload = JSON.parse(initialData.textContent);
+    meta = payload.meta;
+    state.papers = payload.papers;
+    dataUrl = payload.data_url;
+    state.ready = state.papers.length === meta.total_papers;
+    validateView();
+  }
+  syncControls();
+  bindEvents();
+  setFeedControls();
+  if (state.ready) {
+    renderStats();
+    renderResults({ preserveCards: !hasActiveView() });
+    elements.feedStatus.hidden = true;
+    return;
+  }
+  if (hasActiveView()) {
+    elements.paperList.hidden = true;
+    elements.paperList.setAttribute("aria-busy", "true");
+    elements.loadMore.hidden = true;
+    elements.resultCount.textContent = "—";
+    elements.resultContext.textContent = "Loading matching papers…";
+  }
+  // Give the static first page a paint before downloading the complete feed.
+  window.requestAnimationFrame(() => window.setTimeout(loadFeed, 0));
 }
 
 initialize();
