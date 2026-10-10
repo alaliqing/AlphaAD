@@ -3,8 +3,8 @@
 # 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--10--09-blue)
-![Total Papers](https://img.shields.io/badge/Papers-1232-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--10--10-blue)
+![Total Papers](https://img.shields.io/badge/Papers-1229-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 **A daily, explainable research signal for autonomous driving.**<br>
@@ -20,19 +20,19 @@ Browse one primary topic per paper, then refine the signal with method and resou
 
 ## Browse by topic
 
-All 1232 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
+All 1229 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
 
 | Topic | Papers | Latest | Jump |
 |:--|--:|:--|:--|
 | Perception & Sensor Fusion | 175 | 2026-10-08 | [View papers](#category-perception-sensor-fusion) |
 | Prediction & World Models | 93 | 2026-10-08 | [View papers](#category-prediction-world-models) |
 | Planning & Decision-Making | 89 | 2026-10-07 | [View papers](#category-planning-decision-making) |
-| Control & Vehicle Dynamics | 55 | 2026-10-05 | [View papers](#category-control-vehicle-dynamics) |
+| Control & Vehicle Dynamics | 54 | 2026-10-05 | [View papers](#category-control-vehicle-dynamics) |
 | Mapping & Localization | 47 | 2026-10-08 | [View papers](#category-mapping-localization) |
 | End-to-End & VLA | 116 | 2026-10-08 | [View papers](#category-end-to-end-vla) |
 | Safety, Security & Verification | 205 | 2026-10-08 | [View papers](#category-safety-security-verification) |
 | Systems, Deployment & Connectivity | 146 | 2026-10-08 | [View papers](#category-systems-deployment-connectivity) |
-| Human Factors & Policy | 32 | 2026-10-07 | [View papers](#category-human-factors-policy) |
+| Human Factors & Policy | 30 | 2026-10-07 | [View papers](#category-human-factors-policy) |
 | Cross-cutting / Other | 274 | 2026-10-08 | [View papers](#category-cross-cutting-other) |
 
 ---
@@ -57,7 +57,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 | Hardware / Real-Time | 88 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Hardware+%2F+Real-Time) |
 | Survey | 26 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Survey) |
 | Explainability | 99 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Explainability) |
-| Human Interaction | 18 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Human+Interaction) |
+| Human Interaction | 16 | [Open filter](https://alaliqing.github.io/AlphaAD/?tag=Human+Interaction) |
 
 ---
 
@@ -130,7 +130,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-04187"></a>
 
-### Autoware in Construction: Gap Analysis and LiDAR Perception Toward Off-Road Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Autoware in Construction: Gap Analysis and LiDAR Perception Toward Off-Road Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yu Otsuki, Teja Emmey, Sena Matsushita, Akiro Harada, Takeshi Miura<br>
 **Published:** 2026-10-02<br>
@@ -435,7 +435,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-09881"></a>
 
-### CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids ![Recent](https://img.shields.io/badge/Recent-orange)
+### CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Toomas Tahves, Mauro Bellone, Raivo Sell<br>
 **Published:** 2026-09-09<br>
@@ -2101,7 +2101,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-10806"></a>
 
-### TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs ![Recent](https://img.shields.io/badge/Recent-orange)
+### TrajFusionNet+: Transformer-Based Prediction of Pedestrian Crossing Intention via Fusion of Trajectory Representations and Scene Graphs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** François G. Landry, Moulay A. Akhloufi<br>
 **Published:** 2026-09-09<br>
@@ -2971,7 +2971,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-03948"></a>
 
-### Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom ![New](https://img.shields.io/badge/New-red)
+### Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Xiaojun Bi, Xiaoyuan Ma, Yiwen Sun, Tianren Huang, Chaoran Liu, et al.<br>
 **Published:** 2026-10-02<br>
@@ -3386,7 +3386,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-10438"></a>
 
-### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Large Language Model Enhanced Differentiable Trajectory Planning for IoT-Enabled Autonomous Driving
 
 **Authors:** Shihao Zhang, Jing Yang, Ziyu Song, Zheng Lin, Sunil Prajapat, et al.<br>
 **Published:** 2026-07-11<br>
@@ -3841,7 +3841,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-control-vehicle-dynamics"></a>
 
-## Control & Vehicle Dynamics · 55 papers
+## Control & Vehicle Dynamics · 54 papers
 
 <a id="paper-2610-06539"></a>
 
@@ -3866,7 +3866,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-04088"></a>
 
-### Towards Safer Autonomous Driving in an Open World: A Dual-Process Approach ![New](https://img.shields.io/badge/New-red)
+### Towards Safer Autonomous Driving in an Open World: A Dual-Process Approach ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Simon Janssen, Michiel Braat, Chris van der Ploeg, Serge Thill, Jan-Pieter Paardekooper<br>
 **Published:** 2026-10-02<br>
@@ -3877,7 +3877,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-02825"></a>
 
-### TerrainForge: Physics-Grounded road geometry Editing for Counterfactual Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### TerrainForge: Physics-Grounded road geometry Editing for Counterfactual Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yang Chen, Yicheng Zhu, zhenning Li, Tao Li, Zilin Bian<br>
 **Published:** 2026-10-02<br>
@@ -4410,16 +4410,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** The rapid development of cyber-physical systems is driving a transition toward mixed traffic environments comprising both human-driven and connected and automated vehicles (CAVs). This shift presents...
 
-<a id="paper-2604-10993"></a>
-
-### On Switched Event-triggered Full State-constrained Formation Control for Multi-vehicle Systems
-
-**Authors:** Zihan Li, Ziming Wang, Xin Wang<br>
-**Published:** 2026-04-13<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.10993) | [PDF](https://arxiv.org/pdf/2604.10993.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** Vehicular formation control is an important component of intelligent transportation systems (ITSs). In practical implementations, the controller design needs to satisfy multiple state constraints,...
-
 ---
 
 <a id="category-mapping-localization"></a>
@@ -4694,7 +4684,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-10394"></a>
 
-### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles
 
 **Authors:** Boris Radovanovic, Sasa Talosi, Srdjan Sobot, Dejan Vukobratovic<br>
 **Published:** 2026-07-11<br>
@@ -5296,7 +5286,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-10377"></a>
 
-### Data-Driven Risk Fields for Safer End-to-End Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Data-Driven Risk Fields for Safer End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Yuanxin Tian, Zhiyuan Liu, Jinhao Li, Liangfan Zhu, Shuai Wang, et al.<br>
 **Published:** 2026-09-09<br>
@@ -5726,7 +5716,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-10336"></a>
 
-### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### PrismAD: Decoupled Planning via Semantic Mixture-of-Planners for End-to-End Autonomous Driving
 
 **Authors:** Kang Ding, Zhigui Lin, Hongsong Wang, Jie Gui, Qi Liu, et al.<br>
 **Published:** 2026-07-11<br>
@@ -6454,7 +6444,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-00125"></a>
 
-### A Comprehensive Review of One-Pixel Attack: Research Status, Taxonomy, Applications, Regulation Policy and Future Directions ![Recent](https://img.shields.io/badge/Recent-orange)
+### A Comprehensive Review of One-Pixel Attack: Research Status, Taxonomy, Applications, Regulation Policy and Future Directions ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Mirza Niaz Morshed, Md. Masudul Islam, Galib Muhammad Shahriar Himel, Md. Aslam Uddin, Hui Liu, et al.<br>
 **Published:** 2026-09-09<br>
@@ -6465,7 +6455,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-10232"></a>
 
-### Mitigating Degradation Attacks in Cooperative Autonomous Driving via Intention Sharing: A Vehicle-in-the-Loop Study ![Recent](https://img.shields.io/badge/Recent-orange)
+### Mitigating Degradation Attacks in Cooperative Autonomous Driving via Intention Sharing: A Vehicle-in-the-Loop Study ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Prakhar Gupta, Tyler Ard, Rongyao Wang, Jagruti Sahoo, Judith Mwakalonge, et al.<br>
 **Published:** 2026-09-09<br>
@@ -6476,7 +6466,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-10951"></a>
 
-### Testing Between the Test Cases: Proving End-to-End Steering in Conditions You Never Drove ![Recent](https://img.shields.io/badge/Recent-orange)
+### Testing Between the Test Cases: Proving End-to-End Steering in Conditions You Never Drove ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Menuka Ghalan, Charles Rodgers, Zachary D. Asher<br>
 **Published:** 2026-09-09<br>
@@ -8593,7 +8583,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-10970"></a>
 
-### Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign ![Recent](https://img.shields.io/badge/Recent-orange)
+### Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Haoran Jin, Jirong Yang, Zhiheng Zhang, Justin Shin, Barry Lyu, et al.<br>
 **Published:** 2026-09-09<br>
@@ -9893,7 +9883,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-human-factors-policy"></a>
 
-## Human Factors & Policy · 32 papers
+## Human Factors & Policy · 30 papers
 
 <a id="paper-2610-11175"></a>
 
@@ -10220,28 +10210,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 **Abstract:** As the number of fatalities involving Autonomous Vehicles increase, the need for a universal method of communicating between vehicles and other agents on the road has also increased. Over the past...
 
-<a id="paper-2604-11406"></a>
-
-### Using Unwrapped Full Color Space Recording to Measure the Exposedness of Vehicle Exterior Parts for External Human Machine Interfaces
-
-**Authors:** Jose Gonzalez-Belmonte, Jaerock Kwon<br>
-**Published:** 2026-04-13<br>
-**Research tags:** Human Interaction<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.11406) | [PDF](https://arxiv.org/pdf/2604.11406.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** One of the concerns with autonomous vehicles is their ability to communicate their intent to other road users, specially pedestrians, in order to prevent accidents. External Human-Machine Interfaces...
-
-<a id="paper-2604-11549"></a>
-
-### Human Centered Non Intrusive Driver State Modeling Using Personalized Physiological Signals in Real World Automated Driving
-
-**Authors:** David Puertas-Ramirez, Raul Fernandez-Matellan, David Martin Gomez, Jesus G. Boticario<br>
-**Published:** 2026-04-13<br>
-**Research tags:** Human Interaction<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.11549) | [PDF](https://arxiv.org/pdf/2604.11549.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** In vehicles with partial or conditional driving automation (SAE Levels 2-3), the driver remains responsible for supervising the system and responding to take-over requests. Therefore, reliable driver...
-
 ---
 
 <a id="category-cross-cutting-other"></a>
@@ -10363,7 +10331,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-03481"></a>
 
-### Learning in Inverse Games: Tractable Training with Probabilistic Guarantees ![New](https://img.shields.io/badge/New-red)
+### Learning in Inverse Games: Tractable Training with Probabilistic Guarantees ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Arghya Mallick, Reza Rahimi Baghbadorani, Peyman Mohajerin Esfahani, Sergio Grammatico<br>
 **Published:** 2026-10-02<br>
@@ -11737,7 +11705,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-10138"></a>
 
-### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Channel Knowledge Empowered Finite-Blocklength Rate-Splitting Transmission for High-Mobility Autonomous Driving
 
 **Authors:** Yingyang Chen, Yi Wang, Yijie Mao, Feng Bai, Xia Wu, et al.<br>
 **Published:** 2026-07-11<br>
