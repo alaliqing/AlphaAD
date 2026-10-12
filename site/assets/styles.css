@@ -461,7 +461,7 @@ html[data-theme="dark"] .icon-dark { display: block; }
   transition: color 0.16s ease, border-color 0.16s ease, background-color 0.16s ease;
 }
 
-.category-chip:hover:not(:disabled) {
+.category-chip:hover:not(:disabled):not([aria-pressed="true"]) {
   color: var(--ink);
   border-color: var(--line-strong);
 }
@@ -470,6 +470,11 @@ html[data-theme="dark"] .icon-dark { display: block; }
   background: var(--ink);
   border-color: var(--ink);
   color: var(--canvas);
+}
+
+.category-chip[aria-pressed="true"]:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--ink) 86%, transparent);
+  border-color: color-mix(in srgb, var(--ink) 86%, transparent);
 }
 
 .category-chip:disabled {

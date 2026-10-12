@@ -660,7 +660,12 @@ function initialize() {
     elements.resultContext.textContent = "Loading matching papers…";
   }
   // Give the static first page a paint before downloading the complete feed.
-  window.requestAnimationFrame(() => window.setTimeout(loadFeed, 0));
+  // setTimeout also runs in background tabs, unlike requestAnimationFrame.
+  if (window.setTimeout) {
+    window.setTimeout(loadFeed, 0);
+  } else {
+    window.requestAnimationFrame(() => loadFeed());
+  }
 }
 
 initialize();
