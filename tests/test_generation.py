@@ -267,8 +267,8 @@ class StaticSiteContractTests(unittest.TestCase):
         styles = Path("site/assets/styles.css").read_text(encoding="utf-8")
         self.assertNotIn("Newsreader", html)
         self.assertIn("Autonomous driving, <span>indexed.</span>", html)
-        self.assertIn("width: min(1320px, calc(100% - 48px));", styles)
-        self.assertIn("grid-template-columns: 118px minmax(0, 1fr) 166px;", styles)
+        self.assertIn("--page-width: 840px;", styles)
+        self.assertIn("grid-template-columns: 88px minmax(0, 1fr);", styles)
         self.assertIn(".paper-tags", styles)
         self.assertIn("prefers-reduced-motion", styles)
 

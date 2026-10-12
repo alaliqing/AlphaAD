@@ -4,6 +4,7 @@ const PAGE_SIZE = 24;
 const THEME_MODES = ["auto", "light", "dark"];
 
 const elements = {
+  backToTop: document.querySelector("#back-to-top"),
   categoryFilters: document.querySelector("#category-filters"),
   clearSearch: document.querySelector("#clear-search"),
   emptyReset: document.querySelector("#empty-reset"),
@@ -21,6 +22,7 @@ const elements = {
   resultCount: document.querySelector("#result-count"),
   searchForm: document.querySelector("#search-form"),
   searchInput: document.querySelector("#search-input"),
+  siteHeader: document.querySelector(".site-header"),
   sort: document.querySelector("#sort-filter"),
   tag: document.querySelector("#tag-filter"),
   themeLabel: document.querySelector("#theme-label"),
@@ -43,7 +45,11 @@ const state = {
 let meta = null;
 let searchTimer = null;
 let loadingFeed = false;
+let focusedCard = -1;
 let dataUrl = "data/papers.json";
+
+const prefersReducedMotion = Boolean(window.matchMedia) &&
+  window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function setFeedControls() {
   const controls = document.querySelectorAll(
@@ -63,6 +69,35 @@ function normalize(value) {
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
+}
+
+const QUERY_SPECIAL_CHARS = /[.*+?^${}()|[\]\\]/g;
+
+// Wrap raw query matches in <mark> without ever parsing paper text as HTML.
+function highlightMatches(element, terms) {
+  const escaped = terms.map((term) => term.replace(QUERY_SPECIAL_CHARS, "\\$&")).filter(Boolean);
+  if (!element || !escaped.length || !("createTreeWalker" in document)) return;
+  const pattern = new RegExp(`(${escaped.join("|")})`, "gi");
+  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+  for (const node of textNodes) {
+    const text = node.nodeValue;
+    pattern.lastIndex = 0;
+    if (!pattern.test(text)) continue;
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    for (const match of text.matchAll(pattern)) {
+      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+      const mark = document.createElement("mark");
+      mark.className = "match";
+      mark.textContent = match[0];
+      fragment.append(mark);
+      cursor = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(text.slice(cursor)));
+    node.parentNode.replaceChild(fragment, node);
+  }
 }
 
 function formatDate(value, includeYear = true) {
@@ -213,7 +248,7 @@ function recencyText(paper) {
 function paperCard(paper, index) {
   const article = createElement("article", "paper-card");
   article.dataset.paperId = paper.id;
-  article.style.animationDelay = `${Math.min(index, 12) * 28}ms`;
+  article.style.animationDelay = `${Math.min(index, 10) * 24}ms`;
   article.dataset.recency = paper.recency;
 
   const indexBlock = createElement("div", "paper-index", paper.id);
@@ -254,16 +289,25 @@ function paperCard(paper, index) {
 
   main.append(abstract);
 
+  if (state.query.trim()) {
+    const terms = state.query.trim().split(/\s+/);
+    highlightMatches(heading, terms);
+    highlightMatches(authors, terms);
+    highlightMatches(abstract, terms);
+  }
+
+  let abstractToggle = null;
   if (paper.abstract && paper.abstract !== abstractExcerpt) {
-    const abstractToggle = createElement("button", "abstract-toggle", "Read full abstract +");
+    abstractToggle = createElement("button", "abstract-toggle", "Read full abstract +");
     abstractToggle.type = "button";
     abstractToggle.setAttribute("aria-controls", abstractId);
     abstractToggle.setAttribute("aria-expanded", "false");
-    main.append(abstractToggle);
   }
 
-  const aside = createElement("aside", "paper-aside", undefined);
-  aside.setAttribute("aria-label", "Paper metadata and links");
+  const foot = createElement("div", "paper-foot");
+  if (abstractToggle) foot.append(abstractToggle);
+
+  const metaRow = createElement("div", "paper-meta");
   const primaryCategory = paper.primary_category || paper.category;
   const topic = createElement("span", "topic-label", primaryCategory);
   const classification = paper.classification;
@@ -271,23 +315,46 @@ function paperCard(paper, index) {
     const evidence = (classification.evidence || []).slice(0, 3).join("; ");
     topic.title = `Automated classification · ${classification.confidence} confidence${evidence ? ` · ${evidence}` : ""}`;
   }
-  aside.append(topic);
+  metaRow.append(topic);
 
   const freshness = recencyText(paper);
   if (freshness) {
     const recency = createElement("span", "recency-label", freshness);
     recency.dataset.recency = paper.recency;
-    aside.append(recency);
+    metaRow.append(recency);
   }
 
   const links = createElement("div", "paper-links");
   const pdf = createElement("a", "", "PDF  ↗");
   setExternalLink(pdf, paper.pdf_url, `Open PDF for ${paper.title}`);
   links.append(pdf);
-  aside.append(links);
+  metaRow.append(links);
+  foot.append(metaRow);
 
-  article.append(indexBlock, main, aside);
+  main.append(foot);
+  article.append(indexBlock, main);
   return article;
+}
+
+function setFocusedCard(index, { scroll = true } = {}) {
+  focusedCard = index;
+  const cards = [...elements.paperList.querySelectorAll(".paper-card")];
+  cards.forEach((card, cardIndex) => card.classList.toggle("is-focused", cardIndex === index));
+  if (scroll && index >= 0 && cards[index]) {
+    cards[index].scrollIntoView({
+      block: "nearest",
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+  }
+}
+
+function moveCardFocus(delta) {
+  const cards = [...elements.paperList.querySelectorAll(".paper-card")];
+  if (!cards.length) return;
+  const next = focusedCard < 0
+    ? (delta > 0 ? 0 : cards.length - 1)
+    : (focusedCard + delta + cards.length) % cards.length;
+  setFocusedCard(next);
 }
 
 function describeResultSet(count) {
@@ -300,7 +367,7 @@ function describeResultSet(count) {
   return `${count.toLocaleString("en")} results · ${scope}`;
 }
 
-function renderResults({ preserveCards = false } = {}) {
+function renderResults({ preserveCards = false, append = false } = {}) {
   const papers = filteredPapers();
   const visible = papers.slice(0, state.visible);
   // Each facet counts matches for the other active filters, including recency.
@@ -310,7 +377,16 @@ function renderResults({ preserveCards = false } = {}) {
   const currentCards = [...elements.paperList.querySelectorAll(".paper-card")];
   const sameCards = currentCards.length === visible.length &&
     currentCards.every((card, index) => card.dataset.paperId === visible[index].id);
-  if (!preserveCards || !sameCards) {
+  const extendsCurrent = append && currentCards.length > 0 &&
+    currentCards.length < visible.length &&
+    currentCards.every((card, index) => card.dataset.paperId === visible[index].id);
+  if (extendsCurrent) {
+    // Load-more appends only the next page instead of rebuilding the list.
+    const fragment = document.createDocumentFragment();
+    visible.slice(currentCards.length).forEach((paper, index) => fragment.append(paperCard(paper, index)));
+    elements.paperList.append(fragment);
+  } else if (!preserveCards || !sameCards) {
+    focusedCard = -1;
     const fragment = document.createDocumentFragment();
     visible.forEach((paper, index) => fragment.append(paperCard(paper, index)));
     elements.paperList.replaceChildren(fragment);
@@ -377,6 +453,19 @@ function bindEvents() {
     toggle.textContent = expanded ? "Read full abstract +" : "Collapse abstract −";
     abstract.textContent = expanded ? (paper.short_abstract || paper.abstract) : paper.abstract;
     abstract.classList.toggle("is-expanded", !expanded);
+    if (state.query.trim()) highlightMatches(abstract, state.query.trim().split(/\s+/));
+    abstract.classList.remove("abstract-swap");
+    void abstract.offsetWidth;
+    abstract.classList.add("abstract-swap");
+  });
+  elements.paperList.addEventListener("click", (event) => {
+    // Mirror the j/k selection with the mouse; links and buttons keep their behavior.
+    if (event.target.closest("a, button, select, input, textarea")) return;
+    const card = event.target.closest(".paper-card");
+    if (!card) return;
+    const cards = [...elements.paperList.querySelectorAll(".paper-card")];
+    const index = cards.indexOf(card);
+    setFocusedCard(index === focusedCard ? -1 : index, { scroll: false });
   });
   elements.retryFeed.addEventListener("click", () => loadFeed({ reload: true }));
   elements.searchForm.addEventListener("submit", (event) => event.preventDefault());
@@ -405,7 +494,7 @@ function bindEvents() {
   });
   elements.loadMore.addEventListener("click", () => {
     state.visible += PAGE_SIZE;
-    renderResults();
+    renderResults({ append: true });
   });
   elements.resetFilters.addEventListener("click", resetView);
   elements.emptyReset.addEventListener("click", resetView);
@@ -413,10 +502,54 @@ function bindEvents() {
   document.addEventListener("keydown", (event) => {
     const target = event.target;
     const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
-    if (event.key === "/" && !isTyping && !event.metaKey && !event.ctrlKey && !event.altKey) {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
       event.preventDefault();
       elements.searchInput.focus();
+      elements.searchInput.select();
+      return;
     }
+    if (isTyping) {
+      if (event.key === "Escape") target.blur();
+      return;
+    }
+    if (event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey) {
+      event.preventDefault();
+      elements.searchInput.focus();
+    } else if (event.key === "j" || event.key === "k") {
+      event.preventDefault();
+      moveCardFocus(event.key === "j" ? 1 : -1);
+    } else if (event.key === "Enter" && focusedCard >= 0) {
+      const card = elements.paperList.querySelectorAll(".paper-card")[focusedCard];
+      const link = card ? card.querySelector("h3 a") : null;
+      if (link) {
+        event.preventDefault();
+        link.click();
+      }
+    }
+  });
+
+  let headerScrolled = false;
+  let topButtonVisible = false;
+  document.addEventListener("scroll", () => {
+    const scrollY = window.scrollY || 0;
+    const scrolled = scrollY > 12;
+    if (scrolled !== headerScrolled) {
+      headerScrolled = scrolled;
+      if (elements.siteHeader && elements.siteHeader.classList) {
+        elements.siteHeader.classList.toggle("is-scrolled", scrolled);
+      }
+    }
+    const showTopButton = scrollY > 600;
+    if (showTopButton !== topButtonVisible) {
+      topButtonVisible = showTopButton;
+      if (elements.backToTop && elements.backToTop.classList) {
+        elements.backToTop.classList.toggle("is-visible", showTopButton);
+      }
+    }
+  }, { passive: true });
+
+  elements.backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
   });
 }
 
@@ -503,6 +636,16 @@ function initialize() {
   syncControls();
   bindEvents();
   setFeedControls();
+  if ("IntersectionObserver" in window) {
+    // Grow the list as the sentinel approaches the viewport; the button remains as fallback.
+    const loadObserver = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting) && state.ready && !elements.loadMore.hidden) {
+        state.visible += PAGE_SIZE;
+        renderResults({ append: true });
+      }
+    }, { rootMargin: "700px 0px" });
+    loadObserver.observe(elements.loadMore);
+  }
   if (state.ready) {
     renderStats();
     renderResults({ preserveCards: !hasActiveView() });
