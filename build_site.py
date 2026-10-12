@@ -66,15 +66,17 @@ def paper_card(paper):
         paper["title"] + " on arXiv",
     )
     pdf = external_link(paper["pdf_url"], "PDF  ↗", "Open PDF for " + paper["title"])
+    meta = (
+        f'<span class="topic-label" title="{escape(explanation)}">{escape(paper.get("primary_category") or paper["category"])}</span>'
+        f'{freshness}<div class="paper-links">{pdf}</div>'
+    )
     return (
         f'<article class="paper-card is-initial" data-paper-id="{identifier}" data-recency="{escape(paper["recency"])}">'
         f'<div class="paper-index">{identifier}<time class="paper-date" datetime="{escape(paper["published"])}">'
         f'{format_date(paper["published"])}</time></div>'
         f'<div class="paper-main"><h3>{title}</h3><p class="paper-authors">{escape(author_text)}</p>'
-        f'{tag_list}<p class="paper-abstract" id="{escape(abstract_id)}">{escape(excerpt)}</p>{toggle}</div>'
-        '<aside class="paper-aside" aria-label="Paper metadata and links">'
-        f'<span class="topic-label" title="{escape(explanation)}">{escape(paper.get("primary_category") or paper["category"])}</span>'
-        f'{freshness}<div class="paper-links">{pdf}</div></aside></article>'
+        f'{tag_list}<p class="paper-abstract" id="{escape(abstract_id)}">{escape(excerpt)}</p>'
+        f'<div class="paper-foot">{toggle}<div class="paper-meta">{meta}</div></div></div></article>'
     )
 
 

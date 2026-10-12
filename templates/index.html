@@ -4,50 +4,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Search and filter the latest autonomous driving research papers from arXiv.">
-    <meta name="theme-color" content="#edf2f4">
+    <meta name="theme-color" content="#faf9f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)">
     <meta property="og:title" content="AlphaAD · Autonomous Driving Research">
     <meta property="og:description" content="A daily research signal for autonomous driving.">
     <meta property="og:type" content="website">
     <title>AlphaAD · Autonomous Driving Research</title>
+    <script>
+      try {
+        document.documentElement.dataset.theme = window.localStorage.getItem("alphaad-theme") || "auto";
+      } catch (error) {
+        document.documentElement.dataset.theme = "auto";
+      }
+    </script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="{{styles_url}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     </noscript>
     <script src="{{script_url}}" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#results">Skip to research results</a>
 
-    <div class="page-shell">
-      <header class="site-header" aria-label="Primary navigation">
+    <header class="site-header" aria-label="Primary navigation">
+      <div class="header-inner">
         <a class="brand" href="./" aria-label="AlphaAD home">
-          <span class="brand-mark" aria-hidden="true">A/</span>
-          <span class="brand-copy">
-            <strong>AlphaAD</strong>
-            <small>Autonomous driving research</small>
-          </span>
+          <span class="brand-word">AlphaAD</span>
+          <span class="brand-sub">Autonomous driving research</span>
         </a>
 
         <nav class="header-actions" aria-label="Project links">
-          <a href="https://github.com/alaliqing/AlphaAD#readme">README</a>
-          <a href="https://github.com/alaliqing/AlphaAD">Repository</a>
+          <a class="header-link" href="https://github.com/alaliqing/AlphaAD">GitHub</a>
           <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Change color theme">
-            Theme: <span id="theme-label">Auto</span>
+            <svg class="theme-icon icon-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+              <circle cx="12" cy="12" r="8.5"/>
+              <path d="M12 3.5a8.5 8.5 0 0 1 0 17Z" fill="currentColor" stroke="none"/>
+            </svg>
+            <svg class="theme-icon icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </svg>
+            <svg class="theme-icon icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>
+            </svg>
+            <span class="sr-only" id="theme-label">Auto</span>
           </button>
         </nav>
-      </header>
+      </div>
+    </header>
 
+    <div class="page-shell">
       <main>
         <section class="hero" aria-labelledby="page-title">
-          <div class="hero-content">
-            <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> arXiv signal / updated daily</p>
-            <h1 id="page-title">Autonomous driving, <span>indexed.</span></h1>
-            <p class="hero-intro">A rolling six-month view organized by one primary research topic, then refined with method and resource tags.</p>
-          </div>
+          <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>arXiv · Updated daily</p>
+          <h1 id="page-title">Autonomous driving, <span>indexed.</span></h1>
+          <p class="hero-intro">A rolling six-month view of autonomous-driving research — one primary topic per paper, refined with method and resource tags.</p>
 
           <dl class="signal-board" aria-label="Research index summary">
             <div>
@@ -128,7 +143,7 @@
             </div>
             <div class="result-meta">
               <p id="result-context" class="result-context" aria-live="polite">{{result_context}}</p>
-              <p class="taxonomy-version">Taxonomy v2 · explainable auto-classification</p>
+              <p class="keyboard-hint" aria-hidden="true"><kbd>j</kbd> <kbd>k</kbd> browse · <kbd>/</kbd> search</p>
             </div>
           </header>
 
@@ -153,14 +168,20 @@
       </main>
 
       <footer class="site-footer">
-        <p><strong>AlphaAD</strong> turns a noisy arXiv feed into a navigable research surface.</p>
-        <div>
+        <p><strong>AlphaAD</strong> — a daily, explainable arXiv signal for autonomous driving.</p>
+        <nav aria-label="Footer links">
           <a href="https://github.com/alaliqing/AlphaAD">Source</a>
-          <a href="https://github.com/alaliqing/AlphaAD/issues">Report an issue</a>
+          <a href="https://github.com/alaliqing/AlphaAD/issues">Issues</a>
           <a href="data/papers.json">JSON data</a>
-        </div>
+        </nav>
       </footer>
     </div>
+
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+      </svg>
+    </button>
 
     <script id="initial-data" type="application/json">{{initial_data}}</script>
 
