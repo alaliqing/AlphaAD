@@ -3,8 +3,8 @@
 # 🚗 AlphaAD · Autonomous Driving Research
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Last Update](https://img.shields.io/badge/Last%20Updated-2026--10--12-blue)
-![Total Papers](https://img.shields.io/badge/Papers-1223-green)
+![Last Update](https://img.shields.io/badge/Last%20Updated-2026--10--13-blue)
+![Total Papers](https://img.shields.io/badge/Papers-1222-green)
 ![Auto Update](https://img.shields.io/badge/Auto--Update-Daily-brightgreen)
 
 **A daily, explainable research signal for autonomous driving.**<br>
@@ -20,7 +20,7 @@ Browse one primary topic per paper, then refine the signal with method and resou
 
 ## Browse by topic
 
-All 1223 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
+All 1222 papers remain in this README. For full-text search, filters, and sorting, use the [interactive index](https://alaliqing.github.io/AlphaAD/).
 
 | Topic | Papers | Latest | Jump |
 |:--|--:|:--|:--|
@@ -33,7 +33,7 @@ All 1223 papers remain in this README. For full-text search, filters, and sortin
 | Safety, Security & Verification | 204 | 2026-10-09 | [View papers](#category-safety-security-verification) |
 | Systems, Deployment & Connectivity | 147 | 2026-10-09 | [View papers](#category-systems-deployment-connectivity) |
 | Human Factors & Policy | 30 | 2026-10-09 | [View papers](#category-human-factors-policy) |
-| Cross-cutting / Other | 274 | 2026-10-08 | [View papers](#category-cross-cutting-other) |
+| Cross-cutting / Other | 273 | 2026-10-08 | [View papers](#category-cross-cutting-other) |
 
 ---
 
@@ -121,7 +121,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06596"></a>
 
-### Analysis of SWIR Imaging Detection Performance Under Adverse Environmental Conditions for Autonomous Driving Systems ![New](https://img.shields.io/badge/New-red)
+### Analysis of SWIR Imaging Detection Performance Under Adverse Environmental Conditions for Autonomous Driving Systems ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Rohan Mehra, Alexandre Riffard, Yannis Loumouamou, Mathieu Labussière<br>
 **Published:** 2026-10-05<br>
@@ -393,7 +393,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-14185"></a>
 
-### Bi-Level Routing and Sparse Spatial Attention based Multi-View BEV 3D Object Detection for Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
+### Bi-Level Routing and Sparse Spatial Attention based Multi-View BEV 3D Object Detection for Autonomous Driving ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Jing Zhang, Jiaqi Liu, Zibo Wang<br>
 **Published:** 2026-09-12<br>
@@ -1038,7 +1038,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12419"></a>
 
-### DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection
 
 **Authors:** Haifa Zhang, Yijing Wang, Peixi Peng, Zhiqiang Zuo<br>
 **Published:** 2026-07-14<br>
@@ -1938,7 +1938,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-07381"></a>
 
-### GeoWM: Efficient Direct World Modeling in Explicit Geometry ![New](https://img.shields.io/badge/New-red)
+### GeoWM: Efficient Direct World Modeling in Explicit Geometry ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Mehrdad Noori, Guile Wu, Sam Hosseini, Dongfeng Bai<br>
 **Published:** 2026-10-05<br>
@@ -1949,7 +1949,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06250"></a>
 
-### Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics ![New](https://img.shields.io/badge/New-red)
+### Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Yiyang Yan, Markus Bambach, Mohamadreza Afrasiabi<br>
 **Published:** 2026-10-05<br>
@@ -2467,7 +2467,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-13410"></a>
 
-### Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Embodiment Adaptation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Embodiment Adaptation
 
 **Authors:** Zhidong Wang, Jingsong Liang, Zirui Li, Zhan Chen, Han Yu, et al.<br>
 **Published:** 2026-07-14<br>
@@ -2940,7 +2940,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06121"></a>
 
-### Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning ![New](https://img.shields.io/badge/New-red)
+### Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Ling Yao, Yichun Xiao, Jin Jin, Yihan Zhang, Fangqiang Ding<br>
 **Published:** 2026-10-05<br>
@@ -2951,7 +2951,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06232"></a>
 
-### AUTOPILOT An Advanced Perception, Localization and Path Planning Techniques for Autonomous Vehicles Using YOLOv7 and MiDaS ![New](https://img.shields.io/badge/New-red)
+### AUTOPILOT An Advanced Perception, Localization and Path Planning Techniques for Autonomous Vehicles Using YOLOv7 and MiDaS ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Harshkumar Devmurari, Gautham Kuckian, Prajjwal Vishwakarma<br>
 **Published:** 2026-10-05<br>
@@ -3824,7 +3824,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06539"></a>
 
-### Preference-Adaptive Control in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Preference-Adaptive Control in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Zhongyu Mo, Shanting Wang, Huaijin Hu, Andreas A. Malikopoulos<br>
 **Published:** 2026-10-05<br>
@@ -4427,7 +4427,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2609-13733"></a>
 
-### FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry ![Recent](https://img.shields.io/badge/Recent-orange)
+### FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry ![Fresh](https://img.shields.io/badge/Fresh-yellow)
 
 **Authors:** Meng-Li Shih, Shih-Yang Su, Yuliang Zou, Hao Xiang, Haidong Zhu, et al.<br>
 **Published:** 2026-09-12<br>
@@ -4621,7 +4621,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12598"></a>
 
-### Hierarchical Fault Localization for Autonomous Driving Systems with Hypothesis Validation and Intent Analysis ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Hierarchical Fault Localization for Autonomous Driving Systems with Hypothesis Validation and Intent Analysis
 
 **Authors:** Rui Zheng, Changwen Li, Yi Ji, Rongjie Yan<br>
 **Published:** 2026-07-14<br>
@@ -4933,7 +4933,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06171"></a>
 
-### Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation ![New](https://img.shields.io/badge/New-red)
+### Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Siyuan Liu, Miao Li, Haibao Yu, Haohong Lin, Qing Zhou, et al.<br>
 **Published:** 2026-10-05<br>
@@ -6173,7 +6173,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-06517"></a>
 
-### GCTAuto-encoder: A Cross modal Framework for Security Flaw Detection in IoT Networks ![New](https://img.shields.io/badge/New-red)
+### GCTAuto-encoder: A Cross modal Framework for Security Flaw Detection in IoT Networks ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Najmieh Sadat Safarabadi<br>
 **Published:** 2026-10-05<br>
@@ -7121,7 +7121,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-13028"></a>
 
-### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale
 
 **Authors:** Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Zachary Lee, et al.<br>
 **Published:** 2026-07-14<br>
@@ -7132,7 +7132,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12833"></a>
 
-### ANGLE: Angular Neural Generative Learning via Engression ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### ANGLE: Angular Neural Generative Learning via Engression
 
 **Authors:** Rajdeep Pathak, Archi Roy, Tanujit Chakraborty<br>
 **Published:** 2026-07-14<br>
@@ -7142,7 +7142,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12452"></a>
 
-### Automatic Testing of Interacting Autonomous Vehicles ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Automatic Testing of Interacting Autonomous Vehicles
 
 **Authors:** Fabio Cavaleri, Alessio Gambi, Paolo Arcaini, Dejan Ničković, Mauro Pezzè<br>
 **Published:** 2026-07-14<br>
@@ -9093,7 +9093,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12593"></a>
 
-### Improving Autonomous Nano-drones Performance via Automated End-to-End Optimization and Deployment of DNNs ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Improving Autonomous Nano-drones Performance via Automated End-to-End Optimization and Deployment of DNNs
 
 **Authors:** Vlad Niculescu, Lorenzo Lamberti, Francesco Conti, Luca Benini, Daniele Palossi<br>
 **Published:** 2026-07-14<br>
@@ -10151,7 +10151,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="category-cross-cutting-other"></a>
 
-## Cross-cutting / Other · 274 papers
+## Cross-cutting / Other · 273 papers
 
 <a id="paper-2610-12895"></a>
 
@@ -10260,7 +10260,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2610-07521"></a>
 
-### Grounding What Shapes the Plan: Rethinking Groundedness for Physical Intelligence in Autonomous Driving ![New](https://img.shields.io/badge/New-red)
+### Grounding What Shapes the Plan: Rethinking Groundedness for Physical Intelligence in Autonomous Driving ![Recent](https://img.shields.io/badge/Recent-orange)
 
 **Authors:** Minkyoung Cho, Zewei Zhou, Wenhao Ding, Shuhan Tan, Boyi Li, et al.<br>
 **Published:** 2026-10-05<br>
@@ -11622,7 +11622,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12858"></a>
 
-### LARAD: Layout-Aware Road Anomaly Detection via Spatial-Logic Reasoning ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### LARAD: Layout-Aware Road Anomaly Detection via Spatial-Logic Reasoning
 
 **Authors:** Shiyi Mu, Xujie Chen, Shugong Xu<br>
 **Published:** 2026-07-14<br>
@@ -11633,7 +11633,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-13274"></a>
 
-### Deconstructing Actor-Critic: A Large-scale Empirical Study of Design Components for Practitioners ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Deconstructing Actor-Critic: A Large-scale Empirical Study of Design Components for Practitioners
 
 **Authors:** Haseeb Shah, Lingwei Zhu, Adam White, Martha White<br>
 **Published:** 2026-07-14<br>
@@ -11644,7 +11644,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-13254"></a>
 
-### Attitude Estimation Using Inertial and Barometric Measurements ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Attitude Estimation Using Inertial and Barometric Measurements
 
 **Authors:** Melone Nyoba Tchonkeu, Soulaimane Berkane, Tarek Hamel<br>
 **Published:** 2026-07-14<br>
@@ -11654,7 +11654,7 @@ Each paper has one primary topic and may carry several method or resource tags. 
 
 <a id="paper-2607-12352"></a>
 
-### Filtering-out poor-quality images for data preparation ![Fresh](https://img.shields.io/badge/Fresh-yellow)
+### Filtering-out poor-quality images for data preparation
 
 **Authors:** Roopdeep Kaur, Gour Karmakar, Muhammad Imran<br>
 **Published:** 2026-07-14<br>
@@ -13022,16 +13022,6 @@ Each paper has one primary topic and may carry several method or resource tags. 
 **Links:** [arXiv abstract](https://arxiv.org/abs/2604.19914) | [PDF](https://arxiv.org/pdf/2604.19914.pdf) | [↑ BackToTop](#browse-by-topic)
 
 **Abstract:** Artificial intelligence systems are now deployed at scale across sectors, accompanied by a growing number of real-world incidents ranging from misinformation and cybercrime to autonomous-system...
-
-<a id="paper-2604-15291"></a>
-
-### AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving
-
-**Authors:** Fabrizio Genilotti, Arianna Stropeni, Gionata Grotto, Francesco Borsatti, Manuel Barusco, et al.<br>
-**Published:** 2026-04-16<br>
-**Links:** [arXiv abstract](https://arxiv.org/abs/2604.15291) | [PDF](https://arxiv.org/pdf/2604.15291.pdf) | [↑ BackToTop](#browse-by-topic)
-
-**Abstract:** The reliability of a machine vision system for autonomous driving depends heavily on its training data distribution. When a vehicle encounters significantly different conditions, such as atypical...
 
 ---
 
