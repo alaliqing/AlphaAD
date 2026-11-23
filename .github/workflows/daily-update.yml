@@ -27,12 +27,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  build:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -95,7 +92,15 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
+          retention-days: 3
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
